@@ -35,7 +35,23 @@ else
     exit 1
 fi
 
-# Step 3: Status
+# Step 3: Generate preview (multi-language)
+log "Step 3: Generating preview (5 languages, last 3 days)..."
+if $VENV scripts/generate_preview.py --days 3 >> "$LOG_FILE" 2>&1; then
+    log "Step 3: OK"
+else
+    log "Step 3: FAILED (continuing anyway)"
+fi
+
+# Step 4: Deploy to GitHub Pages
+log "Step 4: Deploying to GitHub Pages..."
+if bash "$SCRIPT_DIR/deploy_site.sh" >> "$LOG_FILE" 2>&1; then
+    log "Step 4: OK"
+else
+    log "Step 4: FAILED (site not updated)"
+fi
+
+# Step 5: Status
 log "Final status:"
 $VENV -m src.cli status >> "$LOG_FILE" 2>&1
 
