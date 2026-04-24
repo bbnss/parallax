@@ -1,0 +1,123 @@
+# NotizieGeopolitica - RSS Feed Sources
+# 4 factions: western | eastern | middle_east | russia
+# All sources provide English-language content.
+# Max ~40 articles per source per run (enforced by collector).
+
+western:
+  - name: BBC World
+    feed_url: https://feeds.bbci.co.uk/news/world/rss.xml
+    country: UK
+    language: en
+
+  - name: DW News
+    feed_url: https://rss.dw.com/xml/rss-en-world
+    country: DE
+    language: en
+
+  - name: France 24
+    feed_url: https://www.france24.com/en/rss
+    country: FR
+    language: en
+
+  - name: NPR World
+    feed_url: https://feeds.npr.org/1004/rss.xml
+    country: US
+    language: en
+
+  - name: ANSA English
+    feed_url: https://www.ansa.it/english/english_rss.xml
+    country: IT
+    language: en
+
+  - name: Il Post
+    feed_url: https://www.ilpost.it/mondo/feed/
+    country: IT
+    language: it
+
+  - name: Repubblica Esteri
+    feed_url: https://www.repubblica.it/rss/esteri/rss2.0.xml
+    country: IT
+    language: it
+
+  - name: ANSA Mondo
+    feed_url: https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml
+    country: IT
+    language: it
+
+  - name: Il Sole 24 Ore Mondo
+    feed_url: https://www.ilsole24ore.com/rss/mondo.xml
+    country: IT
+    language: it
+
+  - name: Il Manifesto
+    feed_url: https://www.ilmanifesto.it/rss/
+    country: IT
+    language: it
+
+eastern:
+  - name: Xinhua English
+    feed_url: https://english.news.cn/rss/worldrss.xml
+    country: CN
+    language: en
+
+  - name: CGTN
+    feed_url: https://www.cgtn.com/subscribe/rss/section/world.xml
+    country: CN
+    language: en
+
+  - name: NDTV World
+    feed_url: https://feeds.feedburner.com/ndtvnews-world-news
+    country: IN
+    language: en
+
+  - name: Times of India
+    feed_url: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+    country: IN
+    language: en
+
+  - name: Bangkok Post
+    feed_url: https://www.bangkokpost.com/rss/data/topstories.xml
+    country: TH
+    language: en
+
+  - name: Channel News Asia
+    feed_url: https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6311
+    country: SG
+    language: en
+
+middle_east:
+  - name: Al Jazeera
+    feed_url: https://www.aljazeera.com/xml/rss/all.xml
+    country: QA
+    language: en
+
+  - name: Middle East Eye
+    feed_url: https://www.middleeasteye.net/rss
+    country: UK
+    language: en
+
+  - name: Anadolu Agency
+    feed_url: https://www.aa.com.tr/en/rss/default?cat=world
+    country: TR
+    language: en
+
+  - name: Dawn
+    feed_url: https://www.dawn.com/feeds/home
+    country: PK
+    language: en
+
+russia:
+  - name: TASS
+    feed_url: https://tass.com/rss/v2.xml
+    country: RU
+    language: en
+
+  - name: RT
+    feed_url: https://www.rt.com/rss/news/
+    country: RU
+    language: en
+
+  - name: The Moscow Times
+    feed_url: https://www.themoscowtimes.com/rss/news
+    country: RU
+    language: en

@@ -1,0 +1,33 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# All data (DB, logs, previews, translations, test files)
+data/
+
+# Environment
+.env
+
+# Claude Code memory
+.claude/
+
+# Temporary / session files
+watch_*
+HANDOFF_*.md
+
+# Hugo build output
+site/public/
+site/resources/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
