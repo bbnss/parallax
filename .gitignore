@@ -16,6 +16,9 @@ data/
 # Claude Code memory
 .claude/
 
+# Internal docs / session logs
+docs/
+
 # Temporary / session files
 watch_*
 HANDOFF_*.md
