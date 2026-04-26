@@ -3,6 +3,7 @@
 
 # ── Whitelist: core project files ──
 !.gitignore
+!LICENSE
 !requirements.txt
 
 # Source code
