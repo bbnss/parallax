@@ -1,36 +1,16 @@
-# Python
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.egg-info/
-dist/
-build/
+# ── Default: ignore everything, whitelist only what belongs in the repo ──
+*
 
-# All data (DB, logs, previews, translations, test files)
-data/
+# ── Whitelist: core project files ──
+!.gitignore
+!requirements.txt
 
-# Environment
-.env
+# Source code
+!src/
+!src/**
 
-# Claude Code memory
-.claude/
-
-# Internal docs / session logs
-docs/
-
-# Temporary / session files
-watch_*
-HANDOFF_*.md
-
-# Hugo build output
-site/public/
-site/resources/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
+# Essential pipeline scripts only
+!scripts/
+!scripts/generate_preview.py
+!scripts/deploy_site.sh
+!scripts/run_pipeline.sh
