@@ -1,0 +1,3 @@
+#!/bin/bash
+# Parallax Monitor — quick launcher
+cd "$(dirname "$0")" && .venv/bin/python scripts/monitor.py "$@"

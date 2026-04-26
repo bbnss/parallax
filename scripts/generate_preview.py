@@ -886,19 +886,21 @@ function setLang(lang) {{
   }});
 
   // 7. Re-sort cards within each tier section by country relevance
-  if (countries.length > 0 && lang !== 'en') {{
-    document.querySelectorAll('.tier-section').forEach(function(section) {{
-      var cards = Array.from(section.querySelectorAll('.card'));
-      cards.sort(function(a, b) {{
-        var ad = JSON.parse(a.dataset.countries || '{{}}');
-        var bd = JSON.parse(b.dataset.countries || '{{}}');
-        var asc = 0, bsc = 0;
-        countries.forEach(function(c) {{ asc += (ad[c] || 0); bsc += (bd[c] || 0); }});
-        return bsc - asc;
-      }});
-      cards.forEach(function(card) {{ section.appendChild(card); }});
-    }});
-  }}
+  //    (disabled — default is chronological order for all languages)
+  //    Uncomment to enable per-language sorting by local source count:
+  // if (countries.length > 0 && lang !== 'en') {{
+  //   document.querySelectorAll('.tier-section').forEach(function(section) {{
+  //     var cards = Array.from(section.querySelectorAll('.card'));
+  //     cards.sort(function(a, b) {{
+  //       var ad = JSON.parse(a.dataset.countries || '{{}}');
+  //       var bd = JSON.parse(b.dataset.countries || '{{}}');
+  //       var asc = 0, bsc = 0;
+  //       countries.forEach(function(c) {{ asc += (ad[c] || 0); bsc += (bd[c] || 0); }});
+  //       return bsc - asc;
+  //     }});
+  //     cards.forEach(function(card) {{ section.appendChild(card); }});
+  //   }});
+  // }}
 
   // 8. Update expand button labels
   document.querySelectorAll('.expand-btn').forEach(function(btn) {{
