@@ -18,6 +18,7 @@ import sys
 import os
 import json
 import shutil
+import hashlib
 from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -357,6 +358,125 @@ def md_to_html(text, card_id=None):
 
 # ── Translation ──────────────────────────────────────────────────────────────
 
+# Domain glossary: per-language preferred renderings for terms the LLM tends to
+# mishandle (geographic features, institutions, military/political ranks, severity
+# terms, common diplomatic vocabulary). Injected verbatim into the translation
+# prompt so the model sees authoritative pairs instead of guessing.
+GLOSSARY = {
+    "it": {
+        "Lebanon": "Libano", "Pentagon": "Pentagono", "White House": "Casa Bianca",
+        "Strait of Hormuz": "Stretto di Hormuz", "West Bank": "Cisgiordania",
+        "Gaza Strip": "Striscia di Gaza", "United Nations": "Nazioni Unite",
+        "European Union": "Unione Europea", "NATO": "NATO",
+        "Pope Leo XIV": "Papa Leone XIV", "Vatican": "Vaticano",
+        "Secretary of State": "Segretario di Stato",
+        "Navy Secretary": "Segretario della Marina",
+        "Defense Secretary": "Segretario della Difesa",
+        "Foreign Minister": "Ministro degli Esteri",
+        "Prime Minister": "Primo Ministro", "envoy": "inviato",
+        "ceasefire": "cessate il fuoco", "early-stage": "in stadio iniziale",
+        "advanced-stage": "in stadio avanzato", "oil pipeline": "oleodotto",
+        "gas pipeline": "gasdotto", "Druzhba pipeline": "oleodotto Druzhba",
+        "World Cup": "Coppa del Mondo", "Eastern": "orientale",
+        "Western": "occidentale", "Middle Eastern": "del Medio Oriente",
+        "Russian": "russo",
+    },
+    "de": {
+        "Lebanon": "Libanon", "Pentagon": "Pentagon", "White House": "Weißes Haus",
+        "Strait of Hormuz": "Straße von Hormuz", "West Bank": "Westjordanland",
+        "Gaza Strip": "Gazastreifen", "United Nations": "Vereinte Nationen",
+        "European Union": "Europäische Union", "NATO": "NATO",
+        "Pope Leo XIV": "Papst Leo XIV.", "Vatican": "Vatikan",
+        "Secretary of State": "Außenminister",
+        "Navy Secretary": "Marineminister",
+        "Defense Secretary": "Verteidigungsminister",
+        "Foreign Minister": "Außenminister",
+        "Prime Minister": "Premierminister", "envoy": "Gesandter",
+        "ceasefire": "Waffenstillstand", "early-stage": "im Frühstadium",
+        "advanced-stage": "im fortgeschrittenen Stadium",
+        "oil pipeline": "Ölpipeline", "gas pipeline": "Gaspipeline",
+        "Druzhba pipeline": "Druschba-Pipeline", "World Cup": "Weltmeisterschaft",
+        "Eastern": "östlich", "Western": "westlich",
+        "Middle Eastern": "nahöstlich", "Russian": "russisch",
+    },
+    "es": {
+        "Lebanon": "Líbano", "Pentagon": "Pentágono", "White House": "Casa Blanca",
+        "Strait of Hormuz": "Estrecho de Ormuz", "West Bank": "Cisjordania",
+        "Gaza Strip": "Franja de Gaza", "United Nations": "Naciones Unidas",
+        "European Union": "Unión Europea", "NATO": "OTAN",
+        "Pope Leo XIV": "Papa León XIV", "Vatican": "Vaticano",
+        "Secretary of State": "Secretario de Estado",
+        "Navy Secretary": "Secretario de la Marina",
+        "Defense Secretary": "Secretario de Defensa",
+        "Foreign Minister": "Ministro de Asuntos Exteriores",
+        "Prime Minister": "Primer Ministro", "envoy": "enviado",
+        "ceasefire": "alto el fuego", "early-stage": "en etapa temprana",
+        "advanced-stage": "en etapa avanzada", "oil pipeline": "oleoducto",
+        "gas pipeline": "gasoducto", "Druzhba pipeline": "oleoducto Druzhba",
+        "World Cup": "Mundial", "Eastern": "oriental",
+        "Western": "occidental", "Middle Eastern": "del Medio Oriente",
+        "Russian": "ruso",
+    },
+    "fr": {
+        "Lebanon": "Liban", "Pentagon": "Pentagone", "White House": "Maison-Blanche",
+        "Strait of Hormuz": "détroit d'Ormuz", "West Bank": "Cisjordanie",
+        "Gaza Strip": "bande de Gaza", "United Nations": "Nations unies",
+        "European Union": "Union européenne", "NATO": "OTAN",
+        "Pope Leo XIV": "pape Léon XIV", "Vatican": "Vatican",
+        "Secretary of State": "secrétaire d'État",
+        "Navy Secretary": "secrétaire à la Marine",
+        "Defense Secretary": "secrétaire à la Défense",
+        "Foreign Minister": "ministre des Affaires étrangères",
+        "Prime Minister": "Premier ministre", "envoy": "envoyé",
+        "ceasefire": "cessez-le-feu", "early-stage": "à un stade précoce",
+        "advanced-stage": "à un stade avancé", "oil pipeline": "oléoduc",
+        "gas pipeline": "gazoduc", "Druzhba pipeline": "oléoduc Droujba",
+        "World Cup": "Coupe du monde", "Eastern": "oriental",
+        "Western": "occidental", "Middle Eastern": "du Moyen-Orient",
+        "Russian": "russe",
+    },
+}
+
+# Severity / quantitative pairs: when the source text contains the EN key, the
+# translation MUST contain at least one of the listed substrings (case-insensitive).
+# Catches inversions like "early-stage" → "fortgeschritten" (advanced).
+SEVERITY_TERMS = {
+    "early-stage": {"it": ["iniziale", "precoce"], "de": ["frühstadium", "präkoz", "früh"],
+                    "es": ["temprana", "inicial", "precoz"], "fr": ["précoce", "initial"]},
+    "early stage": {"it": ["iniziale", "precoce"], "de": ["frühstadium", "präkoz", "früh"],
+                    "es": ["temprana", "inicial", "precoz"], "fr": ["précoce", "initial"]},
+    "advanced": {"it": ["avanzat"], "de": ["fortgeschritt"],
+                 "es": ["avanzad"], "fr": ["avancé"]},
+    "ceasefire": {"it": ["cessate il fuoco", "tregua"], "de": ["waffenstillstand"],
+                  "es": ["alto el fuego"], "fr": ["cessez-le-feu"]},
+}
+
+
+def _glossary_for_prompt(lang):
+    g = GLOSSARY.get(lang, {})
+    if not g:
+        return ""
+    pairs = "\n".join(f"  - {en} → {tr}" for en, tr in g.items())
+    return "Use these exact translations for these terms when they appear:\n" + pairs
+
+
+def _severity_violations(en_text, tr_text, lang):
+    """Return list of (en_keyword, expected_terms) where source contains en_keyword
+    but translation lacks any of the expected target-language equivalents."""
+    src = (en_text or "").lower()
+    dst = (tr_text or "").lower()
+    out = []
+    for en_kw, by_lang in SEVERITY_TERMS.items():
+        if en_kw not in src:
+            continue
+        expected = by_lang.get(lang, [])
+        if not expected:
+            continue
+        if not any(term in dst for term in expected):
+            out.append((en_kw, expected))
+    return out
+
+
 def _translation_cache_dir(lang, model):
     from src import config as _cfg
     base = os.path.join(_DATA_DIR, "translations", lang)
@@ -388,8 +508,22 @@ def _parse_translation(result):
     return None, None
 
 
+def _source_hash(title, text):
+    """Stable fingerprint of the source content used to invalidate stale translations
+    when a cluster_id is reused for a different story."""
+    h = hashlib.sha256()
+    h.update((title or "").encode("utf-8"))
+    h.update(b"\x00")
+    h.update((text or "")[:12000].encode("utf-8"))
+    return h.hexdigest()[:16]
+
+
 def translate_text(cluster_id, title, text, lang, translate_model=None):
-    """Translate title + comparison text to any target language. Cached to disk."""
+    """Translate title + comparison text to any target language. Cached to disk.
+
+    Cache is keyed by cluster_id but validated against a hash of the source content,
+    so stale entries (cluster_id reassigned to a different story) are auto-regenerated.
+    """
     from src import config as _cfg
     model = translate_model or _cfg.TRANSLATE_MODEL
     lang_name = LANG_INFO[lang]["name"]
@@ -397,44 +531,113 @@ def translate_text(cluster_id, title, text, lang, translate_model=None):
     cache_dir = _translation_cache_dir(lang, model)
     os.makedirs(cache_dir, exist_ok=True)
     cache_file = os.path.join(cache_dir, f"{cluster_id}.json")
+    src_hash = _source_hash(title, text)
 
     if os.path.exists(cache_file):
         with open(cache_file, "r", encoding="utf-8") as f:
             try:
                 cached = json.load(f)
-                if cached.get("title") and cached.get("body"):
+                if (cached.get("title") and cached.get("body")
+                        and cached.get("source_hash") == src_hash):
                     return cached["title"], cached["body"]
             except (json.JSONDecodeError, KeyError):
                 pass
 
-    prompt = f"""Translate the following news headline and analysis to {lang_name}.
-Keep proper nouns (names, countries, organizations) in their original form.
-Translate the ## section headers to {lang_name} too.
+    glossary_block = _glossary_for_prompt(lang)
+
+    base_prompt = f"""Translate the following news headline and analysis into {lang_name}.
+
+Localization rules:
+- Localize country names, institutions, ministries, military ranks, religious titles,
+  and well-known geographic features into {lang_name} when a standard local form exists.
+- Keep ONLY the following unchanged: personal names of individuals (e.g. Donald Trump,
+  Benjamin Netanyahu) and brand/outlet names (BBC, Al Jazeera, TASS).
+- Preserve quantitative and severity terms exactly: if the source says "early-stage",
+  do not render it as "advanced"; if it says "six months", keep "six months"; etc.
+- Translate the ## section headers into {lang_name} too.
+
+{glossary_block}
 
 TITLE: {title}
 
 ANALYSIS:
-{text[:4000]}
+{text[:12000]}
 
 Reply in this EXACT format:
 TITLE: [translated title here]
 ANALYSIS:
 [translated analysis here]"""
 
-    result = ollama_client.generate(prompt, model=model, temperature=0.2, timeout=120)
-    if not result or len(result) < 50:
+    def _run(prompt_text):
+        r = ollama_client.generate(prompt_text, model=model, temperature=0.2, timeout=120)
+        if not r or len(r) < 50:
+            return None, None, None
+        t, b = _parse_translation(r)
+        return t, b, r
+
+    tr_title, tr_body, raw = _run(base_prompt)
+    if raw is None:
         return None, None
 
-    tr_title, tr_body = _parse_translation(result)
+    # Sanity check: severity/quantitative consistency. If violated, retry once with
+    # an explicit corrective prefix listing the expected target terms.
+    violations = _severity_violations(text, (tr_title or "") + "\n" + (tr_body or ""), lang)
+    if violations:
+        warn_lines = "\n".join(
+            f"- The source contains \"{kw}\". Your translation MUST use one of: "
+            f"{', '.join(exp)}." for kw, exp in violations
+        )
+        retry_prompt = ("PREVIOUS ATTEMPT FAILED a severity/quantitative consistency check:\n"
+                        f"{warn_lines}\nRedo the translation respecting these terms exactly.\n\n"
+                        + base_prompt)
+        t2, b2, raw2 = _run(retry_prompt)
+        if raw2 is not None:
+            still = _severity_violations(text, (t2 or "") + "\n" + (b2 or ""), lang)
+            if len(still) < len(violations):
+                tr_title, tr_body, raw = t2, b2, raw2
+                violations = still
+        if violations:
+            print(f"   [WARN] {lang.upper()} cluster {cluster_id}: severity check still failing"
+                  f" after retry: {[v[0] for v in violations]}")
+
     if not tr_title:
         tr_title = title
     if not tr_body:
-        tr_body = result
+        tr_body = raw
 
     with open(cache_file, "w", encoding="utf-8") as f:
-        json.dump({"title": tr_title, "body": tr_body, "model": model, "lang": lang},
+        json.dump({"title": tr_title, "body": tr_body, "model": model, "lang": lang,
+                   "source_hash": src_hash},
                   f, ensure_ascii=False, indent=2)
     return tr_title, tr_body
+
+
+def _audit_translations(comps, all_translations, langs):
+    """Pre-render sanity audit of generated translations. Logs warnings only —
+    does not fail the build. Catches: missing translations, untranslated titles
+    (target == EN), suspiciously short bodies, leftover source-language fragments."""
+    issues = []
+    for comp in comps:
+        cid = comp["id"]
+        en_title = (comp["title"] or "").strip()
+        en_title_norm = re.sub(r'\s+', ' ', en_title.lower())
+        for lang in langs:
+            tr = all_translations.get(cid, {}).get(lang)
+            if not tr or not tr[0] or not tr[1]:
+                issues.append((cid, lang, "missing", en_title[:60]))
+                continue
+            tr_title, tr_body = tr
+            tr_title_norm = re.sub(r'\s+', ' ', (tr_title or "").strip().lower())
+            if tr_title_norm == en_title_norm and len(en_title_norm) > 20:
+                issues.append((cid, lang, "title-untranslated", en_title[:60]))
+            if len(tr_body or "") < 200:
+                issues.append((cid, lang, "body-too-short", en_title[:60]))
+    if issues:
+        print(f"   [AUDIT] {len(issues)} translation issue(s):")
+        for cid, lang, kind, hint in issues:
+            print(f"            cluster {cid} [{lang.upper()}] {kind}: \"{hint}\"")
+    else:
+        print(f"   [AUDIT] All translations passed basic checks.")
 
 
 def archive_previous_preview():
@@ -642,6 +845,9 @@ def generate(translate=True, days=1, translate_model=None, out_path=None):
             else:
                 all_translations[comp["id"]][lang] = (None, None)
         print(f"   [{lang.upper()}] Done: {cached} cached, {generated} new translations          ")
+
+    if langs:
+        _audit_translations(comps, all_translations, langs)
 
     # ── Render cards ──
     cards_html = ""

@@ -1,4 +1,6 @@
 # ── Default: ignore everything, whitelist only what belongs in the repo ──
+# Convention: place local-only tools (monitors, debug scripts, drafts) in `local/`.
+# Anything under local/ is automatically excluded by the wildcard below.
 *
 
 # ── Whitelist: core project files ──
