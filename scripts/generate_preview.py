@@ -20,6 +20,7 @@ import json
 import shutil
 import hashlib
 from datetime import datetime
+from difflib import SequenceMatcher
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -380,6 +381,23 @@ GLOSSARY = {
         "World Cup": "Coppa del Mondo", "Eastern": "orientale",
         "Western": "occidentale", "Middle Eastern": "del Medio Oriente",
         "Russian": "russo",
+        # Aggiunte 2026-04-29: errori ricorrenti rilevati negli audit
+        "shots fired": "spari", "shooting": "sparatoria",
+        "Shots fired": "Spari", "Shooting": "Sparatoria",
+        "Damascus": "Damasco", "Beirut": "Beirut", "Tehran": "Teheran",
+        "Pyongyang": "Pyongyang", "Moscow": "Mosca", "Kiev": "Kiev",
+        "United Arab Emirates": "Emirati Arabi Uniti", "UAE": "EAU",
+        "OPEC": "OPEC", "OPEC+": "OPEC+",
+        "correspondents' dinner": "cena dei corrispondenti",
+        "former US President": "ex Presidente degli Stati Uniti",
+        "presidential election": "elezioni presidenziali",
+        "editorial agenda": "agenda editoriale",
+        "Chancellor": "Cancelliere", "Kremlin": "Cremlino",
+        "Saudi Arabia": "Arabia Saudita", "North Korea": "Corea del Nord",
+        "South Korea": "Corea del Sud", "Pakistan": "Pakistan",
+        "interception": "intercettazione", "intercepted": "intercettata",
+        "intercepting": "intercettando", "seizure": "sequestro",
+        "flotilla": "flottiglia", "Hormuz Strait": "Stretto di Hormuz",
     },
     "de": {
         "Lebanon": "Libanon", "Pentagon": "Pentagon", "White House": "Weißes Haus",
@@ -398,6 +416,8 @@ GLOSSARY = {
         "Druzhba pipeline": "Druschba-Pipeline", "World Cup": "Weltmeisterschaft",
         "Eastern": "östlich", "Western": "westlich",
         "Middle Eastern": "nahöstlich", "Russian": "russisch",
+        "Hormuz Strait": "Straße von Hormuz",
+        "Ambani's": "Ambanis",
     },
     "es": {
         "Lebanon": "Líbano", "Pentagon": "Pentágono", "White House": "Casa Blanca",
@@ -416,6 +436,9 @@ GLOSSARY = {
         "World Cup": "Mundial", "Eastern": "oriental",
         "Western": "occidental", "Middle Eastern": "del Medio Oriente",
         "Russian": "ruso",
+        "wounds": "hiere", "wound": "herida", "injures": "hiere",
+        "wounded": "herido", "injured": "herido",
+        "kills and wounds": "mata y hiere", "Hormuz Strait": "Estrecho de Ormuz",
     },
     "fr": {
         "Lebanon": "Liban", "Pentagon": "Pentagone", "White House": "Maison-Blanche",
@@ -460,6 +483,110 @@ def _glossary_for_prompt(lang):
     return "Use these exact translations for these terms when they appear:\n" + pairs
 
 
+def _normalize_title(s):
+    return re.sub(r'\s+', ' ', (s or "").strip().lower())
+
+
+def _title_looks_untranslated(en_title, tr_title, threshold=0.80):
+    """Return True if tr_title is suspiciously close to en_title.
+
+    Uses a normalized similarity ratio (≈ Levenshtein-based). Skips the check
+    for very short titles where false positives are likely.
+    """
+    en = _normalize_title(en_title)
+    tr = _normalize_title(tr_title)
+    if not en or not tr or len(en) < 20:
+        return False
+    if en == tr:
+        return True
+    return SequenceMatcher(None, en, tr).ratio() >= threshold
+
+
+# Match a word with 3+ of the same consecutive letter — almost always a typo.
+# Skip URLs and the "www" / "Hmmm" / "Aaa" interjections by ignoring tokens
+# that are entirely the repeated letter.
+_TRIPLE_LETTER_RE = re.compile(r'\b\w*?([a-zA-ZÀ-ÿ])\1{2,}\w*?\b')
+
+# German: Saxon "'s" genitive on capitalized nouns ("Spanien's"). German uses
+# the bare "-s" suffix, not the apostrophe form (except for proper-name vowels).
+_DE_SAXON_RE = re.compile(r"\b[A-ZÄÖÜ][a-zäöüß]+'s\b")
+
+# Doubled syllable inside a single word ("Koordin-iert-iert-e") — typical LLM
+# stutter when generating long agglutinative words. We require ≥4-char repeat
+# to keep false positives low (3-char would catch real prefixes/roots).
+_DOUBLED_SYLLABLE_RE = re.compile(r'\b\w*?(\w{4,})\1\w*?\b')
+
+
+def _translation_lint(tr_title, tr_body, lang):
+    """Lightweight checks on the translated output. Returns a list of issue dicts
+    {kind, sample, hint} that the caller can feed back into a corrective retry prompt.
+    """
+    out = []
+    text = (tr_title or "") + "\n" + (tr_body or "")
+
+    # Triple-letter typos. Skipped for German: the language legitimately produces
+    # triple letters at compound boundaries (Schifffahrt, Stilllegung, Bündnisstruktur).
+    # The known DE typo patterns (doubled syllables like "Koordin-iert-iert-e",
+    # wrong endings, Saxon genitive) are caught by other rules below.
+    if lang != "de":
+        seen = set()
+        for m in _TRIPLE_LETTER_RE.finditer(text):
+            word = m.group(0)
+            # Skip Roman numerals like "III" used in royal/papal names.
+            if re.fullmatch(r'[IVXLCDM]+', word, re.IGNORECASE):
+                continue
+            # Skip URL fragments (the regex stops at "/" and ":", so "looong" inside
+            # a URL would otherwise leak through).
+            left = text.rfind(' ', 0, m.start()) + 1
+            right = text.find(' ', m.end())
+            right = right if right != -1 else len(text)
+            full_token = text[left:right]
+            if "://" in full_token or "@" in full_token:
+                continue
+            if word.lower() in seen:
+                continue
+            seen.add(word.lower())
+            out.append({"kind": "triple-letter-typo", "sample": word,
+                        "hint": f"Word \"{word}\" contains 3+ consecutive identical letters (likely typo)."})
+            if len(out) >= 3:
+                break
+
+    # Doubled syllable (any language): "Koordiniertierte" pattern.
+    seen_syl = set()
+    for m in _DOUBLED_SYLLABLE_RE.finditer(text):
+        word = m.group(0)
+        wl = word.lower()
+        if wl in seen_syl:
+            continue
+        # Spanish "-mentemente" is legitimate (adjective ending in -mente +
+        # adverbial -mente suffix, e.g. "vehementemente").
+        if lang == "es" and wl.endswith("mentemente"):
+            continue
+        seen_syl.add(wl)
+        out.append({"kind": "doubled-syllable", "sample": word,
+                    "hint": f"Word \"{word}\" contains a doubled syllable (likely typo, e.g. 'Koordin-iert-iert-e')."})
+        if len(seen_syl) >= 3:
+            break
+
+    # Saxon apostrophe on German titles (DE only).
+    if lang == "de":
+        seen_de = set()
+        for m in _DE_SAXON_RE.finditer(text):
+            word = m.group(0)
+            if word in seen_de:
+                continue
+            seen_de.add(word)
+            corrected = word[:-2] + "s"
+            out.append({"kind": "de-saxon-apostrophe", "sample": word,
+                        "hint": (f"\"{word}\" uses the English Saxon genitive (apostrophe-s). "
+                                 f"German NEVER uses apostrophe-s for possession, even for foreign proper names. "
+                                 f"Write \"{corrected}\" not \"{word}\" (like \"Spaniens\", \"Ambanis\", \"Obamas\").")})
+            if len(seen_de) >= 3:
+                break
+
+    return out
+
+
 def _severity_violations(en_text, tr_text, lang):
     """Return list of (en_keyword, expected_terms) where source contains en_keyword
     but translation lacks any of the expected target-language equivalents."""
@@ -487,23 +614,41 @@ def _translation_cache_dir(lang, model):
 
 
 def _parse_translation(result):
-    """Parse translated title and body from LLM output — tries multiple label formats."""
-    for title_lbl, body_lbl in [
-        ("TITLE:", "ANALYSIS:"),
-        ("TITOLO:", "ANALISI:"),
-        ("TITULO:", "ANALISIS:"),
-        ("TITEL:", "ANALYSE:"),
-        ("TITRE:", "ANALYSE:"),
-    ]:
-        if title_lbl in result and body_lbl in result:
-            parts = result.split(body_lbl, 1)
-            body = parts[1].strip() if len(parts) > 1 else None
-            title = None
-            for line in parts[0].split("\n"):
-                if line.strip().startswith(title_lbl):
-                    title = line.strip()[len(title_lbl):].strip()
+    """Parse translated title and body from LLM output. Robust to:
+    - Mixed labels across languages (e.g. EN "TITLE:" with translated "ANALISI:")
+    - Echoed prompt prefix where the model emits empty TITLE:/ANALYSIS: before
+      the real translated output (observed on cluster 157 IT, 2026-04-29)
+    """
+    title_lbls = ["TITLE:", "TITOLO:", "TITULO:", "TÍTULO:", "TITEL:", "TITRE:"]
+    body_lbls  = ["ANALYSIS:", "ANALISI:", "ANALISIS:", "ANÁLISIS:", "ANALYSE:"]
+
+    def _all_positions(text, labels):
+        out = []
+        for lbl in labels:
+            start = 0
+            while True:
+                i = text.find(lbl, start)
+                if i < 0:
                     break
-            if title and body:
+                out.append((i, lbl))
+                start = i + len(lbl)
+        out.sort()
+        return out
+
+    titles = _all_positions(result, title_lbls)
+    bodies = _all_positions(result, body_lbls)
+
+    # Try each (title, body) pair where body comes after title. Iterate from the
+    # LAST title backwards so we skip any echoed-prompt empty TITLE: at the top
+    # and prefer the one carrying real content.
+    for tpos, tlbl in reversed(titles):
+        for bpos, blbl in bodies:
+            if bpos <= tpos:
+                continue
+            title_chunk = result[tpos + len(tlbl):bpos]
+            title = title_chunk.split("\n", 1)[0].strip() if title_chunk else ""
+            body = result[bpos + len(blbl):].strip()
+            if title and body and len(body) >= 50:
                 return title, body
     return None, None
 
@@ -539,7 +684,21 @@ def translate_text(cluster_id, title, text, lang, translate_model=None):
                 cached = json.load(f)
                 if (cached.get("title") and cached.get("body")
                         and cached.get("source_hash") == src_hash):
-                    return cached["title"], cached["body"]
+                    # Content-aware invalidation: drop the cache entry if the
+                    # cached output is detectably broken — title still ≈ the EN
+                    # source, or lint catches typos/Saxon apostrophes. Without
+                    # this the cache "sticks" on bad outputs forever.
+                    invalidate_reason = None
+                    if _title_looks_untranslated(title, cached["title"]):
+                        invalidate_reason = "title looks untranslated"
+                    else:
+                        lint_issues = _translation_lint(cached["title"], cached["body"], lang)
+                        if lint_issues:
+                            invalidate_reason = f"lint: {[i['kind'] for i in lint_issues]}"
+                    if invalidate_reason is None:
+                        return cached["title"], cached["body"]
+                    print(f"   [CACHE-INVALIDATE] {lang.upper()} cluster {cluster_id}: "
+                          f"{invalidate_reason}, regenerating.")
             except (json.JSONDecodeError, KeyError):
                 pass
 
@@ -579,31 +738,67 @@ ANALYSIS:
     if raw is None:
         return None, None
 
-    # Sanity check: severity/quantitative consistency. If violated, retry once with
-    # an explicit corrective prefix listing the expected target terms.
-    violations = _severity_violations(text, (tr_title or "") + "\n" + (tr_body or ""), lang)
-    if violations:
-        warn_lines = "\n".join(
-            f"- The source contains \"{kw}\". Your translation MUST use one of: "
-            f"{', '.join(exp)}." for kw, exp in violations
-        )
-        retry_prompt = ("PREVIOUS ATTEMPT FAILED a severity/quantitative consistency check:\n"
-                        f"{warn_lines}\nRedo the translation respecting these terms exactly.\n\n"
+    # Collect all post-translation issues into a single corrective retry.
+    def _all_issues(t, b):
+        issues = []
+        for kw, exp in _severity_violations(text, (t or "") + "\n" + (b or ""), lang):
+            issues.append({
+                "kind": "severity",
+                "hint": f"The source contains \"{kw}\". Your translation MUST use one of: {', '.join(exp)}.",
+            })
+        if _title_looks_untranslated(title, t):
+            issues.append({
+                "kind": "title-untranslated",
+                "hint": f"The title was left in the source language. Translate it fully into {lang_name}: \"{title}\".",
+            })
+        issues.extend(_translation_lint(t, b, lang))
+        return issues
+
+    issues = _all_issues(tr_title, tr_body)
+    if issues:
+        warn_lines = "\n".join(f"- {i['hint']}" for i in issues)
+        retry_prompt = ("PREVIOUS ATTEMPT FAILED post-translation checks:\n"
+                        f"{warn_lines}\nRedo the translation correcting every issue.\n\n"
                         + base_prompt)
         t2, b2, raw2 = _run(retry_prompt)
         if raw2 is not None:
-            still = _severity_violations(text, (t2 or "") + "\n" + (b2 or ""), lang)
-            if len(still) < len(violations):
+            still = _all_issues(t2, b2)
+            if len(still) < len(issues):
                 tr_title, tr_body, raw = t2, b2, raw2
-                violations = still
-        if violations:
-            print(f"   [WARN] {lang.upper()} cluster {cluster_id}: severity check still failing"
-                  f" after retry: {[v[0] for v in violations]}")
+                issues = still
+
+        # Second focused retry for persistent title-untranslated: the LLM sometimes
+        # ignores the title instruction in a long prompt; a short focused request fixes it.
+        if issues and any(i["kind"] == "title-untranslated" for i in issues):
+            focused_prompt = (
+                f"Translate ONLY the following news headline into {lang_name}. "
+                f"Write ONLY the translated headline, nothing else. "
+                f"Do NOT copy the English words — the entire output must be in {lang_name}.\n\n"
+                f"English headline: {title}"
+            )
+            t3_raw = ollama_client.generate(focused_prompt, model=model, temperature=0.2, timeout=60)
+            if t3_raw:
+                t3 = t3_raw.strip().lstrip("TITLE:").strip()
+                if t3 and not _title_looks_untranslated(title, t3):
+                    tr_title = t3
+                    issues = [i for i in issues if i["kind"] != "title-untranslated"]
+                    print(f"   [RECOVER] {lang.upper()} cluster {cluster_id}: title recovered via focused retry.")
+
+        if issues:
+            kinds = sorted({i["kind"] for i in issues})
+            print(f"   [WARN] {lang.upper()} cluster {cluster_id}: post-translation issues "
+                  f"persist after retry: {kinds}")
 
     if not tr_title:
         tr_title = title
     if not tr_body:
         tr_body = raw
+
+    # Post-processing: German never uses Saxon genitive apostrophe-s. Strip it
+    # deterministically so cached output is always correct, regardless of LLM stubbornness.
+    if lang == "de":
+        tr_title = _DE_SAXON_RE.sub(lambda m: m.group(0)[:-2] + "s", tr_title or "")
+        tr_body  = _DE_SAXON_RE.sub(lambda m: m.group(0)[:-2] + "s", tr_body  or "")
 
     with open(cache_file, "w", encoding="utf-8") as f:
         json.dump({"title": tr_title, "body": tr_body, "model": model, "lang": lang,
@@ -620,18 +815,18 @@ def _audit_translations(comps, all_translations, langs):
     for comp in comps:
         cid = comp["id"]
         en_title = (comp["title"] or "").strip()
-        en_title_norm = re.sub(r'\s+', ' ', en_title.lower())
         for lang in langs:
             tr = all_translations.get(cid, {}).get(lang)
             if not tr or not tr[0] or not tr[1]:
                 issues.append((cid, lang, "missing", en_title[:60]))
                 continue
             tr_title, tr_body = tr
-            tr_title_norm = re.sub(r'\s+', ' ', (tr_title or "").strip().lower())
-            if tr_title_norm == en_title_norm and len(en_title_norm) > 20:
+            if _title_looks_untranslated(en_title, tr_title):
                 issues.append((cid, lang, "title-untranslated", en_title[:60]))
             if len(tr_body or "") < 200:
                 issues.append((cid, lang, "body-too-short", en_title[:60]))
+            for lint in _translation_lint(tr_title, tr_body, lang):
+                issues.append((cid, lang, lint["kind"], lint["sample"]))
     if issues:
         print(f"   [AUDIT] {len(issues)} translation issue(s):")
         for cid, lang, kind, hint in issues:
