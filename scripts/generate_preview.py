@@ -398,6 +398,10 @@ GLOSSARY = {
         "interception": "intercettazione", "intercepted": "intercettata",
         "intercepting": "intercettando", "seizure": "sequestro",
         "flotilla": "flottiglia", "Hormuz Strait": "Stretto di Hormuz",
+        # Aggiunte 2026-05-03: bug "Mission di aiuti USA" cluster 264.
+        "Mission": "Missione", "mission": "missione",
+        "aid mission": "missione di aiuti", "humanitarian mission": "missione umanitaria",
+        "hostilities": "ostilità", "the hostilities": "le ostilità",
     },
     "de": {
         "Lebanon": "Libanon", "Pentagon": "Pentagon", "White House": "Weißes Haus",
@@ -516,6 +520,31 @@ _DE_SAXON_RE = re.compile(r"\b[A-ZÄÖÜ][a-zäöüß]+'s\b")
 # to keep false positives low (3-char would catch real prefixes/roots).
 _DOUBLED_SYLLABLE_RE = re.compile(r'\b\w*?(\w{4,})\1\w*?\b')
 
+# Italian: feminine article before known masculine noun. The model has been
+# producing "la cessate il fuoco" / "le servizio" / "Una Rilascio" — wrong
+# gender concord. Restrict to a small list of nouns we've seen the bug on so
+# the regex stays high-precision.
+_IT_BAD_ARTICLE_MASC_RE = re.compile(
+    r"\b(le|la|una|della|alla|sulla|nella|dalla)\s+(cessate|servizio|rilascio)\b",
+    re.IGNORECASE,
+)
+
+# Italian: "agli ostili" (= "to the hostile-people") almost always means
+# "alle ostilità" (= "to the hostilities") in news context. Cluster 233 bug.
+_IT_OSTILI_AS_NOUN_RE = re.compile(r"\bagli\s+ostili\b", re.IGNORECASE)
+
+# Italian: elision "l'" is valid only before a vowel (or silent h). The model
+# sometimes writes "l'fragile" before a consonant. Excludes h, vowels, digits.
+_IT_ELISION_CONSONANT_RE = re.compile(
+    r"\bl['’‘](?=[bcdfgjklmnpqrstvwxz])",
+    re.IGNORECASE,
+)
+
+# Italian: "Mission" capitalized in IT body/title is almost always an
+# untranslated English word ("Mission di aiuti USA" → should be "Missione").
+# Case-sensitive on purpose.
+_IT_UNTRANSLATED_MISSION_RE = re.compile(r"\bMission\b")
+
 
 def _translation_lint(tr_title, tr_body, lang):
     """Lightweight checks on the translated output. Returns a list of issue dicts
@@ -583,6 +612,52 @@ def _translation_lint(tr_title, tr_body, lang):
                                  f"Write \"{corrected}\" not \"{word}\" (like \"Spaniens\", \"Ambanis\", \"Obamas\").")})
             if len(seen_de) >= 3:
                 break
+
+    # Italian-specific patterns (IT only). Each rule targets a bug class observed
+    # in audits 2026-05-02 / 2026-05-03 that the previous lint passed silently.
+    if lang == "it":
+        seen_art = set()
+        for m in _IT_BAD_ARTICLE_MASC_RE.finditer(text):
+            phrase = m.group(0)
+            key = phrase.lower()
+            if key in seen_art:
+                continue
+            seen_art.add(key)
+            noun = m.group(2).lower()
+            out.append({"kind": "it-wrong-article-gender", "sample": phrase,
+                        "hint": (f"\"{phrase}\" uses a feminine article before the masculine noun "
+                                 f"\"{noun}\". Use a masculine article (il/un/del/al/sul/nel/dal). "
+                                 f"E.g. \"il cessate il fuoco\", \"il servizio\", \"un rilascio\".")})
+            if len(seen_art) >= 3:
+                break
+
+        if _IT_OSTILI_AS_NOUN_RE.search(text):
+            out.append({"kind": "it-ostili-as-noun", "sample": "agli ostili",
+                        "hint": ("\"agli ostili\" treats the adjective \"ostili\" (hostile people) "
+                                 "as if it were the noun \"ostilità\" (hostilities). "
+                                 "Translate \"hostilities\" as \"le ostilità\" / \"alle ostilità\", "
+                                 "not \"gli ostili\" / \"agli ostili\".")})
+
+        seen_eli = set()
+        for m in _IT_ELISION_CONSONANT_RE.finditer(text):
+            # Capture the next 12 chars for context.
+            ctx_end = min(len(text), m.end() + 12)
+            sample = text[m.start():ctx_end].split()[0] if text[m.start():ctx_end] else m.group(0)
+            key = sample.lower()
+            if key in seen_eli:
+                continue
+            seen_eli.add(key)
+            out.append({"kind": "it-wrong-elision", "sample": sample,
+                        "hint": (f"\"{sample}\" elides \"l'\" before a consonant. Italian elision "
+                                 f"requires a vowel (or silent h) after \"l'\". Use \"il\" or \"la\" "
+                                 f"with a space instead.")})
+            if len(seen_eli) >= 3:
+                break
+
+        if _IT_UNTRANSLATED_MISSION_RE.search(text):
+            out.append({"kind": "it-untranslated-mission", "sample": "Mission",
+                        "hint": ("The English word \"Mission\" appears untranslated. "
+                                 "Translate it as \"Missione\" (or \"missione\" lowercase).")})
 
     return out
 
