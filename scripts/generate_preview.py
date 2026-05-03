@@ -141,6 +141,115 @@ SAME_DAY_THRESHOLD  = 0.78
 CROSS_DAY_THRESHOLD = 0.65
 PREVIEW_MAX_CARDS   = 25
 
+# Entity-based dedup: catches the "same story, different phrasing" case that
+# cosine alone misses (e.g. 2026-05-03 clusters 252 "plans to withdraw troops"
+# + 215 "reviews potential reduction" share germany+troops+usa, cosine 0.637).
+# Merge requires both: enough shared entity categories AND enough cosine
+# similarity, so unrelated stories that happen to share countries don't merge.
+ENTITY_DEDUP_MIN = 3
+ENTITY_DEDUP_COSINE_FLOOR = 0.55
+
+# Categories of entities recognized in titles. Each category lists the surface
+# tokens that should be considered an instance of it. Tokens are matched
+# case-insensitively as whole words (no internal letter-letter matches), so
+# "us" does NOT match "discuss" but DOES match "US plans" or "U.S. forces".
+DEDUP_ENTITY_TOKENS = {
+    # Countries / regions
+    "usa": ["us", "u.s.", "u.s", "usa", "united states", "american", "america",
+            "stati uniti", "estados unidos"],
+    "germany": ["germany", "german", "deutschland"],
+    "iran": ["iran", "iranian", "tehran", "teheran"],
+    "israel": ["israel", "israeli", "tel aviv"],
+    "russia": ["russia", "russian", "moscow", "kremlin"],
+    "ukraine": ["ukraine", "ukrainian", "kyiv", "kiev"],
+    "china": ["china", "chinese", "beijing"],
+    "uk": ["britain", "british", "uk", "england"],
+    "france": ["france", "french", "paris"],
+    "italy": ["italy", "italian", "rome"],
+    "lebanon": ["lebanon", "lebanese", "beirut"],
+    "gaza": ["gaza", "palestinian"],
+    "syria": ["syria", "syrian", "damascus"],
+    "yemen": ["yemen", "yemeni", "houthi", "houthis"],
+    "saudi": ["saudi", "riyadh"],
+    "uae": ["uae", "emirates", "dubai", "abu dhabi"],
+    "turkey": ["turkey", "turkish", "ankara"],
+    "egypt": ["egypt", "egyptian", "cairo"],
+    "venezuela": ["venezuela", "venezuelan", "caracas"],
+    "korea_n": ["north korea", "n.korea", "pyongyang", "dprk"],
+    "korea_s": ["south korea", "s.korea", "seoul"],
+    "eu": ["eu", "european union", "european"],
+    "nato": ["nato"],
+    "opec": ["opec", "opec+"],
+    "un": ["united nations", "u.n.", "unsc"],
+    # Actors / institutions
+    "trump": ["trump"],
+    "putin": ["putin"],
+    "biden": ["biden"],
+    "netanyahu": ["netanyahu"],
+    "pope": ["pope", "vatican", "papa leone", "papa"],
+    "pentagon": ["pentagon", "pentagono"],
+    "white_house": ["white house", "casa bianca"],
+    "congress": ["congress", "congressional"],
+    # Action verbs / events
+    "withdraw": ["withdraw", "withdrawal", "withdraws", "withdrawing",
+                 "pull-out", "pull out", "pullout", "exit"],
+    "reduce": ["reduce", "reduction", "reduces", "reducing", "cut", "cuts",
+               "decrease", "scale back", "scaling back"],
+    "ceasefire": ["ceasefire", "cease-fire", "truce", "armistice",
+                  "cessate il fuoco"],
+    "intercept": ["intercept", "intercepts", "intercepted", "intercepting",
+                  "seize", "seizes", "seized", "detain", "detained"],
+    "attack": ["attack", "strike", "strikes", "raid", "bombing"],
+    "tariff": ["tariff", "tariffs", "duty", "duties"],
+    "sanction": ["sanction", "sanctions"],
+    "talks": ["talks", "negotiation", "negotiations", "negotiate", "discuss",
+              "discussion", "discussions", "call", "phone call"],
+    "war": ["war", "warfare", "conflict", "hostilities", "fighting"],
+    "blockade": ["blockade"],
+    "election": ["election", "elections", "vote", "voting"],
+    "nuclear": ["nuclear", "atomic", "uranium"],
+    "proposal": ["proposal", "propose", "proposes", "proposed",
+                 "deal", "agreement"],
+    # Topical nouns
+    "troops": ["troop", "troops", "forces", "military", "soldier", "soldiers",
+               "personnel"],
+    "navy": ["navy", "naval", "fleet"],
+    "flotilla": ["flotilla", "flotila"],
+    "tanker": ["tanker"],
+    "oil": ["oil", "crude", "petroleum"],
+    "aid": ["aid", "humanitarian", "relief"],
+    "missile": ["missile", "missiles", "rocket", "rockets"],
+    "auto": ["auto", "automobile", "automobiles", "car", "cars",
+             "vehicle", "vehicles"],
+    "passport": ["passport", "passports"],
+    "biennale": ["biennale", "biennial"],
+    "airline": ["airline", "airlines"],
+    "trade": ["trade"],
+}
+
+_DEDUP_ENTITY_PATTERNS = {
+    cat: [re.compile(r"(?<![a-z])" + re.escape(tok) + r"(?![a-z])", re.IGNORECASE)
+          for tok in tokens]
+    for cat, tokens in DEDUP_ENTITY_TOKENS.items()
+}
+
+
+def _extract_entities(title):
+    """Return the set of entity-category names that appear in `title`.
+
+    Used by `_deduplicate_comparisons` to merge same-day cards that share the
+    same topical entities even when their wording differs enough to dodge the
+    cosine threshold.
+    """
+    t = (title or "").lower()
+    out = set()
+    for cat, patterns in _DEDUP_ENTITY_PATTERNS.items():
+        for p in patterns:
+            if p.search(t):
+                out.add(cat)
+                break
+    return out
+
 TIER_LABELS = {"A": "Confirmed globally", "B": "Cross-bloc coverage", "C": "Partial coverage"}
 TIER_ICONS  = {"A": "&#9673;", "B": "&#9671;", "C": "&#9723;"}
 TIER_COLORS = {"A": "#10b981", "B": "#60a5fa", "C": "#94a3b8"}
@@ -272,7 +381,10 @@ def _deduplicate_comparisons(comps):
         return comps[:PREVIEW_MAX_CARDS]
 
     embeddings = [_get_embedding(c["title"]) for c in comps]
+    entities = [_extract_entities(c["title"]) for c in comps]
     parent = list(range(len(comps)))
+    cosine_merges = 0
+    entity_merges = 0
 
     def find(x):
         while parent[x] != x:
@@ -282,15 +394,35 @@ def _deduplicate_comparisons(comps):
 
     for i in range(len(comps)):
         for j in range(i + 1, len(comps)):
-            if embeddings[i] is None or embeddings[j] is None:
-                continue
-            sim = _cosine_similarity(embeddings[i], embeddings[j])
             same_day = comps[i]["event_date"] == comps[j]["event_date"]
-            threshold = SAME_DAY_THRESHOLD if same_day else CROSS_DAY_THRESHOLD
-            if sim >= threshold:
+            merge_reason = None
+            sim = None
+
+            if embeddings[i] is not None and embeddings[j] is not None:
+                sim = _cosine_similarity(embeddings[i], embeddings[j])
+                threshold = SAME_DAY_THRESHOLD if same_day else CROSS_DAY_THRESHOLD
+                if sim >= threshold:
+                    merge_reason = ("cosine", sim, None)
+
+            # Entity-based fallback: same story phrased differently. Requires
+            # both enough shared entities and a cosine floor so that two cards
+            # sharing only common countries (Iran + USA) don't get merged.
+            if merge_reason is None and sim is not None and sim >= ENTITY_DEDUP_COSINE_FLOOR:
+                shared = entities[i] & entities[j]
+                if len(shared) >= ENTITY_DEDUP_MIN:
+                    merge_reason = ("entities", len(shared), shared)
+
+            if merge_reason is not None:
                 ri, rj = find(i), find(j)
                 if ri != rj:
                     parent[ri] = rj
+                    if merge_reason[0] == "cosine":
+                        cosine_merges += 1
+                    else:
+                        entity_merges += 1
+                        print(f"   [DEDUP-ENTITY] cluster {comps[i]['id']} + "
+                              f"{comps[j]['id']}: shared={sorted(merge_reason[2])} "
+                              f"cosine={sim:.3f}")
 
     groups = {}
     for i in range(len(comps)):
@@ -315,7 +447,8 @@ def _deduplicate_comparisons(comps):
         result = result[:PREVIEW_MAX_CARDS]
         print(f"   Cap applied: showing top {PREVIEW_MAX_CARDS} stories")
     if removed:
-        print(f"   Smart dedup: removed {removed} duplicate(s) -> {len(result)} shown")
+        print(f"   Smart dedup: removed {removed} duplicate(s) -> {len(result)} shown "
+              f"(cosine: {cosine_merges}, entity: {entity_merges})")
     return result
 
 
