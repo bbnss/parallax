@@ -4,12 +4,14 @@ Features:
 - 5 languages: EN (base) + IT, ES, DE, FR (LLM-translated, cached)
 - Full UI localization: all labels switch with language
 - Country-aware: selecting a language highlights & prioritises home-country sources
-- Collapsible cards: title + summary visible, full analysis on expand
+- Collapsible cards: title + teaser ("In Breve") visible, full analysis on expand
+- "In Breve" teaser: 3-4 sentence factual+divergence brief per card, generated and
+  translated alongside the body. Disable with --no-teaser or PARALLAX_USE_TEASER=0.
 - Small SVG globe rotated to the dominant region perspective
 - Source-specific flag icons per badge
 - Archives previous preview to data/previews/YYYY-MM-DD_HH-MM.html
 
-Run: python scripts/generate_preview.py [--days 3] [--no-translate]
+Run: python scripts/generate_preview.py [--days 3] [--no-translate] [--no-teaser]
 Opens: data/preview.html
 """
 
@@ -73,7 +75,12 @@ REGION_COLORS = {
 
 _DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 PREVIEWS_ARCHIVE_DIR = os.path.join(_DATA_DIR, "previews")
+TEASERS_CACHE_DIR = os.path.join(_DATA_DIR, "teasers")
 OUT_PATH = os.path.join(_DATA_DIR, "preview.html")
+
+# Teasers replace the meta-description card-summary with a 3-4 sentence factual+divergence
+# brief. Disable via env (PARALLAX_USE_TEASER=0) or `--no-teaser` CLI flag for rollback.
+USE_TEASER_AS_SUMMARY = os.getenv("PARALLAX_USE_TEASER", "1") not in ("0", "false", "False")
 
 # ── Multi-language configuration ─────────────────────────────────────────────
 TRANSLATION_LANGUAGES = ["it", "es", "de", "fr"]   # EN is the base, not translated
@@ -1015,6 +1022,158 @@ ANALYSIS:
     return tr_title, tr_body
 
 
+# ── Teaser ("In Breve") generation ───────────────────────────────────────────
+# Replaces the meta-description card-summary with a 3-4 sentence factual+divergence
+# brief. EN is generated once per cluster (cached + invalidated by source_hash);
+# translations re-use translate_text() so they inherit lint/retry/audit machinery.
+
+_TEASER_PROMPT_TEMPLATE = """Write a 3-4 sentence summary in English for this international news story.
+The summary will appear directly on the news card on Parallax, a media-comparison
+aggregator. Readers use it to get the full picture at a glance — they should
+finish reading it and already understand what happened AND how the coverage differs.
+
+Rules:
+- Include the essential facts: what happened, who was involved, key numbers.
+- Include the main point of divergence between sources: what do different regions
+  emphasize or frame differently? Name the framing difference explicitly.
+- Do NOT tease or withhold — this is a summary, not a hook.
+- Tone: direct, factual, neutral. No adjectives like "shocking" or "dramatic".
+- Length: 3-4 sentences, 50-80 words.
+- Write ONLY the summary text, nothing else.
+
+TITLE: {title}
+SOURCE REGIONS: {regions}
+
+UNDISPUTED FACTS:
+{facts}
+
+HOW ACCOUNTS DIVERGE:
+{diverge}
+
+WESTERN FRAMING:
+{western}
+
+OTHER FRAMING:
+{other}
+"""
+
+
+def _teaser_extract_section(text, heading_fragment):
+    if not text:
+        return ""
+    lines = text.split("\n")
+    collecting, out = False, []
+    for line in lines:
+        if line.startswith("## "):
+            if heading_fragment.lower() in line.lower():
+                collecting = True
+                continue
+            elif collecting:
+                break
+        elif collecting:
+            out.append(line)
+    return "\n".join(out).strip()
+
+
+def _teaser_first_paragraph(text):
+    if not text:
+        return ""
+    for block in text.split("\n\n"):
+        s = block.strip()
+        if s and not s.startswith("#") and not s.startswith("*"):
+            return s
+    return text.strip()
+
+
+def _teaser_regions(sources_raw):
+    seen = set()
+    for item in (sources_raw or "").split(","):
+        parts = item.split("@@")
+        if len(parts) >= 2:
+            seen.add(parts[1].strip())
+    return sorted(seen)
+
+
+def _build_teaser_prompt(comp):
+    comparison_text = comp.get("comparison_text") or ""
+    facts = _teaser_extract_section(comparison_text, "Undisputed Facts")
+    diverge = _teaser_first_paragraph(
+        _teaser_extract_section(comparison_text, "Accounts Diverge")
+        or _teaser_extract_section(comparison_text, "Where")
+    )
+    western = _teaser_first_paragraph(_teaser_extract_section(comparison_text, "Western"))
+    other = _teaser_first_paragraph(
+        _teaser_extract_section(comparison_text, "Middle Eastern")
+        or _teaser_extract_section(comparison_text, "Eastern")
+        or _teaser_extract_section(comparison_text, "Russian")
+    )
+    if not facts:
+        facts = _teaser_first_paragraph(comparison_text)
+    return _TEASER_PROMPT_TEMPLATE.format(
+        title=comp["title"],
+        regions=", ".join(_teaser_regions(comp.get("sources_raw"))),
+        facts=facts,
+        diverge=diverge,
+        western=western,
+        other=other,
+    )
+
+
+def _load_or_generate_teaser_en(comp, gen_model):
+    """Return EN teaser for a comparison, using disk cache invalidated by source_hash.
+
+    The cache lives in data/teasers/{cluster_id}.json and stores {teaser, source_hash, model}.
+    Returns "" on LLM failure — caller must fall back to extract_summary.
+    """
+    if not comp.get("comparison_text"):
+        return ""
+    os.makedirs(TEASERS_CACHE_DIR, exist_ok=True)
+    cluster_id = comp["id"]
+    cache_file = os.path.join(TEASERS_CACHE_DIR, f"{cluster_id}.json")
+    src_hash = _source_hash(comp["title"], comp["comparison_text"])
+    if os.path.exists(cache_file):
+        try:
+            with open(cache_file, "r", encoding="utf-8") as f:
+                cached = json.load(f)
+            if cached.get("teaser") and cached.get("source_hash") == src_hash:
+                return cached["teaser"]
+        except (json.JSONDecodeError, OSError):
+            pass
+    raw = ollama_client.generate(
+        _build_teaser_prompt(comp), model=gen_model, temperature=0.2, timeout=90
+    )
+    if not raw:
+        return ""
+    teaser = re.sub(r'^(Summary|Teaser|EN)\s*[:\-]\s*', '', raw.strip(),
+                    flags=re.IGNORECASE).strip().strip('"').strip()
+    if not teaser:
+        return ""
+    with open(cache_file, "w", encoding="utf-8") as f:
+        json.dump({"teaser": teaser, "source_hash": src_hash, "model": gen_model},
+                  f, ensure_ascii=False, indent=2)
+    return teaser
+
+
+def _translate_teaser_lang(cluster_id, en_teaser, lang, translate_model):
+    """Translate a teaser via the existing translate_text machinery.
+
+    Cache file lives at data/translations/{lang}/teaser_{cluster_id}.json — separate
+    from the body translation cache, but inheriting the same lint/retry/audit code.
+    Returns "" on failure (caller falls back to EN teaser).
+    """
+    if not en_teaser:
+        return ""
+    fake_id = f"teaser_{cluster_id}"
+    tr_title, tr_body = translate_text(
+        cluster_id=fake_id,
+        title=en_teaser,
+        text=en_teaser,
+        lang=lang,
+        translate_model=translate_model,
+    )
+    return (tr_body or tr_title or "").strip()
+
+
 def _audit_translations(comps, all_translations, langs):
     """Pre-render sanity audit of generated translations. Logs warnings only —
     does not fail the build. Catches: missing translations, untranslated titles
@@ -1055,10 +1214,13 @@ def archive_previous_preview():
 
 # ── Card builder ─────────────────────────────────────────────────────────────
 
-def build_card(comp, translations):
+def build_card(comp, translations, teasers=None):
     """Build HTML card — collapsed by default, with content in all languages.
 
     translations: dict {lang: (title, body)} for each TRANSLATION_LANGUAGES entry.
+    teasers: optional {lang: text} dict — when provided and non-empty, replaces
+        the meta-description card-summary with a 3-4 sentence factual+divergence
+        brief. Falls back to extract_summary on a per-language basis if missing.
     """
     sources_raw = comp["sources_raw"] or ""
     sources = []
@@ -1123,12 +1285,20 @@ def build_card(comp, translations):
         t = translations.get(lang, (None, None))[0] or comp["title"]
         titles_html += f'        <h2 class="card-title lang-{lang}" style="display:none">{t}</h2>\n'
 
-    # Summaries
-    en_summary = extract_summary(comp["comparison_text"])
+    # Summaries — prefer the teaser ("In Breve") when available, fall back to the
+    # legacy meta-description extracted from the comparison text. Per-language so
+    # an empty IT teaser still gets the IT body's extract.
+    teasers = teasers or {}
+    en_fallback = extract_summary(comp["comparison_text"])
+    en_summary = (teasers.get("en") or "").strip() or en_fallback
     summaries_html = f'<p class="card-summary lang-en">{en_summary}</p>\n'
     for lang in TRANSLATION_LANGUAGES:
-        t_body = translations.get(lang, (None, None))[1]
-        s = extract_summary(t_body) if t_body else en_summary
+        teaser_lang = (teasers.get(lang) or "").strip()
+        if teaser_lang:
+            s = teaser_lang
+        else:
+            t_body = translations.get(lang, (None, None))[1]
+            s = extract_summary(t_body) if t_body else en_summary
         summaries_html += f'        <p class="card-summary lang-{lang}" style="display:none">{s}</p>\n'
 
     # Expand button (label updated by JS on language switch)
@@ -1180,11 +1350,13 @@ def build_card(comp, translations):
 
 # ── Main generator ───────────────────────────────────────────────────────────
 
-def generate(translate=True, days=1, translate_model=None, out_path=None):
+def generate(translate=True, days=1, translate_model=None, out_path=None, use_teaser=None):
     dest = out_path or OUT_PATH
     from src import config as _cfg
     _tmodel = translate_model or _cfg.TRANSLATE_MODEL
+    _gmodel = _cfg.OLLAMA_MODEL
     langs = TRANSLATION_LANGUAGES if translate else []
+    teaser_enabled = USE_TEASER_AS_SUMMARY if use_teaser is None else bool(use_teaser)
 
     with get_connection() as conn:
         comps = conn.execute('''
@@ -1252,6 +1424,41 @@ def generate(translate=True, days=1, translate_model=None, out_path=None):
     if langs:
         _audit_translations(comps, all_translations, langs)
 
+    # ── Generate teasers ("In Breve") and translate them ──
+    # Optionally restrict teaser-translation to a subset (e.g. PARALLAX_TEASER_LANGS=it
+    # for a fast EN+IT-only render; the other langs fall back to extract_summary in build_card).
+    teaser_langs_env = os.getenv("PARALLAX_TEASER_LANGS")
+    if teaser_langs_env:
+        teaser_langs = [l.strip() for l in teaser_langs_env.split(",")
+                        if l.strip() and l.strip() in TRANSLATION_LANGUAGES]
+    else:
+        teaser_langs = list(langs)
+
+    all_teasers = {}  # {cluster_id: {lang: text}}
+    if teaser_enabled:
+        teaser_cached = 0
+        teaser_generated = 0
+        teaser_lang_calls = 0
+        for i, comp in enumerate(comps):
+            cid = comp["id"]
+            cache_file = os.path.join(TEASERS_CACHE_DIR, f"{cid}.json")
+            is_cached_en = os.path.exists(cache_file)
+            print(f"   [TEASER] {i+1}/{len(comps)}: cluster {cid}"
+                  f" {'(cached)' if is_cached_en else '(generating...)'}     ", end="\r")
+            en_teaser = _load_or_generate_teaser_en(comp, _gmodel)
+            all_teasers[cid] = {"en": en_teaser}
+            if is_cached_en:
+                teaser_cached += 1
+            elif en_teaser:
+                teaser_generated += 1
+            for lang in teaser_langs:
+                tr = _translate_teaser_lang(cid, en_teaser, lang, _tmodel)
+                all_teasers[cid][lang] = tr
+                if tr:
+                    teaser_lang_calls += 1
+        print(f"   [TEASER] Done: {teaser_cached} cached EN, {teaser_generated} new EN, "
+              f"{teaser_lang_calls} translations (langs: {','.join(teaser_langs) or 'EN-only'})    ")
+
     # ── Render cards ──
     cards_html = ""
     for tier in ("A", "B", "C"):
@@ -1269,7 +1476,8 @@ def generate(translate=True, days=1, translate_model=None, out_path=None):
             f'</h2>'
         )
         for comp in tier_comps:
-            cards_html += build_card(comp, all_translations.get(comp["id"], {}))
+            cards_html += build_card(comp, all_translations.get(comp["id"], {}),
+                                     teasers=all_teasers.get(comp["id"]))
         cards_html += '</section>'
 
     source_count = len(SOURCE_FLAGS)
@@ -1545,6 +1753,8 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-translate", action="store_true", help="Skip translations (EN only)")
+    parser.add_argument("--no-teaser", action="store_true",
+                        help="Skip teaser generation; fall back to extract_summary meta-description")
     parser.add_argument("--days", type=int, default=1, help="Show comparisons from last N days (default: 1)")
     parser.add_argument("--translate-model", default=None,
                         help="Ollama model for translation (default: TRANSLATE_MODEL from .env)")
@@ -1557,6 +1767,7 @@ if __name__ == "__main__":
         days=args.days,
         translate_model=args.translate_model,
         out_path=args.out,
+        use_teaser=False if args.no_teaser else None,
     )
     import subprocess
     subprocess.run(["open", path])
