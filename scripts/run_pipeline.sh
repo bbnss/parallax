@@ -69,7 +69,22 @@ else
     log "Step 5: SKIPPED (pipeline had errors — backup not refreshed)"
 fi
 
-# Step 6: Status
+# Step 6: v2 fact-extraction pipeline (parallel — runs on the same clusters
+# v1 covered, writes to data/v2/ in the v2 worktree). Failure here does NOT
+# affect v1's output, which is already deployed.
+V2_DIR="/Users/bbnss/kDrive2/Claude/parallax-v2"
+if [ "$PIPELINE_OK" = "1" ] && [ -x "$V2_DIR/.venv/bin/python" ]; then
+    log "Step 6: Running v2 fact-extraction pipeline..."
+    if (cd "$V2_DIR" && .venv/bin/python scripts/v2/run_daily.py) >> "$LOG_FILE" 2>&1; then
+        log "Step 6: OK"
+    else
+        log "Step 6: FAILED (v2 only — v1 already deployed)"
+    fi
+else
+    log "Step 6: SKIPPED (v2 worktree absent or v1 had errors)"
+fi
+
+# Step 7: Status
 log "Final status:"
 $VENV -m src.cli status >> "$LOG_FILE" 2>&1
 
