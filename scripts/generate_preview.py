@@ -19,6 +19,7 @@ import re
 import sys
 import os
 import json
+import html
 import shutil
 import hashlib
 from datetime import datetime
@@ -685,6 +686,115 @@ _IT_ELISION_CONSONANT_RE = re.compile(
 # Case-sensitive on purpose.
 _IT_UNTRANSLATED_MISSION_RE = re.compile(r"\bMission\b")
 
+# ── Italian title-body coherence (generic anglicism / wrong-morphology gate) ──
+# Idea: a well-translated title shares its content words with the body. The body
+# has multi-sentence context and is much harder for the model to mistranslate.
+# When a title contains an anglicism or wrong morphology that does not echo in
+# the body, that title is almost always wrong. Catches "Tension militari",
+# "U.S. militari", "Mission" etc. without needing a regex per pattern.
+
+# Stop-words (articles, prepositions, conjunctions, common pronouns/auxiliaries).
+_IT_STOPWORDS = {
+    "il","lo","la","i","gli","le","un","una","uno","l",
+    "del","dello","della","dei","degli","delle",
+    "al","allo","alla","ai","agli","alle",
+    "dal","dallo","dalla","dai","dagli","dalle",
+    "nel","nello","nella","nei","negli","nelle",
+    "sul","sullo","sulla","sui","sugli","sulle",
+    "col","con","contro","senza","sopra","sotto","fuori","dentro","oltre","tra","fra",
+    "di","da","in","su","per","a","ad","tra","fra","verso","circa",
+    "e","ed","o","od","ma","se","che","non","ne","ci","si","mi","ti","vi",
+    "è","ha","ho","hai","hanno","ho","sono","sei","siamo","siete","era","erano","sarà",
+    "come","anche","quindi","perché","perciò","mentre","dopo","prima","durante",
+    "questa","questo","questi","queste","quel","quella","quelli","quelle","quegli","quei",
+    "suo","sua","suoi","sue","loro","mio","mia","miei","mie","tuo","tua","tuoi","tue",
+    "essere","avere","fare","dire","stare","dare",
+    "più","meno","molto","poco","tutto","tutta","tutti","tutte","ogni","alcuni","alcune",
+}
+
+# Known anglicisms / English fillers that should NOT appear in an IT title.
+# Lowercase, exact-match. Includes abbreviations rendered without periods.
+_IT_ANGLICISMS = {
+    "mission","operation","operations","tension","tensions","section","sections",
+    "army","navy","border","borders","shutdown","targeting","cynically","cynicamente",
+    "the","of","and","with","from","for","by","at","to","into","onto","upon",
+    "country","countries","government","governments","minister","ministers",
+    "military","forces","attack","attacks","strike","strikes","talks","ceasefire",
+}
+# (Note: words like "the" "of" "and" rarely appear in IT title legitimately.
+# If they appear they are almost always residual English. Same for the others.)
+
+# Suffixes that in Italian indicate a non-translated English word. IT uses
+# -zione/-mento/-tà/-ndo, never bare -tion/-ment/-ity/-ing.
+_IT_SUSPECT_SUFFIX_RE = re.compile(r"^\w{4,}(tion|ment|ity|ing)$", re.IGNORECASE)
+
+# Tokenizer: captures (a) acronyms with internal periods like "U.S." or "U.S.A."
+# and (b) regular words with at most one internal apostrophe or hyphen.
+_IT_TITLE_TOKEN_RE = re.compile(
+    r"[A-Z]\.(?:[A-Z]\.)+|[A-Za-zÀ-ÿ]+(?:[''\-][A-Za-zÀ-ÿ]+)?",
+)
+
+
+def _it_word_is_suspect(word):
+    """Return True if a content-word in an IT title looks like an anglicism."""
+    if not word:
+        return False
+    wl = word.lower()
+    # Acronyms with internal periods (U.S., U.K., E.U.) — IT writes "USA","UK","UE".
+    if re.match(r"^[a-z]\.(?:[a-z]\.)+$", wl):
+        return True
+    if wl in _IT_ANGLICISMS:
+        return True
+    if _IT_SUSPECT_SUFFIX_RE.match(wl):
+        return True
+    return False
+
+
+def _it_title_body_incoherent_words(tr_title, tr_body, max_flagged=3):
+    """Return list of SUSPECT title words (anglicisms / wrong-morphology) that
+    don't echo in the body.
+
+    Restricted to suspect words on purpose — flagging every title word missing
+    from the body would create false positives on rare-but-correct words.
+    Suspect = anglicism (in _IT_ANGLICISMS), abbreviation with internal periods,
+    or English-only suffix (-tion/-ment/-ity/-ing).
+
+    A suspect word is flagged when:
+      (1) its exact form is NOT in the body (word-bounded match), AND
+      (2) no body word starts with its 5-char prefix (morphological cousin).
+    Or, when both checks fail: the body has no trace of the word at all → flag.
+    The prefix gate is the trick: "Tension" and "tensioni" share prefix
+    "tensi" so coherence sees the cousin in body but the title used a suspect
+    form → still flag (the suspect signal wins).
+    """
+    if not tr_title or not tr_body:
+        return []
+    body_lower = tr_body.lower()
+    flagged = []
+    seen = set()
+    for tok in _IT_TITLE_TOKEN_RE.findall(tr_title):
+        wl = tok.lower()
+        if len(wl) < 4 or wl in _IT_STOPWORDS or wl in seen:
+            continue
+        seen.add(wl)
+        if not _it_word_is_suspect(tok):
+            continue
+        # Acronyms with internal periods (e.g. "D.C.") don't compose with \b
+        # at the trailing dot, so use plain substring match for them. Regular
+        # words use word-bounded match to avoid "mission" matching inside
+        # "missione".
+        if '.' in wl:
+            in_body = wl in body_lower
+        else:
+            in_body = bool(re.search(r'\b' + re.escape(wl) + r'\b', body_lower))
+        if in_body:
+            continue
+        # Word missing in body. The token is suspect → flag.
+        flagged.append(tok)
+        if len(flagged) >= max_flagged:
+            break
+    return flagged
+
 
 def _translation_lint(tr_title, tr_body, lang):
     """Lightweight checks on the translated output. Returns a list of issue dicts
@@ -799,6 +909,20 @@ def _translation_lint(tr_title, tr_body, lang):
                         "hint": ("The English word \"Mission\" appears untranslated. "
                                  "Translate it as \"Missione\" (or \"missione\" lowercase).")})
 
+        # Generic title-body coherence: flags suspect title words that don't
+        # echo in the body (anglicisms, untranslated abbreviations, wrong
+        # morphology). See _it_title_body_incoherent_words for the heuristic.
+        flagged = _it_title_body_incoherent_words(tr_title, tr_body)
+        if flagged:
+            sample = flagged[0]
+            joined = ", ".join(f'"{w}"' for w in flagged)
+            out.append({"kind": "it-title-incoherent", "sample": sample,
+                        "hint": (f"The title contains the suspect word(s) {joined} that do not "
+                                 f"appear in the body. Likely an anglicism, untranslated abbreviation, "
+                                 f"or wrong Italian morphology. Re-read the body and rewrite the title "
+                                 f"using the same words, in correct Italian (e.g. \"tensioni\" not "
+                                 f"\"Tension\", \"Stati Uniti\" not \"U.S.\", \"missione\" not \"Mission\").")})
+
     return out
 
 
@@ -866,6 +990,40 @@ def _parse_translation(result):
             if title and body and len(body) >= 50:
                 return title, body
     return None, None
+
+
+def _regenerate_title_from_body(tr_body, lang, model):
+    """Generate a fresh title from an already-translated body.
+
+    Used as last-resort when title-body coherence fails after retry: the body is
+    trusted (multi-sentence, hard to mistranslate), so a title written *from* the
+    body inherits correct morphology and avoids the per-word calque pattern.
+    Returns the new title string, or None on failure.
+    """
+    if not tr_body:
+        return None
+    lang_name = LANG_INFO[lang]["name"]
+    excerpt = tr_body[:2000]
+    prompt = (
+        f"The following is a news analysis written in {lang_name}.\n"
+        f"Write ONE news headline of 12-18 words in {lang_name} that summarizes the main fact.\n"
+        f"Use natural {lang_name} grammar and morphology. Do NOT use English words.\n"
+        f"Reply with ONLY the headline. No labels, no quotes, no explanation.\n\n"
+        f"Text:\n{excerpt}"
+    )
+    raw = ollama_client.generate(prompt, model=model, temperature=0.2, timeout=60)
+    if not raw:
+        return None
+    title = raw.strip()
+    # Strip common artifacts (labels, surrounding quotes).
+    for prefix in ("TITLE:", "TITOLO:", "TITULO:", "TÍTULO:", "TITEL:", "TITRE:", "Headline:"):
+        if title.upper().startswith(prefix):
+            title = title[len(prefix):].strip()
+    title = title.strip("\"'""''")
+    title = title.split("\n", 1)[0].strip()
+    if 5 <= len(title) <= 250:
+        return title
+    return None
 
 
 def _source_hash(title, text):
@@ -998,6 +1156,18 @@ ANALYSIS:
                     tr_title = t3
                     issues = [i for i in issues if i["kind"] != "title-untranslated"]
                     print(f"   [RECOVER] {lang.upper()} cluster {cluster_id}: title recovered via focused retry.")
+
+        # Last-resort fallback for persistent title-body incoherence (IT only):
+        # regenerate the title from the (correct) body so it inherits IT morphology.
+        if issues and any(i["kind"] == "it-title-incoherent" for i in issues):
+            new_title = _regenerate_title_from_body(tr_body, lang, model)
+            if new_title:
+                still_incoherent = _it_title_body_incoherent_words(new_title, tr_body)
+                if not still_incoherent:
+                    tr_title = new_title
+                    issues = [i for i in issues if i["kind"] != "it-title-incoherent"]
+                    print(f"   [REGEN-TITLE] {lang.upper()} cluster {cluster_id}: title "
+                          f"regenerated from body.")
 
         if issues:
             kinds = sorted({i["kind"] for i in issues})
@@ -1214,13 +1384,16 @@ def archive_previous_preview():
 
 # ── Card builder ─────────────────────────────────────────────────────────────
 
-def build_card(comp, translations, teasers=None):
+def build_card(comp, translations, teasers=None, source_urls=None):
     """Build HTML card — collapsed by default, with content in all languages.
 
     translations: dict {lang: (title, body)} for each TRANSLATION_LANGUAGES entry.
     teasers: optional {lang: text} dict — when provided and non-empty, replaces
         the meta-description card-summary with a 3-4 sentence factual+divergence
         brief. Falls back to extract_summary on a per-language basis if missing.
+    source_urls: optional {source_name: url} — when provided, source badges
+        become <a> links to the most recent article from that source in this
+        cluster.
     """
     sources_raw = comp["sources_raw"] or ""
     sources = []
@@ -1235,13 +1408,22 @@ def build_card(comp, translations, teasers=None):
             if country:
                 countries_count[country] = countries_count.get(country, 0) + 1
 
-    # Source badges
+    # Source badges — clickable when we have a URL for that source in this cluster.
+    source_urls = source_urls or {}
     badges = ""
     for name, region in sources:
         color = REGION_COLORS.get(region, "#6b7280")
         flag = SOURCE_FLAGS.get(name, "")
-        badges += (f'<span class="badge" style="background:{color}20;'
-                   f'color:{color};border:1px solid {color}40">{flag} {name}</span> ')
+        url = source_urls.get(name)
+        style = (f'background:{color}20;color:{color};'
+                 f'border:1px solid {color}40')
+        if url:
+            url_safe = html.escape(url, quote=True)
+            badges += (f'<a class="badge badge-link" href="{url_safe}" '
+                       f'target="_blank" rel="noopener noreferrer" '
+                       f'style="{style}">{flag} {name}</a> ')
+        else:
+            badges += f'<span class="badge" style="{style}">{flag} {name}</span> '
 
     # Region pills
     region_pills = ""
@@ -1379,6 +1561,27 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
     print(f"   Found {len(comps)} comparisons")
     comps = _deduplicate_comparisons(comps)
 
+    # Map (cluster_id, source_name) -> most recent article URL, so badges can
+    # link to the actual article each outlet published. Single query for all
+    # active clusters; dedup in Python keeps it simple.
+    urls_by_cluster = {}
+    if comps:
+        cluster_ids = [c["id"] for c in comps]
+        placeholders = ",".join("?" * len(cluster_ids))
+        with get_connection() as conn:
+            rows = conn.execute(f'''
+                SELECT ca.cluster_id, s.name, a.url
+                FROM cluster_articles ca
+                JOIN articles a ON a.id = ca.article_id
+                JOIN sources s ON s.id = a.source_id
+                WHERE ca.cluster_id IN ({placeholders})
+                ORDER BY ca.cluster_id, s.name,
+                         a.published_at DESC, a.id DESC
+            ''', cluster_ids).fetchall()
+        for row in rows:
+            cid, name, url = row["cluster_id"], row["name"], row["url"]
+            urls_by_cluster.setdefault(cid, {}).setdefault(name, url)
+
     for c in comps:
         c["tier"] = compute_tier(c)
     tier_order = {"A": 0, "B": 1, "C": 2}
@@ -1477,7 +1680,8 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
         )
         for comp in tier_comps:
             cards_html += build_card(comp, all_translations.get(comp["id"], {}),
-                                     teasers=all_teasers.get(comp["id"]))
+                                     teasers=all_teasers.get(comp["id"]),
+                                     source_urls=urls_by_cluster.get(comp["id"]))
         cards_html += '</section>'
 
     source_count = len(SOURCE_FLAGS)
@@ -1502,6 +1706,7 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Parallax &mdash; Same event, different vantage points</title>
+<script src="https://cdn.counter.dev/script.js" data-id="826292d8-3e18-41b5-b0b1-388fe692dcd9" data-utcoffset="2"></script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
@@ -1579,6 +1784,8 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
   }}
   .sources {{ padding: 0.3rem 1.2rem 0.5rem; display: flex; flex-wrap: wrap; gap: 0.3rem; }}
   .badge {{ display: inline-block; font-size: 0.68rem; padding: 0.15rem 0.5rem; border-radius: 3px; font-weight: 500; }}
+  a.badge-link {{ text-decoration: none; cursor: pointer; transition: filter 0.15s ease, transform 0.15s ease; }}
+  a.badge-link:hover {{ filter: brightness(1.4); transform: translateY(-1px); }}
   .region-pill {{
     display: inline-block; font-size: 0.6rem; font-weight: 700;
     padding: 0.15rem 0.4rem; border-radius: 3px; border: 1px solid;
