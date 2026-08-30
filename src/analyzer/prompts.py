@@ -4,6 +4,8 @@ All prompts are centralized here for easy iteration and improvement.
 Keep everything in English — translation is a Phase 4 feature.
 """
 
+from src.analyzer import keyword_normalize
+
 
 def summarize(title, source_name, country, content):
     """Generate a neutral 2-3 sentence summary of a news article."""
@@ -24,12 +26,16 @@ Summary in English (2-3 sentences only):"""
 def extract_keywords(title, content):
     """Extract specific keywords identifying the event."""
     content_excerpt = content[:1500] if content else ""
+    examples = keyword_normalize.prompt_examples_block()
     return f"""Extract 5-8 keywords from this news article that identify the specific event, \
 people, places, and organizations involved.
 Return ONLY a JSON array of strings. No explanation, no markdown, just the JSON array.
 Include proper nouns, specific names, countries, organizations. Avoid generic words like "news", "report", "said".
-IMPORTANT: Output keywords in ENGLISH even if the source article is in another language. \
-For proper nouns, use the common English spelling (e.g. "Putin" not "Путин", "Beijing" not "北京").
+IMPORTANT: Output keywords in ENGLISH even if the source article is in another language.
+This applies to names written in the Latin alphabet too, not only to other scripts:
+translate country, city and institution names into their English form.
+Examples: {examples}.
+The same applies to other scripts: "Putin" not "Путин", "Beijing" not "北京".
 
 Title: {title}
 Text: {content_excerpt}

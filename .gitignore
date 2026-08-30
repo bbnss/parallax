@@ -12,6 +12,11 @@
 # Source code
 !src/
 !src/**
+# ...but `!src/**` re-includes build and OS junk under src/, so re-exclude it.
+src/**/__pycache__/
+src/**/*.pyc
+src/**/.DS_Store
+src/.DS_Store
 
 # Essential pipeline scripts only
 !scripts/

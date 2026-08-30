@@ -6,7 +6,8 @@
 
 set -e
 
-REPO_DIR="/Users/bbnss/kDrive2/Claude/NotizieGeopolitica"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_DIR="$(dirname "$SCRIPT_DIR")"
 PREVIEW="$REPO_DIR/data/preview.html"
 DEPLOY_DIR="/tmp/parallax-deploy"
 REPO_URL="https://github.com/bbnss/parallax.git"

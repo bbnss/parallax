@@ -8,6 +8,7 @@ import unicodedata
 from datetime import timedelta
 from itertools import combinations
 
+from src.analyzer import keyword_normalize
 from src.db import get_connection
 
 logger = logging.getLogger(__name__)
@@ -81,7 +82,11 @@ def _keyword_set(title, keywords_json):
     if keywords_json:
         try:
             kws = json.loads(keywords_json)
-            for k in kws:
+            # Fold Italian spellings onto English before tokenizing, otherwise
+            # "Stati Uniti" tokenizes to {stati, uniti} and can never overlap
+            # {united, states}. Applied here rather than only at extraction so
+            # the articles already in the database benefit too.
+            for k in keyword_normalize.normalize_keywords(kws):
                 for w in _normalize(k).split():
                     if len(w) >= 3:
                         tokens.add(w)

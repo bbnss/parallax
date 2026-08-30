@@ -33,15 +33,23 @@ def collect(skip_scrape, verbose):
     stats = collect_all(skip_scrape=skip_scrape)
 
     click.echo(f"\nCollection complete:")
-    click.echo(f"  New articles: {stats['total_new']}")
-    click.echo(f"  Sources OK:   {stats['sources_ok']}")
+    click.echo(f"  New articles:   {stats['total_new']}")
+    click.echo(f"  Sources OK:     {stats['sources_ok']}")
+    click.echo(f"  Sources empty:  {stats.get('sources_empty', 0)}")
     click.echo(f"  Sources failed: {stats['sources_failed']}")
+
+    rounds = stats.get("retry_rounds", [])
+    if len(rounds) > 1:
+        click.echo(f"  Retry rounds:   {len(rounds) - 1}")
+        for r in rounds[1:]:
+            click.echo(f"    round {r['round']}: {r['problematic_after']} still problematic "
+                       f"(empty={r['empty']} failed={r['failed']})")
 
     if stats["sources_failed"] > 0:
         click.echo("\nFailed sources:")
         for d in stats["details"]:
-            if "error" in d:
-                click.echo(f"  - {d['name']}: {d['error']}", err=True)
+            if d.get("status") == "failed":
+                click.echo(f"  - {d['name']}: {d.get('error', 'unknown')}", err=True)
 
     click.echo("\nArticle counts per source (active only):")
     rows = get_article_count_by_source()

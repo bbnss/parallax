@@ -72,7 +72,7 @@ fi
 # Step 6: v2 fact-extraction pipeline (parallel — runs on the same clusters
 # v1 covered, writes to data/v2/ in the v2 worktree). Failure here does NOT
 # affect v1's output, which is already deployed.
-V2_DIR="/Users/bbnss/kDrive2/Claude/parallax-v2"
+V2_DIR="$PROJECT_DIR/v2"
 if [ "$PIPELINE_OK" = "1" ] && [ -x "$V2_DIR/.venv/bin/python" ]; then
     log "Step 6: Running v2 fact-extraction pipeline..."
     if (cd "$V2_DIR" && .venv/bin/python scripts/v2/run_daily.py) >> "$LOG_FILE" 2>&1; then

@@ -11,7 +11,15 @@ load_dotenv(PROJECT_ROOT / ".env")
 
 # Ollama
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "gemma4:e4b")
+# Quality model — used for comparator output, geopolitical gate, cluster title refinement.
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "gemma4:12b")
+# Fast model — used for high-volume summarization and keyword extraction.
+# This one carries ~90% of the nightly work (2 calls per article, ~420 articles).
+FAST_MODEL = os.getenv("FAST_MODEL", "gemma4:e2b")
+# Model reasoning. Gemma 4 reasons by default on Ollama and the reasoning is then
+# discarded, so it costs time and buys nothing: measured at 30.9s → 5.4s per article
+# on the summarize+keywords pair, and 25.8s → 1.2s on the YES/NO gates, same answers.
+OLLAMA_THINK = os.getenv("OLLAMA_THINK", "false").lower() == "true"
 TRANSLATE_MODEL = os.getenv("TRANSLATE_MODEL", OLLAMA_MODEL)  # fallback to main model if not set
 
 # Paths

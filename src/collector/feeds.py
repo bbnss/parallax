@@ -24,6 +24,13 @@ logger = logging.getLogger(__name__)
 # Maximum articles to collect per source per run (keeps processing time manageable)
 MAX_ARTICLES_PER_SOURCE = 40
 
+# Retry tuning for transient network outages at cron time.
+# If >= RETRY_THRESHOLD of feeds come back empty/failed, sleep RETRY_SLEEP_SECONDS
+# and retry only the problematic ones. Up to RETRY_MAX_ROUNDS extra rounds.
+RETRY_THRESHOLD = 0.50
+RETRY_SLEEP_SECONDS = 7 * 60
+RETRY_MAX_ROUNDS = 3
+
 
 def load_sources():
     """Load RSS sources from YAML config and sync them to the database."""
@@ -56,37 +63,52 @@ def parse_published_date(entry):
 
 
 def fetch_feed(source):
-    """Fetch and parse an RSS feed for a given source. Returns list of entries."""
+    """Fetch and parse an RSS feed.
+
+    Returns:
+        (entries, status, error) tuple where status is one of:
+          - "ok": feed parsed and returned >=1 entry
+          - "empty": feed parsed cleanly but returned 0 entries
+          - "failed": network/parse error or bozo with no entries
+    """
     feed_url = source["feed_url"]
     logger.info(f"Fetching feed: {source['name']} ({feed_url})")
 
-    feed = feedparser.parse(
-        feed_url,
-        agent=config.USER_AGENT,
-    )
+    try:
+        feed = feedparser.parse(feed_url, agent=config.USER_AGENT)
+    except Exception as e:
+        logger.warning(f"  Exception fetching {source['name']}: {e}")
+        return [], "failed", str(e)
+
+    if feed.bozo and not feed.entries:
+        err = str(getattr(feed, "bozo_exception", "parse error"))
+        logger.warning(f"  Failed to parse feed for {source['name']}: {err}")
+        return [], "failed", err
 
     if feed.bozo:
-        if not feed.entries:
-            logger.warning(f"Failed to parse feed for {source['name']}: {feed.bozo_exception}")
-            return []
-        else:
-            logger.debug(f"Feed for {source['name']} has minor XML issues but entries were found, continuing")
+        logger.debug(f"Feed for {source['name']} has minor XML issues but entries were found")
 
-    logger.info(f"  Found {len(feed.entries)} entries from {source['name']}")
-    return feed.entries
+    n = len(feed.entries)
+    logger.info(f"  Found {n} entries from {source['name']}")
+    if n == 0:
+        return [], "empty", None
+    return feed.entries, "ok", None
 
 
 def collect_from_source(source, skip_scrape=False):
     """Collect new articles from a single source.
 
-    Args:
-        source: Database row for the source
-        skip_scrape: If True, skip full-text extraction (faster, for testing)
-
     Returns:
-        Number of new articles collected
+        dict {name, status, new, error} where status is:
+          - "ok": fetch succeeded and >=1 NEW article was inserted
+          - "ok_no_new": fetch succeeded but every entry was already in DB
+          - "empty": feed returned 0 entries (genuine or feed-side issue)
+          - "failed": network or parse error
     """
-    entries = fetch_feed(source)
+    entries, fetch_status, fetch_err = fetch_feed(source)
+    if fetch_status != "ok":
+        return {"name": source["name"], "status": fetch_status, "new": 0, "error": fetch_err}
+
     new_count = 0
     last_domain = None
 
@@ -154,37 +176,91 @@ def collect_from_source(source, skip_scrape=False):
             new_count += 1
             logger.debug(f"  New: {title[:80]}")
 
-    return new_count
+    status = "ok" if new_count > 0 else "ok_no_new"
+    return {"name": source["name"], "status": status, "new": new_count, "error": None}
+
+
+def _run_collection_round(sources, skip_scrape):
+    """Run one collection pass over the given sources. Returns list of per-source results."""
+    results = []
+    for source in sources:
+        try:
+            res = collect_from_source(source, skip_scrape=skip_scrape)
+        except Exception as e:
+            res = {"name": source["name"], "status": "failed", "new": 0, "error": str(e)}
+            logger.error(f"  Error collecting from {source['name']}: {e}")
+        # Structured per-feed line that pmon can parse
+        logger.info(
+            f"[FEED] {res['name']}: status={res['status']} new={res['new']}"
+            + (f" error={res['error']}" if res.get("error") else "")
+        )
+        results.append(res)
+        time.sleep(1)
+    return results
 
 
 def collect_all(skip_scrape=False):
-    """Run the full collection pipeline: load sources, fetch all feeds, store articles.
+    """Run the full collection pipeline with retry on transient outages.
 
-    Args:
-        skip_scrape: If True, skip full-text extraction (faster, for testing)
-
-    Returns:
-        Dict with collection statistics
+    If >= RETRY_THRESHOLD of feeds come back empty/failed in a round, sleep
+    RETRY_SLEEP_SECONDS and re-attempt only those problematic feeds, up to
+    RETRY_MAX_ROUNDS extra rounds.
     """
     init_db()
     load_sources()
 
     sources = get_active_sources()
-    stats = {"total_new": 0, "sources_ok": 0, "sources_failed": 0, "details": []}
+    total = len(sources)
 
-    for source in sources:
-        try:
-            new_count = collect_from_source(source, skip_scrape=skip_scrape)
-            stats["total_new"] += new_count
-            stats["sources_ok"] += 1
-            stats["details"].append({"name": source["name"], "new": new_count})
-            logger.info(f"  {source['name']}: {new_count} new articles")
-        except Exception as e:
-            stats["sources_failed"] += 1
-            stats["details"].append({"name": source["name"], "error": str(e)})
-            logger.error(f"  Error collecting from {source['name']}: {e}")
+    # Round 0 (initial): all sources
+    results_by_name = {}
+    round_log = []
 
-        # Delay between sources
-        time.sleep(1)
+    current_batch = list(sources)
+    for round_idx in range(RETRY_MAX_ROUNDS + 1):
+        round_results = _run_collection_round(current_batch, skip_scrape)
+        for r in round_results:
+            results_by_name[r["name"]] = r
 
+        problematic = [r for r in results_by_name.values() if r["status"] in ("empty", "failed")]
+        n_problem = len(problematic)
+        empty = sum(1 for r in problematic if r["status"] == "empty")
+        failed = sum(1 for r in problematic if r["status"] == "failed")
+        round_log.append({
+            "round": round_idx,
+            "attempted": len(current_batch),
+            "problematic_after": n_problem,
+            "empty": empty,
+            "failed": failed,
+        })
+
+        if round_idx >= RETRY_MAX_ROUNDS:
+            break
+        if total == 0 or (n_problem / total) < RETRY_THRESHOLD:
+            break
+
+        logger.warning(
+            f"[RETRY] round={round_idx + 1}/{RETRY_MAX_ROUNDS} "
+            f"problematic={n_problem}/{total} (empty={empty} failed={failed}) "
+            f"sleeping={RETRY_SLEEP_SECONDS}s"
+        )
+        time.sleep(RETRY_SLEEP_SECONDS)
+        # Retry only problematic ones
+        problem_names = {r["name"] for r in problematic}
+        current_batch = [s for s in sources if s["name"] in problem_names]
+
+    # Aggregate stats (last status wins for each source)
+    final = list(results_by_name.values())
+    stats = {
+        "total_new": sum(r["new"] for r in final),
+        "sources_ok": sum(1 for r in final if r["status"] in ("ok", "ok_no_new")),
+        "sources_empty": sum(1 for r in final if r["status"] == "empty"),
+        "sources_failed": sum(1 for r in final if r["status"] == "failed"),
+        "details": final,
+        "retry_rounds": round_log,
+    }
+    for d in final:
+        logger.info(f"  {d['name']}: {d['new']} new articles [{d['status']}]")
+    if len(round_log) > 1:
+        logger.info(f"[RETRY] completed {len(round_log) - 1} retry round(s)")
     return stats

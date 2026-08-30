@@ -3,7 +3,7 @@
 import json
 import logging
 
-from src.analyzer import ollama_client, prompts
+from src.analyzer import article_sections, ollama_client, prompts
 from src.db import get_connection
 
 logger = logging.getLogger(__name__)
@@ -127,7 +127,11 @@ def generate_comparison(cluster_id):
         russia_articles=russia,
         factions_present=factions,
     )
-    comparison_text = ollama_client.generate(prompt, temperature=0.4, timeout=180)
+    # The 180s that fitted e4b leaves 3s of margin on the 12b: the largest real
+    # cluster (47 articles, 4528 prompt tokens) measured 177.0s. num_predict caps
+    # the work at 4096 tokens, which at ~9 tok/s cannot exceed ~500s.
+    comparison_text = ollama_client.generate(prompt, temperature=0.4, timeout=600,
+                                             num_predict=4096)
 
     if not comparison_text:
         logger.error(f"Empty comparison generated for cluster {cluster_id}")
@@ -163,43 +167,23 @@ def generate_comparison(cluster_id):
 
 
 def _parse_sections(text):
-    """Extract named sections from the comparison markdown text."""
-    sections = {}
-    current_key = None
-    current_lines = []
+    """Extract named sections from the comparison markdown text.
 
-    section_map = {
-        "factual agreement":      "factual_agreement",
-        "key differences":        "key_differences",
-        "western framing":        "western_framing",
-        "eastern framing":        "eastern_framing",
-        "middle eastern framing": "middle_east_framing",
-        "middle east framing":    "middle_east_framing",
-        "russian framing":        "russian_framing",
-        "russia framing":         "russian_framing",
-        "notable omissions":      "notable_omissions",
-        "geopolitical context":   "geopolitical_context",
-        # legacy 2-faction names
-        "framing differences":    "key_differences",
-        "western emphasis":       "western_framing",
-        "non-western emphasis":   "eastern_framing",
-        "context and background": "geopolitical_context",
+    Delegates to article_sections, which parses by section order and by the bold
+    faction labels rather than by literal header names — the prompt asks the model
+    to invent its headers, so a name-based map matched only by luck.
+    """
+    parsed = article_sections.parse(text)
+    return {
+        "factual_agreement":   parsed.get("facts", ""),
+        "key_differences":     parsed.get("divergence", ""),
+        "western_framing":     parsed.get("western", ""),
+        "eastern_framing":     parsed.get("eastern", ""),
+        "middle_east_framing": parsed.get("middle_east", ""),
+        "russian_framing":     parsed.get("russia", ""),
+        "notable_omissions":   parsed.get("omissions", ""),
+        "geopolitical_context": parsed.get("geopolitical", ""),
     }
-
-    for line in text.split("\n"):
-        stripped = line.strip().lstrip("#").strip().lower()
-        if stripped in section_map:
-            if current_key:
-                sections[current_key] = "\n".join(current_lines).strip()
-            current_key = section_map[stripped]
-            current_lines = []
-        elif current_key:
-            current_lines.append(line)
-
-    if current_key:
-        sections[current_key] = "\n".join(current_lines).strip()
-
-    return sections
 
 
 def process_unpublished_clusters():

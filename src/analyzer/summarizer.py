@@ -3,6 +3,8 @@
 import json
 import logging
 
+from src import config
+from src.analyzer import keyword_normalize
 from src.analyzer import ollama_client
 from src.analyzer import prompts
 from src.db import get_connection
@@ -38,14 +40,14 @@ def summarize_article(article_id, title, source_name, country, content_raw):
     Returns:
         (summary: str, keywords: list[str])
     """
-    # Summary
+    # Summary — use the fast model: this is bulk compression, quality not critical.
     summary_prompt = prompts.summarize(title, source_name, country, content_raw or "")
-    summary = ollama_client.generate(summary_prompt, temperature=0.2)
+    summary = ollama_client.generate(summary_prompt, model=config.FAST_MODEL, temperature=0.2)
 
-    # Keywords
+    # Keywords — also fast model.
     keyword_prompt = prompts.extract_keywords(title, content_raw or "")
-    keywords_raw = ollama_client.generate(keyword_prompt, temperature=0.1)
-    keywords = _parse_keywords(keywords_raw)
+    keywords_raw = ollama_client.generate(keyword_prompt, model=config.FAST_MODEL, temperature=0.1)
+    keywords = keyword_normalize.normalize_keywords(_parse_keywords(keywords_raw))
 
     return summary, keywords
 
@@ -73,7 +75,7 @@ def process_unprocessed_articles(batch_size=50, limit=None):
         articles = conn.execute(query).fetchall()
 
     total = len(articles)
-    logger.info(f"Processing {total} unprocessed articles...")
+    logger.info(f"Processing {total} unprocessed articles (model={config.FAST_MODEL})...")
 
     processed = 0
     failed = 0

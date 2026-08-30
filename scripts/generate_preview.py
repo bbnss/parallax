@@ -28,7 +28,7 @@ from difflib import SequenceMatcher
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.db import get_connection
-from src.analyzer import ollama_client
+from src.analyzer import article_sections, ollama_client
 
 # ── Source-specific flag mapping ─────────────────────────────────────────────
 SOURCE_FLAGS = {
@@ -1266,27 +1266,37 @@ def _teaser_regions(sources_raw):
 
 def _build_teaser_prompt(comp):
     comparison_text = comp.get("comparison_text") or ""
-    facts = _teaser_extract_section(comparison_text, "Undisputed Facts")
-    diverge = _teaser_first_paragraph(
-        _teaser_extract_section(comparison_text, "Accounts Diverge")
-        or _teaser_extract_section(comparison_text, "Where")
-    )
-    western = _teaser_first_paragraph(_teaser_extract_section(comparison_text, "Western"))
-    other = _teaser_first_paragraph(
-        _teaser_extract_section(comparison_text, "Middle Eastern")
-        or _teaser_extract_section(comparison_text, "Eastern")
-        or _teaser_extract_section(comparison_text, "Russian")
-    )
-    if not facts:
-        facts = _teaser_first_paragraph(comparison_text)
+    parsed = article_sections.parse(comparison_text)
+    other = "\n\n".join(filter(None, [
+        parsed.get("middle_east", ""),
+        parsed.get("eastern", ""),
+        parsed.get("russia", ""),
+    ]))
+    # Only advertise the regions the article actually analyses. The cluster can
+    # hold a region whose faction fell below MIN_ARTICLES_PER_SIDE and so never
+    # made the piece; listing it invited the model to summarize a perspective that
+    # was not there ("Middle Eastern sources emphasize...").
+    covered = {f for f in ("western", "eastern", "middle_east", "russia") if parsed.get(f)}
+    regions = [r for r in _teaser_regions(comp.get("sources_raw")) if r in covered]
     return _TEASER_PROMPT_TEMPLATE.format(
         title=comp["title"],
-        regions=", ".join(_teaser_regions(comp.get("sources_raw"))),
-        facts=facts,
-        diverge=diverge,
-        western=western,
-        other=other,
+        regions=", ".join(regions or _teaser_regions(comp.get("sources_raw"))),
+        facts=parsed.get("facts", ""),
+        diverge=_teaser_first_paragraph(parsed.get("divergence", "")),
+        western=_teaser_first_paragraph(parsed.get("western", "")),
+        other=_teaser_first_paragraph(other),
     )
+
+
+def teaser_prompt_is_usable(comp):
+    """True when the article actually yielded material to summarize.
+
+    Guards the failure this replaced: an unparsed article produced a blank
+    template, and the model invented people and sources to fill it.
+    """
+    parsed = article_sections.parse(comp.get("comparison_text") or "")
+    factions = [parsed.get(f) for f in ("western", "eastern", "middle_east", "russia")]
+    return bool(parsed.get("facts")) and any(factions)
 
 
 def _load_or_generate_teaser_en(comp, gen_model):
@@ -1296,6 +1306,13 @@ def _load_or_generate_teaser_en(comp, gen_model):
     Returns "" on LLM failure — caller must fall back to extract_summary.
     """
     if not comp.get("comparison_text"):
+        return ""
+    if not teaser_prompt_is_usable(comp):
+        # Better a plain extract than a summary the model had to invent: an
+        # unparsed article used to yield a blank prompt, and the model filled it
+        # with people and outlets that were never in the piece.
+        print(f"   [TEASER-SKIP] cluster {comp.get('id')}: article yielded no "
+              f"parsable sections — falling back to extract_summary.")
         return ""
     os.makedirs(TEASERS_CACHE_DIR, exist_ok=True)
     cluster_id = comp["id"]
