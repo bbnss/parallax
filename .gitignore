@@ -23,3 +23,4 @@ src/.DS_Store
 !scripts/generate_preview.py
 !scripts/deploy_site.sh
 !scripts/run_pipeline.sh
+!scripts/cleanup_refusal_summaries.py

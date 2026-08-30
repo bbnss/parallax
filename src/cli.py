@@ -130,7 +130,8 @@ def analyze(limit, skip_matching, skip_compare, verbose):
     elapsed = time.time() - t0
     tokens = get_token_stats()
     click.echo(
-        f"  Done: {sum_stats['processed']} summarized, {sum_stats['failed']} failed "
+        f"  Done: {sum_stats['processed']} summarized, {sum_stats['failed']} failed, "
+        f"{sum_stats['skipped']} skipped (no body) "
         f"({elapsed:.0f}s) — LLM: {tokens['calls']} calls, "
         f"{tokens['total_tokens']:,} tokens"
     )

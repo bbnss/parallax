@@ -55,10 +55,10 @@ western:
     language: it
 
 eastern:
-  - name: Xinhua English
-    feed_url: https://english.news.cn/rss/worldrss.xml
-    country: CN
-    language: en
+  # Xinhua English removed 2026-08-30: the feed at english.news.cn/rss/worldrss.xml
+  # still returns HTTP 200 with 20 entries, but they are all from 2017-2018, so the
+  # 48h freshness filter dropped every one. It never collected a single article and
+  # reported "ok_no_new" the whole time, hiding inside the "Sources OK" count.
 
   - name: CGTN
     feed_url: https://www.cgtn.com/subscribe/rss/section/world.xml

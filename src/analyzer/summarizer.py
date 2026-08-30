@@ -34,6 +34,35 @@ def _parse_keywords(raw):
     return [k.strip().strip('"') for k in raw.split(",") if k.strip()]
 
 
+# The model, handed a body it considers unusable, does not fail — it answers in
+# prose ("No content was provided in the article, therefore a summary cannot be
+# generated."), which is then stored *as* the summary. MIN_CONTENT_CHARS catches the
+# empty scrapes; this catches the ones that come back long enough to pass but hold
+# only boilerplate — video-player errors, cookie notices, a bare title.
+_REFUSAL_MARKERS = (
+    "no content was provided",
+    "cannot be generated",
+    "please provide the article",
+    "i need the content",
+    "cannot summarize the article",
+    "source text is unavailable",
+    "unable to generate a summary",
+    "no article text",
+    "provide the content",
+    "does not contain the content",
+    "does not contain the article",
+    "does not contain a substantive article",
+)
+
+
+def _is_refusal(summary):
+    """True if the model declined to summarize instead of summarizing."""
+    if not summary:
+        return True
+    low = summary.lower()
+    return any(marker in low for marker in _REFUSAL_MARKERS)
+
+
 def summarize_article(article_id, title, source_name, country, content_raw):
     """Generate a summary and keywords for one article via Ollama.
 
@@ -79,8 +108,23 @@ def process_unprocessed_articles(batch_size=50, limit=None):
 
     processed = 0
     failed = 0
+    skipped = 0
 
     for i, article in enumerate(articles, 1):
+        # Scrape failed (paywall/403/Cloudflare): there is no body to compress.
+        # Mark it processed so it is not retried forever, but leave summary NULL —
+        # the matcher's `summary IS NOT NULL` gate then keeps it out of clustering.
+        if len((article["content_raw"] or "").strip()) < config.MIN_CONTENT_CHARS:
+            with get_connection() as conn:
+                conn.execute(
+                    "UPDATE articles SET processed=1 WHERE id=?", (article["id"],)
+                )
+            skipped += 1
+            logger.debug(
+                f"  Skipped (no body): {article['source_name']} — {article['title'][:60]}"
+            )
+            continue
+
         try:
             summary, keywords = summarize_article(
                 article_id=article["id"],
@@ -89,6 +133,19 @@ def process_unprocessed_articles(batch_size=50, limit=None):
                 country=article["country"] or "?",
                 content_raw=article["content_raw"],
             )
+
+            if _is_refusal(summary):
+                # Body passed the length gate but held nothing summarizable.
+                with get_connection() as conn:
+                    conn.execute(
+                        "UPDATE articles SET processed=1 WHERE id=?", (article["id"],)
+                    )
+                skipped += 1
+                logger.debug(
+                    f"  Skipped (model declined): {article['source_name']} — "
+                    f"{article['title'][:60]}"
+                )
+                continue
 
             with get_connection() as conn:
                 conn.execute(
@@ -113,5 +170,8 @@ def process_unprocessed_articles(batch_size=50, limit=None):
                     (article["id"],),
                 )
 
-    logger.info(f"Summarization complete: {processed} OK, {failed} failed")
-    return {"processed": processed, "failed": failed, "total": total}
+    logger.info(
+        f"Summarization complete: {processed} OK, {failed} failed, "
+        f"{skipped} skipped (no body)"
+    )
+    return {"processed": processed, "failed": failed, "skipped": skipped, "total": total}

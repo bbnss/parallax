@@ -87,7 +87,8 @@ def generate_comparison(cluster_id):
                FROM articles a
                JOIN cluster_articles ca ON ca.article_id = a.id
                JOIN sources s ON a.source_id = s.id
-               WHERE ca.cluster_id = ?""",
+               WHERE ca.cluster_id = ?
+                 AND a.summary IS NOT NULL""",
             (cluster_id,),
         ).fetchall()
 

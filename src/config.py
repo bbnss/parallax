@@ -29,6 +29,12 @@ SOURCES_FILE = PROJECT_ROOT / "src" / "collector" / "sources.yaml"
 
 # Collector
 FETCH_DELAY_SECONDS = int(os.getenv("FETCH_DELAY_SECONDS", "2"))
+# Minimum body length for an article to be worth summarizing. Below this the
+# scrape effectively failed (paywall, 403, Cloudflare) and the LLM has nothing
+# to compress: asked anyway it answers "No content was provided in the article,
+# therefore a summary cannot be generated." — which then got stored *as* the
+# summary. Worse, those identical strings clustered together perfectly.
+MIN_CONTENT_CHARS = int(os.getenv("MIN_CONTENT_CHARS", "100"))
 USER_AGENT = os.getenv("USER_AGENT", "NotizieGeopolitica/1.0 (personal research project)")
 
 # Hugo
