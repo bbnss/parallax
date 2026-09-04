@@ -22,13 +22,14 @@ import json
 import html
 import shutil
 import hashlib
-from datetime import datetime
+from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.db import get_connection
 from src.analyzer import article_sections, ollama_client
+from src.generator import site_build
 
 # ── Source-specific flag mapping ─────────────────────────────────────────────
 SOURCE_FLAGS = {
@@ -105,6 +106,12 @@ UI_STRINGS = {
         "tierA": "Confirmed globally", "tierB": "Cross-bloc coverage", "tierC": "Partial coverage",
         "countryCoverage": "Local coverage",
         "source1": "source", "sourceN": "sources",
+        "searchPlaceholder": "Search past stories...", "clear": "Clear",
+        "loadMore": "Load older stories", "loading": "Loading...",
+        "results": "results", "noResults": "No match yet",
+        "searchDeeper": "Search further back", "endOfArchive": "Beginning of the archive",
+        "archiveTitle": "Archive", "searchedThrough": "searched back to",
+        "archived": "archived",
     },
     "it": {
         "tagline": "Stesso evento. Punti di vista diversi.",
@@ -114,6 +121,12 @@ UI_STRINGS = {
         "tierA": "Confermata globalmente", "tierB": "Copertura cross-bloc", "tierC": "Copertura parziale",
         "countryCoverage": "Copertura italiana",
         "source1": "fonte", "sourceN": "fonti",
+        "searchPlaceholder": "Cerca tra le notizie passate...", "clear": "Pulisci",
+        "loadMore": "Carica notizie precedenti", "loading": "Caricamento...",
+        "results": "risultati", "noResults": "Nessun risultato finora",
+        "searchDeeper": "Cerca piu indietro", "endOfArchive": "Inizio dell'archivio",
+        "archiveTitle": "Archivio", "searchedThrough": "cercato fino a",
+        "archived": "in archivio",
     },
     "es": {
         "tagline": "Mismo evento. Diferentes puntos de vista.",
@@ -123,6 +136,12 @@ UI_STRINGS = {
         "tierA": "Confirmada globalmente", "tierB": "Cobertura cross-bloc", "tierC": "Cobertura parcial",
         "countryCoverage": "Cobertura espanola",
         "source1": "fuente", "sourceN": "fuentes",
+        "searchPlaceholder": "Buscar noticias anteriores...", "clear": "Limpiar",
+        "loadMore": "Cargar noticias anteriores", "loading": "Cargando...",
+        "results": "resultados", "noResults": "Sin resultados todavia",
+        "searchDeeper": "Buscar mas atras", "endOfArchive": "Inicio del archivo",
+        "archiveTitle": "Archivo", "searchedThrough": "buscado hasta",
+        "archived": "archivadas",
     },
     "de": {
         "tagline": "Gleiches Ereignis. Verschiedene Blickwinkel.",
@@ -132,6 +151,12 @@ UI_STRINGS = {
         "tierA": "Global bestaetigt", "tierB": "Blockuebergreifend", "tierC": "Teilabdeckung",
         "countryCoverage": "Deutsche Abdeckung",
         "source1": "Quelle", "sourceN": "Quellen",
+        "searchPlaceholder": "Aeltere Meldungen durchsuchen...", "clear": "Loeschen",
+        "loadMore": "Aeltere Meldungen laden", "loading": "Laedt...",
+        "results": "Treffer", "noResults": "Noch kein Treffer",
+        "searchDeeper": "Weiter zurueck suchen", "endOfArchive": "Anfang des Archivs",
+        "archiveTitle": "Archiv", "searchedThrough": "durchsucht bis",
+        "archived": "im Archiv",
     },
     "fr": {
         "tagline": "Meme evenement. Points de vue differents.",
@@ -141,6 +166,12 @@ UI_STRINGS = {
         "tierA": "Confirmee mondialement", "tierB": "Couverture inter-blocs", "tierC": "Couverture partielle",
         "countryCoverage": "Couverture francaise",
         "source1": "source", "sourceN": "sources",
+        "searchPlaceholder": "Rechercher dans les archives...", "clear": "Effacer",
+        "loadMore": "Charger les articles precedents", "loading": "Chargement...",
+        "results": "resultats", "noResults": "Aucun resultat pour l'instant",
+        "searchDeeper": "Chercher plus loin", "endOfArchive": "Debut des archives",
+        "archiveTitle": "Archives", "searchedThrough": "recherche jusqu'a",
+        "archived": "archivés",
     },
 }
 
@@ -148,6 +179,14 @@ UI_STRINGS = {
 SAME_DAY_THRESHOLD  = 0.78
 CROSS_DAY_THRESHOLD = 0.65
 PREVIEW_MAX_CARDS   = 25
+
+# The dedup window (--days) and the home-page window are deliberately different:
+# dedup needs 3 days of context to catch the same story re-clustered under a new
+# id, while the home page shows only the freshest stories -- everything older is
+# reachable through the archive (infinite scroll + search). PREVIEW_MIN_CARDS
+# keeps the first screen full on quiet nights that produce 1-2 stories.
+PREVIEW_HOME_DAYS = 1
+PREVIEW_MIN_CARDS = 6
 
 # Entity-based dedup: catches the "same story, different phrasing" case that
 # cosine alone misses (e.g. 2026-05-03 clusters 252 "plans to withdraw troops"
@@ -308,7 +347,10 @@ def _pick_globe_region(regions):
 def build_globe_svg(regions_seen, card_id):
     offset = GLOBE_OFFSETS.get(_pick_globe_region(regions_seen), -40)
     dots = ""
-    for r in regions_seen:
+    # Sorted, not set order: the archive stores this markup verbatim, and set
+    # iteration order varies per process (hash randomisation), which would make
+    # every rebuild produce different bytes for identical cards.
+    for r in sorted(regions_seen):
         if r in REGION_DOT_POS:
             x, y = REGION_DOT_POS[r]
             color = REGION_COLORS.get(r, "#6b7280")
@@ -380,13 +422,23 @@ def strip_preamble(text):
 
 # ── Deduplication ────────────────────────────────────────────────────────────
 
-def _deduplicate_comparisons(comps):
+def _deduplicate_comparisons(comps, return_groups=False):
+    """Merge near-duplicate cards; keep one winner per group.
+
+    return_groups: also return {winner_cluster_id: [merged cluster ids]} for the
+        groups that actually merged something. The archive uses it so a story
+        already published under one cluster id is not re-published tomorrow
+        under the id of a near-duplicate cluster.
+    """
+    def _out(result, groups):
+        return (result, groups) if return_groups else result
+
     if len(comps) < 2:
-        return comps
+        return _out(comps, {})
     try:
         from src.analyzer.matcher import _get_embedding, _cosine_similarity
     except ImportError:
-        return comps[:PREVIEW_MAX_CARDS]
+        return _out(comps[:PREVIEW_MAX_CARDS], {})
 
     embeddings = [_get_embedding(c["title"]) for c in comps]
     entities = [_extract_entities(c["title"]) for c in comps]
@@ -437,6 +489,7 @@ def _deduplicate_comparisons(comps):
         groups.setdefault(find(i), []).append(i)
 
     kept = set()
+    merged_ids = {}   # winner cluster id -> [merged-away cluster ids]
     for group in groups.values():
         if len(group) == 1:
             kept.add(group[0])
@@ -447,6 +500,8 @@ def _deduplicate_comparisons(comps):
             else:
                 winner = max(group, key=lambda i: comps[i]["event_date"])
             kept.add(winner)
+            merged_ids[comps[winner]["id"]] = [comps[i]["id"] for i in group
+                                               if i != winner]
 
     result = [c for i, c in enumerate(comps) if i in kept]
     removed = len(comps) - len(result)
@@ -457,7 +512,10 @@ def _deduplicate_comparisons(comps):
     if removed:
         print(f"   Smart dedup: removed {removed} duplicate(s) -> {len(result)} shown "
               f"(cosine: {cosine_merges}, entity: {entity_merges})")
-    return result
+    # Cards dropped by the cap never reach the archive, so drop their groups too.
+    surviving = {c["id"] for c in result}
+    merged_ids = {k: v for k, v in merged_ids.items() if k in surviving}
+    return _out(result, merged_ids)
 
 
 # ── Markdown to HTML ─────────────────────────────────────────────────────────
@@ -1401,7 +1459,42 @@ def archive_previous_preview():
 
 # ── Card builder ─────────────────────────────────────────────────────────────
 
-def build_card(comp, translations, teasers=None, source_urls=None):
+def parse_sources_raw(sources_raw):
+    """GROUP_CONCAT('name@@region@@country') -> [{name, region, country}].
+
+    Shared by the card renderer and the feed builder so a badge on the page and
+    a source in feed.json always describe the same set of outlets.
+    """
+    out = []
+    for item in (sources_raw or "").split(","):
+        parts = item.split("@@")
+        if len(parts) >= 3:
+            out.append({"name": parts[0].strip(),
+                        "region": parts[1].strip(),
+                        "country": parts[2].strip() or None})
+    return out
+
+
+def build_bodies(comp, translations):
+    """Render the full analysis as HTML, one entry per language.
+
+    Used both for inline cards and for the archive's archive/full/<id>.json,
+    so the two can never drift apart.
+    """
+    bodies = {}
+    en_body = strip_preamble(comp["comparison_text"])
+    bodies["en"] = md_to_html(en_body, card_id=comp["id"])
+    for lang in TRANSLATION_LANGUAGES:
+        t_body = translations.get(lang, (None, None))[1]
+        if t_body:
+            bodies[lang] = md_to_html(strip_preamble(t_body),
+                                      card_id=f"{comp['id']}{lang}")
+        else:
+            bodies[lang] = '<p class="no-translation">Translation not available.</p>'
+    return bodies
+
+
+def build_card(comp, translations, teasers=None, source_urls=None, include_body=True):
     """Build HTML card — collapsed by default, with content in all languages.
 
     translations: dict {lang: (title, body)} for each TRANSLATION_LANGUAGES entry.
@@ -1411,19 +1504,19 @@ def build_card(comp, translations, teasers=None, source_urls=None):
     source_urls: optional {source_name: url} — when provided, source badges
         become <a> links to the most recent article from that source in this
         cluster.
+    include_body: when False the .card-body is left empty and the analysis is
+        fetched from archive/full/<id>.json on expand. This is what keeps
+        index.html and the monthly archive shards small — the full analysis in
+        5 languages is ~90% of a card's weight.
     """
-    sources_raw = comp["sources_raw"] or ""
     sources = []
     regions_seen = set()
     countries_count = {}
-    for item in sources_raw.split(","):
-        parts = item.split("@@")
-        if len(parts) >= 3:
-            name, region, country = parts[0].strip(), parts[1].strip(), parts[2].strip()
-            sources.append((name, region))
-            regions_seen.add(region)
-            if country:
-                countries_count[country] = countries_count.get(country, 0) + 1
+    for entry in parse_sources_raw(comp["sources_raw"]):
+        sources.append((entry["name"], entry["region"]))
+        regions_seen.add(entry["region"])
+        if entry["country"]:
+            countries_count[entry["country"]] = countries_count.get(entry["country"], 0) + 1
 
     # Source badges — clickable when we have a URL for that source in this cluster.
     source_urls = source_urls or {}
@@ -1508,27 +1601,27 @@ def build_card(comp, translations, teasers=None, source_urls=None):
         f'</button>'
     )
 
-    # Bodies
-    en_body = strip_preamble(comp["comparison_text"])
-    en_body_html = md_to_html(en_body, card_id=cid)
-    bodies_html = f'<div class="comparison lang-en">{en_body_html}</div>\n'
-    for lang in TRANSLATION_LANGUAGES:
-        t_body = translations.get(lang, (None, None))[1]
-        if t_body:
-            t_stripped = strip_preamble(t_body)
-            t_html = md_to_html(t_stripped, card_id=f"{cid}{lang}")
-        else:
-            t_html = '<p class="no-translation">Translation not available.</p>'
-        bodies_html += f'            <div class="comparison lang-{lang}" style="display:none">{t_html}</div>\n'
+    # Bodies — omitted unless explicitly requested (see include_body).
+    bodies_html = ""
+    if include_body:
+        bodies = build_bodies(comp, translations)
+        bodies_html = f'<div class="comparison lang-en">{bodies["en"]}</div>\n'
+        for lang in TRANSLATION_LANGUAGES:
+            bodies_html += (f'            <div class="comparison lang-{lang}" '
+                            f'style="display:none">{bodies[lang]}</div>\n')
+
+    slug = html.escape(comp.get("slug") or str(cid), quote=True)
 
     return f"""
     <article class="card tier-{tier.lower()}" style="--tier-color:{tier_color}"
+             data-cluster-id="{cid}" data-slug="{slug}" data-date="{comp["event_date"]}"
              data-countries='{countries_json}'>
         <div class="card-header">
             <div class="card-meta">
                 <span class="date">{comp["event_date"]}</span>
                 <span class="sep">&middot;</span>
                 <span class="count">{comp["article_count"]} <span data-ui="articles">articles</span></span>
+                <a class="permalink" href="#/s/{slug}" title="Permalink">&#128279;</a>
             </div>
             <div class="card-header-right">
                 {region_pills}
@@ -1547,10 +1640,75 @@ def build_card(comp, translations, teasers=None, source_urls=None):
     """
 
 
+def build_records(comps, all_translations, all_teasers, urls_by_cluster,
+                  dedup_groups, card_html_by_id, languages):
+    """Turn rendered comparisons into the records site_build persists."""
+    records = []
+    for comp in comps:
+        cid = comp["id"]
+        translations = all_translations.get(cid, {})
+        teasers = all_teasers.get(cid) or {}
+        source_urls = urls_by_cluster.get(cid) or {}
+        sources = parse_sources_raw(comp["sources_raw"])
+        for entry in sources:
+            entry["url"] = source_urls.get(entry["name"])
+        teaser_en = ((teasers.get("en") or "").strip()
+                     or extract_summary(comp["comparison_text"]))
+        tier = comp.get("tier", "C")
+        records.append({
+            "id": cid,
+            "slug": comp.get("slug") or str(cid),
+            "date": comp["event_date"],
+            "generated_at": comp.get("generated_at"),
+            "tier": tier,
+            "tier_label": TIER_LABELS[tier],
+            "title": comp["title"],
+            "teaser": teaser_en,
+            "article_count": comp.get("article_count"),
+            "regions": sorted({e["region"] for e in sources}),
+            "sources": sources,
+            "languages": list(languages),
+            "dupes": dedup_groups.get(cid, []),
+            "card_html": card_html_by_id[cid],
+            "bodies": build_bodies(comp, translations),
+        })
+    return records
+
+
+def _select_home_comps(comps, home_days):
+    """The subset of `comps` that goes on the home page.
+
+    Anchored on the freshest event_date present rather than on today's clock:
+    the DB stores dates, the pipeline runs at 03:00 local, and SQLite's
+    date('now') is UTC — anchoring on the data itself sidesteps all of it.
+    PREVIEW_MIN_CARDS keeps the first screen full on quiet nights.
+    """
+    if not comps:
+        return []
+    dated = [c for c in comps if c.get("event_date")]
+    if not dated:
+        return comps[:PREVIEW_MIN_CARDS]
+    newest = max(c["event_date"] for c in dated)
+    cutoff = (datetime.strptime(newest, "%Y-%m-%d")
+              - timedelta(days=max(0, home_days - 1))).strftime("%Y-%m-%d")
+    chosen = {c["id"] for c in comps if (c.get("event_date") or "") >= cutoff}
+    if len(chosen) < PREVIEW_MIN_CARDS:
+        rest = sorted((c for c in comps if c["id"] not in chosen),
+                      key=lambda c: (c.get("event_date") or "",
+                                     c.get("article_count") or 0),
+                      reverse=True)
+        for c in rest[:PREVIEW_MIN_CARDS - len(chosen)]:
+            chosen.add(c["id"])
+    return [c for c in comps if c["id"] in chosen]
+
+
 # ── Main generator ───────────────────────────────────────────────────────────
 
-def generate(translate=True, days=1, translate_model=None, out_path=None, use_teaser=None):
+def generate(translate=True, days=1, translate_model=None, out_path=None,
+             use_teaser=None, site_dir=None, build_archive=True,
+             home_days=None):
     dest = out_path or OUT_PATH
+    home_days = PREVIEW_HOME_DAYS if home_days is None else home_days
     from src import config as _cfg
     _tmodel = translate_model or _cfg.TRANSLATE_MODEL
     _gmodel = _cfg.OLLAMA_MODEL
@@ -1559,7 +1717,8 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
 
     with get_connection() as conn:
         comps = conn.execute('''
-            SELECT sc.id, sc.title, sc.event_date, c.comparison_text,
+            SELECT sc.id, sc.slug, sc.title, sc.event_date, c.comparison_text,
+                   c.generated_at,
                    GROUP_CONCAT(DISTINCT s.name || '@@' || s.region || '@@' || COALESCE(s.country,'')) as sources_raw,
                    COUNT(DISTINCT a.id)        as article_count,
                    COUNT(DISTINCT a.source_id) as source_count,
@@ -1576,7 +1735,7 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
 
     comps = [dict(c) for c in comps]
     print(f"   Found {len(comps)} comparisons")
-    comps = _deduplicate_comparisons(comps)
+    comps, dedup_groups = _deduplicate_comparisons(comps, return_groups=True)
 
     # Map (cluster_id, source_name) -> most recent article URL, so badges can
     # link to the actual article each outlet published. Single query for all
@@ -1680,9 +1839,25 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
               f"{teaser_lang_calls} translations (langs: {','.join(teaser_langs) or 'EN-only'})    ")
 
     # ── Render cards ──
+    # Each card is rendered once, with an empty body: the analysis is fetched
+    # from archive/full/<id>.json on expand. The very same HTML feeds both the
+    # home page and the monthly archive shard, so the two cannot drift apart.
+    card_html_by_id = {}
+    for comp in comps:
+        card_html_by_id[comp["id"]] = build_card(
+            comp, all_translations.get(comp["id"], {}),
+            teasers=all_teasers.get(comp["id"]),
+            source_urls=urls_by_cluster.get(comp["id"]),
+            include_body=False,
+        )
+
+    home_comps = _select_home_comps(comps, home_days)
+    print(f"   Home page: {len(home_comps)}/{len(comps)} cards "
+          f"(window: {home_days}d, floor: {PREVIEW_MIN_CARDS})")
+
     cards_html = ""
     for tier in ("A", "B", "C"):
-        tier_comps = [c for c in comps if c["tier"] == tier]
+        tier_comps = [c for c in home_comps if c["tier"] == tier]
         if not tier_comps:
             continue
         color = TIER_COLORS[tier]
@@ -1696,9 +1871,7 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
             f'</h2>'
         )
         for comp in tier_comps:
-            cards_html += build_card(comp, all_translations.get(comp["id"], {}),
-                                     teasers=all_teasers.get(comp["id"]),
-                                     source_urls=urls_by_cluster.get(comp["id"]))
+            cards_html += card_html_by_id[comp["id"]]
         cards_html += '</section>'
 
     source_count = len(SOURCE_FLAGS)
@@ -1835,6 +2008,45 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
   .comparison em {{ color: #6b7a94; font-style: italic; }}
   .comparison br {{ display: block; margin: 0.15rem 0; }}
   .no-translation {{ color: #3e4a5e; font-style: italic; }}
+  .body-loading {{ padding: 1rem 1.2rem; color: #4a5568; font-size: 0.82rem;
+    font-family: 'JetBrains Mono', monospace; border-top: 1px solid #141c2a; }}
+  .permalink {{ color: #2a3244; text-decoration: none; font-size: 0.7rem;
+    margin-left: 0.1rem; opacity: 0; transition: opacity 0.15s, color 0.15s; }}
+  .card:hover .permalink {{ opacity: 1; }}
+  .permalink:hover {{ color: #60a5fa; }}
+  .search-row {{ display: flex; gap: 0.4rem; justify-content: center;
+    margin-top: 1rem; flex-wrap: wrap; }}
+  #search {{
+    background: #0a0f1a; border: 1px solid #1a2235; border-radius: 4px;
+    color: #c0c8d8; font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    padding: 0.4rem 0.8rem; width: min(380px, 80vw);
+  }}
+  #search:focus {{ outline: none; border-color: #60a5fa; }}
+  #search::placeholder {{ color: #3e4a5e; }}
+  .search-clear {{
+    background: #0a0f1a; border: 1px solid #1a2235; border-radius: 4px;
+    color: #4a5568; cursor: pointer; font-size: 0.85rem; padding: 0.4rem 0.7rem;
+    font-family: 'Inter', sans-serif;
+  }}
+  .search-clear:hover {{ border-color: #60a5fa; color: #c0c8d8; }}
+  .search-status {{
+    max-width: 860px; margin: 0 auto; padding: 0 1rem 0.5rem;
+    color: #4a5568; font-size: 0.78rem; font-family: 'JetBrains Mono', monospace;
+  }}
+  .archive-actions {{ text-align: center; padding: 1rem 0 2rem; }}
+  .archive-btn {{
+    background: #0e1420; border: 1px solid #1a2235; border-radius: 6px;
+    color: #60a5fa; cursor: pointer; font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem; padding: 0.6rem 1.4rem; letter-spacing: 0.5px;
+  }}
+  .archive-btn:hover {{ background: #111827; border-color: #60a5fa; }}
+  .archive-btn[disabled] {{ opacity: 0.45; cursor: default; }}
+  .archive-note {{ color: #2a3244; font-size: 0.75rem;
+    font-family: 'JetBrains Mono', monospace; padding-top: 0.6rem; }}
+  .card[hidden] {{ display: none; }}
+  /* In search mode the tier headings would lie about their counts. */
+  body.searching .section-header {{ display: none; }}
+  body.searching .tier-section[data-empty="1"] {{ display: none; }}
   footer {{
     text-align: center; padding: 2rem; color: #2a3244; font-size: 0.72rem;
     font-family: 'JetBrains Mono', monospace; border-top: 1px solid #0e1420;
@@ -1853,17 +2065,29 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
   <div class="logo"><span class="accent">&#9671;</span> PARALLAX</div>
   <p class="tagline">Same event. Different vantage points.</p>
   <div class="stats">
-    <div class="stat"><strong>{len(comps)}</strong> <span data-ui="comparisons">comparisons</span></div>
+    <div class="stat"><strong>{len(home_comps)}</strong> <span data-ui="comparisons">comparisons</span></div>
     <div class="stat"><strong>{source_count}</strong> <span data-ui="sources">sources</span></div>
     <div class="stat"><strong>{region_count}</strong> <span data-ui="blocs">blocs</span></div>
+    <div class="stat" id="stat-archive" hidden><strong></strong> <span data-ui="archived">archived</span></div>
   </div>
   <div class="lang-switcher">
     {lang_btns}
   </div>
+  <div class="search-row">
+    <input id="search" type="search" autocomplete="off" spellcheck="false"
+           data-ui-placeholder="searchPlaceholder" placeholder="Search past stories...">
+    <button class="search-clear" onclick="clearSearch()" data-ui="clear">Clear</button>
+  </div>
 </header>
+<p class="search-status" id="search-status" hidden></p>
 <main>
 {cards_html}
+<section class="tier-section" id="archive-feed" data-empty="1"></section>
 </main>
+<div class="archive-actions">
+  <button class="archive-btn" id="load-more" onclick="loadMore(true)">Load older stories</button>
+  <div class="archive-note" id="archive-note" hidden></div>
+</div>
 <footer>
   Generated {datetime.now().strftime("%Y-%m-%d %H:%M")} &middot;
   Parallax &middot; Analysis: Gemma 4 &middot; Translation: {_tmodel} &middot;
@@ -1872,6 +2096,10 @@ def generate(translate=True, days=1, translate_model=None, out_path=None, use_te
 <script>
 var UI = {ui_json};
 var LANG_COUNTRIES = {lang_countries_json};
+var ALL_LANGS = {json.dumps(ALL_LANGUAGES)};
+// Replaced by site_build at publish time with the manifest that already
+// includes whatever this run just archived.
+var MANIFEST = __PARALLAX_MANIFEST__;
 
 function setLang(lang) {{
   var allLangs = {json.dumps(ALL_LANGUAGES)};
@@ -1893,6 +2121,9 @@ function setLang(lang) {{
   document.querySelector('.tagline').textContent = s.tagline;
   document.querySelectorAll('[data-ui]').forEach(function(el) {{
     if (s[el.dataset.ui]) el.textContent = s[el.dataset.ui];
+  }});
+  document.querySelectorAll('[data-ui-placeholder]').forEach(function(el) {{
+    if (s[el.dataset.uiPlaceholder]) el.placeholder = s[el.dataset.uiPlaceholder];
   }});
 
   // 4. Update convergence badges
@@ -1950,17 +2181,352 @@ function setLang(lang) {{
   }});
 
   document.documentElement.lang = lang;
+
+  // 9. Search matches the active language, so re-run it on a language switch.
+  if (typeof SEARCH_TERMS !== 'undefined' && SEARCH_TERMS.length) {{
+    filterVisible();
+    updateSearchStatus();
+  }}
+  if (typeof updateButton === 'function') updateButton();
 }}
 
 function toggleCard(id) {{
   var body = document.getElementById('body-' + id);
   var btn = document.getElementById('toggle-' + id);
+  if (!body || !btn) return;
   var expanded = body.classList.toggle('show');
   btn.classList.toggle('active', expanded);
   var lang = document.documentElement.lang || 'en';
   var s = UI[lang] || UI['en'];
   btn.querySelector('.btn-label').textContent = expanded ? s.close : s.readMore;
+  // Bodies are not inlined: fetch the analysis the first time it is opened.
+  if (expanded && !body.dataset.loaded) loadBody(id, body);
 }}
+
+// ── Archive: infinite scroll back in time + keyword search ──────────────────
+// The home page carries only the freshest stories, with empty card bodies.
+// Everything else lives in archive/YYYY-MM.json (collapsed cards, already
+// rendered server-side by build_card) and archive/full/<id>.json (the analysis
+// in 5 languages, fetched only when a reader actually expands a card).
+
+var LOADED = new Set();     // cluster ids already in the DOM — never show twice
+var SHARDS = {{}};            // month -> entries, with search text pre-extracted
+var FULL_CACHE = {{}};        // cluster id -> {{lang: html}}
+var MONTH_PTR = 0;          // next month of MANIFEST.months to pull
+var MONTHS_DONE = new Set();// months already pulled, in any order
+var SEARCH_TERMS = [];
+var BUSY = false;
+
+var ARCHIVE = document.getElementById('archive-feed');
+var LOAD_BTN = document.getElementById('load-more');
+var NOTE = document.getElementById('archive-note');
+var STATUS = document.getElementById('search-status');
+var SEARCH_INPUT = document.getElementById('search');
+
+function curLang() {{ return document.documentElement.lang || 'en'; }}
+function S() {{ return UI[curLang()] || UI['en']; }}
+
+// Accent-insensitive so "Norvegia" finds "Norvègia" and "Ormuz" finds "Órmuz".
+function norm(text) {{
+  return (text || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
+}}
+
+function matchesTerms(haystack) {{
+  return SEARCH_TERMS.every(function(term) {{ return haystack.indexOf(term) >= 0; }});
+}}
+
+function cardText(el, lang) {{
+  var t = el.querySelector('.card-title.lang-' + lang);
+  var s = el.querySelector('.card-summary.lang-' + lang);
+  return norm((t ? t.textContent : '') + ' ' + (s ? s.textContent : ''));
+}}
+
+function initLoaded() {{
+  document.querySelectorAll('article[data-cluster-id]').forEach(function(el) {{
+    LOADED.add(Number(el.dataset.clusterId));
+  }});
+}}
+
+function ensureArchiveHeader() {{
+  if (!ARCHIVE || ARCHIVE.querySelector('.section-header')) return;
+  ARCHIVE.insertAdjacentHTML('afterbegin',
+    '<h2 class="section-header" style="color:#94a3b8;border-color:#94a3b850">' +
+    '&#9671; <span data-ui="archiveTitle">Archive</span></h2>');
+}}
+
+function fetchMonth(month) {{
+  if (SHARDS[month]) return Promise.resolve(SHARDS[month]);
+  return fetch('archive/' + month + '.json').then(function(r) {{
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  }}).then(function(entries) {{
+    // The searchable text is read back out of the card markup, so the shard
+    // never has to carry the same titles and teasers a second time.
+    var parser = new DOMParser();
+    entries.forEach(function(e) {{
+      var doc = parser.parseFromString(e.html, 'text/html');
+      e._txt = {{}};
+      ALL_LANGS.forEach(function(l) {{ e._txt[l] = cardText(doc, l); }});
+    }});
+    SHARDS[month] = entries;
+    return entries;
+  }});
+}}
+
+function appendEntries(entries) {{
+  var added = 0;
+  entries.forEach(function(e) {{
+    if (LOADED.has(e.id)) return;
+    if (SEARCH_TERMS.length && !matchesTerms(e._txt[curLang()] || e._txt['en'] || '')) return;
+    LOADED.add(e.id);
+    ARCHIVE.insertAdjacentHTML('beforeend', e.html);
+    added++;
+  }});
+  if (added) {{
+    ARCHIVE.dataset.empty = '0';
+    ensureArchiveHeader();
+    setLang(curLang());
+  }}
+  return added;
+}}
+
+function monthsLeft() {{
+  return MANIFEST.months.filter(function(m) {{ return !MONTHS_DONE.has(m.m); }}).length;
+}}
+
+function setBusy(value) {{
+  BUSY = value;
+  if (LOAD_BTN) LOAD_BTN.disabled = value || !monthsLeft();
+}}
+
+// Pull one named month, wherever it sits in the archive. Permalinks use this:
+// a slug starts with its date, so #/s/2026-05-29-... goes straight to 2026-05
+// instead of walking every month in between.
+function loadMonthNamed(month) {{
+  if (MONTHS_DONE.has(month)) return Promise.resolve(0);
+  MONTHS_DONE.add(month);
+  setBusy(true);
+  return fetchMonth(month).then(function(entries) {{
+    var added = appendEntries(entries);
+    setBusy(false);
+    updateButton();
+    updateSearchStatus();
+    return added;
+  }}).catch(function() {{
+    setBusy(false);
+    updateButton();
+    return 0;
+  }});
+}}
+
+function nextMonth() {{
+  while (MONTH_PTR < MANIFEST.months.length &&
+         MONTHS_DONE.has(MANIFEST.months[MONTH_PTR].m)) {{
+    MONTH_PTR++;
+  }}
+  return MONTH_PTR < MANIFEST.months.length ? MANIFEST.months[MONTH_PTR++].m : null;
+}}
+
+// keepGoing: skip past months that add nothing on screen — already-loaded cards
+// in feed mode, non-matching ones while searching — so a click always produces
+// visible progress instead of stopping on a silent no-op. Auto-scroll never
+// passes it while a search is active: going deeper stays the reader's choice.
+function loadMore(keepGoing) {{
+  if (BUSY) return Promise.resolve(0);
+  var month = nextMonth();
+  if (!month) {{ updateButton(); return Promise.resolve(0); }}
+  MONTHS_DONE.add(month);
+  setBusy(true);
+  return fetchMonth(month).then(function(entries) {{
+    var added = appendEntries(entries);
+    setBusy(false);
+    updateButton();
+    updateSearchStatus();
+    if (!added && keepGoing && monthsLeft()) return loadMore(true);
+    return added;
+  }}).catch(function() {{
+    setBusy(false);
+    updateButton();
+    return 0;
+  }});
+}}
+
+function updateButton() {{
+  if (!LOAD_BTN) return;
+  var exhausted = !monthsLeft();
+  LOAD_BTN.textContent = SEARCH_TERMS.length ? S().searchDeeper : S().loadMore;
+  LOAD_BTN.disabled = exhausted || BUSY;
+  if (NOTE) {{
+    NOTE.hidden = !exhausted;
+    NOTE.textContent = S().endOfArchive;
+  }}
+}}
+
+// ── Search ─────────────────────────────────────────────────────────────────
+
+function filterVisible() {{
+  var lang = curLang();
+  var visible = 0;
+  document.querySelectorAll('article[data-cluster-id]').forEach(function(el) {{
+    var ok = !SEARCH_TERMS.length || matchesTerms(cardText(el, lang));
+    el.hidden = !ok;
+    if (ok) visible++;
+  }});
+  document.querySelectorAll('.tier-section').forEach(function(section) {{
+    var any = section.querySelector('article[data-cluster-id]:not([hidden])');
+    section.dataset.empty = any ? '0' : '1';
+  }});
+  return visible;
+}}
+
+function updateSearchStatus() {{
+  if (!STATUS) return;
+  if (!SEARCH_TERMS.length) {{ STATUS.hidden = true; return; }}
+  var visible = document.querySelectorAll('article[data-cluster-id]:not([hidden])').length;
+  var reached = MONTHS_DONE.size ? Array.from(MONTHS_DONE).sort()[0] : '';
+  STATUS.hidden = false;
+  STATUS.textContent = (visible ? visible + ' ' + S().results : S().noResults) +
+                       (reached ? ' · ' + S().searchedThrough + ' ' + reached : '');
+}}
+
+function runSearch(query) {{
+  SEARCH_TERMS = norm(query).split(/\\s+/).filter(Boolean);
+  if (!SEARCH_TERMS.length) {{ clearSearch(); return; }}
+  document.body.classList.add('searching');
+  var target = '#/q/' + encodeURIComponent(query);
+  if (location.hash !== target) history.replaceState(null, '', target);
+  filterVisible();
+  updateButton();
+  updateSearchStatus();
+  // A search that only looked at the home page would be useless: pull the most
+  // recent shard straight away, then let the reader go deeper on demand.
+  if (MONTH_PTR === 0) loadMore(false);
+}}
+
+function clearSearch() {{
+  SEARCH_TERMS = [];
+  if (SEARCH_INPUT) SEARCH_INPUT.value = '';
+  document.body.classList.remove('searching');
+  filterVisible();
+  if (STATUS) STATUS.hidden = true;
+  updateButton();
+  if ((location.hash || '').indexOf('#/q/') === 0) {{
+    history.replaceState(null, '', location.pathname + location.search);
+  }}
+}}
+
+// ── Card bodies, fetched on expand ─────────────────────────────────────────
+
+function loadBody(id, body) {{
+  var render = function(data) {{
+    FULL_CACHE[id] = data;
+    var out = '';
+    ALL_LANGS.forEach(function(l) {{
+      out += '<div class="comparison lang-' + l + '">' +
+             (data[l] || '<p class="no-translation">Translation not available.</p>') +
+             '</div>';
+    }});
+    body.innerHTML = out;
+    body.dataset.loaded = '1';
+    setLang(curLang());
+  }};
+  if (FULL_CACHE[id]) {{ render(FULL_CACHE[id]); return; }}
+  body.dataset.loaded = 'pending';
+  body.innerHTML = '<p class="body-loading">' + S().loading + '</p>';
+  fetch('archive/full/' + id + '.json').then(function(r) {{
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  }}).then(render).catch(function() {{
+    body.innerHTML = '<p class="body-loading">&#9888; analysis unavailable</p>';
+    body.dataset.loaded = '';
+  }});
+}}
+
+// ── Permalinks ─────────────────────────────────────────────────────────────
+
+function findBySlug(slug) {{
+  var found = null;
+  document.querySelectorAll('article[data-slug]').forEach(function(el) {{
+    if (!found && el.dataset.slug === slug) found = el;
+  }});
+  return found;
+}}
+
+function openSlug(slug, depth) {{
+  var el = findBySlug(slug);
+  if (el) {{
+    el.hidden = false;
+    var id = Number(el.dataset.clusterId);
+    var body = document.getElementById('body-' + id);
+    if (body && !body.classList.contains('show')) toggleCard(id);
+    el.scrollIntoView({{block: 'start'}});
+    return;
+  }}
+  depth = depth || 0;
+  if (depth > 60) return;
+  // Slugs are date-prefixed, so one shard is usually enough.
+  var month = (slug || '').slice(0, 7);
+  if (/^\\d{{4}}-\\d{{2}}$/.test(month) && !MONTHS_DONE.has(month)) {{
+    loadMonthNamed(month).then(function() {{ openSlug(slug, depth + 1); }});
+    return;
+  }}
+  if (!monthsLeft()) return;
+  loadMore(false).then(function() {{ openSlug(slug, depth + 1); }});
+}}
+
+function onHashChange() {{
+  var hash = location.hash || '';
+  if (hash.indexOf('#/q/') === 0) {{
+    var query = decodeURIComponent(hash.slice(4));
+    if (SEARCH_INPUT && query === SEARCH_INPUT.value) return;
+    if (SEARCH_INPUT) SEARCH_INPUT.value = query;
+    runSearch(query);
+  }} else if (hash.indexOf('#/s/') === 0) {{
+    // A permalink must reach its card even when it is months deep.
+    var wanted = decodeURIComponent(hash.slice(4));
+    if (SEARCH_TERMS.length) clearSearch();
+    openSlug(wanted, 0);
+  }}
+}}
+
+// ── Wiring ─────────────────────────────────────────────────────────────────
+
+initLoaded();
+updateButton();
+
+// The home page only knows its own cards; the archive size comes from the
+// manifest embedded above.
+var STAT_ARCHIVE = document.getElementById('stat-archive');
+if (STAT_ARCHIVE && MANIFEST.total) {{
+  STAT_ARCHIVE.querySelector('strong').textContent = MANIFEST.total;
+  STAT_ARCHIVE.hidden = false;
+}}
+
+if (SEARCH_INPUT) {{
+  var searchTimer = null;
+  SEARCH_INPUT.addEventListener('input', function() {{
+    clearTimeout(searchTimer);
+    var value = SEARCH_INPUT.value;
+    searchTimer = setTimeout(function() {{
+      if (value.trim()) runSearch(value); else clearSearch();
+    }}, 250);
+  }});
+}}
+
+if ('IntersectionObserver' in window) {{
+  var sentinel = document.querySelector('.archive-actions');
+  if (sentinel) {{
+    new IntersectionObserver(function(entries) {{
+      entries.forEach(function(entry) {{
+        if (entry.isIntersecting && !SEARCH_TERMS.length && !BUSY) loadMore(true);
+      }});
+    }}, {{rootMargin: '400px'}}).observe(sentinel);
+  }}
+}}
+
+window.addEventListener('hashchange', onHashChange);
+onHashChange();
+
 </script>
 </body>
 </html>"""
@@ -1970,6 +2536,32 @@ function toggleCard(id) {{
     print(f"   Preview generated: {dest}")
     active = ["en"] + langs
     print(f"   {len(comps)} comparisons, languages: {', '.join(l.upper() for l in active)}, translation: {_tmodel}")
+
+    if not build_archive:
+        # Nobody will substitute the placeholder, so leave the page with an
+        # empty archive: the home cards still render, they just cannot expand.
+        empty = json.dumps({"months": [], "total": 0, "last_run": None})
+        html = html.replace(site_build.MANIFEST_PLACEHOLDER, empty)
+        with open(dest, "w", encoding="utf-8") as f:
+            f.write(html)
+
+    if build_archive:
+        records = build_records(comps, all_translations, all_teasers,
+                                urls_by_cluster, dedup_groups, card_html_by_id,
+                                languages=active)
+        summary = site_build.build_site(records, html, site_dir=site_dir)
+        print(f"   Site built: {summary['site_dir']} "
+              f"({summary['new']} new, {summary['total']} archived, "
+              f"{summary['months_written']} shard(s) rewritten)")
+        if summary["new"]:
+            print(f"   Feeds updated with cluster(s): "
+                  f"{', '.join(str(i) for i in summary['new_ids'])}")
+        elif summary["feed_items"]:
+            print(f"   Feeds seeded with {summary['feed_items']} item(s) "
+                  f"(first build on an existing archive)")
+        else:
+            print("   Feeds unchanged (this run added no new story)")
+
     return dest
 
 
@@ -1984,6 +2576,17 @@ if __name__ == "__main__":
                         help="Ollama model for translation (default: TRANSLATE_MODEL from .env)")
     parser.add_argument("--out", default=None,
                         help="Output HTML path (default: data/preview.html)")
+    parser.add_argument("--site-dir", default=None,
+                        help="Site build directory to publish into "
+                             "(default: $PARALLAX_SITE_DIR or ~/parallax-data/site)")
+    parser.add_argument("--no-site", action="store_true",
+                        help="Only write the HTML preview; skip archive and feeds")
+    parser.add_argument("--home-days", type=int, default=None,
+                        help=f"Days of stories on the home page "
+                             f"(default: {PREVIEW_HOME_DAYS}); older ones stay "
+                             f"reachable through the archive")
+    parser.add_argument("--no-open", action="store_true",
+                        help="Do not open the preview in a browser")
     args = parser.parse_args()
 
     path = generate(
@@ -1992,6 +2595,10 @@ if __name__ == "__main__":
         translate_model=args.translate_model,
         out_path=args.out,
         use_teaser=False if args.no_teaser else None,
+        site_dir=args.site_dir,
+        build_archive=not args.no_site,
+        home_days=args.home_days,
     )
-    import subprocess
-    subprocess.run(["open", path])
+    if not args.no_open:
+        import subprocess
+        subprocess.run(["open", path])

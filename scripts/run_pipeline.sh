@@ -10,6 +10,9 @@ LOG_FILE="$PROJECT_DIR/data/pipeline.log"
 VENV="$PROJECT_DIR/.venv/bin/python"
 LIVE_DB="/Users/bbnss/parallax-data/notizie.db"
 BACKUP_DB="$PROJECT_DIR/data/notizie.db"
+# The built site lives next to the DB, outside kDrive: kDrive evicts files, and
+# this directory is the local mirror of the append-only archive on gh-pages.
+export PARALLAX_SITE_DIR="${PARALLAX_SITE_DIR:-/Users/bbnss/parallax-data/site}"
 PIPELINE_OK=1
 
 cd "$PROJECT_DIR"
@@ -39,9 +42,28 @@ else
     exit 1
 fi
 
-# Step 3: Generate preview (multi-language)
-log "Step 3: Generating preview (5 languages, last 3 days)..."
-if $VENV scripts/generate_preview.py --days 3 >> "$LOG_FILE" 2>&1; then
+# Step 3: Generate preview (multi-language) + archive + feeds
+# The archive is append-only and gh-pages is its only backup. If the local
+# mirror went missing (new machine, wiped disk), pull it back before building —
+# otherwise this run would produce an archive holding only the last 3 days and
+# deploy_site.sh would rightly refuse to publish it.
+if [ ! -f "$PARALLAX_SITE_DIR/archive/manifest.json" ]; then
+    log "Step 3: Local site mirror absent — restoring from gh-pages..."
+    rm -rf /tmp/parallax-restore
+    if git clone --branch gh-pages --single-branch --depth 1 \
+            "${PARALLAX_REPO_URL:-https://github.com/bbnss/parallax.git}" \
+            /tmp/parallax-restore >> "$LOG_FILE" 2>&1; then
+        mkdir -p "$PARALLAX_SITE_DIR"
+        rsync -a --exclude '.git' /tmp/parallax-restore/ "$PARALLAX_SITE_DIR"/ >> "$LOG_FILE" 2>&1
+        rm -rf /tmp/parallax-restore
+        log "Step 3: Mirror restored"
+    else
+        log "Step 3: Restore FAILED (starting from an empty archive)"
+    fi
+fi
+
+log "Step 3: Generating preview (5 languages, last 3 days) + archive + feeds..."
+if $VENV scripts/generate_preview.py --days 3 --no-open >> "$LOG_FILE" 2>&1; then
     log "Step 3: OK"
 else
     log "Step 3: FAILED (continuing anyway)"
