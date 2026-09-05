@@ -1,0 +1,285 @@
+{
+ "version": "https://jsonfeed.org/version/1.1",
+ "title": "Parallax",
+ "home_page_url": "https://bbnss.github.io/parallax/",
+ "feed_url": "https://bbnss.github.io/parallax/feed.json",
+ "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
+ "language": "en",
+ "_generated_at": "2026-09-05T02:38:18Z",
+ "items": [
+  {
+   "id": "2026-09-05-un-votes-to-adopt-new-world-map-to-reflect-africa-s-true-siz",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-05-un-votes-to-adopt-new-world-map-to-reflect-africa-s-true-siz",
+   "title": "United Nations votes to adopt a new world map reflecting more accurate continental proportions",
+   "content_text": "On September 5, 2026, the United Nations General Assembly voted to adopt the Equal Earth projection to replace the Mercator projection, a move spearheaded by Togo and supported by 164 nations. While all regions report the shift aims to correct the distorted proportions of equatorial lands, coverage differs on the underlying motivations. Western outlets frame the change as a reformist effort to decolonize geography, while Middle Eastern sources emphasize the systemic failure of the previous map to represent Africa's importance. Russian reports focus on the diplomatic friction and ideological tensions surrounding the vote.",
+   "summary": "On September 5, 2026, the United Nations General Assembly voted to adopt the Equal Earth projection to replace the Mercator projection, a move spearheaded by Togo and supported by 164 nations. While all regions report the shift aims to correct the distorted proportions of equatorial lands, coverage differs on the underlying motivations. Western outlets frame the change as a reformist effort to decolonize geography, while Middle Eastern sources emphasize the systemic failure of the previous map to represent Africa's importance. Russian reports focus on the diplomatic friction and ideological tensions surrounding the vote.",
+   "date_published": "2026-09-05T01:56:44+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3129,
+    "event_date": "2026-09-05",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 7,
+    "source_count": 7,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/ce30vp55dnlo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/earth/20260904-un-ditches-mercator-map-to-adopt-more-accurate-one-reflecting-africa-s-true-size"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/04/nx-s1-5958611/africa-world-map-un-vote"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/04/voto-onu-mappa-equal-earth-mercatore/"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size?traffic_source=rss"
+     },
+     {
+      "name": "Dawn",
+      "region": "middle_east",
+      "country": "PK",
+      "url": "https://www.dawn.com/news/2027504/un-adopts-major-map-reform-to-show-true-scale-of-continents"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2182933"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3129.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-05-russia-hits-ukrainian-security-headquarters-in-drone-attack",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-05-russia-hits-ukrainian-security-headquarters-in-drone-attack",
+   "title": "Russian drone strike hits Ukrainian security service headquarters in the capital city of Kyiv",
+   "content_text": "On September 5, 2026, a Russian drone struck the Security Service of Ukraine (SBU) headquarters in Kyiv, specifically targeting the office of chief Oleksandr Poklad. President Zelensky subsequently called for a tangible response to the strike. Western media outlets frame the event as a significant escalation of the conflict, emphasizing the precision of the strike and the vulnerability of Ukrainian intelligence leadership. In contrast, other regional reports focus more on the immediate physical consequences and local impact.",
+   "summary": "On September 5, 2026, a Russian drone struck the Security Service of Ukraine (SBU) headquarters in Kyiv, specifically targeting the office of chief Oleksandr Poklad. President Zelensky subsequently called for a tangible response to the strike. Western media outlets frame the event as a significant escalation of the conflict, emphasizing the precision of the strike and the vulnerability of Ukrainian intelligence leadership. In contrast, other regional reports focus more on the immediate physical consequences and local impact.",
+   "date_published": "2026-09-05T01:54:39+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3126,
+    "event_date": "2026-09-05",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 8,
+    "source_count": 7,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/video/20260904-on-the-ground-russian-drone-strikes-ukraine-security-service-headquarters-in-kyiv"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/04/russia-attacco-sede-centrale-servizi-segreti-ucraini/"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/04/zelensky-drone-sul-quartier-generale-dellintelligence_4f84163f-7938-45bd-bca0-3f46d201eecf.html"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/russia-hits-ukraines-security-service-kyiv-6363281"
+     },
+     {
+      "name": "Anadolu Agency",
+      "region": "middle_east",
+      "country": "TR",
+      "url": "https://www.aa.com.tr/en/world/zelenskyy-says-russian-drone-hit-security-service-headquarters-in-capital-kyiv/4047504"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/09/04/zelensky-orders-tangible-response-against-russia-after-drone-strikes-sbu-hq-in-kyiv-a93640"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3126.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-04-trump-sta-lavorando-ad-un-piano-per-il-dopo-guerra-in-medio",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-04-trump-sta-lavorando-ad-un-piano-per-il-dopo-guerra-in-medio",
+   "title": "Donald Trump is developing a strategy for the Middle East following a potential war with Iran.",
+   "content_text": "The Trump administration is developing a post-war roadmap for the Middle East aimed at containing Iranian influence and expanding the Abraham Accords. While both Western and Russian outlets report on these core objectives, they differ significantly in their framing of the initiative. Western reports focus on the impact of domestic electoral cycles in the U.S. and Israel on the plan's timing, whereas Russian coverage emphasizes the broader geographic scope of the strategy, specifically including Gaza, Syria, and Lebanon.",
+   "summary": "The Trump administration is developing a post-war roadmap for the Middle East aimed at containing Iranian influence and expanding the Abraham Accords. While both Western and Russian outlets report on these core objectives, they differ significantly in their framing of the initiative. Western reports focus on the impact of domestic electoral cycles in the U.S. and Israel on the plan's timing, whereas Russian coverage emphasizes the broader geographic scope of the strategy, specifically including Gaza, Syria, and Lebanon.",
+   "date_published": "2026-09-05T02:00:19+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 3133,
+    "event_date": "2026-09-04",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/04/trump-sta-lavorando-ad-un-piano-per-il-dopo-guerra-in-medio-oriente_1f41fe75-3939-42f4-9bff-b89a4717e2af.html"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2182971"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3133.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-04-zelensky-says-us-negotiators-are-expected-to-visit-kiev-in-c",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-04-zelensky-says-us-negotiators-are-expected-to-visit-kiev-in-c",
+   "title": "U.S. envoys scheduled to visit Moscow and Kyiv to discuss peace in Ukraine.",
+   "content_text": "U.S. envoys Steve Witkoff and Jared Kushner are scheduled to travel to Moscow and Kyiv this weekend to broker a peace settlement in the Ukraine conflict. While both Western and Russian sources confirm the itinerary and the envoys' identities, they differ in narrative framing. Western outlets emphasize the mission as a proactive diplomatic effort to bridge gaps between combatants, while Russian reports focus on the procedural readiness of the Kremlin and the specific proposals the Americans are expected to bring.",
+   "summary": "U.S. envoys Steve Witkoff and Jared Kushner are scheduled to travel to Moscow and Kyiv this weekend to broker a peace settlement in the Ukraine conflict. While both Western and Russian sources confirm the itinerary and the envoys' identities, they differ in narrative framing. Western outlets emphasize the mission as a proactive diplomatic effort to bridge gaps between combatants, while Russian reports focus on the procedural readiness of the Kremlin and the specific proposals the Americans are expected to bring.",
+   "date_published": "2026-09-05T01:58:35+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3132,
+    "event_date": "2026-09-04",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 8,
+    "source_count": 5,
+    "sources": [
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2182979"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/video/20260904-trump-envoys-witkoff-kushner-to-visit-russia-and-ukraine-in-coming-days"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/9/4/witkoff-and-kushner-will-travel-to-end-russias-war-in-ukraine-trump?traffic_source=rss"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/09/04/us-special-envoys-to-visit-russia-and-ukraine-this-weekend-a93637"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3132.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  }
+ ]
+}

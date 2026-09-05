@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Parallax</title>
+<link>https://bbnss.github.io/parallax/</link>
+<description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
+<language>en</language>
+<atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Sat, 05 Sep 2026 02:38:18 +0000</lastBuildDate>
+<item>
+<title>United Nations votes to adopt a new world map reflecting more accurate continental proportions</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-05-un-votes-to-adopt-new-world-map-to-reflect-africa-s-true-siz</link>
+<guid isPermaLink="false">2026-09-05-un-votes-to-adopt-new-world-map-to-reflect-africa-s-true-siz</guid>
+<pubDate>Sat, 05 Sep 2026 01:56:44 +0000</pubDate>
+<description>On September 5, 2026, the United Nations General Assembly voted to adopt the Equal Earth projection to replace the Mercator projection, a move spearheaded by Togo and supported by 164 nations. While all regions report the shift aims to correct the distorted proportions of equatorial lands, coverage differs on the underlying motivations. Western outlets frame the change as a reformist effort to decolonize geography, while Middle Eastern sources emphasize the systemic failure of the previous map to represent Africa's importance. Russian reports focus on the diplomatic friction and ideological tensions surrounding the vote.</description>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Russian drone strike hits Ukrainian security service headquarters in the capital city of Kyiv</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-05-russia-hits-ukrainian-security-headquarters-in-drone-attack</link>
+<guid isPermaLink="false">2026-09-05-russia-hits-ukrainian-security-headquarters-in-drone-attack</guid>
+<pubDate>Sat, 05 Sep 2026 01:54:39 +0000</pubDate>
+<description>On September 5, 2026, a Russian drone struck the Security Service of Ukraine (SBU) headquarters in Kyiv, specifically targeting the office of chief Oleksandr Poklad. President Zelensky subsequently called for a tangible response to the strike. Western media outlets frame the event as a significant escalation of the conflict, emphasizing the precision of the strike and the vulnerability of Ukrainian intelligence leadership. In contrast, other regional reports focus more on the immediate physical consequences and local impact.</description>
+<category>eastern</category>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Donald Trump is developing a strategy for the Middle East following a potential war with Iran.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-04-trump-sta-lavorando-ad-un-piano-per-il-dopo-guerra-in-medio</link>
+<guid isPermaLink="false">2026-09-04-trump-sta-lavorando-ad-un-piano-per-il-dopo-guerra-in-medio</guid>
+<pubDate>Sat, 05 Sep 2026 02:00:19 +0000</pubDate>
+<description>The Trump administration is developing a post-war roadmap for the Middle East aimed at containing Iranian influence and expanding the Abraham Accords. While both Western and Russian outlets report on these core objectives, they differ significantly in their framing of the initiative. Western reports focus on the impact of domestic electoral cycles in the U.S. and Israel on the plan's timing, whereas Russian coverage emphasizes the broader geographic scope of the strategy, specifically including Gaza, Syria, and Lebanon.</description>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>U.S. envoys scheduled to visit Moscow and Kyiv to discuss peace in Ukraine.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-04-zelensky-says-us-negotiators-are-expected-to-visit-kiev-in-c</link>
+<guid isPermaLink="false">2026-09-04-zelensky-says-us-negotiators-are-expected-to-visit-kiev-in-c</guid>
+<pubDate>Sat, 05 Sep 2026 01:58:35 +0000</pubDate>
+<description>U.S. envoys Steve Witkoff and Jared Kushner are scheduled to travel to Moscow and Kyiv this weekend to broker a peace settlement in the Ukraine conflict. While both Western and Russian sources confirm the itinerary and the envoys' identities, they differ in narrative framing. Western outlets emphasize the mission as a proactive diplomatic effort to bridge gaps between combatants, while Russian reports focus on the procedural readiness of the Kremlin and the specific proposals the Americans are expected to bring.</description>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+</channel>
+</rss>
