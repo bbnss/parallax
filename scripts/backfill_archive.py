@@ -151,7 +151,8 @@ def replay_day(day, all_comps, urls, langs, tmodel, gmodel, generate_missing,
     window = sorted(window, key=lambda c: (c["event_date"], c["id"]), reverse=True)
     for comp in window:
         comp["tier"] = gp.compute_tier(comp)
-    survivors, groups = gp._deduplicate_comparisons(window, return_groups=True)
+    survivors, groups = gp._deduplicate_comparisons(window, return_groups=True,
+                                                    max_cards=None)
 
     translations, teasers = collect_assets(survivors, langs, tmodel, gmodel,
                                            generate_missing)

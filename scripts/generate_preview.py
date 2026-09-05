@@ -422,13 +422,18 @@ def strip_preamble(text):
 
 # ── Deduplication ────────────────────────────────────────────────────────────
 
-def _deduplicate_comparisons(comps, return_groups=False):
+def _deduplicate_comparisons(comps, return_groups=False,
+                             max_cards=PREVIEW_MAX_CARDS):
     """Merge near-duplicate cards; keep one winner per group.
 
     return_groups: also return {winner_cluster_id: [merged cluster ids]} for the
         groups that actually merged something. The archive uses it so a story
         already published under one cluster id is not re-published tomorrow
         under the id of a near-duplicate cluster.
+    max_cards: truncate to this many. Pass None when the result feeds the
+        archive: dropping a story there loses it for good, because tomorrow's
+        window has moved past it. Page-sized limits belong to the page, and
+        _select_home_comps applies them there.
     """
     def _out(result, groups):
         return (result, groups) if return_groups else result
@@ -438,7 +443,7 @@ def _deduplicate_comparisons(comps, return_groups=False):
     try:
         from src.analyzer.matcher import _get_embedding, _cosine_similarity
     except ImportError:
-        return _out(comps[:PREVIEW_MAX_CARDS], {})
+        return _out(comps[:max_cards] if max_cards else comps, {})
 
     embeddings = [_get_embedding(c["title"]) for c in comps]
     entities = [_extract_entities(c["title"]) for c in comps]
@@ -506,9 +511,9 @@ def _deduplicate_comparisons(comps, return_groups=False):
     result = [c for i, c in enumerate(comps) if i in kept]
     removed = len(comps) - len(result)
     result.sort(key=lambda c: (c["event_date"], c["article_count"]), reverse=True)
-    if len(result) > PREVIEW_MAX_CARDS:
-        result = result[:PREVIEW_MAX_CARDS]
-        print(f"   Cap applied: showing top {PREVIEW_MAX_CARDS} stories")
+    if max_cards and len(result) > max_cards:
+        result = result[:max_cards]
+        print(f"   Cap applied: showing top {max_cards} stories")
     if removed:
         print(f"   Smart dedup: removed {removed} duplicate(s) -> {len(result)} shown "
               f"(cosine: {cosine_merges}, entity: {entity_merges})")
@@ -1691,14 +1696,21 @@ def _select_home_comps(comps, home_days):
     newest = max(c["event_date"] for c in dated)
     cutoff = (datetime.strptime(newest, "%Y-%m-%d")
               - timedelta(days=max(0, home_days - 1))).strftime("%Y-%m-%d")
+    def freshness(c):
+        return (c.get("event_date") or "", c.get("article_count") or 0)
+
     chosen = {c["id"] for c in comps if (c.get("event_date") or "") >= cutoff}
     if len(chosen) < PREVIEW_MIN_CARDS:
         rest = sorted((c for c in comps if c["id"] not in chosen),
-                      key=lambda c: (c.get("event_date") or "",
-                                     c.get("article_count") or 0),
-                      reverse=True)
+                      key=freshness, reverse=True)
         for c in rest[:PREVIEW_MIN_CARDS - len(chosen)]:
             chosen.add(c["id"])
+    elif len(chosen) > PREVIEW_MAX_CARDS:
+        # A very busy day must not turn the home page back into a 300 KB wall;
+        # the overflow is one scroll away in the archive.
+        keep = sorted((c for c in comps if c["id"] in chosen),
+                      key=freshness, reverse=True)[:PREVIEW_MAX_CARDS]
+        chosen = {c["id"] for c in keep}
     return [c for c in comps if c["id"] in chosen]
 
 
@@ -1735,7 +1747,10 @@ def generate(translate=True, days=1, translate_model=None, out_path=None,
 
     comps = [dict(c) for c in comps]
     print(f"   Found {len(comps)} comparisons")
-    comps, dedup_groups = _deduplicate_comparisons(comps, return_groups=True)
+    # No cap here: every deduped story must reach the archive. The home page
+    # gets its own ceiling in _select_home_comps.
+    comps, dedup_groups = _deduplicate_comparisons(comps, return_groups=True,
+                                                   max_cards=None)
 
     # Map (cluster_id, source_name) -> most recent article URL, so badges can
     # link to the actual article each outlet published. Single query for all
