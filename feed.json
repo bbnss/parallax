@@ -5,15 +5,94 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-06T02:20:48Z",
+ "_generated_at": "2026-09-08T02:43:28Z",
  "items": [
   {
-   "id": "2026-09-05-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict-f",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-05-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict-f",
-   "title": "United States and Iran exchange strikes on naval vessels and oil tankers in escalating conflict.",
-   "content_text": "On September 5, 2026, the United States and Iran engaged in a series of retaliatory strikes involving American warships and three Iranian oil tankers in the Strait of Hormuz. Western outlets frame the U.S. actions as a defensive measure against a \"ghost fleet\" used to bypass international sanctions. Conversely, Middle Eastern and Russian sources emphasize Iranian efforts to defend regional sovereignty and maritime security against foreign interference in local waterways.",
-   "summary": "On September 5, 2026, the United States and Iran engaged in a series of retaliatory strikes involving American warships and three Iranian oil tankers in the Strait of Hormuz. Western outlets frame the U.S. actions as a defensive measure against a \"ghost fleet\" used to bypass international sanctions. Conversely, Middle Eastern and Russian sources emphasize Iranian efforts to defend regional sovereignty and maritime security against foreign interference in local waterways.",
-   "date_published": "2026-09-06T01:49:42+00:00",
+   "id": "2026-09-08-peace-talks-rich-in-symbolism-but-fundamental-differences-be",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-08-peace-talks-rich-in-symbolism-but-fundamental-differences-be",
+   "title": "U.S. envoys visit Kyiv following meetings with Russia to discuss potential peace negotiations.",
+   "content_text": "U.S. envoys Steve Witkoff and Jared Kushner traveled to Kyiv on September 8, 2026, to meet with President Zelensky following preliminary talks with President Putin in Moscow. Both Western and Russian outlets confirm the envoys' goal was to explore a path toward peace negotiations. Coverage diverges on the diplomatic atmosphere: Western sources emphasize the significant hurdles and \"fundamental differences\" remaining, while Russian reports frame the visit as a sign of burgeoning cooperation and momentum.",
+   "summary": "U.S. envoys Steve Witkoff and Jared Kushner traveled to Kyiv on September 8, 2026, to meet with President Zelensky following preliminary talks with President Putin in Moscow. Both Western and Russian outlets confirm the envoys' goal was to explore a path toward peace negotiations. Coverage diverges on the diplomatic atmosphere: Western sources emphasize the significant hurdles and \"fundamental differences\" remaining, while Russian reports frame the visit as a sign of burgeoning cooperation and momentum.",
+   "date_published": "2026-09-08T02:01:26+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3172,
+    "event_date": "2026-09-08",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "russia",
+     "western"
+    ],
+    "article_count": 13,
+    "source_count": 7,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c980j5m8mpro?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "DW News",
+      "region": "western",
+      "country": "DE",
+      "url": "https://www.dw.com/en/us-envoys-witkoff-and-kushner-hold-ukraine-talks-after-meeting-putin/a-79054779?maca=en-rss-en-world-4025-xml-mrss"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/07/nx-s1-5959692/kushner-and-witkoff-visit-ukraine-with-hopes-of-restarting-peace-talks-with-russia"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/08/la-russia-riprende-gli-attacchi-su-kiev-dopo-tre-giorni-di-tregua_d184bee5-b1c9-477c-8507-7913cde1dd6f.html"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-09-06/news-1QdZVs96khO/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645177-witkoff-kushner-likely-brought-substantive-proposal-to-moscow-experts/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/09/06/us-envoys-make-first-kyiv-visit-amid-ukraine-peace-push-a93648"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3172.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-08-thousands-turn-out-in-serbia-for-funeral-of-butcher-of-bosni",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-08-thousands-turn-out-in-serbia-for-funeral-of-butcher-of-bosni",
+   "title": "Thousands attend the funeral of former Bosnian Serb military leader Ratko Mladić in Belgrade.",
+   "content_text": "Thousands gathered in Belgrade on September 7-8, 2026, for the funeral of former Bosnian Serb military leader Ratko Mladić. While all outlets confirm the large turnout and his burial in Topcider Cemetery, coverage differs significantly in framing. Western media emphasizes Mladić’s status as a war criminal and the funeral as a provocative act of glorification. Conversely, Eastern reporting balances international condemnation with local perceptions of Mladić as a national hero, framing the event as a clash of cultural values.",
+   "summary": "Thousands gathered in Belgrade on September 7-8, 2026, for the funeral of former Bosnian Serb military leader Ratko Mladić. While all outlets confirm the large turnout and his burial in Topcider Cemetery, coverage differs significantly in framing. Western media emphasizes Mladić’s status as a war criminal and the funeral as a provocative act of glorification. Conversely, Eastern reporting balances international condemnation with local perceptions of Mladić as a national hero, framing the event as a clash of cultural values.",
+   "date_published": "2026-09-08T01:59:15+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -22,8 +101,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3156,
-    "event_date": "2026-09-05",
+    "cluster_id": 3170,
+    "event_date": "2026-09-08",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -32,65 +111,187 @@
      "russia",
      "western"
     ],
-    "article_count": 12,
-    "source_count": 9,
+    "article_count": 9,
+    "source_count": 8,
     "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/cn5dkk7yw74o?at_medium=RSS&at_campaign=rss"
      },
      {
-      "name": "NPR World",
+      "name": "DW News",
       "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities"
+      "country": "DE",
+      "url": "https://www.dw.com/en/war-criminal-ratko-mladic-buried-with-military-honors-in-belgrade-serbia/a-79148678?maca=en-rss-en-world-4025-xml-mrss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/eu-says-no-place-for-glorification-of-war-criminals-as-mladic-buried"
      },
      {
       "name": "Il Post",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/05/esercito-statunitense-colpito-petroliere-iraniane/"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/05/pasdaran-attaccate-imbarcazioni-legate-agli-usa-in-risposta-ai-raid_1c3d68b9-2dbe-4783-a398-616051a4d3c0.html"
+      "url": "https://www.ilpost.it/2026/09/07/ratko-mladic-funerali-stato-serbia/"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/iran-tanker-hit-us-attack-kharg-island-war-6364541"
+      "url": "https://www.channelnewsasia.com/world/thousands-bid-farewell-bosnian-serb-war-criminal-in-belgrade-6368116"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-says-it-hit-three-iranian-oil-tankers-after-attacks-on-warships?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-attacked-six-vessels-near-strait-hormuz"
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/thousands-attend-funeral-of-war-criminal-ratko-mladic-in-serbia?traffic_source=rss"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/645171-us-iran-tanker-strikes/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://www.rt.com/news/645207-serbia-mladic-funeral-commemoration/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      },
      {
       "name": "Euronews",
       "region": "western",
       "country": "EU",
-      "url": "http://www.euronews.com/2026/09/05/iranian-media-report-us-strike-on-iranian-oil-tanker-near-kharg-island"
+      "url": "http://www.euronews.com/2026/09/07/thousands-attend-bosnian-serb-war-criminals-funeral-despite-eu-warnings"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3156.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3170.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-07-israeli-strikes-in-southern-lebanese-village-kill-12",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-07-israeli-strikes-in-southern-lebanese-village-kill-12",
+   "title": "Israeli strikes in southern Lebanon result in multiple casualties and reported civilian deaths.",
+   "content_text": "Israeli airstrikes in southern Lebanon on September 7, 2026, caused significant infrastructure damage and civilian casualties, with reports confirming a mounting death toll. Western outlets frame the strikes as a cycle of retaliation and a breakdown of a fragile ceasefire following Hezbollah's military activities. Conversely, Eastern sources emphasize the humanitarian crisis and the Lebanese government's plea for international intervention, while Russian media focuses on the cumulative human cost of the escalating conflict.",
+   "summary": "Israeli airstrikes in southern Lebanon on September 7, 2026, caused significant infrastructure damage and civilian casualties, with reports confirming a mounting death toll. Western outlets frame the strikes as a cycle of retaliation and a breakdown of a fragile ceasefire following Hezbollah's military activities. Conversely, Eastern sources emphasize the humanitarian crisis and the Lebanese government's plea for international intervention, while Russian media focuses on the cumulative human cost of the escalating conflict.",
+   "date_published": "2026-09-08T02:05:09+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3175,
+    "event_date": "2026-09-07",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 8,
+    "source_count": 6,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20260907-israeli-strikes-south-lebanon-violence"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/07/nuovi-raid-israeliani-in-libano-sterminata-una-famiglia_a65d8ecf-b5c7-46bf-a111-e4f911f7f832.html"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/israel-lebanon-hezbollah-strikes-truce-violations-6367371"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-attacks-kill-one-injure-10-southern-lebanon"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2183823"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3175.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-07-houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-07-houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison",
+   "title": "Houthis and Saudi Arabia exchange accusations following reports of casualties in Yemen strikes.",
+   "content_text": "On September 7, 2026, intensified strikes and missile exchanges between Houthi rebels and Saudi-backed forces resulted in confirmed casualties in Yemen. Middle Eastern outlets focus on the Houthi narrative of Saudi aggression, highlighting specific civilian casualties in al-Hazm and al-Jawf to frame the Houthis as a resistant force. In contrast, Russian reporting shifts the focus toward Houthi offensive actions, creating a divergence in how the agency and intent of each faction are portrayed.",
+   "summary": "On September 7, 2026, intensified strikes and missile exchanges between Houthi rebels and Saudi-backed forces resulted in confirmed casualties in Yemen. Middle Eastern outlets focus on the Houthi narrative of Saudi aggression, highlighting specific civilian casualties in al-Hazm and al-Jawf to frame the Houthis as a resistant force. In contrast, Russian reporting shifts the focus toward Houthi offensive actions, creating a divergence in how the agency and intent of each faction are portrayed.",
+   "date_published": "2026-09-08T02:03:06+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 3173,
+    "event_date": "2026-09-07",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "middle_east",
+     "russia"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/9/7/houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison-attack?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-accuse-saudi-arabia-air-raids-missile-strikes"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2183845"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3173.json",
     "languages": [
      "en",
      "it",

@@ -6,17 +6,47 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 06 Sep 2026 02:20:48 +0000</lastBuildDate>
+<lastBuildDate>Tue, 08 Sep 2026 02:43:28 +0000</lastBuildDate>
 <item>
-<title>United States and Iran exchange strikes on naval vessels and oil tankers in escalating conflict.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-05-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict-f</link>
-<guid isPermaLink="false">2026-09-05-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict-f</guid>
-<pubDate>Sun, 06 Sep 2026 01:49:42 +0000</pubDate>
-<description>On September 5, 2026, the United States and Iran engaged in a series of retaliatory strikes involving American warships and three Iranian oil tankers in the Strait of Hormuz. Western outlets frame the U.S. actions as a defensive measure against a "ghost fleet" used to bypass international sanctions. Conversely, Middle Eastern and Russian sources emphasize Iranian efforts to defend regional sovereignty and maritime security against foreign interference in local waterways.</description>
+<title>U.S. envoys visit Kyiv following meetings with Russia to discuss potential peace negotiations.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-08-peace-talks-rich-in-symbolism-but-fundamental-differences-be</link>
+<guid isPermaLink="false">2026-09-08-peace-talks-rich-in-symbolism-but-fundamental-differences-be</guid>
+<pubDate>Tue, 08 Sep 2026 02:01:26 +0000</pubDate>
+<description>U.S. envoys Steve Witkoff and Jared Kushner traveled to Kyiv on September 8, 2026, to meet with President Zelensky following preliminary talks with President Putin in Moscow. Both Western and Russian outlets confirm the envoys' goal was to explore a path toward peace negotiations. Coverage diverges on the diplomatic atmosphere: Western sources emphasize the significant hurdles and "fundamental differences" remaining, while Russian reports frame the visit as a sign of burgeoning cooperation and momentum.</description>
+<category>eastern</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Thousands attend the funeral of former Bosnian Serb military leader Ratko Mladić in Belgrade.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-08-thousands-turn-out-in-serbia-for-funeral-of-butcher-of-bosni</link>
+<guid isPermaLink="false">2026-09-08-thousands-turn-out-in-serbia-for-funeral-of-butcher-of-bosni</guid>
+<pubDate>Tue, 08 Sep 2026 01:59:15 +0000</pubDate>
+<description>Thousands gathered in Belgrade on September 7-8, 2026, for the funeral of former Bosnian Serb military leader Ratko Mladić. While all outlets confirm the large turnout and his burial in Topcider Cemetery, coverage differs significantly in framing. Western media emphasizes Mladić’s status as a war criminal and the funeral as a provocative act of glorification. Conversely, Eastern reporting balances international condemnation with local perceptions of Mladić as a national hero, framing the event as a clash of cultural values.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
+</item>
+<item>
+<title>Israeli strikes in southern Lebanon result in multiple casualties and reported civilian deaths.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-07-israeli-strikes-in-southern-lebanese-village-kill-12</link>
+<guid isPermaLink="false">2026-09-07-israeli-strikes-in-southern-lebanese-village-kill-12</guid>
+<pubDate>Tue, 08 Sep 2026 02:05:09 +0000</pubDate>
+<description>Israeli airstrikes in southern Lebanon on September 7, 2026, caused significant infrastructure damage and civilian casualties, with reports confirming a mounting death toll. Western outlets frame the strikes as a cycle of retaliation and a breakdown of a fragile ceasefire following Hezbollah's military activities. Conversely, Eastern sources emphasize the humanitarian crisis and the Lebanese government's plea for international intervention, while Russian media focuses on the cumulative human cost of the escalating conflict.</description>
+<category>eastern</category>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Houthis and Saudi Arabia exchange accusations following reports of casualties in Yemen strikes.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-07-houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison</link>
+<guid isPermaLink="false">2026-09-07-houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison</guid>
+<pubDate>Tue, 08 Sep 2026 02:03:06 +0000</pubDate>
+<description>On September 7, 2026, intensified strikes and missile exchanges between Houthi rebels and Saudi-backed forces resulted in confirmed casualties in Yemen. Middle Eastern outlets focus on the Houthi narrative of Saudi aggression, highlighting specific civilian casualties in al-Hazm and al-Jawf to frame the Houthis as a resistant force. In contrast, Russian reporting shifts the focus toward Houthi offensive actions, creating a divergence in how the agency and intent of each faction are portrayed.</description>
+<category>middle_east</category>
+<category>russia</category>
 </item>
 </channel>
 </rss>
