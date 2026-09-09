@@ -5,15 +5,15 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-08T02:43:28Z",
+ "_generated_at": "2026-09-09T03:01:59Z",
  "items": [
   {
-   "id": "2026-09-08-peace-talks-rich-in-symbolism-but-fundamental-differences-be",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-08-peace-talks-rich-in-symbolism-but-fundamental-differences-be",
-   "title": "U.S. envoys visit Kyiv following meetings with Russia to discuss potential peace negotiations.",
-   "content_text": "U.S. envoys Steve Witkoff and Jared Kushner traveled to Kyiv on September 8, 2026, to meet with President Zelensky following preliminary talks with President Putin in Moscow. Both Western and Russian outlets confirm the envoys' goal was to explore a path toward peace negotiations. Coverage diverges on the diplomatic atmosphere: Western sources emphasize the significant hurdles and \"fundamental differences\" remaining, while Russian reports frame the visit as a sign of burgeoning cooperation and momentum.",
-   "summary": "U.S. envoys Steve Witkoff and Jared Kushner traveled to Kyiv on September 8, 2026, to meet with President Zelensky following preliminary talks with President Putin in Moscow. Both Western and Russian outlets confirm the envoys' goal was to explore a path toward peace negotiations. Coverage diverges on the diplomatic atmosphere: Western sources emphasize the significant hurdles and \"fundamental differences\" remaining, while Russian reports frame the visit as a sign of burgeoning cooperation and momentum.",
-   "date_published": "2026-09-08T02:01:26+00:00",
+   "id": "2026-09-09-trump-tells-putin-he-wants-swift-end-to-ukraine-war-kremlin",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-09-trump-tells-putin-he-wants-swift-end-to-ukraine-war-kremlin",
+   "title": "Kremlin reports that Trump and Putin discussed ending the Ukraine war and restoring ties.",
+   "content_text": "President Donald Trump and President Vladimir Putin held a telephone conversation on September 9, 2026, to discuss ending the war in Ukraine and restoring bilateral ties following a diplomatic mission by U.S. envoys. While both sides agree on the core objectives of the call, coverage differs in framing. Western outlets emphasize the diplomatic reconciliation and regional stability, whereas Russian sources focus on the specific economic incentives and procedural mechanics of the negotiations.",
+   "summary": "President Donald Trump and President Vladimir Putin held a telephone conversation on September 9, 2026, to discuss ending the war in Ukraine and restoring bilateral ties following a diplomatic mission by U.S. envoys. While both sides agree on the core objectives of the call, coverage differs in framing. Western outlets emphasize the diplomatic reconciliation and regional stability, whereas Russian sources focus on the specific economic incentives and procedural mechanics of the negotiations.",
+   "date_published": "2026-09-09T02:02:22+00:00",
    "tags": [
     "eastern",
     "russia",
@@ -21,8 +21,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3172,
-    "event_date": "2026-09-08",
+    "cluster_id": 3197,
+    "event_date": "2026-09-09",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -30,53 +30,41 @@
      "russia",
      "western"
     ],
-    "article_count": 13,
-    "source_count": 7,
+    "article_count": 6,
+    "source_count": 5,
     "sources": [
      {
-      "name": "BBC World",
+      "name": "France 24",
       "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c980j5m8mpro?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/us-envoys-witkoff-and-kushner-hold-ukraine-talks-after-meeting-putin/a-79054779?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/09/07/nx-s1-5959692/kushner-and-witkoff-visit-ukraine-with-hopes-of-restarting-peace-talks-with-russia"
+      "country": "FR",
+      "url": "https://www.france24.com/en/europe/20260908-trump-tells-putin-he-wants-swift-end-to-ukraine-war-kremlin-says"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/08/la-russia-riprende-gli-attacchi-su-kiev-dopo-tre-giorni-di-tregua_d184bee5-b1c9-477c-8507-7913cde1dd6f.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/08/cremlino-putin-e-trump-giudicano-positivamente-la-missione-degli-inviati-usa_ec538a6a-5440-49f9-b8e1-dfecc6fcbb4b.html"
      },
      {
-      "name": "CGTN",
+      "name": "Channel News Asia",
       "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-09-06/news-1QdZVs96khO/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/trump-told-putin-he-wants-swift-end-ukraine-war-and-us-russia-ties-restored-kremlin-says-6370571"
      },
      {
-      "name": "RT",
+      "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/645177-witkoff-kushner-likely-brought-substantive-proposal-to-moscow-experts/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://tass.com/politics/2184463"
      },
      {
       "name": "The Moscow Times",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/09/06/us-envoys-make-first-kyiv-visit-amid-ukraine-peace-push-a93648"
+      "url": "https://www.themoscowtimes.com/2026/09/08/trump-presses-putin-for-swift-end-to-ukraine-war-in-confidential-call-a93663"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3172.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3197.json",
     "languages": [
      "en",
      "it",
@@ -87,12 +75,12 @@
    }
   },
   {
-   "id": "2026-09-08-thousands-turn-out-in-serbia-for-funeral-of-butcher-of-bosni",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-08-thousands-turn-out-in-serbia-for-funeral-of-butcher-of-bosni",
-   "title": "Thousands attend the funeral of former Bosnian Serb military leader Ratko Mladić in Belgrade.",
-   "content_text": "Thousands gathered in Belgrade on September 7-8, 2026, for the funeral of former Bosnian Serb military leader Ratko Mladić. While all outlets confirm the large turnout and his burial in Topcider Cemetery, coverage differs significantly in framing. Western media emphasizes Mladić’s status as a war criminal and the funeral as a provocative act of glorification. Conversely, Eastern reporting balances international condemnation with local perceptions of Mladić as a national hero, framing the event as a clash of cultural values.",
-   "summary": "Thousands gathered in Belgrade on September 7-8, 2026, for the funeral of former Bosnian Serb military leader Ratko Mladić. While all outlets confirm the large turnout and his burial in Topcider Cemetery, coverage differs significantly in framing. Western media emphasizes Mladić’s status as a war criminal and the funeral as a provocative act of glorification. Conversely, Eastern reporting balances international condemnation with local perceptions of Mladić as a national hero, framing the event as a clash of cultural values.",
-   "date_published": "2026-09-08T01:59:15+00:00",
+   "id": "2026-09-09-uk-to-announce-ban-on-trade-with-israeli-settlements-media",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-09-uk-to-announce-ban-on-trade-with-israeli-settlements-media",
+   "title": "United Kingdom, France, and Canada announce trade bans on goods from Israeli West Bank settlements",
+   "content_text": "The United Kingdom, France, and Canada have imposed trade bans on goods from Israeli West Bank settlements, leading to the closure of the British consulate in East Jerusalem. Western outlets frame these sanctions as a moral and legal necessity to protect Palestinian rights, frequently using emotive language regarding illegal settlements. In contrast, Russian reporting adopts a clinical, detached tone, focusing on the procedural aspects of the diplomatic maneuvers rather than the humanitarian justifications cited by Western sources.",
+   "summary": "The United Kingdom, France, and Canada have imposed trade bans on goods from Israeli West Bank settlements, leading to the closure of the British consulate in East Jerusalem. Western outlets frame these sanctions as a moral and legal necessity to protect Palestinian rights, frequently using emotive language regarding illegal settlements. In contrast, Russian reporting adopts a clinical, detached tone, focusing on the procedural aspects of the diplomatic maneuvers rather than the humanitarian justifications cited by Western sources.",
+   "date_published": "2026-09-09T02:00:34+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -101,8 +89,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3170,
-    "event_date": "2026-09-08",
+    "cluster_id": 3196,
+    "event_date": "2026-09-09",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -111,134 +99,59 @@
      "russia",
      "western"
     ],
-    "article_count": 9,
+    "article_count": 12,
     "source_count": 8,
     "sources": [
      {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cn5dkk7yw74o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/war-criminal-ratko-mladic-buried-with-military-honors-in-belgrade-serbia/a-79148678?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/eu-says-no-place-for-glorification-of-war-criminals-as-mladic-buried"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/07/ratko-mladic-funerali-stato-serbia/"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/thousands-bid-farewell-bosnian-serb-war-criminal-in-belgrade-6368116"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/thousands-attend-funeral-of-war-criminal-ratko-mladic-in-serbia?traffic_source=rss"
-     },
-     {
-      "name": "RT",
+      "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/645207-serbia-mladic-funeral-commemoration/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://tass.com/world/2183873"
      },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "http://www.euronews.com/2026/09/07/thousands-attend-bosnian-serb-war-criminals-funeral-despite-eu-warnings"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3170.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-07-israeli-strikes-in-southern-lebanese-village-kill-12",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-07-israeli-strikes-in-southern-lebanese-village-kill-12",
-   "title": "Israeli strikes in southern Lebanon result in multiple casualties and reported civilian deaths.",
-   "content_text": "Israeli airstrikes in southern Lebanon on September 7, 2026, caused significant infrastructure damage and civilian casualties, with reports confirming a mounting death toll. Western outlets frame the strikes as a cycle of retaliation and a breakdown of a fragile ceasefire following Hezbollah's military activities. Conversely, Eastern sources emphasize the humanitarian crisis and the Lebanese government's plea for international intervention, while Russian media focuses on the cumulative human cost of the escalating conflict.",
-   "summary": "Israeli airstrikes in southern Lebanon on September 7, 2026, caused significant infrastructure damage and civilian casualties, with reports confirming a mounting death toll. Western outlets frame the strikes as a cycle of retaliation and a breakdown of a fragile ceasefire following Hezbollah's military activities. Conversely, Eastern sources emphasize the humanitarian crisis and the Lebanese government's plea for international intervention, while Russian media focuses on the cumulative human cost of the escalating conflict.",
-   "date_published": "2026-09-08T02:05:09+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3175,
-    "event_date": "2026-09-07",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 8,
-    "source_count": 6,
-    "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20260907-israeli-strikes-south-lebanon-violence"
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20260908-uk-france-canada-sanction-israeli-west-bank-goods"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/08/nx-s1-5961044/uk-occcupied-west-bank-goods-israel"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/07/nuovi-raid-israeliani-in-libano-sterminata-una-famiglia_a65d8ecf-b5c7-46bf-a111-e4f911f7f832.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/08/israele-chiude-il-consolato-di-londra-a-gerusalemme-est_d6a8cf11-755d-4c7d-8e77-2f6a885648d4.html"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/israel-lebanon-hezbollah-strikes-truce-violations-6367371"
+      "url": "https://www.channelnewsasia.com/world/israels-foreign-minister-says-it-closing-british-consulate-in-east-jerusalem-6370516"
      },
      {
-      "name": "Middle East Eye",
+      "name": "Al Jazeera",
       "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-attacks-kill-one-injure-10-southern-lebanon"
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/what-the-uk-ban-on-goods-from-illegal-israeli-settlements-really-means?traffic_source=rss"
      },
      {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2183823"
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "http://www.euronews.com/2026/09/08/12-nations-announce-trade-sanctions-on-israeli-settlements-in-the-west-bank"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3175.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3196.json",
     "languages": [
      "en",
      "it",
@@ -249,49 +162,244 @@
    }
   },
   {
-   "id": "2026-09-07-houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-07-houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison",
-   "title": "Houthis and Saudi Arabia exchange accusations following reports of casualties in Yemen strikes.",
-   "content_text": "On September 7, 2026, intensified strikes and missile exchanges between Houthi rebels and Saudi-backed forces resulted in confirmed casualties in Yemen. Middle Eastern outlets focus on the Houthi narrative of Saudi aggression, highlighting specific civilian casualties in al-Hazm and al-Jawf to frame the Houthis as a resistant force. In contrast, Russian reporting shifts the focus toward Houthi offensive actions, creating a divergence in how the agency and intent of each faction are portrayed.",
-   "summary": "On September 7, 2026, intensified strikes and missile exchanges between Houthi rebels and Saudi-backed forces resulted in confirmed casualties in Yemen. Middle Eastern outlets focus on the Houthi narrative of Saudi aggression, highlighting specific civilian casualties in al-Hazm and al-Jawf to frame the Houthis as a resistant force. In contrast, Russian reporting shifts the focus toward Houthi offensive actions, creating a divergence in how the agency and intent of each faction are portrayed.",
-   "date_published": "2026-09-08T02:03:06+00:00",
+   "id": "2026-09-09-middle-east-live-us-destroys-five-iranian-oil-tankers-as-ira",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-09-middle-east-live-us-destroys-five-iranian-oil-tankers-as-ira",
+   "title": "United States destroys five Iranian oil tankers following an attack on a U.S. naval ship.",
+   "content_text": "On September 8, 2026, the United States military destroyed five Iranian oil tankers near Kharg Island and Jask in retaliation for an IRGC missile attack on a U.S. Navy warship. Western and Indian outlets focus on the maritime dispute and the specific actions of the U.S. military. In contrast, Middle Eastern reporting emphasizes the broader regional escalation, highlighting Iranian retaliatory strikes on a Jordanian base and the immediate threats to local merchant shipping.",
+   "summary": "On September 8, 2026, the United States military destroyed five Iranian oil tankers near Kharg Island and Jask in retaliation for an IRGC missile attack on a U.S. Navy warship. Western and Indian outlets focus on the maritime dispute and the specific actions of the U.S. military. In contrast, Middle Eastern reporting emphasizes the broader regional escalation, highlighting Iranian retaliatory strikes on a Jordanian base and the immediate threats to local merchant shipping.",
+   "date_published": "2026-09-09T01:58:34+00:00",
    "tags": [
+    "eastern",
     "middle_east",
     "russia",
-    "tier-C"
+    "western",
+    "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3173,
-    "event_date": "2026-09-07",
-    "tier": "C",
-    "tier_label": "Partial coverage",
+    "cluster_id": 3194,
+    "event_date": "2026-09-09",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
     "regions": [
+     "eastern",
      "middle_east",
-     "russia"
+     "russia",
+     "western"
     ],
-    "article_count": 3,
-    "source_count": 3,
+    "article_count": 12,
+    "source_count": 6,
     "sources": [
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20260908-middle-east-live-us-destroys-five-iranian-oil-tankers-as-iran-threatens-kuwait-and-bahrain"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/watch-us-strikes-5-iranian-oil-tankers-near-kharg-island-after-iran-targets-us-navy-ship/articleshow/133946004.cms"
+     },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/7/houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison-attack?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-accuse-saudi-arabia-air-raids-missile-strikes"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-warns-oil-tankers-kuwait-bahrain-will-be-targeted"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2183845"
+      "url": "https://tass.com/world/2184523"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645293-iran-oil-tanker-attacks/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3173.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3194.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-09-us-sanctions-all-remaining-iranian-airlines-with-27-carriers",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-09-us-sanctions-all-remaining-iranian-airlines-with-27-carriers",
+   "title": "United States imposes new sanctions on Iranian airlines and aviation sector service providers",
+   "content_text": "On September 8, 2026, the U.S. Treasury Department imposed sanctions on 27 to 36 Iranian aviation entities to curb the transport of illicit cargo and weapons. While all sources confirm the economic pressure on Tehran, coverage diverges on the framing of the policy's intent. Western outlets focus on the technical economic measures, whereas Middle Eastern sources emphasize the \"Operation Economic Outcast\" branding to highlight a direct confrontation with the Iranian regime's capabilities.",
+   "summary": "On September 8, 2026, the U.S. Treasury Department imposed sanctions on 27 to 36 Iranian aviation entities to curb the transport of illicit cargo and weapons. While all sources confirm the economic pressure on Tehran, coverage diverges on the framing of the policy's intent. Western outlets focus on the technical economic measures, whereas Middle Eastern sources emphasize the \"Operation Economic Outcast\" branding to highlight a direct confrontation with the Iranian regime's capabilities.",
+   "date_published": "2026-09-09T01:56:29+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "russia",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3193,
+    "event_date": "2026-09-09",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia"
+    ],
+    "article_count": 5,
+    "source_count": 5,
+    "sources": [
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/us-sanctions-all-remaining-iranian-airlines-with-27-carriers-hit-in-fresh-action/articleshow/133941683.cms"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/us-slaps-sanctions-iran-airlines-service-providers-6371061"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/9/8/us-increases-pressure-on-iran-with-sanctions-targeting-aviation-sector?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/news/trump-administration-sanctions-all-iranian-airlines-aviation-crackdown"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2184485"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3193.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-08-volkswagen-s-osnabruck-plant-to-switch-from-cars-to-defence",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-08-volkswagen-s-osnabruck-plant-to-switch-from-cars-to-defence",
+   "title": "Volkswagen plans to convert its Osnabrück manufacturing facility to produce defense equipment.",
+   "content_text": "Volkswagen plans to sell its Osnabrück manufacturing facility to the state government and Aurelius Capital to produce defense components for Rafael Advanced Defense Systems starting in 2027. Western outlets frame the transition as a matter of local economic stability and corporate restructuring to preserve jobs. In contrast, Russian reporting frames the move as a significant milestone in the broader trend of European military buildup and regional escalation.",
+   "summary": "Volkswagen plans to sell its Osnabrück manufacturing facility to the state government and Aurelius Capital to produce defense components for Rafael Advanced Defense Systems starting in 2027. Western outlets frame the transition as a matter of local economic stability and corporate restructuring to preserve jobs. In contrast, Russian reporting frames the move as a significant milestone in the broader trend of European military buildup and regional escalation.",
+   "date_published": "2026-09-09T02:06:07+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 3215,
+    "event_date": "2026-09-08",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/tv-shows/business/20260907-volkswagen-s-osnabr%C3%BCck-plant-to-switch-from-cars-to-defence"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/08/riconversione-stabilimento-volkswagen-osnabruck/"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645238-volkswagen-israeli-arms-production/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3215.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-08-netanyahu-under-fire-over-report-uae-warned-of-october-7-att",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-08-netanyahu-under-fire-over-report-uae-warned-of-october-7-att",
+   "title": "Reports emerge that the UAE warned Israel of the October 7 attack in advance.",
+   "content_text": "Reports indicate that UAE President Mohamed bin Zayed Al Nahyan warned Israeli Prime Minister Benjamin Netanyahu of a potential Hamas attack before October 7, 2023. While both Western and Russian outlets report the warning occurred, they differ in their framing of the consequences. Western media focuses on the domestic political fallout and accusations of leadership incompetence within Israel, while Russian outlets emphasize the systemic intelligence failures and the specific negligence of the Israeli leadership in acting on the information.",
+   "summary": "Reports indicate that UAE President Mohamed bin Zayed Al Nahyan warned Israeli Prime Minister Benjamin Netanyahu of a potential Hamas attack before October 7, 2023. While both Western and Russian outlets report the warning occurred, they differ in their framing of the consequences. Western media focuses on the domestic political fallout and accusations of leadership incompetence within Israel, while Russian outlets emphasize the systemic intelligence failures and the specific negligence of the Israeli leadership in acting on the information.",
+   "date_published": "2026-09-09T02:04:17+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 3211,
+    "event_date": "2026-09-08",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/netanyahu-under-fire-over-report-uae-warned-of-october-7-attack"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645273-netanyahu-knew-hamas-attack/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "http://www.euronews.com/2026/09/08/pressure-mounts-on-israeli-pm-netanyahu-after-report-uae-warned-of-hamas-7-october-attack"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3211.json",
     "languages": [
      "en",
      "it",
