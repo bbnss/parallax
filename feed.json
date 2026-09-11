@@ -5,15 +5,15 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-10T02:36:39Z",
+ "_generated_at": "2026-09-11T02:33:28Z",
  "items": [
   {
-   "id": "2026-09-10-trump-la-guerra-in-iran-finira-subito-dopo-le-nostre-elezion",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-10-trump-la-guerra-in-iran-finira-subito-dopo-le-nostre-elezion",
-   "title": "Donald Trump states that the conflict with Iran will end after the midterm elections.",
-   "content_text": "President Donald Trump stated on September 10, 2026, that the conflict with Iran would conclude immediately following the American midterm elections. Western outlets reported the statement as a direct, standalone fact regarding the administration's current stance. In contrast, Middle Eastern and Russian sources framed the timeline as a response to Iranian nuclear ambitions and tactical maneuvers. These regional reports differ by focusing on the raw declaration versus the underlying geopolitical motivations behind the President's words.",
-   "summary": "President Donald Trump stated on September 10, 2026, that the conflict with Iran would conclude immediately following the American midterm elections. Western outlets reported the statement as a direct, standalone fact regarding the administration's current stance. In contrast, Middle Eastern and Russian sources framed the timeline as a response to Iranian nuclear ambitions and tactical maneuvers. These regional reports differ by focusing on the raw declaration versus the underlying geopolitical motivations behind the President's words.",
-   "date_published": "2026-09-10T01:55:56+00:00",
+   "id": "2026-09-11-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of-m",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-11-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of-m",
+   "title": "Houthi rebels seize the strategic Red Sea port city of Mokha in Yemen",
+   "content_text": "On September 11, 2026, Houthi rebels seized the strategic Red Sea port city of Mocha, ousting Saudi-backed forces and gaining a foothold near the Bab el-Mandeb Strait. Western and Eastern outlets frame the seizure as a crisis for global maritime security and international trade. In contrast, Middle Eastern and Russian sources focus on regional power dynamics, framing the event as a significant escalation in the Iran-Saudi proxy war.",
+   "summary": "On September 11, 2026, Houthi rebels seized the strategic Red Sea port city of Mocha, ousting Saudi-backed forces and gaining a foothold near the Bab el-Mandeb Strait. Western and Eastern outlets frame the seizure as a crisis for global maritime security and international trade. In contrast, Middle Eastern and Russian sources focus on regional power dynamics, framing the event as a significant escalation in the Iran-Saudi proxy war.",
+   "date_published": "2026-09-11T01:54:59+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -22,8 +22,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3225,
-    "event_date": "2026-09-10",
+    "cluster_id": 3238,
+    "event_date": "2026-09-11",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -32,96 +32,77 @@
      "russia",
      "western"
     ],
-    "article_count": 7,
-    "source_count": 5,
+    "article_count": 14,
+    "source_count": 11,
     "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/10/attacchi-yemen-houthi-arabia-saudita/"
+     },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/09/trump-la-guerra-in-iran-finira-subito-dopo-le-nostre-elezioni_8ea842ce-15ba-41cf-94c2-432f9ffa567d.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/africa/2026/09/10/media-gli-houthi-hanno-conquistato-la-citta-yemenita-di-mocha-sul-mar_8fec3631-c83e-464d-ab93-cd657b9b14a1.html"
      },
      {
       "name": "Times of India",
       "region": "eastern",
       "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/us/theyre-desperate-to-affect-election-trump-declares-iran-war-will-end-after-us-midterms/articleshow/133982252.cms"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/9/trump-says-the-us-iran-war-will-end-right-after-midterms?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-war-will-end-immediately-after-midterm-elections"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2185075"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3225.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-10-il-prezzo-del-petrolio-ha-superato-i-100-dollari-al-barile-p",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-10-il-prezzo-del-petrolio-ha-superato-i-100-dollari-al-barile-p",
-   "title": "Brent crude oil prices surpass 100 dollars per barrel amid escalating Middle East tensions.",
-   "content_text": "On September 9, 2026, Brent crude oil prices surpassed $100 per barrel following retaliatory strikes between the United States and Iran. While all sources report the price hike, coverage differs significantly regarding the primary consequences of the surge. Western outlets focus on macroeconomic impacts like inflation and stock market volatility, whereas Eastern reports emphasize regional economic stability and specific logistical threats to Red Sea and Strait of Hormuz shipping routes.",
-   "summary": "On September 9, 2026, Brent crude oil prices surpassed $100 per barrel following retaliatory strikes between the United States and Iran. While all sources report the price hike, coverage differs significantly regarding the primary consequences of the surge. Western outlets focus on macroeconomic impacts like inflation and stock market volatility, whereas Eastern reports emphasize regional economic stability and specific logistical threats to Red Sea and Strait of Hormuz shipping routes.",
-   "date_published": "2026-09-10T01:51:45+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3220,
-    "event_date": "2026-09-10",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "eastern",
-     "russia",
-     "western"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/09/prezzo-petrolio-brent-100-dollari-2/"
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/houthis-seize-yemens-strategic-red-sea-port-city-of-mokha-from-saudi-backed-forces/articleshow/134025249.cms"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/business/brent-oil-passes-us100-mideast-flare-up-stoking-inflation-fears-6373996"
+      "url": "https://www.channelnewsasia.com/world/red-sea-houthis-advance-yemen-coast-saudi-oil-exports-6376816"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/11/iran-war-live-irgc-attacks-us-unmanned-vessel-in-hormuz-two-ships-hit?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-eye-full-control-bab-el-mandeb-saudi-backed-forces-reel"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/economy/2185101"
+      "url": "https://tass.com/world/2185775"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645399-yemen-houthis-port-city/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3220.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3238.json",
     "languages": [
      "en",
      "it",
@@ -132,55 +113,175 @@
    }
   },
   {
-   "id": "2026-09-09-iran-referred-to-un-security-council-for-nuclear-non-complia",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-09-iran-referred-to-un-security-council-for-nuclear-non-complia",
-   "title": "The IAEA refers Iran to the UN Security Council over nuclear non-compliance issues.",
-   "content_text": "On September 9, 2026, the IAEA Board of Governors voted 23-3-8 to refer Iran to the UN Security Council for nuclear non-compliance. Western outlets frame the move as a necessary enforcement of international law due to Tehran's lack of transparency. Conversely, Middle Eastern sources frame the decision as a politically motivated maneuver by Western powers, highlighting Iran's claims that the resolution is a reaction to regional military pressures.",
-   "summary": "On September 9, 2026, the IAEA Board of Governors voted 23-3-8 to refer Iran to the UN Security Council for nuclear non-compliance. Western outlets frame the move as a necessary enforcement of international law due to Tehran's lack of transparency. Conversely, Middle Eastern sources frame the decision as a politically motivated maneuver by Western powers, highlighting Iran's claims that the resolution is a reaction to regional military pressures.",
-   "date_published": "2026-09-10T01:57:58+00:00",
+   "id": "2026-09-10-spanish-intelligence-warned-of-ceuta-mass-crossing-plans-bef",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-10-spanish-intelligence-warned-of-ceuta-mass-crossing-plans-bef",
+   "title": "Spanish intelligence officials issued warnings regarding a potential mass crossing of migrants into Ceuta.",
+   "content_text": "Spanish intelligence officials issued warnings on July 29 regarding coordinated social media efforts to organize a mass crossing into Ceuta, which resulted in thousands of migrants arriving on July 30 and 31. Western outlets focus on the logistical complexities and the humanitarian toll of the event. In contrast, Russian sources frame the same intelligence timeline as a specific failure of Spanish governance, emphasizing the government's inability to act on the warnings provided.",
+   "summary": "Spanish intelligence officials issued warnings on July 29 regarding coordinated social media efforts to organize a mass crossing into Ceuta, which resulted in thousands of migrants arriving on July 30 and 31. Western outlets focus on the logistical complexities and the humanitarian toll of the event. In contrast, Russian sources frame the same intelligence timeline as a specific failure of Spanish governance, emphasizing the government's inability to act on the warnings provided.",
+   "date_published": "2026-09-11T01:58:48+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 3253,
+    "event_date": "2026-09-10",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/10/ceuta-intelligence-spagna/"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645391-ceuta-spy-agency-warning/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3253.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-10-israel-destroys-hezbollah-tunnel-network-in-south-lebanon-tr",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-10-israel-destroys-hezbollah-tunnel-network-in-south-lebanon-tr",
+   "title": "Israeli strikes on Hezbollah infrastructure in southern Lebanon cause a 4.1-magnitude earthquake.",
+   "content_text": "On September 10, 2026, Israeli strikes on a subterranean network in southern Lebanon triggered a 4.1-magnitude earthquake. While all sources confirm the seismic event and the destruction of infrastructure, reporting diverges on the primary narrative of the strike. Western outlets frame the event as a tactical success focused on military precision and the neutralization of Iranian-backed assets. Conversely, Middle Eastern coverage emphasizes the scale of destruction and the human cost, specifically reporting on casualties within the tunnels.",
+   "summary": "On September 10, 2026, Israeli strikes on a subterranean network in southern Lebanon triggered a 4.1-magnitude earthquake. While all sources confirm the seismic event and the destruction of infrastructure, reporting diverges on the primary narrative of the strike. Western outlets frame the event as a tactical success focused on military precision and the neutralization of Iranian-backed assets. Conversely, Middle Eastern coverage emphasizes the scale of destruction and the human cost, specifically reporting on casualties within the tunnels.",
+   "date_published": "2026-09-11T01:56:48+00:00",
    "tags": [
     "middle_east",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3231,
-    "event_date": "2026-09-09",
+    "cluster_id": 3244,
+    "event_date": "2026-09-10",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
      "middle_east",
      "western"
     ],
-    "article_count": 6,
+    "article_count": 8,
     "source_count": 4,
     "sources": [
      {
-      "name": "BBC World",
+      "name": "France 24",
       "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss"
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20260910-israel-hezbollah-tunnels-lebanon-earthquake"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/09/laiea-deferisce-liran-al-consiglio-di-sicurezza-dellonu_f2402d76-b2c4-4e8f-a0b1-71defc6dfdaa.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/10/scossa-di-terremoto-di-magnitudo-41-dopo-raid-israele-nel-sud-del-libano_9302497d-708f-49c7-b095-bde0f1984625.html"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/9/iaea-board-resolves-to-report-iran-to-security-council-over-nuclear-program?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/9/10/israel-says-it-destroyed-hezbollah-base-in-lebanons-ali-al-taher-ridge?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-iaea-resolution-will-not-bring-any-results"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/earthquake-recorded-after-israel-demolition-lebanon-infrastructure"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3231.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3244.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-09-saudi-arabia-vows-to-respond-after-houthis-attack-cities-and",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-09-saudi-arabia-vows-to-respond-after-houthis-attack-cities-and",
+   "title": "Saudi Arabia and Houthi forces exchange strikes following attacks on energy facilities and cities.",
+   "content_text": "On September 8, 2026, Houthi forces launched drone and missile strikes against Saudi Arabian cities and energy infrastructure, causing 73 injuries and temporary oil facility shutdowns. While all sources confirm the physical damage and the Houthis' claims of retaliation, coverage differs in geopolitical framing. Western outlets focus on the local Yemeni civil war and regional stability, whereas Eastern reporting frames the strikes as a component of the broader global conflict between the United States and Iran.",
+   "summary": "On September 8, 2026, Houthi forces launched drone and missile strikes against Saudi Arabian cities and energy infrastructure, causing 73 injuries and temporary oil facility shutdowns. While all sources confirm the physical damage and the Houthis' claims of retaliation, coverage differs in geopolitical framing. Western outlets focus on the local Yemeni civil war and regional stability, whereas Eastern reporting frames the strikes as a component of the broader global conflict between the United States and Iran.",
+   "date_published": "2026-09-09T01:54:29+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3192,
+    "event_date": "2026-09-09",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "western"
+    ],
+    "article_count": 7,
+    "source_count": 5,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cp849n2nz01o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/08/g-s1-142296/houthi-attacks-saudi-arabia"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/iran-us-war-expands-houthis-saudi-arabia-6371136"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eu-urges-houthis-end-all-attacks-after-strikes-saudi"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "http://www.euronews.com/2026/09/08/saudi-arabia-strikes-back-after-houthis-hit-oil-sites-in-heaviest-attack-in-years"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3192.json",
     "languages": [
      "en",
      "it",
