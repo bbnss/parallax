@@ -6,44 +6,26 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 11 Sep 2026 02:33:28 +0000</lastBuildDate>
+<lastBuildDate>Sat, 12 Sep 2026 02:35:41 +0000</lastBuildDate>
 <item>
-<title>Houthi rebels seize the strategic Red Sea port city of Mokha in Yemen</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-11-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of-m</link>
-<guid isPermaLink="false">2026-09-11-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of-m</guid>
-<pubDate>Fri, 11 Sep 2026 01:54:59 +0000</pubDate>
-<description>On September 11, 2026, Houthi rebels seized the strategic Red Sea port city of Mocha, ousting Saudi-backed forces and gaining a foothold near the Bab el-Mandeb Strait. Western and Eastern outlets frame the seizure as a crisis for global maritime security and international trade. In contrast, Middle Eastern and Russian sources focus on regional power dynamics, framing the event as a significant escalation in the Iran-Saudi proxy war.</description>
-<category>eastern</category>
+<title>Saudi Arabia shuts East-West oil pipeline following drone attacks launched from Iraqi territory.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-12-live-saudi-shuts-east-west-oil-pipeline-after-multiple-hout</link>
+<guid isPermaLink="false">2026-09-12-live-saudi-shuts-east-west-oil-pipeline-after-multiple-hout</guid>
+<pubDate>Sat, 12 Sep 2026 01:57:55 +0000</pubDate>
+<description>Saudi Arabia shut down the East-West oil pipeline on September 10, 2026, following drone strikes launched from Iraqi territory that caused material damage and casualties. While all sources confirm the physical attack and the resulting infrastructure shutdown, reporting differs on the perpetrators' identities. Middle Eastern outlets focus on Iraqi accountability and regional stability, whereas Russian reports emphasize the involvement of Houthi rebels or pro-Iranian groups within a broader framework of global energy security.</description>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Spanish intelligence officials issued warnings regarding a potential mass crossing of migrants into Ceuta.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-10-spanish-intelligence-warned-of-ceuta-mass-crossing-plans-bef</link>
-<guid isPermaLink="false">2026-09-10-spanish-intelligence-warned-of-ceuta-mass-crossing-plans-bef</guid>
-<pubDate>Fri, 11 Sep 2026 01:58:48 +0000</pubDate>
-<description>Spanish intelligence officials issued warnings on July 29 regarding coordinated social media efforts to organize a mass crossing into Ceuta, which resulted in thousands of migrants arriving on July 30 and 31. Western outlets focus on the logistical complexities and the humanitarian toll of the event. In contrast, Russian sources frame the same intelligence timeline as a specific failure of Spanish governance, emphasizing the government's inability to act on the warnings provided.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Israeli strikes on Hezbollah infrastructure in southern Lebanon cause a 4.1-magnitude earthquake.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-10-israel-destroys-hezbollah-tunnel-network-in-south-lebanon-tr</link>
-<guid isPermaLink="false">2026-09-10-israel-destroys-hezbollah-tunnel-network-in-south-lebanon-tr</guid>
-<pubDate>Fri, 11 Sep 2026 01:56:48 +0000</pubDate>
-<description>On September 10, 2026, Israeli strikes on a subterranean network in southern Lebanon triggered a 4.1-magnitude earthquake. While all sources confirm the seismic event and the destruction of infrastructure, reporting diverges on the primary narrative of the strike. Western outlets frame the event as a tactical success focused on military precision and the neutralization of Iranian-backed assets. Conversely, Middle Eastern coverage emphasizes the scale of destruction and the human cost, specifically reporting on casualties within the tunnels.</description>
-<category>middle_east</category>
-<category>western</category>
-</item>
-<item>
-<title>Saudi Arabia and Houthi forces exchange strikes following attacks on energy facilities and cities.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-09-saudi-arabia-vows-to-respond-after-houthis-attack-cities-and</link>
-<guid isPermaLink="false">2026-09-09-saudi-arabia-vows-to-respond-after-houthis-attack-cities-and</guid>
-<pubDate>Wed, 09 Sep 2026 01:54:29 +0000</pubDate>
-<description>On September 8, 2026, Houthi forces launched drone and missile strikes against Saudi Arabian cities and energy infrastructure, causing 73 injuries and temporary oil facility shutdowns. While all sources confirm the physical damage and the Houthis' claims of retaliation, coverage differs in geopolitical framing. Western outlets focus on the local Yemeni civil war and regional stability, whereas Eastern reporting frames the strikes as a component of the broader global conflict between the United States and Iran.</description>
+<title>Events and ceremonies mark the 25th anniversary of the September 11 terrorist attacks.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-11-spies-strategies-and-missed-opportunities-how-the-lessons-of</link>
+<guid isPermaLink="false">2026-09-11-spies-strategies-and-missed-opportunities-how-the-lessons-of</guid>
+<pubDate>Sat, 12 Sep 2026 02:00:35 +0000</pubDate>
+<description>Global media outlets are reporting on the 25th anniversary of the September 11 attacks, which resulted in nearly 3,000 deaths. While all regions acknowledge the core tragedy and its impact on international policy, coverage differs significantly in framing. Western outlets emphasize internal security debates and the personal experiences of survivors, whereas Middle Eastern sources focus on the long-term geopolitical consequences of the "war on terror" and the specific roles of American leadership.</description>
 <category>eastern</category>
 <category>middle_east</category>
+<category>russia</category>
 <category>western</category>
 </item>
 </channel>
