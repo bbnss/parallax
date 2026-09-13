@@ -5,60 +5,60 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-12T02:35:41Z",
+ "_generated_at": "2026-09-13T02:46:25Z",
  "items": [
   {
-   "id": "2026-09-12-live-saudi-shuts-east-west-oil-pipeline-after-multiple-hout",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-12-live-saudi-shuts-east-west-oil-pipeline-after-multiple-hout",
-   "title": "Saudi Arabia shuts East-West oil pipeline following drone attacks launched from Iraqi territory.",
-   "content_text": "Saudi Arabia shut down the East-West oil pipeline on September 10, 2026, following drone strikes launched from Iraqi territory that caused material damage and casualties. While all sources confirm the physical attack and the resulting infrastructure shutdown, reporting differs on the perpetrators' identities. Middle Eastern outlets focus on Iraqi accountability and regional stability, whereas Russian reports emphasize the involvement of Houthi rebels or pro-Iranian groups within a broader framework of global energy security.",
-   "summary": "Saudi Arabia shut down the East-West oil pipeline on September 10, 2026, following drone strikes launched from Iraqi territory that caused material damage and casualties. While all sources confirm the physical attack and the resulting infrastructure shutdown, reporting differs on the perpetrators' identities. Middle Eastern outlets focus on Iraqi accountability and regional stability, whereas Russian reports emphasize the involvement of Houthi rebels or pro-Iranian groups within a broader framework of global energy security.",
-   "date_published": "2026-09-12T01:57:55+00:00",
+   "id": "2026-09-13-trump-visits-ireland-says-unification-would-be-fantastic",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-13-trump-visits-ireland-says-unification-would-be-fantastic",
+   "title": "Donald Trump expresses support for the possibility of a unified Ireland during a visit.",
+   "content_text": "During a visit to Dublin on September 13, 2026, President Donald Trump publicly expressed support for the unification of the Republic of Ireland and Northern Ireland. Western outlets frame his remarks as part of a broad, multifaceted diplomatic tour involving trade and energy negotiations. In contrast, Russian state media isolates the statement as a specific geopolitical prediction, focusing on the inevitability of the border's change rather than the broader context of his international agenda.",
+   "summary": "During a visit to Dublin on September 13, 2026, President Donald Trump publicly expressed support for the unification of the Republic of Ireland and Northern Ireland. Western outlets frame his remarks as part of a broad, multifaceted diplomatic tour involving trade and energy negotiations. In contrast, Russian state media isolates the statement as a specific geopolitical prediction, focusing on the inevitability of the border's change rather than the broader context of his international agenda.",
+   "date_published": "2026-09-13T01:53:00+00:00",
    "tags": [
-    "middle_east",
+    "eastern",
     "russia",
     "western",
     "tier-B"
    ],
    "_parallax": {
-    "cluster_id": 3259,
-    "event_date": "2026-09-12",
+    "cluster_id": 3286,
+    "event_date": "2026-09-13",
     "tier": "B",
     "tier_label": "Cross-bloc coverage",
     "regions": [
-     "middle_east",
+     "eastern",
      "russia",
      "western"
     ],
-    "article_count": 9,
+    "article_count": 4,
     "source_count": 4,
     "sources": [
      {
-      "name": "France 24",
+      "name": "DW News",
       "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran"
+      "country": "DE",
+      "url": "https://www.dw.com/en/trump-visits-ireland-says-unification-would-be-fantastic/a-79244685?maca=en-rss-en-world-4025-xml-mrss"
      },
      {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/11/saudi-arabia-says-east-west-pipeline-hit-by-drones-launched-from-iraq?traffic_source=rss"
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/12/trump-unirlanda-unita-sarebbe-fantastica_2dde4701-a344-41c2-b3c3-05ae96ec87e9.html"
      },
      {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-commander-dismissed-over-drone-attacks-targeting-saudi-arabia"
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/trump-says-he-would-love-see-united-ireland-6380186"
      },
      {
-      "name": "TASS",
+      "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2186509"
+      "url": "https://www.rt.com/news/645596-ireland-will-be-reunified-trump/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3259.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3286.json",
     "languages": [
      "en",
      "it",
@@ -69,12 +69,12 @@
    }
   },
   {
-   "id": "2026-09-11-spies-strategies-and-missed-opportunities-how-the-lessons-of",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-11-spies-strategies-and-missed-opportunities-how-the-lessons-of",
-   "title": "Events and ceremonies mark the 25th anniversary of the September 11 terrorist attacks.",
-   "content_text": "Global media outlets are reporting on the 25th anniversary of the September 11 attacks, which resulted in nearly 3,000 deaths. While all regions acknowledge the core tragedy and its impact on international policy, coverage differs significantly in framing. Western outlets emphasize internal security debates and the personal experiences of survivors, whereas Middle Eastern sources focus on the long-term geopolitical consequences of the \"war on terror\" and the specific roles of American leadership.",
-   "summary": "Global media outlets are reporting on the 25th anniversary of the September 11 attacks, which resulted in nearly 3,000 deaths. While all regions acknowledge the core tragedy and its impact on international policy, coverage differs significantly in framing. Western outlets emphasize internal security debates and the personal experiences of survivors, whereas Middle Eastern sources focus on the long-term geopolitical consequences of the \"war on terror\" and the specific roles of American leadership.",
-   "date_published": "2026-09-12T02:00:35+00:00",
+   "id": "2026-09-13-che-posto-e-lo-stretto-di-bab-el-mandeb",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-13-che-posto-e-lo-stretto-di-bab-el-mandeb",
+   "title": "Donald Trump claims Houthi rebels requested that the United States not intervene in Yemen.",
+   "content_text": "Donald Trump stated that Houthi rebels requested the United States refrain from intervening in their conflict with Saudi Arabia following their seizure of the Perim peninsula and key Red Sea ports. Western outlets frame the situation as a maritime security crisis focused on the protection of global trade routes and oil shipments. Conversely, Middle Eastern and Russian sources emphasize regional power dynamics, highlighting how the Houthi expansion provides Iran with increased leverage against Western influence.",
+   "summary": "Donald Trump stated that Houthi rebels requested the United States refrain from intervening in their conflict with Saudi Arabia following their seizure of the Perim peninsula and key Red Sea ports. Western outlets frame the situation as a maritime security crisis focused on the protection of global trade routes and oil shipments. Conversely, Middle Eastern and Russian sources emphasize regional power dynamics, highlighting how the Houthi expansion provides Iran with increased leverage against Western influence.",
+   "date_published": "2026-09-13T01:48:49+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -83,8 +83,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3265,
-    "event_date": "2026-09-11",
+    "cluster_id": 3282,
+    "event_date": "2026-09-13",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -93,65 +93,345 @@
      "russia",
      "western"
     ],
-    "article_count": 19,
-    "source_count": 9,
+    "article_count": 7,
+    "source_count": 6,
     "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c1l68gmqq24o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/video/20260911-trump-delivers-remarks-at-pentagon-ceremony-to-mark-25th-anniversary-of-9-11"
-     },
      {
       "name": "Il Post",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/11/celebrazioni-11-settembre-new-york/"
+      "url": "https://www.ilpost.it/2026/09/12/bab-el-mandeb-stretto-cosa-e/"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/11/trump-si-appisola-al-pentagono-alla-cerimonia-per-l11-settembre-virale-sui_975d1e07-441a-48d3-8b1f-94997c51ccab.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/12/trump-gli-houthi-ci-hanno-chiesto-di-non-intervenire-contro-di-loro_4beedb80-a2fa-4f6d-9540-30519dec6794.html"
      },
      {
       "name": "Times of India",
       "region": "eastern",
       "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/us/we-will-never-ever-forget-trump-commemorates-25th-anniversary-of-9/11-terrorist-attacks/articleshow/134080822.cms"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/us-sep-11-world-trade-center-twin-tower-attack-anniversary-6378566"
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/houthis-called-us-to-say-they-dont-want-to-fight-us-trump/articleshow/134166241.cms"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/11/somber-tributes-as-us-marks-the-25th-anniversary-of-september-11-attacks?traffic_source=rss"
+      "url": "https://www.aljazeera.com/video/inside-story/2026/9/12/will-houthi-advances-in-yemen-give-iran-leverage-in-its-war-with-the-us?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-houthis-asked-us-not-intervene-yemen"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/645405-911-terrorist-attack-blowback/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://www.rt.com/news/645614-houthis-trump-saudi-fight/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3282.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-13-dw-exclusive-zelenskyy-offers-to-meet-putin-at-g20-in-miami",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-13-dw-exclusive-zelenskyy-offers-to-meet-putin-at-g20-in-miami",
+   "title": "Ukrainian President Zelenskyy proposes a meeting with Putin at the G20 summit in Miami.",
+   "content_text": "Ukrainian President Volodymyr Zelenskyy proposed a meeting with Russian President Vladimir Putin at the December G20 summit in Miami to seek a path toward ending the conflict. Western outlets frame the proposal as a pragmatic move tied to specific military milestones and defense requirements. In contrast, Eastern reporting emphasizes the shifting diplomatic atmosphere and Ukraine's increased leverage in negotiations. Both regions agree on the proposal's core facts but differ on whether the move is driven by military strategy or diplomatic momentum.",
+   "summary": "Ukrainian President Volodymyr Zelenskyy proposed a meeting with Russian President Vladimir Putin at the December G20 summit in Miami to seek a path toward ending the conflict. Western outlets frame the proposal as a pragmatic move tied to specific military milestones and defense requirements. In contrast, Eastern reporting emphasizes the shifting diplomatic atmosphere and Ukraine's increased leverage in negotiations. Both regions agree on the proposal's core facts but differ on whether the move is driven by military strategy or diplomatic momentum.",
+   "date_published": "2026-09-13T01:46:44+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3281,
+    "event_date": "2026-09-13",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "russia",
+     "western"
+    ],
+    "article_count": 9,
+    "source_count": 6,
+    "sources": [
+     {
+      "name": "DW News",
+      "region": "western",
+      "country": "DE",
+      "url": "https://www.dw.com/en/dw-exclusive-zelenskyy-offers-to-meet-putin-at-g20-in-miami/a-79241703?maca=en-rss-en-world-4025-xml-mrss"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/12/cremlino-impossibile-un-incontro-tra-putin-e-zelensky-al-g20_1fc445c5-7bea-4385-b334-cfa1cefd23d5.html"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/europe/zelensky-ready-to-meet-putin-at-g20/articleshow/134167553.cms"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/ukraine-zelenskyy-willing-meet-russia-putin-g20-miami-6380171"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/politics/2186819"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/09/12/kremlin-says-no-decision-yet-on-putins-g20-visit-dismisses-zelenskys-meeting-proposal-a93693"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3281.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-12-trump-shadow-looms-large-over-brics-as-modi-hosts-putin-and",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-12-trump-shadow-looms-large-over-brics-as-modi-hosts-putin-and",
+   "title": "BRICS leaders gather in India to discuss global issues and the bloc's evolving role.",
+   "content_text": "Leaders of the expanded BRICS bloc gathered in New Delhi to discuss trade, investment, and their growing role in the global economy. While both Western and Russian outlets acknowledge the group's expanding influence, they differ significantly on the bloc's internal cohesion. Western media frames the summit as a reactive, fractured coalition struggling with internal contradictions against Western hegemony. Conversely, Russian reporting portrays the summit as a unified, proactive movement toward a new global order and institutional growth.",
+   "summary": "Leaders of the expanded BRICS bloc gathered in New Delhi to discuss trade, investment, and their growing role in the global economy. While both Western and Russian outlets acknowledge the group's expanding influence, they differ significantly on the bloc's internal cohesion. Western media frames the summit as a reactive, fractured coalition struggling with internal contradictions against Western hegemony. Conversely, Russian reporting portrays the summit as a unified, proactive movement toward a new global order and institutional growth.",
+   "date_published": "2026-09-13T01:56:47+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 3303,
+    "event_date": "2026-09-12",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 7,
+    "source_count": 5,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c07lv53l7jjo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/11/brics-divisioni-india/"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645503-20-years-of-brics/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/12/nx-s1-5965777/brics-forum-brings-together-emerging-economies-aimed-at-countering-western-dominance"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3303.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-12-funzionario-yemen-sei-missili-hanno-colpito-il-porto-di-moch",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-12-funzionario-yemen-sei-missili-hanno-colpito-il-porto-di-moch",
+   "title": "Yemen government forces and Houthi rebels report strikes on military targets in Mocha city.",
+   "content_text": "On September 12, 2026, Yemeni government forces and Houthi rebels engaged in a series of military strikes targeting infrastructure in the coastal city of Mocha. Western reports emphasize the strategic importance of the port and the involvement of Saudi-backed forces in the broader regional theater. Conversely, Russian reporting focuses on the tactical success of government forces against Houthi weaponry and domestic maneuvers along the Mocha-Dhubab highway.",
+   "summary": "On September 12, 2026, Yemeni government forces and Houthi rebels engaged in a series of military strikes targeting infrastructure in the coastal city of Mocha. Western reports emphasize the strategic importance of the port and the involvement of Saudi-backed forces in the broader regional theater. Conversely, Russian reporting focuses on the tactical success of government forces against Houthi weaponry and domestic maneuvers along the Mocha-Dhubab highway.",
+   "date_published": "2026-09-13T01:54:41+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-B"
+   ],
+   "_parallax": {
+    "cluster_id": 3291,
+    "event_date": "2026-09-12",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
+    "regions": [
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/11/funzionario-yemen-sei-missili-hanno-colpito-il-porto-di-mocha_b3b4708b-9700-4a0c-91cb-e70c4d3d6208.html"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-government-forces-say-hit-houthis-red-sea-city"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2186823"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3291.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-10-iran-war-live-us-hits-iranian-tankers-irgc-attacks-us-forces",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-10-iran-war-live-us-hits-iranian-tankers-irgc-attacks-us-forces",
+   "title": "United States and Iranian forces engage in a series of strikes involving oil tankers.",
+   "content_text": "On September 10, 2026, the United States destroyed five Iranian oil tankers in the Gulf of Oman, causing global oil prices to exceed $100 per barrel. While all sources confirm the strikes and subsequent economic volatility, coverage differs significantly in framing. Western outlets emphasize the immediate risks to global trade and maritime security, whereas Middle Eastern sources focus on the U.S. intent to cripple Iran's economy. Russian media frames the event as a broader challenge to Western hegemony.",
+   "summary": "On September 10, 2026, the United States destroyed five Iranian oil tankers in the Gulf of Oman, causing global oil prices to exceed $100 per barrel. While all sources confirm the strikes and subsequent economic volatility, coverage differs significantly in framing. Western outlets emphasize the immediate risks to global trade and maritime security, whereas Middle Eastern sources focus on the U.S. intent to cripple Iran's economy. Russian media frames the event as a broader challenge to Western hegemony.",
+   "date_published": "2026-09-10T01:54:00+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3223,
+    "event_date": "2026-09-10",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 15,
+    "source_count": 11,
+    "sources": [
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/9/iran-war-live-us-hits-iranian-tankers-irgc-attacks-us-base-in-jordan?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-vows-strangle-iran-economically"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/economy/2185153"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20260909-iran-and-us-strike-tankers-in-biggest-shipping-attack-since-war-began"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/09/g-s1-142496/up-first-newsletter-iran-us-uk-israel-palestine-lonnie-bunch-smithsonian"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/09/iran-attaccate-2-navi-statunitensi-e-10-petroliere-nel-golfo_17dd8e7d-5836-4e9b-a20d-4f323a23a961.html"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/iran-us-tankers-attacks-shipping-hormuz-war-6372881"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645367-trump-iran-oil-tankers/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "El Pais English",
+      "region": "western",
+      "country": "ES",
+      "url": "https://english.elpais.com/international/2026-09-09/united-states-says-it-destroyed-five-iranian-tankers.html"
      },
      {
       "name": "Euronews",
       "region": "western",
       "country": "EU",
-      "url": "https://www.euronews.com/2026/09/11/us-commemorates-25th-anniversary-of-devastating-911-attacks-as-their-legacy-endures"
+      "url": "http://www.euronews.com/2026/09/09/us-destroys-five-iranian-tankers-as-tehran-launches-retaliatory-strikes-on-jordan"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3265.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3223.json",
     "languages": [
      "en",
      "it",
