@@ -5,135 +5,66 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-13T02:46:25Z",
+ "_generated_at": "2026-09-14T02:29:55Z",
  "items": [
   {
-   "id": "2026-09-13-trump-visits-ireland-says-unification-would-be-fantastic",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-13-trump-visits-ireland-says-unification-would-be-fantastic",
-   "title": "Donald Trump expresses support for the possibility of a unified Ireland during a visit.",
-   "content_text": "During a visit to Dublin on September 13, 2026, President Donald Trump publicly expressed support for the unification of the Republic of Ireland and Northern Ireland. Western outlets frame his remarks as part of a broad, multifaceted diplomatic tour involving trade and energy negotiations. In contrast, Russian state media isolates the statement as a specific geopolitical prediction, focusing on the inevitability of the border's change rather than the broader context of his international agenda.",
-   "summary": "During a visit to Dublin on September 13, 2026, President Donald Trump publicly expressed support for the unification of the Republic of Ireland and Northern Ireland. Western outlets frame his remarks as part of a broad, multifaceted diplomatic tour involving trade and energy negotiations. In contrast, Russian state media isolates the statement as a specific geopolitical prediction, focusing on the inevitability of the border's change rather than the broader context of his international agenda.",
-   "date_published": "2026-09-13T01:53:00+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3286,
-    "event_date": "2026-09-13",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "eastern",
-     "russia",
-     "western"
-    ],
-    "article_count": 4,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/trump-visits-ireland-says-unification-would-be-fantastic/a-79244685?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/12/trump-unirlanda-unita-sarebbe-fantastica_2dde4701-a344-41c2-b3c3-05ae96ec87e9.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/trump-says-he-would-love-see-united-ireland-6380186"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645596-ireland-will-be-reunified-trump/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3286.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-13-che-posto-e-lo-stretto-di-bab-el-mandeb",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-13-che-posto-e-lo-stretto-di-bab-el-mandeb",
-   "title": "Donald Trump claims Houthi rebels requested that the United States not intervene in Yemen.",
-   "content_text": "Donald Trump stated that Houthi rebels requested the United States refrain from intervening in their conflict with Saudi Arabia following their seizure of the Perim peninsula and key Red Sea ports. Western outlets frame the situation as a maritime security crisis focused on the protection of global trade routes and oil shipments. Conversely, Middle Eastern and Russian sources emphasize regional power dynamics, highlighting how the Houthi expansion provides Iran with increased leverage against Western influence.",
-   "summary": "Donald Trump stated that Houthi rebels requested the United States refrain from intervening in their conflict with Saudi Arabia following their seizure of the Perim peninsula and key Red Sea ports. Western outlets frame the situation as a maritime security crisis focused on the protection of global trade routes and oil shipments. Conversely, Middle Eastern and Russian sources emphasize regional power dynamics, highlighting how the Houthi expansion provides Iran with increased leverage against Western influence.",
-   "date_published": "2026-09-13T01:48:49+00:00",
+   "id": "2026-09-14-houthis-claim-hitting-saudi-base-in-renewed-fighting",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-14-houthis-claim-hitting-saudi-base-in-renewed-fighting",
+   "title": "Intensifying fighting between Houthi forces and government-aligned troops causes thousands of people to flee.",
+   "content_text": "Escalating fighting between Houthi forces and government-aligned troops in the Marib and Taiz provinces has displaced between 82,000 and 86,000 civilians. While all sources confirm the massive humanitarian crisis and the scale of the displacement, reporting varies significantly in focus. Middle Eastern outlets emphasize the immediate humanitarian consequences and local territorial struggles, whereas Russian sources frame the conflict through the lens of broader geopolitical implications and the roles of external state sponsors.",
+   "summary": "Escalating fighting between Houthi forces and government-aligned troops in the Marib and Taiz provinces has displaced between 82,000 and 86,000 civilians. While all sources confirm the massive humanitarian crisis and the scale of the displacement, reporting varies significantly in focus. Middle Eastern outlets emphasize the immediate humanitarian consequences and local territorial struggles, whereas Russian sources frame the conflict through the lens of broader geopolitical implications and the roles of external state sponsors.",
+   "date_published": "2026-09-14T01:48:47+00:00",
    "tags": [
     "eastern",
     "middle_east",
     "russia",
-    "western",
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3282,
-    "event_date": "2026-09-13",
+    "cluster_id": 3312,
+    "event_date": "2026-09-14",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
      "eastern",
      "middle_east",
-     "russia",
-     "western"
+     "russia"
     ],
-    "article_count": 7,
-    "source_count": 6,
+    "article_count": 8,
+    "source_count": 5,
     "sources": [
      {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/12/bab-el-mandeb-stretto-cosa-e/"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/12/trump-gli-houthi-ci-hanno-chiesto-di-non-intervenire-contro-di-loro_4beedb80-a2fa-4f6d-9540-30519dec6794.html"
-     },
-     {
-      "name": "Times of India",
+      "name": "CGTN",
       "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/houthis-called-us-to-say-they-dont-want-to-fight-us-trump/articleshow/134166241.cms"
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-09-13/Houthis-claim-hitting-Saudi-base-in-renewed-fighting-1QoDO0N9wRy/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/9/12/will-houthi-advances-in-yemen-give-iran-leverage-in-its-war-with-the-us?traffic_source=rss"
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/yemens-houthis-advance-on-government-strongholds-of-marib-taiz?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-houthis-asked-us-not-intervene-yemen"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-arabia-launched-over-50-strikes-against-them-24-hours"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/emergencies/2187093"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/645614-houthis-trump-saudi-fight/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://www.rt.com/news/645663-yemens-houthis-new-push/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3282.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3312.json",
     "languages": [
      "en",
      "it",
@@ -144,12 +75,12 @@
    }
   },
   {
-   "id": "2026-09-13-dw-exclusive-zelenskyy-offers-to-meet-putin-at-g20-in-miami",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-13-dw-exclusive-zelenskyy-offers-to-meet-putin-at-g20-in-miami",
-   "title": "Ukrainian President Zelenskyy proposes a meeting with Putin at the G20 summit in Miami.",
-   "content_text": "Ukrainian President Volodymyr Zelenskyy proposed a meeting with Russian President Vladimir Putin at the December G20 summit in Miami to seek a path toward ending the conflict. Western outlets frame the proposal as a pragmatic move tied to specific military milestones and defense requirements. In contrast, Eastern reporting emphasizes the shifting diplomatic atmosphere and Ukraine's increased leverage in negotiations. Both regions agree on the proposal's core facts but differ on whether the move is driven by military strategy or diplomatic momentum.",
-   "summary": "Ukrainian President Volodymyr Zelenskyy proposed a meeting with Russian President Vladimir Putin at the December G20 summit in Miami to seek a path toward ending the conflict. Western outlets frame the proposal as a pragmatic move tied to specific military milestones and defense requirements. In contrast, Eastern reporting emphasizes the shifting diplomatic atmosphere and Ukraine's increased leverage in negotiations. Both regions agree on the proposal's core facts but differ on whether the move is driven by military strategy or diplomatic momentum.",
-   "date_published": "2026-09-13T01:46:44+00:00",
+   "id": "2026-09-14-trump-zelensky-smetta-di-colpire-le-raffinerie-russe",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-14-trump-zelensky-smetta-di-colpire-le-raffinerie-russe",
+   "title": "Donald Trump calls on Ukrainian President Zelenskyy to stop striking Russian oil refineries",
+   "content_text": "On September 14, 2026, President Donald Trump called on Ukrainian President Volodymyr Zelenskyy to stop striking Russian oil refineries to stabilize global fuel markets. While all sources confirm the link between Ukrainian strikes and rising oil prices, reporting differs on the primary narrative. Western outlets frame the issue as a matter of global economic stability and international cooperation, whereas Russian outlets emphasize the direct consequences of Ukrainian aggression on domestic and international supply chains.",
+   "summary": "On September 14, 2026, President Donald Trump called on Ukrainian President Volodymyr Zelenskyy to stop striking Russian oil refineries to stabilize global fuel markets. While all sources confirm the link between Ukrainian strikes and rising oil prices, reporting differs on the primary narrative. Western outlets frame the issue as a matter of global economic stability and international cooperation, whereas Russian outlets emphasize the direct consequences of Ukrainian aggression on domestic and international supply chains.",
+   "date_published": "2026-09-14T01:46:58+00:00",
    "tags": [
     "eastern",
     "russia",
@@ -157,8 +88,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3281,
-    "event_date": "2026-09-13",
+    "cluster_id": 3309,
+    "event_date": "2026-09-14",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -166,47 +97,41 @@
      "russia",
      "western"
     ],
-    "article_count": 9,
-    "source_count": 6,
+    "article_count": 6,
+    "source_count": 5,
     "sources": [
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/dw-exclusive-zelenskyy-offers-to-meet-putin-at-g20-in-miami/a-79241703?maca=en-rss-en-world-4025-xml-mrss"
-     },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/12/cremlino-impossibile-un-incontro-tra-putin-e-zelensky-al-g20_1fc445c5-7bea-4385-b334-cfa1cefd23d5.html"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/europe/zelensky-ready-to-meet-putin-at-g20/articleshow/134167553.cms"
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/13/trump-zelensky-smetta-di-colpire-le-raffinerie-russe_118aaf3b-d3df-4d44-ad27-700ef0edee2a.html"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/ukraine-zelenskyy-willing-meet-russia-putin-g20-miami-6380171"
+      "url": "https://www.channelnewsasia.com/world/trump-chastises-zelenskyy-over-russian-refinery-strikes-during-ireland-visit-6381601"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/politics/2186819"
+      "url": "https://tass.com/world/2187041"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645651-trump-zelensky-diesel-price/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      },
      {
       "name": "The Moscow Times",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/09/12/kremlin-says-no-decision-yet-on-putins-g20-visit-dismisses-zelenskys-meeting-proposal-a93693"
+      "url": "https://www.themoscowtimes.com/2026/09/13/trump-tells-ukraines-zelensky-to-stop-hitting-russian-diesel-a93696"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3281.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3309.json",
     "languages": [
      "en",
      "it",
@@ -217,132 +142,12 @@
    }
   },
   {
-   "id": "2026-09-12-trump-shadow-looms-large-over-brics-as-modi-hosts-putin-and",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-12-trump-shadow-looms-large-over-brics-as-modi-hosts-putin-and",
-   "title": "BRICS leaders gather in India to discuss global issues and the bloc's evolving role.",
-   "content_text": "Leaders of the expanded BRICS bloc gathered in New Delhi to discuss trade, investment, and their growing role in the global economy. While both Western and Russian outlets acknowledge the group's expanding influence, they differ significantly on the bloc's internal cohesion. Western media frames the summit as a reactive, fractured coalition struggling with internal contradictions against Western hegemony. Conversely, Russian reporting portrays the summit as a unified, proactive movement toward a new global order and institutional growth.",
-   "summary": "Leaders of the expanded BRICS bloc gathered in New Delhi to discuss trade, investment, and their growing role in the global economy. While both Western and Russian outlets acknowledge the group's expanding influence, they differ significantly on the bloc's internal cohesion. Western media frames the summit as a reactive, fractured coalition struggling with internal contradictions against Western hegemony. Conversely, Russian reporting portrays the summit as a unified, proactive movement toward a new global order and institutional growth.",
-   "date_published": "2026-09-13T01:56:47+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3303,
-    "event_date": "2026-09-12",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 7,
-    "source_count": 5,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c07lv53l7jjo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/11/brics-divisioni-india/"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645503-20-years-of-brics/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/09/12/nx-s1-5965777/brics-forum-brings-together-emerging-economies-aimed-at-countering-western-dominance"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3303.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-12-funzionario-yemen-sei-missili-hanno-colpito-il-porto-di-moch",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-12-funzionario-yemen-sei-missili-hanno-colpito-il-porto-di-moch",
-   "title": "Yemen government forces and Houthi rebels report strikes on military targets in Mocha city.",
-   "content_text": "On September 12, 2026, Yemeni government forces and Houthi rebels engaged in a series of military strikes targeting infrastructure in the coastal city of Mocha. Western reports emphasize the strategic importance of the port and the involvement of Saudi-backed forces in the broader regional theater. Conversely, Russian reporting focuses on the tactical success of government forces against Houthi weaponry and domestic maneuvers along the Mocha-Dhubab highway.",
-   "summary": "On September 12, 2026, Yemeni government forces and Houthi rebels engaged in a series of military strikes targeting infrastructure in the coastal city of Mocha. Western reports emphasize the strategic importance of the port and the involvement of Saudi-backed forces in the broader regional theater. Conversely, Russian reporting focuses on the tactical success of government forces against Houthi weaponry and domestic maneuvers along the Mocha-Dhubab highway.",
-   "date_published": "2026-09-13T01:54:41+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3291,
-    "event_date": "2026-09-12",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/11/funzionario-yemen-sei-missili-hanno-colpito-il-porto-di-mocha_b3b4708b-9700-4a0c-91cb-e70c4d3d6208.html"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-government-forces-say-hit-houthis-red-sea-city"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2186823"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3291.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-10-iran-war-live-us-hits-iranian-tankers-irgc-attacks-us-forces",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-10-iran-war-live-us-hits-iranian-tankers-irgc-attacks-us-forces",
-   "title": "United States and Iranian forces engage in a series of strikes involving oil tankers.",
-   "content_text": "On September 10, 2026, the United States destroyed five Iranian oil tankers in the Gulf of Oman, causing global oil prices to exceed $100 per barrel. While all sources confirm the strikes and subsequent economic volatility, coverage differs significantly in framing. Western outlets emphasize the immediate risks to global trade and maritime security, whereas Middle Eastern sources focus on the U.S. intent to cripple Iran's economy. Russian media frames the event as a broader challenge to Western hegemony.",
-   "summary": "On September 10, 2026, the United States destroyed five Iranian oil tankers in the Gulf of Oman, causing global oil prices to exceed $100 per barrel. While all sources confirm the strikes and subsequent economic volatility, coverage differs significantly in framing. Western outlets emphasize the immediate risks to global trade and maritime security, whereas Middle Eastern sources focus on the U.S. intent to cripple Iran's economy. Russian media frames the event as a broader challenge to Western hegemony.",
-   "date_published": "2026-09-10T01:54:00+00:00",
+   "id": "2026-09-14-can-gulf-states-and-iran-negotiate-the-strait-of-hormuz-with",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-14-can-gulf-states-and-iran-negotiate-the-strait-of-hormuz-with",
+   "title": "Oman postpones planned talks between Gulf states and Iran regarding the Strait of Hormuz",
+   "content_text": "Oman officially postponed a high-stakes summit in Salalah involving Gulf states and Iran regarding the security of the Strait of Hormuz. Western outlets frame the delay as a test of regional cooperation and the viability of independent diplomacy without direct U.S. involvement. Conversely, Middle Eastern sources frame the postponement as a tactical pause to build consensus following a recent attack on an Iranian cargo vessel. Both regions agree on the postponement but differ on the primary motivations.",
+   "summary": "Oman officially postponed a high-stakes summit in Salalah involving Gulf states and Iran regarding the security of the Strait of Hormuz. Western outlets frame the delay as a test of regional cooperation and the viability of independent diplomacy without direct U.S. involvement. Conversely, Middle Eastern sources frame the postponement as a tactical pause to build consensus following a recent attack on an Iranian cargo vessel. Both regions agree on the postponement but differ on the primary motivations.",
+   "date_published": "2026-09-14T01:45:09+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -351,8 +156,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3223,
-    "event_date": "2026-09-10",
+    "cluster_id": 3308,
+    "event_date": "2026-09-14",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -361,77 +166,100 @@
      "russia",
      "western"
     ],
-    "article_count": 15,
-    "source_count": 11,
+    "article_count": 7,
+    "source_count": 6,
     "sources": [
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/9/9/iran-war-live-us-hits-iranian-tankers-irgc-attacks-us-base-in-jordan?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-vows-strangle-iran-economically"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/economy/2185153"
-     },
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20260909-iran-and-us-strike-tankers-in-biggest-shipping-attack-since-war-began"
-     },
      {
       "name": "NPR World",
       "region": "western",
       "country": "US",
-      "url": "https://www.npr.org/2026/09/09/g-s1-142496/up-first-newsletter-iran-us-uk-israel-palestine-lonnie-bunch-smithsonian"
+      "url": "https://www.npr.org/2026/09/13/nx-s1-5966920/what-to-expect-from-talks-between-iran-and-gulf-states-in-oman"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/09/iran-attaccate-2-navi-statunitensi-e-10-petroliere-nel-golfo_17dd8e7d-5836-4e9b-a20d-4f323a23a961.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/13/oman-annullato-incontro-previsto-per-domani-tra-i-paesi-del-golfo_a205a6e5-850d-4f04-8cb0-86fc26966948.html"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/iran-us-tankers-attacks-shipping-hormuz-war-6372881"
+      "url": "https://www.channelnewsasia.com/world/oman-says-hormuz-talks-iran-gulf-states-postponed-6381626"
      },
      {
-      "name": "RT",
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/14/iran-war-live-oman-says-hormuz-talks-with-iran-gulf-states-postponed?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oman-meeting-between-gulf-states-and-iran-postponed-omani-foreign"
+     },
+     {
+      "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/645367-trump-iran-oil-tankers/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "El Pais English",
-      "region": "western",
-      "country": "ES",
-      "url": "https://english.elpais.com/international/2026-09-09/united-states-says-it-destroyed-five-iranian-tankers.html"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "http://www.euronews.com/2026/09/09/us-destroys-five-iranian-tankers-as-tehran-launches-retaliatory-strikes-on-jordan"
+      "url": "https://tass.com/world/2187095"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3223.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3308.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-13-iran-uae-hold-first-talks-at-brics-summit-since-conflict-beg",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-13-iran-uae-hold-first-talks-at-brics-summit-since-conflict-beg",
+   "title": "Iran and United Arab Emirates hold first summit talks to discuss regional de-escalation and relations.",
+   "content_text": "Iranian President Masoud Pezeshkian and UAE Crown Prince Khaled bin Mohamed bin Zayed Al Nahyan held their first high-level talks during the BRICS summit to discuss regional de-escalation and cooperation. While both regions report the meeting occurred, Middle Eastern outlets emphasize the urgency of the dialogue as a direct response to immediate regional volatility. These sources also highlight a fractured regional consensus by noting that Bahrain declined to meet with the Iranian leader.",
+   "summary": "Iranian President Masoud Pezeshkian and UAE Crown Prince Khaled bin Mohamed bin Zayed Al Nahyan held their first high-level talks during the BRICS summit to discuss regional de-escalation and cooperation. While both regions report the meeting occurred, Middle Eastern outlets emphasize the urgency of the dialogue as a direct response to immediate regional volatility. These sources also highlight a fractured regional consensus by noting that Bahrain declined to meet with the Iranian leader.",
+   "date_published": "2026-09-14T01:50:37+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 3320,
+    "event_date": "2026-09-13",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "middle_east",
+     "russia"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-clip-uae-iran-brics-talks-mp4?traffic_source=rss"
+     },
+     {
+      "name": "Anadolu Agency",
+      "region": "middle_east",
+      "country": "TR",
+      "url": "https://www.aa.com.tr/en/world/-iranian-president-abu-dhabi-crown-prince-discuss-regional-de-escalation/4055226"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2187043"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3320.json",
     "languages": [
      "en",
      "it",
