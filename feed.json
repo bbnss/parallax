@@ -5,324 +5,269 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-15T02:46:26Z",
+ "_generated_at": "2026-09-16T02:58:20Z",
  "items": [
   {
-   "id": "2026-09-15-us-space-force-confirms-weapons-deployed-in-space-for-first",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-us-space-force-confirms-weapons-deployed-in-space-for-first",
-   "title": "United States Space Force confirms the deployment of weapons in orbit for the first time.",
-   "content_text": "On September 15, 2026, the United States Space Force confirmed the first official deployment of kinetic and non-kinetic weapons in orbit. While all outlets report this technical milestone as fact, coverage diverges significantly regarding the intent behind the move. Western media frames the deployment as a necessary defensive response to a multi-polar space race, whereas Russian state-aligned media emphasizes the deployment as a provocative act of aggression and a threat to global stability.",
-   "summary": "On September 15, 2026, the United States Space Force confirmed the first official deployment of kinetic and non-kinetic weapons in orbit. While all outlets report this technical milestone as fact, coverage diverges significantly regarding the intent behind the move. Western media frames the deployment as a necessary defensive response to a multi-polar space race, whereas Russian state-aligned media emphasizes the deployment as a provocative act of aggression and a threat to global stability.",
-   "date_published": "2026-09-15T01:59:54+00:00",
+   "id": "2026-09-16-iran-war-has-led-to-us-munitions-shortfalls-pentagon-inspect",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-16-iran-war-has-led-to-us-munitions-shortfalls-pentagon-inspect",
+   "title": "U.S. military reports ammunition shortages and significant costs resulting from the war with Iran.",
+   "content_text": "Reports from Western, Middle Eastern, and Russian media confirm that the war with Iran has caused significant U.S. munitions shortages and industrial bottlenecks. While all regions acknowledge these logistical strains, Western outlets focus on internal military procurement and institutional management. Conversely, Middle Eastern sources frame the issue as a broader economic crisis, emphasizing the $38 billion cost and its potential impact on inflation and regional energy stability.",
+   "summary": "Reports from Western, Middle Eastern, and Russian media confirm that the war with Iran has caused significant U.S. munitions shortages and industrial bottlenecks. While all regions acknowledge these logistical strains, Western outlets focus on internal military procurement and institutional management. Conversely, Middle Eastern sources frame the issue as a broader economic crisis, emphasizing the $38 billion cost and its potential impact on inflation and regional energy stability.",
+   "date_published": "2026-09-16T01:58:14+00:00",
    "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3328,
-    "event_date": "2026-09-15",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/americas/20260914-us-space-force-confirms-weapons-deployed-in-space-for-first-time"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645740-us-weapons-space-force/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/14/united-states-space-force-says-us-has-weapons-in-orbit"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3328.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-15-israeli-minister-accuses-naza-filmmakers-of-treason",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-israeli-minister-accuses-naza-filmmakers-of-treason",
-   "title": "Israeli officials investigate and threaten legal action against filmmakers of a documentary about Gaza.",
-   "content_text": "Israeli officials have launched legal probes and threatened to revoke the citizenship of filmmakers Yuval Abraham and Rachel Szor following their documentary *NAZA*. The film features interviews regarding the use of AI-driven targeting systems in Gaza, which the Israeli government condemned as a threat to national security. Western outlets frame the story as a domestic legal crisis involving charges of treason and antisemitism, while Middle Eastern sources frame it as a crackdown on whistleblowing regarding military tactics and civilian casualties.",
-   "summary": "Israeli officials have launched legal probes and threatened to revoke the citizenship of filmmakers Yuval Abraham and Rachel Szor following their documentary *NAZA*. The film features interviews regarding the use of AI-driven targeting systems in Gaza, which the Israeli government condemned as a threat to national security. Western outlets frame the story as a domestic legal crisis involving charges of treason and antisemitism, while Middle Eastern sources frame it as a crackdown on whistleblowing regarding military tactics and civilian casualties.",
-   "date_published": "2026-09-15T01:58:03+00:00",
-   "tags": [
+    "eastern",
     "middle_east",
     "russia",
     "western",
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3327,
-    "event_date": "2026-09-15",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 5,
-    "sources": [
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/israeli-minister-accuses-naza-filmmakers-of-treason/a-79255860?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/14/netanyahu-contro-naza-intollerabile-incitare-allantisemitismo-dallinterno_0e3b0d89-64c4-4176-9c9c-e01cfa542ccf.html"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/14/israel-probing-naza-film-on-gaza-for-inciting-antisemitism?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-officials-vow-strip-naza-directors-their-citizenship"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645706-israeli-officials-fume-naza-film/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3327.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-15-yemen-fighting-escalates-around-the-bab-el-mandeb-strait",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-yemen-fighting-escalates-around-the-bab-el-mandeb-strait",
-   "title": "Military tensions and exchanges of strikes intensify between Houthi forces and Saudi Arabia near the Bab el-Mandeb Strait.",
-   "content_text": "Houthi forces and Saudi Arabia have engaged in an escalating cycle of missile and drone strikes near the Bab el-Mandeb Strait following the seizure of strategic islands. While all sources confirm the increased military activity and threats to maritime safety, coverage differs in its primary focus. Western outlets frame the conflict as a security crisis driven by Iranian-backed proxy dynamics, whereas Eastern reporting emphasizes the immediate risks to global energy markets and trade stability.",
-   "summary": "Houthi forces and Saudi Arabia have engaged in an escalating cycle of missile and drone strikes near the Bab el-Mandeb Strait following the seizure of strategic islands. While all sources confirm the increased military activity and threats to maritime safety, coverage differs in its primary focus. Western outlets frame the conflict as a security crisis driven by Iranian-backed proxy dynamics, whereas Eastern reporting emphasizes the immediate risks to global energy markets and trade stability.",
-   "date_published": "2026-09-15T01:53:49+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3323,
-    "event_date": "2026-09-15",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 6,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/axis-of-iranian-centrality-remains-one-of-more-destabilising-forces-in-the-region-expert-says"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/yemen-houthis-saudi-strikes-hormuz-talks-stall-6384621"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-has-struck-yemen-around-fifty-times-24-hours-houthis-say"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/14/houthis-capture-more-yemeni-red-sea-islands-tightening-grip-on-bab-el-mandeb"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3323.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-14-arctic-power-plays-eu-searches-for-a-new-strategy",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-14-arctic-power-plays-eu-searches-for-a-new-strategy",
-   "title": "European leaders urge the European Union to increase its presence and role in the Arctic.",
-   "content_text": "Twelve European nations met in Finland to advocate for a stronger EU presence in the Arctic to address climate change and geopolitical tensions. Western media frame this move as a necessary defensive evolution to counter Russian military expansion and manage great power competition. Conversely, Russian state media portrays the initiative as a proactive expansion of Western influence and a direct escalation of NATO military activity in the region.",
-   "summary": "Twelve European nations met in Finland to advocate for a stronger EU presence in the Arctic to address climate change and geopolitical tensions. Western media frame this move as a necessary defensive evolution to counter Russian military expansion and manage great power competition. Conversely, Russian state media portrays the initiative as a proactive expansion of Western influence and a direct escalation of NATO military activity in the region.",
-   "date_published": "2026-09-15T02:01:43+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3333,
-    "event_date": "2026-09-14",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/arctic-power-plays-eu-searches-for-a-new-strategy/a-79266739?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/leaders-urge-eu-to-boost-arctic-role-to-tackle-russia-threat"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/14/12-paesi-europei-esortano-lue-a-rafforzare-la-presenza-nellartico_68e8b585-38d8-49cb-9844-43e1bdab5821.html"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645710-eu-arctic-role-russia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3333.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-12-houthis-claim-major-advance-in-yemen-and-tighten-grip-on-red",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-12-houthis-claim-major-advance-in-yemen-and-tighten-grip-on-red",
-   "title": "Houthi rebels seize strategic territory in Yemen and gain control over the Bab el-Mandeb Strait.",
-   "content_text": "Houthi rebels have seized Perim Island and the port city of Mokha, gaining control over the strategic Bab el-Mandeb Strait. While all regions report the physical seizure of these maritime corridors, coverage diverges on the primary consequences. Western outlets frame the move as a security threat and an Iranian-backed disruption to global oil markets, whereas Eastern sources emphasize the shift in global trade logistics. Russian reports focus on the rebels' tactical successes against regional adversaries.",
-   "summary": "Houthi rebels have seized Perim Island and the port city of Mokha, gaining control over the strategic Bab el-Mandeb Strait. While all regions report the physical seizure of these maritime corridors, coverage diverges on the primary consequences. Western outlets frame the move as a security threat and an Iranian-backed disruption to global oil markets, whereas Eastern sources emphasize the shift in global trade logistics. Russian reports focus on the rebels' tactical successes against regional adversaries.",
-   "date_published": "2026-09-12T01:56:08+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3257,
-    "event_date": "2026-09-12",
+    "cluster_id": 3343,
+    "event_date": "2026-09-16",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
      "eastern",
+     "middle_east",
      "russia",
      "western"
     ],
-    "article_count": 12,
-    "source_count": 8,
+    "article_count": 7,
+    "source_count": 6,
     "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/iran-war-saudi-houthi-escalation-intensifies-yemen-conflict/a-79226627?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/09/11/nx-s1-5966379/houthi-gains-gas-prices"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/11/houthi-avanzare-stretto-bab-el-mandeb-perim/"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/11/axios-bin-salman-ha-esortato-trump-a-colpire-gli-houthi_b1c8f056-9099-4c59-a149-8ad9a2dfd208.html"
+      "url": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/yemen-houthis-red-sea-shipping-iran-war-6379706"
+      "url": "https://www.channelnewsasia.com/world/iran-war-cost-us-pentagon-munition-6387176"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/9/16/iran-war-increasing-inflation-straining-us-munitions-congressional-report?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-war-cost-hits-38-billion-forecast-rise-3bn-month-cbo-says"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2186415"
+      "url": "https://tass.com/world/2188095"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/09/15/us-military-says-it-is-facing-a-shortfall-in-ammunition-as-a-result-of-iran-war"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3257.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3343.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-15-denmark-says-russian-warship-fired-flares-at-military-helico",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-denmark-says-russian-warship-fired-flares-at-military-helico",
+   "title": "Denmark summons Russian ambassador after a Russian frigate fires flares near a Danish helicopter.",
+   "content_text": "On September 15, 2026, a Russian frigate fired two flares toward a Danish military helicopter in the Baltic Sea, prompting Denmark to summon the Russian ambassador. While both sides agree on the physical facts of the encounter, their reporting differs in framing. Western outlets emphasize the Russian actions as an unprovoked escalation of danger, whereas Russian reporting frames the incident as a symptom of broader geopolitical tensions between Russia and NATO.",
+   "summary": "On September 15, 2026, a Russian frigate fired two flares toward a Danish military helicopter in the Baltic Sea, prompting Denmark to summon the Russian ambassador. While both sides agree on the physical facts of the encounter, their reporting differs in framing. Western outlets emphasize the Russian actions as an unprovoked escalation of danger, whereas Russian reporting frames the incident as a symptom of broader geopolitical tensions between Russia and NATO.",
+   "date_published": "2026-09-16T02:06:39+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "western",
+    "tier-B"
+   ],
+   "_parallax": {
+    "cluster_id": 3357,
+    "event_date": "2026-09-15",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
+    "regions": [
+     "eastern",
+     "russia",
+     "western"
+    ],
+    "article_count": 4,
+    "source_count": 4,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/15/fregata-russa-lancia-due-bengala-e-sfiora-un-elicottero-danese_ee964b1f-b8ae-45ac-8d81-3ad678ae43dc.html"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/russian-frigate-fires-flares-towards-danish-military-helicopter-denmark-says-6385426"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/09/15/denmark-summons-russian-ambassador-after-frigate-fires-flares-toward-military-helicopter-a93709"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3357.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-15-nato-jets-down-drone-that-entered-lithuanian-airspace",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-nato-jets-down-drone-that-entered-lithuanian-airspace",
+   "title": "NATO jets shoot down a drone that entered Lithuanian airspace near the Baltic region.",
+   "content_text": "On September 15, 2026, Italian-piloted NATO jets destroyed a drone that breached Lithuanian airspace near Pratkūnai. While all outlets confirm the interception of the drone, reporting differs significantly in its geopolitical framing. Western sources focus on the immediate security implications for the NATO alliance and regional defense. In contrast, Middle Eastern coverage emphasizes the drone's suspected Russian origin, framing the incident as a specific flashpoint within the broader global conflict involving Russia and Ukraine.",
+   "summary": "On September 15, 2026, Italian-piloted NATO jets destroyed a drone that breached Lithuanian airspace near Pratkūnai. While all outlets confirm the interception of the drone, reporting differs significantly in its geopolitical framing. Western sources focus on the immediate security implications for the NATO alliance and regional defense. In contrast, Middle Eastern coverage emphasizes the drone's suspected Russian origin, framing the incident as a specific flashpoint within the broader global conflict involving Russia and Ukraine.",
+   "date_published": "2026-09-16T02:02:41+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3349,
+    "event_date": "2026-09-15",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "western"
+    ],
+    "article_count": 9,
+    "source_count": 7,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "http://www.france24.com/en/europe/20260915-nato-jets-down-drone-over-lithuania-as-russian-ship-fires-flares-at-danish-helicopter"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/15/g-s1-143284/nato-jets-down-drone-in-lithuanian-airspace"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/15/jet-nato-abbattono-drone-lituania/"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/15/crosetto-e-probabile-che-il-drone-abbattuto-fosse-russo_e7b0eb72-0f3f-45bb-a113-ba0840ff6a96.html"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/italian-nato-fighter-jet-shoots-down-stray-drone-over-lithuania-6386291"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/9/15/nato-jet-shoots-down-suspected-russian-drone-over-lithuania?traffic_source=rss"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3349.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-15-attack-on-saudi-arabian-pipeline-may-cut-four-percent-of-wor",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-attack-on-saudi-arabian-pipeline-may-cut-four-percent-of-wor",
+   "title": "Attack on a Saudi Arabian pipeline leads to potential disruptions in global oil supplies.",
+   "content_text": "On September 15, 2026, a drone strike damaged the Saudi Arabian East-West Pipeline, causing an immediate spike in Brent crude prices and requiring weeks of repairs. While all sources confirm the physical damage and its impact on global energy logistics, reporting differs on the primary narrative of the event. Middle Eastern outlets frame the strike as a logistical crisis linked to the Houthi offensive, while Russian sources interpret the incident as a deliberate escalation in a broader regional power struggle.",
+   "summary": "On September 15, 2026, a drone strike damaged the Saudi Arabian East-West Pipeline, causing an immediate spike in Brent crude prices and requiring weeks of repairs. While all sources confirm the physical damage and its impact on global energy logistics, reporting differs on the primary narrative of the event. Middle Eastern outlets frame the strike as a logistical crisis linked to the Houthi offensive, while Russian sources interpret the incident as a deliberate escalation in a broader regional power struggle.",
+   "date_published": "2026-09-16T02:00:23+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-B"
+   ],
+   "_parallax": {
+    "cluster_id": 3347,
+    "event_date": "2026-09-15",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
+    "regions": [
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/attack-saudi-arabian-pipeline-may-cut-four-percent-worlds-oil-supply"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/14/bab-el-mandeb-hormuz-iran/"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645782-saudi-arabia-cancels-oil-shipments-europe/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3347.json",
     "languages": [
      "en",
      "it",
