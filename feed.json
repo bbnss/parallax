@@ -5,269 +5,52 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-16T02:58:20Z",
+ "_generated_at": "2026-09-17T02:10:31Z",
  "items": [
   {
-   "id": "2026-09-16-iran-war-has-led-to-us-munitions-shortfalls-pentagon-inspect",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-16-iran-war-has-led-to-us-munitions-shortfalls-pentagon-inspect",
-   "title": "U.S. military reports ammunition shortages and significant costs resulting from the war with Iran.",
-   "content_text": "Reports from Western, Middle Eastern, and Russian media confirm that the war with Iran has caused significant U.S. munitions shortages and industrial bottlenecks. While all regions acknowledge these logistical strains, Western outlets focus on internal military procurement and institutional management. Conversely, Middle Eastern sources frame the issue as a broader economic crisis, emphasizing the $38 billion cost and its potential impact on inflation and regional energy stability.",
-   "summary": "Reports from Western, Middle Eastern, and Russian media confirm that the war with Iran has caused significant U.S. munitions shortages and industrial bottlenecks. While all regions acknowledge these logistical strains, Western outlets focus on internal military procurement and institutional management. Conversely, Middle Eastern sources frame the issue as a broader economic crisis, emphasizing the $38 billion cost and its potential impact on inflation and regional energy stability.",
-   "date_published": "2026-09-16T01:58:14+00:00",
+   "id": "2026-09-15-kremlin-linked-businessman-helped-pay-for-donald-trump-jr-s",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-kremlin-linked-businessman-helped-pay-for-donald-trump-jr-s",
+   "title": "Russian Businessman Linked to Kremlin Funded Wedding Festivities for Donald Trump Jr.",
+   "content_text": "Russian businessman Umar Kremlev provided substantial funding for Donald Trump Jr.’s wedding festivities in the Bahamas, including a private island rental and fireworks. Western outlets focus on the ethical implications and potential conflicts of interest regarding the \"gift\" from a Kremlin ally. Conversely, Russian reporting emphasizes the technical financial pipeline, specifically highlighting that the funds were channeled through a Dubai-based firm. Both regions agree on the core facts but differ on whether to frame the event as a political scandal or a security concern.",
+   "summary": "Russian businessman Umar Kremlev provided substantial funding for Donald Trump Jr.’s wedding festivities in the Bahamas, including a private island rental and fireworks. Western outlets focus on the ethical implications and potential conflicts of interest regarding the \"gift\" from a Kremlin ally. Conversely, Russian reporting emphasizes the technical financial pipeline, specifically highlighting that the funds were channeled through a Dubai-based firm. Both regions agree on the core facts but differ on whether to frame the event as a political scandal or a security concern.",
+   "date_published": "2026-09-17T01:37:43+00:00",
    "tags": [
-    "eastern",
-    "middle_east",
     "russia",
     "western",
-    "tier-A"
+    "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3343,
-    "event_date": "2026-09-16",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 7,
-    "source_count": 6,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/iran-war-cost-us-pentagon-munition-6387176"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/16/iran-war-increasing-inflation-straining-us-munitions-congressional-report?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-war-cost-hits-38-billion-forecast-rise-3bn-month-cbo-says"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2188095"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/15/us-military-says-it-is-facing-a-shortfall-in-ammunition-as-a-result-of-iran-war"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3343.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-15-denmark-says-russian-warship-fired-flares-at-military-helico",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-denmark-says-russian-warship-fired-flares-at-military-helico",
-   "title": "Denmark summons Russian ambassador after a Russian frigate fires flares near a Danish helicopter.",
-   "content_text": "On September 15, 2026, a Russian frigate fired two flares toward a Danish military helicopter in the Baltic Sea, prompting Denmark to summon the Russian ambassador. While both sides agree on the physical facts of the encounter, their reporting differs in framing. Western outlets emphasize the Russian actions as an unprovoked escalation of danger, whereas Russian reporting frames the incident as a symptom of broader geopolitical tensions between Russia and NATO.",
-   "summary": "On September 15, 2026, a Russian frigate fired two flares toward a Danish military helicopter in the Baltic Sea, prompting Denmark to summon the Russian ambassador. While both sides agree on the physical facts of the encounter, their reporting differs in framing. Western outlets emphasize the Russian actions as an unprovoked escalation of danger, whereas Russian reporting frames the incident as a symptom of broader geopolitical tensions between Russia and NATO.",
-   "date_published": "2026-09-16T02:06:39+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3357,
+    "cluster_id": 3360,
     "event_date": "2026-09-15",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
+    "tier": "C",
+    "tier_label": "Partial coverage",
     "regions": [
-     "eastern",
      "russia",
      "western"
     ],
-    "article_count": 4,
-    "source_count": 4,
+    "article_count": 3,
+    "source_count": 3,
     "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/15/fregata-russa-lancia-due-bengala-e-sfiora-un-elicottero-danese_ee964b1f-b8ae-45ac-8d81-3ad678ae43dc.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/russian-frigate-fires-flares-towards-danish-military-helicopter-denmark-says-6385426"
-     },
      {
       "name": "The Moscow Times",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/09/15/denmark-summons-russian-ambassador-after-frigate-fires-flares-toward-military-helicopter-a93709"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3357.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-15-nato-jets-down-drone-that-entered-lithuanian-airspace",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-nato-jets-down-drone-that-entered-lithuanian-airspace",
-   "title": "NATO jets shoot down a drone that entered Lithuanian airspace near the Baltic region.",
-   "content_text": "On September 15, 2026, Italian-piloted NATO jets destroyed a drone that breached Lithuanian airspace near Pratkūnai. While all outlets confirm the interception of the drone, reporting differs significantly in its geopolitical framing. Western sources focus on the immediate security implications for the NATO alliance and regional defense. In contrast, Middle Eastern coverage emphasizes the drone's suspected Russian origin, framing the incident as a specific flashpoint within the broader global conflict involving Russia and Ukraine.",
-   "summary": "On September 15, 2026, Italian-piloted NATO jets destroyed a drone that breached Lithuanian airspace near Pratkūnai. While all outlets confirm the interception of the drone, reporting differs significantly in its geopolitical framing. Western sources focus on the immediate security implications for the NATO alliance and regional defense. In contrast, Middle Eastern coverage emphasizes the drone's suspected Russian origin, framing the incident as a specific flashpoint within the broader global conflict involving Russia and Ukraine.",
-   "date_published": "2026-09-16T02:02:41+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3349,
-    "event_date": "2026-09-15",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 9,
-    "source_count": 7,
-    "sources": [
+      "url": "https://www.themoscowtimes.com/2026/09/14/kremlin-linked-businessman-helped-pay-for-donald-trump-jrs-wedding-propublica-a93703"
+     },
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/cmqjkg121kr9o?at_medium=RSS&at_campaign=rss"
      },
      {
-      "name": "France 24",
+      "name": "El Pais English",
       "region": "western",
-      "country": "FR",
-      "url": "http://www.france24.com/en/europe/20260915-nato-jets-down-drone-over-lithuania-as-russian-ship-fires-flares-at-danish-helicopter"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/09/15/g-s1-143284/nato-jets-down-drone-in-lithuanian-airspace"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/15/jet-nato-abbattono-drone-lituania/"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/15/crosetto-e-probabile-che-il-drone-abbattuto-fosse-russo_e7b0eb72-0f3f-45bb-a113-ba0840ff6a96.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/italian-nato-fighter-jet-shoots-down-stray-drone-over-lithuania-6386291"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/15/nato-jet-shoots-down-suspected-russian-drone-over-lithuania?traffic_source=rss"
+      "country": "ES",
+      "url": "https://english.elpais.com/international/2026-09-15/kremlin-backed-russian-oligarch-umar-kremlev-funded-donald-trump-jrs-post-wedding-celebrations-in-the-bahamas.html"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3349.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-15-attack-on-saudi-arabian-pipeline-may-cut-four-percent-of-wor",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-attack-on-saudi-arabian-pipeline-may-cut-four-percent-of-wor",
-   "title": "Attack on a Saudi Arabian pipeline leads to potential disruptions in global oil supplies.",
-   "content_text": "On September 15, 2026, a drone strike damaged the Saudi Arabian East-West Pipeline, causing an immediate spike in Brent crude prices and requiring weeks of repairs. While all sources confirm the physical damage and its impact on global energy logistics, reporting differs on the primary narrative of the event. Middle Eastern outlets frame the strike as a logistical crisis linked to the Houthi offensive, while Russian sources interpret the incident as a deliberate escalation in a broader regional power struggle.",
-   "summary": "On September 15, 2026, a drone strike damaged the Saudi Arabian East-West Pipeline, causing an immediate spike in Brent crude prices and requiring weeks of repairs. While all sources confirm the physical damage and its impact on global energy logistics, reporting differs on the primary narrative of the event. Middle Eastern outlets frame the strike as a logistical crisis linked to the Houthi offensive, while Russian sources interpret the incident as a deliberate escalation in a broader regional power struggle.",
-   "date_published": "2026-09-16T02:00:23+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3347,
-    "event_date": "2026-09-15",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/attack-saudi-arabian-pipeline-may-cut-four-percent-worlds-oil-supply"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/14/bab-el-mandeb-hormuz-iran/"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645782-saudi-arabia-cancels-oil-shipments-europe/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3347.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3360.json",
     "languages": [
      "en",
      "it",
