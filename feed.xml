@@ -6,106 +6,75 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 18 Sep 2026 03:44:50 +0000</lastBuildDate>
+<lastBuildDate>Sun, 20 Sep 2026 02:22:57 +0000</lastBuildDate>
 <item>
-<title>UN experts report finding reasonable grounds to believe U.S. war crimes occurred in Iran.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-18-un-experts-say-grounds-to-believe-us-committed-war-crimes-in</link>
-<guid isPermaLink="false">2026-09-18-un-experts-say-grounds-to-believe-us-committed-war-crimes-in</guid>
-<pubDate>Fri, 18 Sep 2026 02:12:36 +0000</pubDate>
-<description>A UN fact-finding mission reported "reasonable grounds" that U.S. missile strikes on a school and sports complex in Iran resulted in the deaths of up to 177 civilians. Western outlets frame the report as a balanced legal inquiry, highlighting both U.S. war crimes and Iranian crimes against humanity. Conversely, Middle Eastern reporting focuses on the human cost and specific technical failures, framing the strikes as a deliberate or negligent disregard for civilian life.</description>
+<title>Iran conveys specific conditions to the United States for ending the current conflict.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-20-iran-war-live-tehran-sets-terms-for-peace-saudi-forces-foil</link>
+<guid isPermaLink="false">2026-09-20-iran-war-live-tehran-sets-terms-for-peace-saudi-forces-foil</guid>
+<pubDate>Sun, 20 Sep 2026 01:52:24 +0000</pubDate>
+<description>On September 20, 2026, Iran communicated specific demands to the United States via Qatari mediators, including a ceasefire, the unfreezing of assets, and the lifting of a naval blockade. While all sources agree on these core demands, Middle Eastern outlets frame the proposal as a high-stakes tactical move for regional stability following recent military actions. In contrast, Russian outlets frame the same demands as a final warning regarding international law and the exhaustion of diplomatic patience.</description>
+<category>middle_east</category>
+<category>russia</category>
+</item>
+<item>
+<title>President Trump signs a new bill imposing extensive economic sanctions against Russia.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-20-trump-signs-sweeping-russia-sanctions-bill</link>
+<guid isPermaLink="false">2026-09-20-trump-signs-sweeping-russia-sanctions-bill</guid>
+<pubDate>Sun, 20 Sep 2026 01:50:46 +0000</pubDate>
+<description>President Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, imposing significant tariffs on Russian energy and freezing assets of officials. While both Western and Russian outlets report the same legislative details, they differ on the policy's ultimate purpose. Western media frames the sanctions as a necessary tool to cut off war funding, whereas Russian sources frame the legislation as a provocative move that undermines diplomatic efforts and complicates peace negotiations.</description>
+<category>eastern</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Saudi Arabia reports intercepting Houthi ballistic missiles launched toward the capital city of Riyadh</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-20-yemen-government-accuses-houthis-of-attacks-on-humanitarian</link>
+<guid isPermaLink="false">2026-09-20-yemen-government-accuses-houthis-of-attacks-on-humanitarian</guid>
+<pubDate>Sun, 20 Sep 2026 01:48:47 +0000</pubDate>
+<description>On September 20, 2026, Saudi authorities reported successfully intercepting a Houthi ballistic missile launched toward the capital, Riyadh. While all outlets confirmed the thwarted attack, Western media framed the event as a technical military success within the broader Yemeni civil war. In contrast, Middle Eastern outlets provided more granular detail, focusing on specific infrastructure targets and the local humanitarian consequences of the ongoing conflict.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>United States approves sale of up to 48 F-35 fighter jets to Saudi Arabia</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-18-usa-approvano-la-vendita-di-f-35-all-arabia-saudita-per-24-3</link>
-<guid isPermaLink="false">2026-09-18-usa-approvano-la-vendita-di-f-35-all-arabia-saudita-per-24-3</guid>
-<pubDate>Fri, 18 Sep 2026 02:10:08 +0000</pubDate>
-<description>The United States has notified Congress of its intent to sell up to 48 F-35 fighter jets and related equipment to Saudi Arabia in a deal valued at approximately $24.3 billion. While all sources confirm the technical details and figures, coverage differs regarding the primary motivation for the sale. Middle Eastern outlets frame the deal as a critical response to regional missile threats and a milestone for Arab defense, whereas Western reporting focuses on internal U.S. debates over technology security.</description>
+<title>At least 21 people killed in a vehicle bombing at a mosque in Pakistan</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-19-at-least-21-killed-after-vehicle-loaded-with-explosives-rams</link>
+<guid isPermaLink="false">2026-09-19-at-least-21-killed-after-vehicle-loaded-with-explosives-rams</guid>
+<pubDate>Sat, 19 Sep 2026 01:56:58 +0000</pubDate>
+<description>A vehicle bomb at a mosque within a police compound in Kohat, Pakistan, killed at least 21 people on September 19, 2026. Western outlets focus on the tactical details of the blast and attribute the attack to the Tehrik-e-Taliban Pakistan. In contrast, Russian media emphasizes the high number of law enforcement casualties and frames the event as a broader issue of regional instability and international security.</description>
+<category>eastern</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>United States and Denmark reach agreement regarding expanded military and security presence in Greenland</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-19-us-and-denmark-reach-deal-over-greenland-after-trump-annexat</link>
+<guid isPermaLink="false">2026-09-19-us-and-denmark-reach-deal-over-greenland-after-trump-annexat</guid>
+<pubDate>Sat, 19 Sep 2026 01:55:13 +0000</pubDate>
+<description>A comparative analysis of how Western, Eastern, Middle Eastern, and Russian media frame the shifting security architecture of the North.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>United States issues visas for Iranian officials to attend United Nations meetings in New York</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-18-us-to-allow-iran-delegation-to-attend-un-meetings-in-new-yor</link>
-<guid isPermaLink="false">2026-09-18-us-to-allow-iran-delegation-to-attend-un-meetings-in-new-yor</guid>
-<pubDate>Fri, 18 Sep 2026 02:07:58 +0000</pubDate>
-<description>The United States granted visas to high-level Iranian officials, including President Masoud Pezeshkian and Foreign Minister Abbas Araghchi, for the United Nations General Assembly in New York. Western outlets frame the decision as a pragmatic diplomatic compromise, emphasizing the specific travel restrictions and purchasing prohibitions placed on the delegation. In contrast, Russian reporting focuses on the high-ranking status of the attendees, framing the event as a significant interaction between the U.S. and the Iranian regime.</description>
-<category>eastern</category>
+<title>Spanish police remove migrants from beaches in the enclave of Ceuta amid reports of tension.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-18-shots-heard-as-police-start-moving-migrants-from-ceuta-beach</link>
+<guid isPermaLink="false">2026-09-18-shots-heard-as-police-start-moving-migrants-from-ceuta-beach</guid>
+<pubDate>Sat, 19 Sep 2026 02:02:26 +0000</pubDate>
+<description>On September 18, 2026, Spanish police relocated thousands of migrants from beaches in the enclave of Ceuta to a designated port facility. While all outlets confirm the physical relocation and the presence of security forces, coverage differs significantly in framing. Western outlets focus on the logistical complexities and legal justifications for the operation, whereas Russian reporting emphasizes the visceral nature of the confrontation and the use of force against the crowd.</description>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Former Kosovo President Hashim Thaçi sentenced to 25 years for war crimes in The Hague</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-17-shock-in-kosovo-as-hague-convicts-former-president-thaci</link>
-<guid isPermaLink="false">2026-09-17-shock-in-kosovo-as-hague-convicts-former-president-thaci</guid>
-<pubDate>Fri, 18 Sep 2026 02:24:56 +0000</pubDate>
-<description>The Kosovo Specialist Chambers in The Hague sentenced former President Hashim Thaçi and three other KLA leaders to 25 years in prison for war crimes committed during the 1998-1999 conflict. Western outlets frame the verdict as a domestic crisis, emphasizing local outrage and the perceived injustice felt by the Kosovar community. Conversely, Russian reporting frames the conviction as a geopolitical issue, highlighting the role of NATO-backed actions and the broader international involvement in the conflict.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>United States denies Palestinian President Mahmoud Abbas a visa to attend a United Nations summit.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-17-niente-visto-da-usa-nuovo-stop-per-abu-mazen-all-onu</link>
-<guid isPermaLink="false">2026-09-17-niente-visto-da-usa-nuovo-stop-per-abu-mazen-all-onu</guid>
-<pubDate>Fri, 18 Sep 2026 02:22:31 +0000</pubDate>
-<description>The United States denied Palestinian President Mahmoud Abbas a visa to attend the United Nations assembly in New York for the second consecutive year. While both Western and Russian outlets confirm the denial and the resulting remote participation, they differ significantly in their framing of the motive. Western reports frame the decision as a pragmatic tool to enforce accountability for a lack of peace reforms, whereas Russian reports frame it as a deliberate act of diplomatic obstruction and a challenge to international cooperation.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Multiple casualties reported following strikes and a reported aircraft shootdown in the Yemen conflict.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-17-verified-video-shows-wreckage-of-saudi-fighter-jet-shot-down</link>
-<guid isPermaLink="false">2026-09-17-verified-video-shows-wreckage-of-saudi-fighter-jet-shot-down</guid>
-<pubDate>Fri, 18 Sep 2026 02:20:14 +0000</pubDate>
-<description>On September 17, 2026, a Saudi F-15 fighter jet was reportedly shot down over Marib, and strikes occurred in the Taiz and Hajjah provinces. Western outlets focus on the Houthis' advanced military capabilities and the specific humanitarian impact on civilian casualties. In contrast, Russian sources emphasize the scale of the Saudi aerial campaign and the retaliatory strikes launched by Houthi forces against Saudi infrastructure.</description>
-<category>eastern</category>
+<title>Houthi and Saudi forces exchange strikes and accusations amid tensions over regional maritime security.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-18-iran-s-new-hezbollah-how-powerful-are-the-houthis-now</link>
+<guid isPermaLink="false">2026-09-18-iran-s-new-hezbollah-how-powerful-are-the-houthis-now</guid>
+<pubDate>Sat, 19 Sep 2026 02:00:40 +0000</pubDate>
+<description>Houthi rebels and Saudi-backed forces have engaged in a series of strikes and accusations over maritime security and oil infrastructure in the Red Sea. Western outlets frame the conflict through the lens of regional power dynamics, focusing on the Houthis' role in a broader "axis of resistance" and global economic impacts. Conversely, Middle Eastern sources emphasize the immediate tactical scale of the violence, highlighting specific strike counts to illustrate the intensity of the local escalation.</description>
 <category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>European Union officials support a proposal for Canada to become an associate member state.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-17-eu-chief-backs-plan-for-canada-to-become-associate-member</link>
-<guid isPermaLink="false">2026-09-17-eu-chief-backs-plan-for-canada-to-become-associate-member</guid>
-<pubDate>Fri, 18 Sep 2026 02:17:40 +0000</pubDate>
-<description>European Commission President Ursula von der Leyen proposed a new "associate member" status for Canada to enhance cooperation in defense, energy, and technology. While all outlets report the proposal as a move toward a "unique alliance," coverage diverges on the primary motivation. Western sources frame the move as a proactive step for shared values and economic security, while Eastern and other international outlets emphasize the move as a defensive maneuver against American pressure and shifting trade dynamics.</description>
-<category>eastern</category>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Russia and China veto United Nations resolution regarding monitoring of sanctions against Iran</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-17-russia-china-veto-un-mandate-to-monitor-iran-sanctions</link>
-<guid isPermaLink="false">2026-09-17-russia-china-veto-un-mandate-to-monitor-iran-sanctions</guid>
-<pubDate>Fri, 18 Sep 2026 02:14:34 +0000</pubDate>
-<description>Russia and China vetoed a U.S.-backed United Nations Security Council resolution intended to extend the mandate of the Panel of Experts monitoring sanctions against Iran. While all sources confirm the veto occurred, coverage differs significantly in framing the motivations behind the move. Middle Eastern outlets frame the veto as a necessary defense against Western pressure and the weaponization of international institutions, whereas Western reporting focuses on the impact of the veto on global sanctions enforcement.</description>
-<category>middle_east</category>
-<category>russia</category>
-</item>
-<item>
-<title>United States Accuses Russian Intelligence Agents of Planning Assassinations of Dissidents Abroad</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-16-us-accuses-russia-of-trying-to-kill-ukrainian-allies-oversea</link>
-<guid isPermaLink="false">2026-09-16-us-accuses-russia-of-trying-to-kill-ukrainian-allies-oversea</guid>
-<pubDate>Fri, 18 Sep 2026 02:27:39 +0000</pubDate>
-<description>The U.S. Department of Justice unsealed charges against five individuals allegedly linked to Russian intelligence for conspiring to finance terrorism and murder-for-hire against dissidents and Ukrainian allies. Western outlets frame the story as a thwarted plot of Russian expansionism and a threat to international security. Conversely, Russian-aligned reporting focuses on the specific legal terminology of the indictment, highlighting the involvement of U.S. nationals and the mechanics of the American legal and intelligence apparatus.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Trump claims Ukraine and Russia have agreed to cease strikes on energy infrastructure.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-15-zelenskys-statement-on-retaliation-for-energy-strikes-escala</link>
-<guid isPermaLink="false">2026-09-15-zelenskys-statement-on-retaliation-for-energy-strikes-escala</guid>
-<pubDate>Tue, 15 Sep 2026 01:55:53 +0000</pubDate>
-<description>How the same diplomatic maneuver is cast as a step toward de-escalation in the West and a provocative escalation in the East.</description>
-<category>eastern</category>
-<category>russia</category>
 <category>western</category>
 </item>
 </channel>

@@ -5,137 +5,52 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-18T03:44:50Z",
+ "_generated_at": "2026-09-20T02:22:57Z",
  "items": [
   {
-   "id": "2026-09-18-un-experts-say-grounds-to-believe-us-committed-war-crimes-in",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-18-un-experts-say-grounds-to-believe-us-committed-war-crimes-in",
-   "title": "UN experts report finding reasonable grounds to believe U.S. war crimes occurred in Iran.",
-   "content_text": "A UN fact-finding mission reported \"reasonable grounds\" that U.S. missile strikes on a school and sports complex in Iran resulted in the deaths of up to 177 civilians. Western outlets frame the report as a balanced legal inquiry, highlighting both U.S. war crimes and Iranian crimes against humanity. Conversely, Middle Eastern reporting focuses on the human cost and specific technical failures, framing the strikes as a deliberate or negligent disregard for civilian life.",
-   "summary": "A UN fact-finding mission reported \"reasonable grounds\" that U.S. missile strikes on a school and sports complex in Iran resulted in the deaths of up to 177 civilians. Western outlets frame the report as a balanced legal inquiry, highlighting both U.S. war crimes and Iranian crimes against humanity. Conversely, Middle Eastern reporting focuses on the human cost and specific technical failures, framing the strikes as a deliberate or negligent disregard for civilian life.",
-   "date_published": "2026-09-18T02:12:36+00:00",
+   "id": "2026-09-20-iran-war-live-tehran-sets-terms-for-peace-saudi-forces-foil",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-20-iran-war-live-tehran-sets-terms-for-peace-saudi-forces-foil",
+   "title": "Iran conveys specific conditions to the United States for ending the current conflict.",
+   "content_text": "On September 20, 2026, Iran communicated specific demands to the United States via Qatari mediators, including a ceasefire, the unfreezing of assets, and the lifting of a naval blockade. While all sources agree on these core demands, Middle Eastern outlets frame the proposal as a high-stakes tactical move for regional stability following recent military actions. In contrast, Russian outlets frame the same demands as a final warning regarding international law and the exhaustion of diplomatic patience.",
+   "summary": "On September 20, 2026, Iran communicated specific demands to the United States via Qatari mediators, including a ceasefire, the unfreezing of assets, and the lifting of a naval blockade. While all sources agree on these core demands, Middle Eastern outlets frame the proposal as a high-stakes tactical move for regional stability following recent military actions. In contrast, Russian outlets frame the same demands as a final warning regarding international law and the exhaustion of diplomatic patience.",
+   "date_published": "2026-09-20T01:52:24+00:00",
    "tags": [
-    "eastern",
     "middle_east",
     "russia",
-    "western",
-    "tier-A"
+    "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3372,
-    "event_date": "2026-09-18",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
+    "cluster_id": 3419,
+    "event_date": "2026-09-20",
+    "tier": "C",
+    "tier_label": "Partial coverage",
     "regions": [
-     "eastern",
      "middle_east",
-     "russia",
-     "western"
+     "russia"
     ],
-    "article_count": 7,
-    "source_count": 5,
+    "article_count": 4,
+    "source_count": 3,
     "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/iran-us-war-crimes-against-humanity-un-mission-6392876"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/white-house-rejects-un-report-potential-us-war-crimes-iran"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645915-iran-us-war-crimes/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3372.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-18-usa-approvano-la-vendita-di-f-35-all-arabia-saudita-per-24-3",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-18-usa-approvano-la-vendita-di-f-35-all-arabia-saudita-per-24-3",
-   "title": "United States approves sale of up to 48 F-35 fighter jets to Saudi Arabia",
-   "content_text": "The United States has notified Congress of its intent to sell up to 48 F-35 fighter jets and related equipment to Saudi Arabia in a deal valued at approximately $24.3 billion. While all sources confirm the technical details and figures, coverage differs regarding the primary motivation for the sale. Middle Eastern outlets frame the deal as a critical response to regional missile threats and a milestone for Arab defense, whereas Western reporting focuses on internal U.S. debates over technology security.",
-   "summary": "The United States has notified Congress of its intent to sell up to 48 F-35 fighter jets and related equipment to Saudi Arabia in a deal valued at approximately $24.3 billion. While all sources confirm the technical details and figures, coverage differs regarding the primary motivation for the sale. Middle Eastern outlets frame the deal as a critical response to regional missile threats and a milestone for Arab defense, whereas Western reporting focuses on internal U.S. debates over technology security.",
-   "date_published": "2026-09-18T02:10:08+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3368,
-    "event_date": "2026-09-18",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 7,
-    "source_count": 5,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/17/usa-approvano-la-vendita-di-f-35-allarabia-saudita-per-243-miliardi_5ed2656d-acc3-4a0a-92c0-fe08f47fbc93.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/us-approves-sale-48-f-35-jets-saudi-arabia-6393136"
-     },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/17/trump-administration-approves-sale-of-f-35-jets-to-saudi-arabia?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-will-sell-48-f-35s-saudi-arabia"
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2189315"
+      "url": "https://tass.com/world/2190101"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645996-iran-sends-peace-terms-us/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3368.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3419.json",
     "languages": [
      "en",
      "it",
@@ -146,12 +61,85 @@
    }
   },
   {
-   "id": "2026-09-18-us-to-allow-iran-delegation-to-attend-un-meetings-in-new-yor",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-18-us-to-allow-iran-delegation-to-attend-un-meetings-in-new-yor",
-   "title": "United States issues visas for Iranian officials to attend United Nations meetings in New York",
-   "content_text": "The United States granted visas to high-level Iranian officials, including President Masoud Pezeshkian and Foreign Minister Abbas Araghchi, for the United Nations General Assembly in New York. Western outlets frame the decision as a pragmatic diplomatic compromise, emphasizing the specific travel restrictions and purchasing prohibitions placed on the delegation. In contrast, Russian reporting focuses on the high-ranking status of the attendees, framing the event as a significant interaction between the U.S. and the Iranian regime.",
-   "summary": "The United States granted visas to high-level Iranian officials, including President Masoud Pezeshkian and Foreign Minister Abbas Araghchi, for the United Nations General Assembly in New York. Western outlets frame the decision as a pragmatic diplomatic compromise, emphasizing the specific travel restrictions and purchasing prohibitions placed on the delegation. In contrast, Russian reporting focuses on the high-ranking status of the attendees, framing the event as a significant interaction between the U.S. and the Iranian regime.",
-   "date_published": "2026-09-18T02:07:58+00:00",
+   "id": "2026-09-20-trump-signs-sweeping-russia-sanctions-bill",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-20-trump-signs-sweeping-russia-sanctions-bill",
+   "title": "President Trump signs a new bill imposing extensive economic sanctions against Russia.",
+   "content_text": "President Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, imposing significant tariffs on Russian energy and freezing assets of officials. While both Western and Russian outlets report the same legislative details, they differ on the policy's ultimate purpose. Western media frames the sanctions as a necessary tool to cut off war funding, whereas Russian sources frame the legislation as a provocative move that undermines diplomatic efforts and complicates peace negotiations.",
+   "summary": "President Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, imposing significant tariffs on Russian energy and freezing assets of officials. While both Western and Russian outlets report the same legislative details, they differ on the policy's ultimate purpose. Western media frames the sanctions as a necessary tool to cut off war funding, whereas Russian sources frame the legislation as a provocative move that undermines diplomatic efforts and complicates peace negotiations.",
+   "date_published": "2026-09-20T01:50:46+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3418,
+    "event_date": "2026-09-20",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "russia",
+     "western"
+    ],
+    "article_count": 7,
+    "source_count": 6,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/19/trump-legge-sanzioni-russia/"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/trump-russia-us-sanctions-bill-6396521"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645997-us-sanctions-undermines-ukraine-peace/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/09/19/trump-signs-sweeping-russia-sanctions-bill-a93750"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/09/19/trump-signs-into-law-sweeping-russia-sanctions-package-aiming-to-choke-off-revenues-fundin"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3418.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-20-yemen-government-accuses-houthis-of-attacks-on-humanitarian",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-20-yemen-government-accuses-houthis-of-attacks-on-humanitarian",
+   "title": "Saudi Arabia reports intercepting Houthi ballistic missiles launched toward the capital city of Riyadh",
+   "content_text": "On September 20, 2026, Saudi authorities reported successfully intercepting a Houthi ballistic missile launched toward the capital, Riyadh. While all outlets confirmed the thwarted attack, Western media framed the event as a technical military success within the broader Yemeni civil war. In contrast, Middle Eastern outlets provided more granular detail, focusing on specific infrastructure targets and the local humanitarian consequences of the ongoing conflict.",
+   "summary": "On September 20, 2026, Saudi authorities reported successfully intercepting a Houthi ballistic missile launched toward the capital, Riyadh. While all outlets confirmed the thwarted attack, Western media framed the event as a technical military success within the broader Yemeni civil war. In contrast, Middle Eastern outlets provided more granular detail, focusing on specific infrastructure targets and the local humanitarian consequences of the ongoing conflict.",
+   "date_published": "2026-09-20T01:48:47+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -160,8 +148,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3366,
-    "event_date": "2026-09-18",
+    "cluster_id": 3411,
+    "event_date": "2026-09-20",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -170,94 +158,71 @@
      "russia",
      "western"
     ],
-    "article_count": 5,
-    "source_count": 5,
+    "article_count": 14,
+    "source_count": 10,
     "sources": [
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-missiles-riyadh-and-other-cities-intercepted-saudi-coalition-says"
+     },
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/19/arabia-saudita-riyad-aeroporto/"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/17/gli-usa-rilasciano-i-visti-alliran-per-partecipare-allassemblea-dellonu_51f4441c-7ac3-40a9-a75c-969c47a1a391.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/19/houthi-rivendicano-colpiti-obiettivi-sensibili-a-riad-e-impianti-aramco-a-yanbu_04c4d8af-2179-49dd-b480-9a5d53a08e81.html"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-claims-houthis-tried-to-attack-its-capital-riyadh-with-missiles/articleshow/134362350.cms"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/us-iran-delegation-un-assembly-6393261"
+      "url": "https://www.channelnewsasia.com/world/flames-smoke-seen-near-riyadh-airport-saudi-arabia-says-houthi-ballistic-missile-intercepted-6396631"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/17/us-approves-visas-for-top-iranian-leaders-to-attend-un-general-assembly?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2189279"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3366.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-17-shock-in-kosovo-as-hague-convicts-former-president-thaci",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-17-shock-in-kosovo-as-hague-convicts-former-president-thaci",
-   "title": "Former Kosovo President Hashim Thaçi sentenced to 25 years for war crimes in The Hague",
-   "content_text": "The Kosovo Specialist Chambers in The Hague sentenced former President Hashim Thaçi and three other KLA leaders to 25 years in prison for war crimes committed during the 1998-1999 conflict. Western outlets frame the verdict as a domestic crisis, emphasizing local outrage and the perceived injustice felt by the Kosovar community. Conversely, Russian reporting frames the conviction as a geopolitical issue, highlighting the role of NATO-backed actions and the broader international involvement in the conflict.",
-   "summary": "The Kosovo Specialist Chambers in The Hague sentenced former President Hashim Thaçi and three other KLA leaders to 25 years in prison for war crimes committed during the 1998-1999 conflict. Western outlets frame the verdict as a domestic crisis, emphasizing local outrage and the perceived injustice felt by the Kosovar community. Conversely, Russian reporting frames the conviction as a geopolitical issue, highlighting the role of NATO-backed actions and the broader international involvement in the conflict.",
-   "date_published": "2026-09-18T02:24:56+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3387,
-    "event_date": "2026-09-17",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-world-4025-xml-mrss"
+      "url": "https://tass.com/world/2190145"
      },
      {
       "name": "Euronews",
       "region": "western",
       "country": "EU",
-      "url": "https://www.euronews.com/2026/09/17/anger-over-thaci-war-crimes-sentence-spills-into-protests-at-kosovo-eu-mission"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645848-hashim-thaci-guilty-verdict/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://www.euronews.com/2026/09/19/flames-and-smoke-spotted-at-riyadhs-king-khalid-airport-after-overnight-air-raid-alert"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3387.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3411.json",
     "languages": [
      "en",
      "it",
@@ -268,49 +233,57 @@
    }
   },
   {
-   "id": "2026-09-17-niente-visto-da-usa-nuovo-stop-per-abu-mazen-all-onu",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-17-niente-visto-da-usa-nuovo-stop-per-abu-mazen-all-onu",
-   "title": "United States denies Palestinian President Mahmoud Abbas a visa to attend a United Nations summit.",
-   "content_text": "The United States denied Palestinian President Mahmoud Abbas a visa to attend the United Nations assembly in New York for the second consecutive year. While both Western and Russian outlets confirm the denial and the resulting remote participation, they differ significantly in their framing of the motive. Western reports frame the decision as a pragmatic tool to enforce accountability for a lack of peace reforms, whereas Russian reports frame it as a deliberate act of diplomatic obstruction and a challenge to international cooperation.",
-   "summary": "The United States denied Palestinian President Mahmoud Abbas a visa to attend the United Nations assembly in New York for the second consecutive year. While both Western and Russian outlets confirm the denial and the resulting remote participation, they differ significantly in their framing of the motive. Western reports frame the decision as a pragmatic tool to enforce accountability for a lack of peace reforms, whereas Russian reports frame it as a deliberate act of diplomatic obstruction and a challenge to international cooperation.",
-   "date_published": "2026-09-18T02:22:31+00:00",
+   "id": "2026-09-19-at-least-21-killed-after-vehicle-loaded-with-explosives-rams",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-19-at-least-21-killed-after-vehicle-loaded-with-explosives-rams",
+   "title": "At least 21 people killed in a vehicle bombing at a mosque in Pakistan",
+   "content_text": "A vehicle bomb at a mosque within a police compound in Kohat, Pakistan, killed at least 21 people on September 19, 2026. Western outlets focus on the tactical details of the blast and attribute the attack to the Tehrik-e-Taliban Pakistan. In contrast, Russian media emphasizes the high number of law enforcement casualties and frames the event as a broader issue of regional instability and international security.",
+   "summary": "A vehicle bomb at a mosque within a police compound in Kohat, Pakistan, killed at least 21 people on September 19, 2026. Western outlets focus on the tactical details of the blast and attribute the attack to the Tehrik-e-Taliban Pakistan. In contrast, Russian media emphasizes the high number of law enforcement casualties and frames the event as a broader issue of regional instability and international security.",
+   "date_published": "2026-09-19T01:56:58+00:00",
    "tags": [
+    "eastern",
     "russia",
     "western",
-    "tier-C"
+    "tier-B"
    ],
    "_parallax": {
-    "cluster_id": 3385,
-    "event_date": "2026-09-17",
-    "tier": "C",
-    "tier_label": "Partial coverage",
+    "cluster_id": 3394,
+    "event_date": "2026-09-19",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
     "regions": [
+     "eastern",
      "russia",
      "western"
     ],
-    "article_count": 3,
-    "source_count": 3,
+    "article_count": 4,
+    "source_count": 4,
     "sources": [
      {
-      "name": "ANSA Mondo",
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "Il Post",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/17/niente-visto-da-usa-nuovo-stop-per-abu-mazen-allonu_6746ce0f-f078-46e2-b443-36f54b4a9f9c.html"
+      "url": "https://www.ilpost.it/2026/09/18/pakistan-attentato-morti-moschea/"
      },
      {
-      "name": "RT",
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/pakistan-bomb-attack-mosque-police-offices-6395946"
+     },
+     {
+      "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/645908-us-bars-palestinian-president-un/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/17/us-denies-palestine-leader-abbas-a-visa-to-un-summit-for-second-year-running"
+      "url": "https://tass.com/world/2189839"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3385.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3394.json",
     "languages": [
      "en",
      "it",
@@ -321,12 +294,12 @@
    }
   },
   {
-   "id": "2026-09-17-verified-video-shows-wreckage-of-saudi-fighter-jet-shot-down",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-17-verified-video-shows-wreckage-of-saudi-fighter-jet-shot-down",
-   "title": "Multiple casualties reported following strikes and a reported aircraft shootdown in the Yemen conflict.",
-   "content_text": "On September 17, 2026, a Saudi F-15 fighter jet was reportedly shot down over Marib, and strikes occurred in the Taiz and Hajjah provinces. Western outlets focus on the Houthis' advanced military capabilities and the specific humanitarian impact on civilian casualties. In contrast, Russian sources emphasize the scale of the Saudi aerial campaign and the retaliatory strikes launched by Houthi forces against Saudi infrastructure.",
-   "summary": "On September 17, 2026, a Saudi F-15 fighter jet was reportedly shot down over Marib, and strikes occurred in the Taiz and Hajjah provinces. Western outlets focus on the Houthis' advanced military capabilities and the specific humanitarian impact on civilian casualties. In contrast, Russian sources emphasize the scale of the Saudi aerial campaign and the retaliatory strikes launched by Houthi forces against Saudi infrastructure.",
-   "date_published": "2026-09-18T02:20:14+00:00",
+   "id": "2026-09-19-us-and-denmark-reach-deal-over-greenland-after-trump-annexat",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-19-us-and-denmark-reach-deal-over-greenland-after-trump-annexat",
+   "title": "United States and Denmark reach agreement regarding expanded military and security presence in Greenland",
+   "content_text": "A comparative analysis of how Western, Eastern, Middle Eastern, and Russian media frame the shifting security architecture of the North.",
+   "summary": "A comparative analysis of how Western, Eastern, Middle Eastern, and Russian media frame the shifting security architecture of the North.",
+   "date_published": "2026-09-19T01:55:13+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -335,12 +308,97 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3380,
-    "event_date": "2026-09-17",
+    "cluster_id": 3393,
+    "event_date": "2026-09-19",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
      "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 13,
+    "source_count": 8,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/europe/20260918-greenland-denmark-us-deal-un-general-assembly"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/19/frederiksen-accordo-su-groenlandia-un-bene-per-la-nato-riconosce-nostra-sovranita_6bdef733-a455-4551-ac2b-4f50bc3b7238.html"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/us/us-reaches-deal-with-denmark-for-permanent-security-control-over-greenland-says-donald-trump/articleshow/134343806.cms"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/us-and-denmark-reach-deal-greenland-trump-says-6395916"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/trump-says-denmark-deal-gives-us-security-control-over-greenland?traffic_source=rss"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2189997"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/645972-trum-greenland-deal-security/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3393.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-18-shots-heard-as-police-start-moving-migrants-from-ceuta-beach",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-18-shots-heard-as-police-start-moving-migrants-from-ceuta-beach",
+   "title": "Spanish police remove migrants from beaches in the enclave of Ceuta amid reports of tension.",
+   "content_text": "On September 18, 2026, Spanish police relocated thousands of migrants from beaches in the enclave of Ceuta to a designated port facility. While all outlets confirm the physical relocation and the presence of security forces, coverage differs significantly in framing. Western outlets focus on the logistical complexities and legal justifications for the operation, whereas Russian reporting emphasizes the visceral nature of the confrontation and the use of force against the crowd.",
+   "summary": "On September 18, 2026, Spanish police relocated thousands of migrants from beaches in the enclave of Ceuta to a designated port facility. While all outlets confirm the physical relocation and the presence of security forces, coverage differs significantly in framing. Western outlets focus on the logistical complexities and legal justifications for the operation, whereas Russian reporting emphasizes the visceral nature of the confrontation and the use of force against the crowd.",
+   "date_published": "2026-09-19T02:02:26+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3406,
+    "event_date": "2026-09-18",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
      "middle_east",
      "russia",
      "western"
@@ -352,145 +410,40 @@
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c8vgy3p6k3y9o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/17/houthi-tre-bimbi-uccisi-dai-raid-delle-forze-governative_6579764b-cc2b-4054-a031-65e0a18c7884.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/five-killed-yemens-houthis-government-saudi-arabia-trade-strikes-6392401"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/63-killed-latest-fighting-between-yemen-government-houthis"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2189283"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645872-houthis-shoot-down-saudi-jet/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3380.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-17-eu-chief-backs-plan-for-canada-to-become-associate-member",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-17-eu-chief-backs-plan-for-canada-to-become-associate-member",
-   "title": "European Union officials support a proposal for Canada to become an associate member state.",
-   "content_text": "European Commission President Ursula von der Leyen proposed a new \"associate member\" status for Canada to enhance cooperation in defense, energy, and technology. While all outlets report the proposal as a move toward a \"unique alliance,\" coverage diverges on the primary motivation. Western sources frame the move as a proactive step for shared values and economic security, while Eastern and other international outlets emphasize the move as a defensive maneuver against American pressure and shifting trade dynamics.",
-   "summary": "European Commission President Ursula von der Leyen proposed a new \"associate member\" status for Canada to enhance cooperation in defense, energy, and technology. While all outlets report the proposal as a move toward a \"unique alliance,\" coverage diverges on the primary motivation. Western sources frame the move as a proactive step for shared values and economic security, while Eastern and other international outlets emphasize the move as a defensive maneuver against American pressure and shifting trade dynamics.",
-   "date_published": "2026-09-18T02:17:40+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3379,
-    "event_date": "2026-09-17",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 23,
-    "source_count": 11,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cx980qj57r89o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/can-canada-and-the-eu-deepen-ties-to-counter-trump/a-79295388?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/09/17/nx-s1-5971428/with-invite-to-join-eu-bloc-canadas-prime-minister-speaks-to-european-parliament"
+      "url": "https://www.bbc.co.uk/news/articles/c6vgy80ge1z7o?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "Il Post",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/16/canada-membro-associato-unione-europea/"
+      "url": "https://www.ilpost.it/2026/09/18/trasferimento-migranti-spiagge-ceuta-porto/"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/17/applicherei-dazi-molto-pesanti-sui-prodotti-provenienti-dalleuropa_2de6a844-36a9-4852-9f77-b4f4f845d513.html"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/video/2026/09/17/watch-carney-backs-closer-eu-ties-draws-applause-at-european-parliament"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/trump-threatens-eu-over-hostile-canada-association-plan"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/canada-european-union-new-alliance-mark-carney-trump-threats-6392011"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/18/tensione-tra-polizia-e-migranti-durante-il-trasferimento-al-porto-di-ceuta_b22ebf72-fee5-4967-8fd2-68a00ee187fb.html"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/9/17/can-middle-powers-come-together-to-build-a-new-economic-alliance-2?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/9/18/police-clear-ceuta-migrants-off-beaches-in-spanish-enclave?traffic_source=rss"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/645919-eu-canada-associated-member/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://www.rt.com/news/645947-spanish-police-clear-migrants-ceuta/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      },
      {
       "name": "El Pais English",
       "region": "western",
       "country": "ES",
-      "url": "https://english.elpais.com/international/2026-09-17/mark-carney-after-trumps-new-tariff-threats-europe-and-canada-are-stronger-together.html"
+      "url": "https://english.elpais.com/international/2026-09-18/chaotic-scenes-as-spanish-police-clear-ceuta-migrants-from-beaches.html"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3379.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3406.json",
     "languages": [
      "en",
      "it",
@@ -501,187 +454,55 @@
    }
   },
   {
-   "id": "2026-09-17-russia-china-veto-un-mandate-to-monitor-iran-sanctions",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-17-russia-china-veto-un-mandate-to-monitor-iran-sanctions",
-   "title": "Russia and China veto United Nations resolution regarding monitoring of sanctions against Iran",
-   "content_text": "Russia and China vetoed a U.S.-backed United Nations Security Council resolution intended to extend the mandate of the Panel of Experts monitoring sanctions against Iran. While all sources confirm the veto occurred, coverage differs significantly in framing the motivations behind the move. Middle Eastern outlets frame the veto as a necessary defense against Western pressure and the weaponization of international institutions, whereas Western reporting focuses on the impact of the veto on global sanctions enforcement.",
-   "summary": "Russia and China vetoed a U.S.-backed United Nations Security Council resolution intended to extend the mandate of the Panel of Experts monitoring sanctions against Iran. While all sources confirm the veto occurred, coverage differs significantly in framing the motivations behind the move. Middle Eastern outlets frame the veto as a necessary defense against Western pressure and the weaponization of international institutions, whereas Western reporting focuses on the impact of the veto on global sanctions enforcement.",
-   "date_published": "2026-09-18T02:14:34+00:00",
+   "id": "2026-09-18-iran-s-new-hezbollah-how-powerful-are-the-houthis-now",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-18-iran-s-new-hezbollah-how-powerful-are-the-houthis-now",
+   "title": "Houthi and Saudi forces exchange strikes and accusations amid tensions over regional maritime security.",
+   "content_text": "Houthi rebels and Saudi-backed forces have engaged in a series of strikes and accusations over maritime security and oil infrastructure in the Red Sea. Western outlets frame the conflict through the lens of regional power dynamics, focusing on the Houthis' role in a broader \"axis of resistance\" and global economic impacts. Conversely, Middle Eastern sources emphasize the immediate tactical scale of the violence, highlighting specific strike counts to illustrate the intensity of the local escalation.",
+   "summary": "Houthi rebels and Saudi-backed forces have engaged in a series of strikes and accusations over maritime security and oil infrastructure in the Red Sea. Western outlets frame the conflict through the lens of regional power dynamics, focusing on the Houthis' role in a broader \"axis of resistance\" and global economic impacts. Conversely, Middle Eastern sources emphasize the immediate tactical scale of the violence, highlighting specific strike counts to illustrate the intensity of the local escalation.",
+   "date_published": "2026-09-19T02:00:40+00:00",
    "tags": [
     "middle_east",
-    "russia",
+    "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3377,
-    "event_date": "2026-09-17",
+    "cluster_id": 3401,
+    "event_date": "2026-09-18",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
      "middle_east",
-     "russia"
+     "western"
     ],
-    "article_count": 3,
-    "source_count": 3,
+    "article_count": 4,
+    "source_count": 4,
     "sources": [
+     {
+      "name": "DW News",
+      "region": "western",
+      "country": "DE",
+      "url": "https://www.dw.com/en/iran-s-new-hezbollah-how-powerful-are-the-houthis-now/a-79331945?maca=en-rss-en-world-4025-xml-mrss"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/18/nx-s1-5973810/houthi-attacks-saudi-oil-world-markets"
+     },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/17/russia-china-veto-un-mandate-to-monitor-iran-sanctions?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/9/18/houthis-accuse-saudi-arabia-of-launching-26-strikes-in-24-hours?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-thanks-russia-china-opposing-politically-motivated-us-resolution"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2189291"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-arabia-launched-26-strikes-yemen-over-24-hours"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3377.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-16-us-accuses-russia-of-trying-to-kill-ukrainian-allies-oversea",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-16-us-accuses-russia-of-trying-to-kill-ukrainian-allies-oversea",
-   "title": "United States Accuses Russian Intelligence Agents of Planning Assassinations of Dissidents Abroad",
-   "content_text": "The U.S. Department of Justice unsealed charges against five individuals allegedly linked to Russian intelligence for conspiring to finance terrorism and murder-for-hire against dissidents and Ukrainian allies. Western outlets frame the story as a thwarted plot of Russian expansionism and a threat to international security. Conversely, Russian-aligned reporting focuses on the specific legal terminology of the indictment, highlighting the involvement of U.S. nationals and the mechanics of the American legal and intelligence apparatus.",
-   "summary": "The U.S. Department of Justice unsealed charges against five individuals allegedly linked to Russian intelligence for conspiring to finance terrorism and murder-for-hire against dissidents and Ukrainian allies. Western outlets frame the story as a thwarted plot of Russian expansionism and a threat to international security. Conversely, Russian-aligned reporting focuses on the specific legal terminology of the indictment, highlighting the involvement of U.S. nationals and the mechanics of the American legal and intelligence apparatus.",
-   "date_published": "2026-09-18T02:27:39+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3391,
-    "event_date": "2026-09-16",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cjp3077led9qo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/16/stati-uniti-accusano-pianificazione-omicidi-russia/"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/09/16/united-states-charges-5-people-in-alleged-russian-backed-murder-plots-a93718"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3391.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-15-zelenskys-statement-on-retaliation-for-energy-strikes-escala",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-15-zelenskys-statement-on-retaliation-for-energy-strikes-escala",
-   "title": "Trump claims Ukraine and Russia have agreed to cease strikes on energy infrastructure.",
-   "content_text": "How the same diplomatic maneuver is cast as a step toward de-escalation in the West and a provocative escalation in the East.",
-   "summary": "How the same diplomatic maneuver is cast as a step toward de-escalation in the West and a provocative escalation in the East.",
-   "date_published": "2026-09-15T01:55:53+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3324,
-    "event_date": "2026-09-15",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "russia",
-     "western"
-    ],
-    "article_count": 10,
-    "source_count": 8,
-    "sources": [
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/politics/2187021"
-     },
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/trump-seeks-halt-to-energy-attacks-by-both-russia-ukraine/a-79265774?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/europe/20260914-zelensky-says-ukraine-ready-to-de-escalate-if-russia-halts-strikes"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/14/trump-annuncia-la-tregua-energetica-mosca-kiev-ma-zelensky-chiede-garanzie_81a3a2db-65e5-4216-bb1a-89c432d3eb63.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/russia-ukraine-trump-energy-targets-oil-6384276"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645721-trump-ukraine-russian-energy-strikes/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/09/14/ukraine-wants-specifics-from-partners-on-halting-strikes-zelensky-says-a93707"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/14/trump-says-ukraine-and-russia-agree-to-halt-strikes-on-energy-targets"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3324.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3401.json",
     "languages": [
      "en",
      "it",
