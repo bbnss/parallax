@@ -5,504 +5,64 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-20T02:22:57Z",
+ "_generated_at": "2026-09-21T02:11:58Z",
  "items": [
   {
-   "id": "2026-09-20-iran-war-live-tehran-sets-terms-for-peace-saudi-forces-foil",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-20-iran-war-live-tehran-sets-terms-for-peace-saudi-forces-foil",
-   "title": "Iran conveys specific conditions to the United States for ending the current conflict.",
-   "content_text": "On September 20, 2026, Iran communicated specific demands to the United States via Qatari mediators, including a ceasefire, the unfreezing of assets, and the lifting of a naval blockade. While all sources agree on these core demands, Middle Eastern outlets frame the proposal as a high-stakes tactical move for regional stability following recent military actions. In contrast, Russian outlets frame the same demands as a final warning regarding international law and the exhaustion of diplomatic patience.",
-   "summary": "On September 20, 2026, Iran communicated specific demands to the United States via Qatari mediators, including a ceasefire, the unfreezing of assets, and the lifting of a naval blockade. While all sources agree on these core demands, Middle Eastern outlets frame the proposal as a high-stakes tactical move for regional stability following recent military actions. In contrast, Russian outlets frame the same demands as a final warning regarding international law and the exhaustion of diplomatic patience.",
-   "date_published": "2026-09-20T01:52:24+00:00",
+   "id": "2026-09-20-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of-drone",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-20-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of-drone",
+   "title": "Ukraine launches large-scale drone attack on Moscow and surrounding regions, hitting an oil refinery.",
+   "content_text": "A comparative analysis of how Western and Russian media outlets frame the same drone strikes on Russian infrastructure.",
+   "summary": "A comparative analysis of how Western and Russian media outlets frame the same drone strikes on Russian infrastructure.",
+   "date_published": "2026-09-21T01:46:33+00:00",
    "tags": [
-    "middle_east",
     "russia",
+    "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3419,
+    "cluster_id": 3447,
     "event_date": "2026-09-20",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
-     "middle_east",
-     "russia"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2190101"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645996-iran-sends-peace-terms-us/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3419.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-20-trump-signs-sweeping-russia-sanctions-bill",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-20-trump-signs-sweeping-russia-sanctions-bill",
-   "title": "President Trump signs a new bill imposing extensive economic sanctions against Russia.",
-   "content_text": "President Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, imposing significant tariffs on Russian energy and freezing assets of officials. While both Western and Russian outlets report the same legislative details, they differ on the policy's ultimate purpose. Western media frames the sanctions as a necessary tool to cut off war funding, whereas Russian sources frame the legislation as a provocative move that undermines diplomatic efforts and complicates peace negotiations.",
-   "summary": "President Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, imposing significant tariffs on Russian energy and freezing assets of officials. While both Western and Russian outlets report the same legislative details, they differ on the policy's ultimate purpose. Western media frames the sanctions as a necessary tool to cut off war funding, whereas Russian sources frame the legislation as a provocative move that undermines diplomatic efforts and complicates peace negotiations.",
-   "date_published": "2026-09-20T01:50:46+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3418,
-    "event_date": "2026-09-20",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
      "russia",
      "western"
     ],
-    "article_count": 7,
-    "source_count": 6,
+    "article_count": 5,
+    "source_count": 5,
     "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/19/trump-legge-sanzioni-russia/"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/trump-russia-us-sanctions-bill-6396521"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645997-us-sanctions-undermines-ukraine-peace/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/09/19/trump-signs-sweeping-russia-sanctions-bill-a93750"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/19/trump-signs-into-law-sweeping-russia-sanctions-package-aiming-to-choke-off-revenues-fundin"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3418.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-20-yemen-government-accuses-houthis-of-attacks-on-humanitarian",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-20-yemen-government-accuses-houthis-of-attacks-on-humanitarian",
-   "title": "Saudi Arabia reports intercepting Houthi ballistic missiles launched toward the capital city of Riyadh",
-   "content_text": "On September 20, 2026, Saudi authorities reported successfully intercepting a Houthi ballistic missile launched toward the capital, Riyadh. While all outlets confirmed the thwarted attack, Western media framed the event as a technical military success within the broader Yemeni civil war. In contrast, Middle Eastern outlets provided more granular detail, focusing on specific infrastructure targets and the local humanitarian consequences of the ongoing conflict.",
-   "summary": "On September 20, 2026, Saudi authorities reported successfully intercepting a Houthi ballistic missile launched toward the capital, Riyadh. While all outlets confirmed the thwarted attack, Western media framed the event as a technical military success within the broader Yemeni civil war. In contrast, Middle Eastern outlets provided more granular detail, focusing on specific infrastructure targets and the local humanitarian consequences of the ongoing conflict.",
-   "date_published": "2026-09-20T01:48:47+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3411,
-    "event_date": "2026-09-20",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 14,
-    "source_count": 10,
-    "sources": [
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-missiles-riyadh-and-other-cities-intercepted-saudi-coalition-says"
-     },
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/19/arabia-saudita-riyad-aeroporto/"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/19/houthi-rivendicano-colpiti-obiettivi-sensibili-a-riad-e-impianti-aramco-a-yanbu_04c4d8af-2179-49dd-b480-9a5d53a08e81.html"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-claims-houthis-tried-to-attack-its-capital-riyadh-with-missiles/articleshow/134362350.cms"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/flames-smoke-seen-near-riyadh-airport-saudi-arabia-says-houthi-ballistic-missile-intercepted-6396631"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2190145"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/19/flames-and-smoke-spotted-at-riyadhs-king-khalid-airport-after-overnight-air-raid-alert"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3411.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-19-at-least-21-killed-after-vehicle-loaded-with-explosives-rams",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-19-at-least-21-killed-after-vehicle-loaded-with-explosives-rams",
-   "title": "At least 21 people killed in a vehicle bombing at a mosque in Pakistan",
-   "content_text": "A vehicle bomb at a mosque within a police compound in Kohat, Pakistan, killed at least 21 people on September 19, 2026. Western outlets focus on the tactical details of the blast and attribute the attack to the Tehrik-e-Taliban Pakistan. In contrast, Russian media emphasizes the high number of law enforcement casualties and frames the event as a broader issue of regional instability and international security.",
-   "summary": "A vehicle bomb at a mosque within a police compound in Kohat, Pakistan, killed at least 21 people on September 19, 2026. Western outlets focus on the tactical details of the blast and attribute the attack to the Tehrik-e-Taliban Pakistan. In contrast, Russian media emphasizes the high number of law enforcement casualties and frames the event as a broader issue of regional instability and international security.",
-   "date_published": "2026-09-19T01:56:58+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3394,
-    "event_date": "2026-09-19",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "eastern",
-     "russia",
-     "western"
-    ],
-    "article_count": 4,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/18/pakistan-attentato-morti-moschea/"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/pakistan-bomb-attack-mosque-police-offices-6395946"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2189839"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3394.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-19-us-and-denmark-reach-deal-over-greenland-after-trump-annexat",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-19-us-and-denmark-reach-deal-over-greenland-after-trump-annexat",
-   "title": "United States and Denmark reach agreement regarding expanded military and security presence in Greenland",
-   "content_text": "A comparative analysis of how Western, Eastern, Middle Eastern, and Russian media frame the shifting security architecture of the North.",
-   "summary": "A comparative analysis of how Western, Eastern, Middle Eastern, and Russian media frame the shifting security architecture of the North.",
-   "date_published": "2026-09-19T01:55:13+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3393,
-    "event_date": "2026-09-19",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 13,
-    "source_count": 8,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/europe/20260918-greenland-denmark-us-deal-un-general-assembly"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/19/frederiksen-accordo-su-groenlandia-un-bene-per-la-nato-riconosce-nostra-sovranita_6bdef733-a455-4551-ac2b-4f50bc3b7238.html"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/us/us-reaches-deal-with-denmark-for-permanent-security-control-over-greenland-says-donald-trump/articleshow/134343806.cms"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/us-and-denmark-reach-deal-greenland-trump-says-6395916"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/trump-says-denmark-deal-gives-us-security-control-over-greenland?traffic_source=rss"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2189997"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645972-trum-greenland-deal-security/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3393.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-18-shots-heard-as-police-start-moving-migrants-from-ceuta-beach",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-18-shots-heard-as-police-start-moving-migrants-from-ceuta-beach",
-   "title": "Spanish police remove migrants from beaches in the enclave of Ceuta amid reports of tension.",
-   "content_text": "On September 18, 2026, Spanish police relocated thousands of migrants from beaches in the enclave of Ceuta to a designated port facility. While all outlets confirm the physical relocation and the presence of security forces, coverage differs significantly in framing. Western outlets focus on the logistical complexities and legal justifications for the operation, whereas Russian reporting emphasizes the visceral nature of the confrontation and the use of force against the crowd.",
-   "summary": "On September 18, 2026, Spanish police relocated thousands of migrants from beaches in the enclave of Ceuta to a designated port facility. While all outlets confirm the physical relocation and the presence of security forces, coverage differs significantly in framing. Western outlets focus on the logistical complexities and legal justifications for the operation, whereas Russian reporting emphasizes the visceral nature of the confrontation and the use of force against the crowd.",
-   "date_published": "2026-09-19T02:02:26+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3406,
-    "event_date": "2026-09-18",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 6,
-    "source_count": 6,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgy80ge1z7o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/18/trasferimento-migranti-spiagge-ceuta-porto/"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/18/tensione-tra-polizia-e-migranti-durante-il-trasferimento-al-porto-di-ceuta_b22ebf72-fee5-4967-8fd2-68a00ee187fb.html"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/18/police-clear-ceuta-migrants-off-beaches-in-spanish-enclave?traffic_source=rss"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/645947-spanish-police-clear-migrants-ceuta/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "El Pais English",
-      "region": "western",
-      "country": "ES",
-      "url": "https://english.elpais.com/international/2026-09-18/chaotic-scenes-as-spanish-police-clear-ceuta-migrants-from-beaches.html"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3406.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-18-iran-s-new-hezbollah-how-powerful-are-the-houthis-now",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-18-iran-s-new-hezbollah-how-powerful-are-the-houthis-now",
-   "title": "Houthi and Saudi forces exchange strikes and accusations amid tensions over regional maritime security.",
-   "content_text": "Houthi rebels and Saudi-backed forces have engaged in a series of strikes and accusations over maritime security and oil infrastructure in the Red Sea. Western outlets frame the conflict through the lens of regional power dynamics, focusing on the Houthis' role in a broader \"axis of resistance\" and global economic impacts. Conversely, Middle Eastern sources emphasize the immediate tactical scale of the violence, highlighting specific strike counts to illustrate the intensity of the local escalation.",
-   "summary": "Houthi rebels and Saudi-backed forces have engaged in a series of strikes and accusations over maritime security and oil infrastructure in the Red Sea. Western outlets frame the conflict through the lens of regional power dynamics, focusing on the Houthis' role in a broader \"axis of resistance\" and global economic impacts. Conversely, Middle Eastern sources emphasize the immediate tactical scale of the violence, highlighting specific strike counts to illustrate the intensity of the local escalation.",
-   "date_published": "2026-09-19T02:00:40+00:00",
-   "tags": [
-    "middle_east",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3401,
-    "event_date": "2026-09-18",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "middle_east",
-     "western"
-    ],
-    "article_count": 4,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/iran-s-new-hezbollah-how-powerful-are-the-houthis-now/a-79331945?maca=en-rss-en-world-4025-xml-mrss"
+      "url": "https://www.france24.com/en/ukraine-hits-russia-with-major-drone-attack-targetting-refinery"
      },
      {
       "name": "NPR World",
       "region": "western",
       "country": "US",
-      "url": "https://www.npr.org/2026/09/18/nx-s1-5973810/houthi-attacks-saudi-oil-world-markets"
+      "url": "https://www.npr.org/2026/09/20/nx-s1-5975372/ukraine-fires-drones-at-russia-moscow"
      },
      {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/18/houthis-accuse-saudi-arabia-of-launching-26-strikes-in-24-hours?traffic_source=rss"
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/20/russia-ucraina-attacco-drone/"
      },
      {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-arabia-launched-26-strikes-yemen-over-24-hours"
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/09/20/2-dead-in-moscow-region-drones-hit-oil-refinery-in-russian-capital-a93753"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3401.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3447.json",
     "languages": [
      "en",
      "it",

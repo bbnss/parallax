@@ -6,75 +6,14 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 20 Sep 2026 02:22:57 +0000</lastBuildDate>
+<lastBuildDate>Mon, 21 Sep 2026 02:11:58 +0000</lastBuildDate>
 <item>
-<title>Iran conveys specific conditions to the United States for ending the current conflict.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-20-iran-war-live-tehran-sets-terms-for-peace-saudi-forces-foil</link>
-<guid isPermaLink="false">2026-09-20-iran-war-live-tehran-sets-terms-for-peace-saudi-forces-foil</guid>
-<pubDate>Sun, 20 Sep 2026 01:52:24 +0000</pubDate>
-<description>On September 20, 2026, Iran communicated specific demands to the United States via Qatari mediators, including a ceasefire, the unfreezing of assets, and the lifting of a naval blockade. While all sources agree on these core demands, Middle Eastern outlets frame the proposal as a high-stakes tactical move for regional stability following recent military actions. In contrast, Russian outlets frame the same demands as a final warning regarding international law and the exhaustion of diplomatic patience.</description>
-<category>middle_east</category>
+<title>Ukraine launches large-scale drone attack on Moscow and surrounding regions, hitting an oil refinery.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-20-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of-drone</link>
+<guid isPermaLink="false">2026-09-20-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of-drone</guid>
+<pubDate>Mon, 21 Sep 2026 01:46:33 +0000</pubDate>
+<description>A comparative analysis of how Western and Russian media outlets frame the same drone strikes on Russian infrastructure.</description>
 <category>russia</category>
-</item>
-<item>
-<title>President Trump signs a new bill imposing extensive economic sanctions against Russia.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-20-trump-signs-sweeping-russia-sanctions-bill</link>
-<guid isPermaLink="false">2026-09-20-trump-signs-sweeping-russia-sanctions-bill</guid>
-<pubDate>Sun, 20 Sep 2026 01:50:46 +0000</pubDate>
-<description>President Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, imposing significant tariffs on Russian energy and freezing assets of officials. While both Western and Russian outlets report the same legislative details, they differ on the policy's ultimate purpose. Western media frames the sanctions as a necessary tool to cut off war funding, whereas Russian sources frame the legislation as a provocative move that undermines diplomatic efforts and complicates peace negotiations.</description>
-<category>eastern</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Saudi Arabia reports intercepting Houthi ballistic missiles launched toward the capital city of Riyadh</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-20-yemen-government-accuses-houthis-of-attacks-on-humanitarian</link>
-<guid isPermaLink="false">2026-09-20-yemen-government-accuses-houthis-of-attacks-on-humanitarian</guid>
-<pubDate>Sun, 20 Sep 2026 01:48:47 +0000</pubDate>
-<description>On September 20, 2026, Saudi authorities reported successfully intercepting a Houthi ballistic missile launched toward the capital, Riyadh. While all outlets confirmed the thwarted attack, Western media framed the event as a technical military success within the broader Yemeni civil war. In contrast, Middle Eastern outlets provided more granular detail, focusing on specific infrastructure targets and the local humanitarian consequences of the ongoing conflict.</description>
-<category>eastern</category>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>At least 21 people killed in a vehicle bombing at a mosque in Pakistan</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-19-at-least-21-killed-after-vehicle-loaded-with-explosives-rams</link>
-<guid isPermaLink="false">2026-09-19-at-least-21-killed-after-vehicle-loaded-with-explosives-rams</guid>
-<pubDate>Sat, 19 Sep 2026 01:56:58 +0000</pubDate>
-<description>A vehicle bomb at a mosque within a police compound in Kohat, Pakistan, killed at least 21 people on September 19, 2026. Western outlets focus on the tactical details of the blast and attribute the attack to the Tehrik-e-Taliban Pakistan. In contrast, Russian media emphasizes the high number of law enforcement casualties and frames the event as a broader issue of regional instability and international security.</description>
-<category>eastern</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>United States and Denmark reach agreement regarding expanded military and security presence in Greenland</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-19-us-and-denmark-reach-deal-over-greenland-after-trump-annexat</link>
-<guid isPermaLink="false">2026-09-19-us-and-denmark-reach-deal-over-greenland-after-trump-annexat</guid>
-<pubDate>Sat, 19 Sep 2026 01:55:13 +0000</pubDate>
-<description>A comparative analysis of how Western, Eastern, Middle Eastern, and Russian media frame the shifting security architecture of the North.</description>
-<category>eastern</category>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Spanish police remove migrants from beaches in the enclave of Ceuta amid reports of tension.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-18-shots-heard-as-police-start-moving-migrants-from-ceuta-beach</link>
-<guid isPermaLink="false">2026-09-18-shots-heard-as-police-start-moving-migrants-from-ceuta-beach</guid>
-<pubDate>Sat, 19 Sep 2026 02:02:26 +0000</pubDate>
-<description>On September 18, 2026, Spanish police relocated thousands of migrants from beaches in the enclave of Ceuta to a designated port facility. While all outlets confirm the physical relocation and the presence of security forces, coverage differs significantly in framing. Western outlets focus on the logistical complexities and legal justifications for the operation, whereas Russian reporting emphasizes the visceral nature of the confrontation and the use of force against the crowd.</description>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Houthi and Saudi forces exchange strikes and accusations amid tensions over regional maritime security.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-18-iran-s-new-hezbollah-how-powerful-are-the-houthis-now</link>
-<guid isPermaLink="false">2026-09-18-iran-s-new-hezbollah-how-powerful-are-the-houthis-now</guid>
-<pubDate>Sat, 19 Sep 2026 02:00:40 +0000</pubDate>
-<description>Houthi rebels and Saudi-backed forces have engaged in a series of strikes and accusations over maritime security and oil infrastructure in the Red Sea. Western outlets frame the conflict through the lens of regional power dynamics, focusing on the Houthis' role in a broader "axis of resistance" and global economic impacts. Conversely, Middle Eastern sources emphasize the immediate tactical scale of the violence, highlighting specific strike counts to illustrate the intensity of the local escalation.</description>
-<category>middle_east</category>
 <category>western</category>
 </item>
 </channel>
