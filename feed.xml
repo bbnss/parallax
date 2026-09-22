@@ -6,15 +6,46 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 21 Sep 2026 02:11:58 +0000</lastBuildDate>
+<lastBuildDate>Tue, 22 Sep 2026 02:24:11 +0000</lastBuildDate>
 <item>
-<title>Ukraine launches large-scale drone attack on Moscow and surrounding regions, hitting an oil refinery.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-20-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of-drone</link>
-<guid isPermaLink="false">2026-09-20-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of-drone</guid>
-<pubDate>Mon, 21 Sep 2026 01:46:33 +0000</pubDate>
-<description>A comparative analysis of how Western and Russian media outlets frame the same drone strikes on Russian infrastructure.</description>
+<title>United States and China discuss establishing a joint framework for artificial intelligence safety and cooperation.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-21-us-and-china-discuss-ai-safety-plan-ahead-of-trump-xi-summit</link>
+<guid isPermaLink="false">2026-09-21-us-and-china-discuss-ai-safety-plan-ahead-of-trump-xi-summit</guid>
+<pubDate>Tue, 22 Sep 2026 01:58:18 +0000</pubDate>
+<description>How the same diplomatic overture is cast as a quest for global stability in the West and a defensive maneuver against cyber threats in the East.</description>
 <category>russia</category>
 <category>western</category>
+</item>
+<item>
+<title>United Russia party wins a record majority of seats in Russian parliamentary elections.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-21-russia-s-elections-had-few-surprises-but-how-the-kremlin-use</link>
+<guid isPermaLink="false">2026-09-21-russia-s-elections-had-few-surprises-but-how-the-kremlin-use</guid>
+<pubDate>Tue, 22 Sep 2026 01:56:30 +0000</pubDate>
+<description>A comparative analysis of how Western and Russian media frame the same electoral mandate.</description>
+<category>eastern</category>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Saudi Arabia and the United States respond to escalating tensions and attacks by Houthi forces.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-20-da-dove-arrivano-gli-houthi-e-come-comincio-la-guerra-civile</link>
+<guid isPermaLink="false">2026-09-20-da-dove-arrivano-gli-houthi-e-come-comincio-la-guerra-civile</guid>
+<pubDate>Mon, 21 Sep 2026 01:44:50 +0000</pubDate>
+<description>How Western and Eastern media outlets diverge in their framing of the escalating Saudi-Houthi conflict.</description>
+<category>eastern</category>
+<category>middle_east</category>
+<category>western</category>
+</item>
+<item>
+<title>Israeli President pardons soldier convicted for shooting a wounded Palestinian in the West Bank</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-20-israel-president-pardons-soldier-who-shot-wounded-palestinia</link>
+<guid isPermaLink="false">2026-09-20-israel-president-pardons-soldier-who-shot-wounded-palestinia</guid>
+<pubDate>Tue, 22 Sep 2026 02:00:31 +0000</pubDate>
+<description>How the same presidential decree is refracted through the lenses of regional identity and geopolitical positioning.</description>
+<category>eastern</category>
+<category>middle_east</category>
+<category>russia</category>
 </item>
 </channel>
 </rss>
