@@ -5,133 +5,256 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-22T02:24:11Z",
+ "_generated_at": "2026-09-23T02:28:09Z",
  "items": [
   {
-   "id": "2026-09-21-us-and-china-discuss-ai-safety-plan-ahead-of-trump-xi-summit",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-21-us-and-china-discuss-ai-safety-plan-ahead-of-trump-xi-summit",
-   "title": "United States and China discuss establishing a joint framework for artificial intelligence safety and cooperation.",
-   "content_text": "How the same diplomatic overture is cast as a quest for global stability in the West and a defensive maneuver against cyber threats in the East.",
-   "summary": "How the same diplomatic overture is cast as a quest for global stability in the West and a defensive maneuver against cyber threats in the East.",
-   "date_published": "2026-09-22T01:58:18+00:00",
+   "id": "2026-09-23-watch-threats-deals-and-passionate-speeches-at-unga-event",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-23-watch-threats-deals-and-passionate-speeches-at-unga-event",
+   "title": "Donald Trump delivers a speech at the UN General Assembly regarding Iran and policy.",
+   "content_text": "On September 23, 2026, President Donald Trump delivered a speech at the UN General Assembly featuring an ultimatum to \"annihilate\" Iran if a deal was not reached. Simultaneously, U.S. and Iranian officials held negotiations regarding the Strait of Hormuz and frozen assets. Western outlets frame the event as a display of aggressive, performative rhetoric aimed at domestic and international posturing. In contrast, Middle Eastern and Eastern sources prioritize the technical details of the negotiations, framing the day as a period of active diplomacy.",
+   "summary": "On September 23, 2026, President Donald Trump delivered a speech at the UN General Assembly featuring an ultimatum to \"annihilate\" Iran if a deal was not reached. Simultaneously, U.S. and Iranian officials held negotiations regarding the Strait of Hormuz and frozen assets. Western outlets frame the event as a display of aggressive, performative rhetoric aimed at domestic and international posturing. In contrast, Middle Eastern and Eastern sources prioritize the technical details of the negotiations, framing the day as a period of active diplomacy.",
+   "date_published": "2026-09-23T01:55:01+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3480,
+    "event_date": "2026-09-23",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 25,
+    "source_count": 11,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/videos/cqkgx8ynj8zko?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/americas/20260922-iran-ai-and-the-icc-trump-makes-threats-touts-policies-un-general-assembly"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/22/nx-s1-5976843/trump-heads-to-u-n-looking-for-wins-after-a-rough-week"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/22/araghchi-a-witkoff-usa-revochino-blocco-navale-usa-e-scongelino-beni-iran_41d033a1-73ae-4afe-9e16-9f23ac91eddf.html"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/us/trump-pezeshkian-meeting-on-unga-sidelines-us-president-open-to-talks-with-iran/articleshow/134416649.cms"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/iran-us-un-trump-speech-peace-deal-6402951"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/unga-day-1-us-and-iran-hold-talks-despite-trumps-threat?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-heaps-praise-middle-east-leaders-un-meeting-iran-war"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/646110-irump-un-iran-hell-annihilation/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "El Pais English",
+      "region": "western",
+      "country": "ES",
+      "url": "https://english.elpais.com/usa/2026-09-22/trump-threatens-to-annihilate-iran-in-un-speech-with-electoral-slant.html"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/09/22/trump-threatens-to-annihilate-iran-at-un-then-confirms-direct-talks"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3480.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-23-us-to-open-two-new-military-bases-in-greenland-sources",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-23-us-to-open-two-new-military-bases-in-greenland-sources",
+   "title": "United States and Denmark agree to establish two new military bases in Greenland.",
+   "content_text": "The United States and Denmark signed a security agreement on September 23, 2026, to establish and modernize military infrastructure at two sites in Greenland. While all regions report the expansion of the U.S. military footprint, coverage differs significantly in framing. Western outlets focus on the technicalities of NATO cooperation and legal sovereignty, whereas Middle Eastern and Eastern sources emphasize the deal as a milestone in great-power competition and escalating geopolitical tension.",
+   "summary": "The United States and Denmark signed a security agreement on September 23, 2026, to establish and modernize military infrastructure at two sites in Greenland. While all regions report the expansion of the U.S. military footprint, coverage differs significantly in framing. Western outlets focus on the technicalities of NATO cooperation and legal sovereignty, whereas Middle Eastern and Eastern sources emphasize the deal as a milestone in great-power competition and escalating geopolitical tension.",
+   "date_published": "2026-09-23T01:52:18+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3476,
+    "event_date": "2026-09-23",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 13,
+    "source_count": 8,
+    "sources": [
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/trump-greenland-denmark-sign-deal-arctic-military-6403576"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/22/accordo-stati-uniti-danimarca-groenlandia/"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/22/trump-firma-laccordo-di-sicurezza-con-la-groelandia-e-la-danimarca_e3c3b2c5-4ec8-42e4-8967-d5025fc2d19c.html"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-09-22/Denmark-Greenland-US-to-sign-Arctic-security-agreement-1QDxTYKbwhq/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/us-signs-tremendous-security-deal-with-denmark-and-greenland?traffic_source=rss"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/646101-trump-us-greenland-military/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/my-europe/2026/09/22/trump-signs-greenland-security-deal-allowing-us-to-expand-military-presence"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3476.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-22-eu-envoys-to-continue-talks-on-deal-to-lift-sanctions-on-rus",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-22-eu-envoys-to-continue-talks-on-deal-to-lift-sanctions-on-rus",
+   "title": "European Union officials continue negotiations regarding the removal of Russian oligarchs from sanctions lists.",
+   "content_text": "EU officials have removed Russian oligarchs Alisher Usmanov and Mikhail Fridman from the sanctions list while extending measures against 3,000 other entities for three years. Western outlets frame the move as a controversial concession caused by internal European divisions and specific demands from France and Luxembourg. Conversely, Russian media frame the delisting as a victory for Russian interests, highlighting internal EU infighting as evidence of a fractured Western front.",
+   "summary": "EU officials have removed Russian oligarchs Alisher Usmanov and Mikhail Fridman from the sanctions list while extending measures against 3,000 other entities for three years. Western outlets frame the move as a controversial concession caused by internal European divisions and specific demands from France and Luxembourg. Conversely, Russian media frame the delisting as a victory for Russian interests, highlighting internal EU infighting as evidence of a fractured Western front.",
+   "date_published": "2026-09-23T01:58:32+00:00",
    "tags": [
     "russia",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3470,
-    "event_date": "2026-09-21",
+    "cluster_id": 3485,
+    "event_date": "2026-09-22",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
      "russia",
      "western"
     ],
-    "article_count": 3,
-    "source_count": 3,
+    "article_count": 7,
+    "source_count": 5,
     "sources": [
      {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss"
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/politics/2190817"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/646054-us-china-ai-alert/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://www.rt.com/news/646100-eu-drops-usmanov-from-sanctions/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/next/2026/09/21/us-and-china-to-seek-ai-dialogue-to-communicate-shared-concerns"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3470.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-21-russia-s-elections-had-few-surprises-but-how-the-kremlin-use",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-21-russia-s-elections-had-few-surprises-but-how-the-kremlin-use",
-   "title": "United Russia party wins a record majority of seats in Russian parliamentary elections.",
-   "content_text": "A comparative analysis of how Western and Russian media frame the same electoral mandate.",
-   "summary": "A comparative analysis of how Western and Russian media frame the same electoral mandate.",
-   "date_published": "2026-09-22T01:56:30+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3464,
-    "event_date": "2026-09-21",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 8,
-    "source_count": 7,
-    "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cx4gqv239043o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/09/21/nx-s1-5975460/how-russias-parliamentary-election-might-affect-the-war-in-ukraine"
+      "url": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/21/commissione-elettorale-russia-unita-ottiene-355-seggi-su-450-alla-duma_3aa0ab1f-73ba-496a-86a3-df84cb854787.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/putins-party-secures-record-score-in-russia-election-6399171"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/21/pro-putin-party-wins-supermajority-amid-ramped-up-ukrainian-attacks?traffic_source=rss"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/22/intesa-in-ue-sulle-sanzioni-alla-russia-rinnovo-per-3-anni-e-fuori-usmanov_24cdd38d-5453-46f0-9887-697a08c67f03.html"
      },
      {
       "name": "The Moscow Times",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/09/21/united-russia-set-for-record-parliament-majority-in-first-wartime-elections-a93754"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/21/putins-party-wins-record-duma-majority-in-kremlin-controlled-elections-as-eu-vows-sanction"
+      "url": "https://www.themoscowtimes.com/2026/09/22/eu-removes-billionaires-usmanov-and-fridman-from-sanctions-list-a93772"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3464.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3485.json",
     "languages": [
      "en",
      "it",
@@ -142,136 +265,51 @@
    }
   },
   {
-   "id": "2026-09-20-da-dove-arrivano-gli-houthi-e-come-comincio-la-guerra-civile",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-20-da-dove-arrivano-gli-houthi-e-come-comincio-la-guerra-civile",
-   "title": "Saudi Arabia and the United States respond to escalating tensions and attacks by Houthi forces.",
-   "content_text": "How Western and Eastern media outlets diverge in their framing of the escalating Saudi-Houthi conflict.",
-   "summary": "How Western and Eastern media outlets diverge in their framing of the escalating Saudi-Houthi conflict.",
-   "date_published": "2026-09-21T01:44:50+00:00",
+   "id": "2026-09-22-guterres-enters-final-un-general-assembly-with-legacy-shaped",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-22-guterres-enters-final-un-general-assembly-with-legacy-shaped",
+   "title": "UN Secretary-General Guterres delivers his final address to the General Assembly on global issues.",
+   "content_text": "UN Secretary-General Antonio Guterres delivered his final address to the General Assembly on September 22, 2026, calling for international cooperation on AI regulation, climate change, and UN reform. While both Western and Eastern outlets reported these core demands, they differed in their framing of his legacy. Western media emphasized a vision of global interdependence and unity, whereas Eastern coverage focused on the reality of a divided world and the structural limitations of the UN.",
+   "summary": "UN Secretary-General Antonio Guterres delivered his final address to the General Assembly on September 22, 2026, calling for international cooperation on AI regulation, climate change, and UN reform. While both Western and Eastern outlets reported these core demands, they differed in their framing of his legacy. Western media emphasized a vision of global interdependence and unity, whereas Eastern coverage focused on the reality of a divided world and the structural limitations of the UN.",
+   "date_published": "2026-09-23T01:56:40+00:00",
    "tags": [
     "eastern",
     "middle_east",
     "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3445,
-    "event_date": "2026-09-20",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 8,
-    "source_count": 7,
-    "sources": [
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/19/houthi-yemen-guerra-civile-storia/"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/houthi-attacks-and-no-western-support-what-are-saudi-arabia-s-options"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-09-20/Saudi-Houthi-tensions-escalate-as-Iran-signals-conditions-for-US-talks-1QAnW5YK46c/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/us-middle-east-houthis-attack-saudi-arabia-riyadh-6397426"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/9/20/how-will-saudi-arabia-deal-with-the-houthis?traffic_source=rss"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/20/us-embassies-issue-security-alerts-over-houthi-attacks-on-saudi-arabia"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3445.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-20-israel-president-pardons-soldier-who-shot-wounded-palestinia",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-20-israel-president-pardons-soldier-who-shot-wounded-palestinia",
-   "title": "Israeli President pardons soldier convicted for shooting a wounded Palestinian in the West Bank",
-   "content_text": "How the same presidential decree is refracted through the lenses of regional identity and geopolitical positioning.",
-   "summary": "How the same presidential decree is refracted through the lenses of regional identity and geopolitical positioning.",
-   "date_published": "2026-09-22T02:00:31+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
     "tier-B"
    ],
    "_parallax": {
-    "cluster_id": 3443,
-    "event_date": "2026-09-20",
+    "cluster_id": 3484,
+    "event_date": "2026-09-22",
     "tier": "B",
     "tier_label": "Cross-bloc coverage",
     "regions": [
      "eastern",
      "middle_east",
-     "russia"
+     "western"
     ],
-    "article_count": 4,
-    "source_count": 4,
+    "article_count": 5,
+    "source_count": 3,
     "sources": [
      {
-      "name": "Times of India",
+      "name": "Channel News Asia",
       "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/israel-president-pardons-soldier-who-shot-wounded-palestinian-attacker-dead-in-west-bank/articleshow/134371455.cms"
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/united-nations-guterres-last-assembly-address-ai-wars-6402666"
      },
      {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/jerusalem-daily-israel-pardons-soldier-elor-azaria?traffic_source=rss"
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/americas/20260922-un-secretary-general-guterres-calls-for-interdependence-in-final-general-assembly-address"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/news/israels-president-pardons-soldier-convicted-killing-wounded-palestinian"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/646003-idf-soldier-criminal-record/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-general-assembly-2026-war-iran-and-gaza-genocide-dominate"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3443.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3484.json",
     "languages": [
      "en",
      "it",
