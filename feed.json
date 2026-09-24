@@ -5,15 +5,15 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-23T02:28:09Z",
+ "_generated_at": "2026-09-24T02:50:09Z",
  "items": [
   {
-   "id": "2026-09-23-watch-threats-deals-and-passionate-speeches-at-unga-event",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-23-watch-threats-deals-and-passionate-speeches-at-unga-event",
-   "title": "Donald Trump delivers a speech at the UN General Assembly regarding Iran and policy.",
-   "content_text": "On September 23, 2026, President Donald Trump delivered a speech at the UN General Assembly featuring an ultimatum to \"annihilate\" Iran if a deal was not reached. Simultaneously, U.S. and Iranian officials held negotiations regarding the Strait of Hormuz and frozen assets. Western outlets frame the event as a display of aggressive, performative rhetoric aimed at domestic and international posturing. In contrast, Middle Eastern and Eastern sources prioritize the technical details of the negotiations, framing the day as a period of active diplomacy.",
-   "summary": "On September 23, 2026, President Donald Trump delivered a speech at the UN General Assembly featuring an ultimatum to \"annihilate\" Iran if a deal was not reached. Simultaneously, U.S. and Iranian officials held negotiations regarding the Strait of Hormuz and frozen assets. Western outlets frame the event as a display of aggressive, performative rhetoric aimed at domestic and international posturing. In contrast, Middle Eastern and Eastern sources prioritize the technical details of the negotiations, framing the day as a period of active diplomacy.",
-   "date_published": "2026-09-23T01:55:01+00:00",
+   "id": "2026-09-24-from-tariff-overlord-to-tarmac-man-trump-to-roll-out-red-car",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-24-from-tariff-overlord-to-tarmac-man-trump-to-roll-out-red-car",
+   "title": "President Xi Jinping arrives in the United States for a high-profile meeting with President Trump.",
+   "content_text": "Chinese President Xi Jinping arrived in the United States on September 23, 2026, for a three-day state visit to meet with President Trump regarding trade, AI, and regional stability. Western outlets framed the summit as a high-stakes confrontation focused on the gravity of the superpower rivalry and ceremonial spectacle. In contrast, Middle Eastern and Eastern sources emphasized the pragmatic management of competition and the necessity of the meeting for global stability and regional security.",
+   "summary": "Chinese President Xi Jinping arrived in the United States on September 23, 2026, for a three-day state visit to meet with President Trump regarding trade, AI, and regional stability. Western outlets framed the summit as a high-stakes confrontation focused on the gravity of the superpower rivalry and ceremonial spectacle. In contrast, Middle Eastern and Eastern sources emphasized the pragmatic management of competition and the necessity of the meeting for global stability and regional security.",
+   "date_published": "2026-09-24T01:58:53+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -22,113 +22,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3480,
-    "event_date": "2026-09-23",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 25,
-    "source_count": 11,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/videos/cqkgx8ynj8zko?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/americas/20260922-iran-ai-and-the-icc-trump-makes-threats-touts-policies-un-general-assembly"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/09/22/nx-s1-5976843/trump-heads-to-u-n-looking-for-wins-after-a-rough-week"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/22/araghchi-a-witkoff-usa-revochino-blocco-navale-usa-e-scongelino-beni-iran_41d033a1-73ae-4afe-9e16-9f23ac91eddf.html"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/us/trump-pezeshkian-meeting-on-unga-sidelines-us-president-open-to-talks-with-iran/articleshow/134416649.cms"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/iran-us-un-trump-speech-peace-deal-6402951"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/unga-day-1-us-and-iran-hold-talks-despite-trumps-threat?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-heaps-praise-middle-east-leaders-un-meeting-iran-war"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/646110-irump-un-iran-hell-annihilation/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "El Pais English",
-      "region": "western",
-      "country": "ES",
-      "url": "https://english.elpais.com/usa/2026-09-22/trump-threatens-to-annihilate-iran-in-un-speech-with-electoral-slant.html"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/22/trump-threatens-to-annihilate-iran-at-un-then-confirms-direct-talks"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3480.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-23-us-to-open-two-new-military-bases-in-greenland-sources",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-23-us-to-open-two-new-military-bases-in-greenland-sources",
-   "title": "United States and Denmark agree to establish two new military bases in Greenland.",
-   "content_text": "The United States and Denmark signed a security agreement on September 23, 2026, to establish and modernize military infrastructure at two sites in Greenland. While all regions report the expansion of the U.S. military footprint, coverage differs significantly in framing. Western outlets focus on the technicalities of NATO cooperation and legal sovereignty, whereas Middle Eastern and Eastern sources emphasize the deal as a milestone in great-power competition and escalating geopolitical tension.",
-   "summary": "The United States and Denmark signed a security agreement on September 23, 2026, to establish and modernize military infrastructure at two sites in Greenland. While all regions report the expansion of the U.S. military footprint, coverage differs significantly in framing. Western outlets focus on the technicalities of NATO cooperation and legal sovereignty, whereas Middle Eastern and Eastern sources emphasize the deal as a milestone in great-power competition and escalating geopolitical tension.",
-   "date_published": "2026-09-23T01:52:18+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3476,
-    "event_date": "2026-09-23",
+    "cluster_id": 3491,
+    "event_date": "2026-09-24",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -141,175 +36,55 @@
     "source_count": 8,
     "sources": [
      {
-      "name": "Channel News Asia",
+      "name": "Times of India",
       "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/trump-greenland-denmark-sign-deal-arctic-military-6403576"
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/us/from-tariff-overlord-to-tarmac-man-donald-trump-to-roll-out-red-carpet-for-xi-jinping/articleshow/134415950.cms"
      },
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/videos/c6804ne8knklo?at_medium=RSS&at_campaign=rss"
      },
      {
-      "name": "Il Post",
+      "name": "NPR World",
       "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/22/accordo-stati-uniti-danimarca-groenlandia/"
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/23/nx-s1-5978733/trump-xi-meeting-china"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/22/trump-firma-laccordo-di-sicurezza-con-la-groelandia-e-la-danimarca_e3c3b2c5-4ec8-42e4-8967-d5025fc2d19c.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/09/24/trump-ottimo-incontro-con-xi_82d64d7e-1471-4373-ba81-cba5db179aaf.html"
      },
      {
       "name": "CGTN",
       "region": "eastern",
       "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-09-22/Denmark-Greenland-US-to-sign-Arctic-security-agreement-1QDxTYKbwhq/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+      "url": "https://news.cgtn.com/news/2026-09-22/Decoding-constructive-strategic-stability-ahead-of-Xi-s-US-visit-1QE9pBbWhvW/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/china-xi-jinping-lands-donald-trump-us-airport-welcome-6406556"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/us-signs-tremendous-security-deal-with-denmark-and-greenland?traffic_source=rss"
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/aje-onl-nf_trump-hosts-xi-amid-rising-tensions-1-230926?traffic_source=rss"
      },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/646101-trump-us-greenland-military/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/my-europe/2026/09/22/trump-signs-greenland-security-deal-allowing-us-to-expand-military-presence"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3476.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-22-eu-envoys-to-continue-talks-on-deal-to-lift-sanctions-on-rus",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-22-eu-envoys-to-continue-talks-on-deal-to-lift-sanctions-on-rus",
-   "title": "European Union officials continue negotiations regarding the removal of Russian oligarchs from sanctions lists.",
-   "content_text": "EU officials have removed Russian oligarchs Alisher Usmanov and Mikhail Fridman from the sanctions list while extending measures against 3,000 other entities for three years. Western outlets frame the move as a controversial concession caused by internal European divisions and specific demands from France and Luxembourg. Conversely, Russian media frame the delisting as a victory for Russian interests, highlighting internal EU infighting as evidence of a fractured Western front.",
-   "summary": "EU officials have removed Russian oligarchs Alisher Usmanov and Mikhail Fridman from the sanctions list while extending measures against 3,000 other entities for three years. Western outlets frame the move as a controversial concession caused by internal European divisions and specific demands from France and Luxembourg. Conversely, Russian media frame the delisting as a victory for Russian interests, highlighting internal EU infighting as evidence of a fractured Western front.",
-   "date_published": "2026-09-23T01:58:32+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3485,
-    "event_date": "2026-09-22",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 7,
-    "source_count": 5,
-    "sources": [
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/politics/2190817"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/646100-eu-drops-usmanov-from-sanctions/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/22/intesa-in-ue-sulle-sanzioni-alla-russia-rinnovo-per-3-anni-e-fuori-usmanov_24cdd38d-5453-46f0-9887-697a08c67f03.html"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/09/22/eu-removes-billionaires-usmanov-and-fridman-from-sanctions-list-a93772"
+      "url": "https://tass.com/world/2191895"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3485.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-22-guterres-enters-final-un-general-assembly-with-legacy-shaped",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-22-guterres-enters-final-un-general-assembly-with-legacy-shaped",
-   "title": "UN Secretary-General Guterres delivers his final address to the General Assembly on global issues.",
-   "content_text": "UN Secretary-General Antonio Guterres delivered his final address to the General Assembly on September 22, 2026, calling for international cooperation on AI regulation, climate change, and UN reform. While both Western and Eastern outlets reported these core demands, they differed in their framing of his legacy. Western media emphasized a vision of global interdependence and unity, whereas Eastern coverage focused on the reality of a divided world and the structural limitations of the UN.",
-   "summary": "UN Secretary-General Antonio Guterres delivered his final address to the General Assembly on September 22, 2026, calling for international cooperation on AI regulation, climate change, and UN reform. While both Western and Eastern outlets reported these core demands, they differed in their framing of his legacy. Western media emphasized a vision of global interdependence and unity, whereas Eastern coverage focused on the reality of a divided world and the structural limitations of the UN.",
-   "date_published": "2026-09-23T01:56:40+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3484,
-    "event_date": "2026-09-22",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/united-nations-guterres-last-assembly-address-ai-wars-6402666"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/americas/20260922-un-secretary-general-guterres-calls-for-interdependence-in-final-general-assembly-address"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-general-assembly-2026-war-iran-and-gaza-genocide-dominate"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3484.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3491.json",
     "languages": [
      "en",
      "it",
