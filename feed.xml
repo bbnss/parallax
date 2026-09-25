@@ -6,17 +6,55 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 24 Sep 2026 02:50:09 +0000</lastBuildDate>
+<lastBuildDate>Fri, 25 Sep 2026 02:52:27 +0000</lastBuildDate>
 <item>
-<title>President Xi Jinping arrives in the United States for a high-profile meeting with President Trump.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-24-from-tariff-overlord-to-tarmac-man-trump-to-roll-out-red-car</link>
-<guid isPermaLink="false">2026-09-24-from-tariff-overlord-to-tarmac-man-trump-to-roll-out-red-car</guid>
-<pubDate>Thu, 24 Sep 2026 01:58:53 +0000</pubDate>
-<description>Chinese President Xi Jinping arrived in the United States on September 23, 2026, for a three-day state visit to meet with President Trump regarding trade, AI, and regional stability. Western outlets framed the summit as a high-stakes confrontation focused on the gravity of the superpower rivalry and ceremonial spectacle. In contrast, Middle Eastern and Eastern sources emphasized the pragmatic management of competition and the necessity of the meeting for global stability and regional security.</description>
+<title>Colombia severs diplomatic relations with Iran following tensions involving Israeli Prime Minister Benjamin Netanyahu.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-25-live-were-going-to-win-because-weve-got-no-other-choice-isr</link>
+<guid isPermaLink="false">2026-09-25-live-were-going-to-win-because-weve-got-no-other-choice-isr</guid>
+<pubDate>Fri, 25 Sep 2026 02:03:20 +0000</pubDate>
+<description>Colombia officially severed diplomatic relations with Iran on September 25, 2026, citing the Iranian government's ties to international terrorist and narco-terrorist organizations. While both Western and Russian outlets report the rupture as a fact, their framing differs significantly. Western media frames the move as a proactive step for hemispheric security and maritime stability, whereas Russian reporting focuses strictly on the specific bilateral accusations regarding narco-terrorism.</description>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Iranian President Pezeshkian states that the United States must decide whether to end the war.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-25-pezeshkian-sono-gli-usa-a-dover-decidere-se-porre-fine-alla</link>
+<guid isPermaLink="false">2026-09-25-pezeshkian-sono-gli-usa-a-dover-decidere-se-porre-fine-alla</guid>
+<pubDate>Fri, 25 Sep 2026 02:01:39 +0000</pubDate>
+<description>Iranian President Masoud Pezeshkian stated on September 25, 2026, that the United States must decide whether to end the ongoing conflict. While all sources confirm his call for diplomacy, Middle Eastern outlets and Russian state media differ in their framing of the message. Middle Eastern reports emphasize a narrative of patient readiness, framing the situation as a matter of American will, while other reports focus on the specific legal frameworks and the intensity of the current military confrontation.</description>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>UN delegates walk out during a speech by Israeli Prime Minister Benjamin Netanyahu</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-25-netanyahu-defends-israeli-military-action-as-delegates-walk</link>
+<guid isPermaLink="false">2026-09-25-netanyahu-defends-israeli-military-action-as-delegates-walk</guid>
+<pubDate>Fri, 25 Sep 2026 01:59:50 +0000</pubDate>
+<description>On September 25, 2026, dozens of UN delegates walked out during a speech by Israeli Prime Minister Benjamin Netanyahu amid scrutiny over military actions in Gaza and Lebanon. Western outlets focus on the interpersonal rhetoric, highlighting Netanyahu’s specific accusations of "moral cowardice" against his critics. Conversely, Middle Eastern sources emphasize the atmosphere of hostility and the broader geopolitical implications of Israel's isolation. The coverage differs by framing the event as either a moral confrontation or a symbol of regional conflict.</description>
+<category>eastern</category>
+<category>middle_east</category>
+<category>western</category>
+</item>
+<item>
+<title>Trump and Xi meet in the United States to discuss cooperation and competition in AI.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-25-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi-me</link>
+<guid isPermaLink="false">2026-09-25-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi-me</guid>
+<pubDate>Fri, 25 Sep 2026 01:57:35 +0000</pubDate>
+<description>President Donald Trump and President Xi Jinping met at the White House to discuss trade truces, the situation in Taiwan, and competition in artificial intelligence. Western outlets framed the summit as a pragmatic effort to manage risks and maintain a stable status quo amidst technological competition. In contrast, Middle Eastern sources framed the meeting as a critical crossroads for global security, emphasizing the need for dialogue to mitigate regional conflicts and the broader risks of the AI race.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
+</item>
+<item>
+<title>Iranian-American activists file lawsuit challenging the constitutionality of the United States' war against Iran</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-24-iranian-american-group-sues-trump-for-unconstitutional-war-o</link>
+<guid isPermaLink="false">2026-09-24-iranian-american-group-sues-trump-for-unconstitutional-war-o</guid>
+<pubDate>Fri, 25 Sep 2026 02:05:04 +0000</pubDate>
+<description>The National Iranian American Council filed a lawsuit in a U.S. District Court challenging the constitutionality of the American military campaign against Iran. The legal challenge argues that the executive branch initiated military operations without formal congressional authorization or a defined timeline. Middle Eastern outlets frame the case as a domestic constitutional crisis regarding executive overreach, while Russian state media emphasizes the violation of international norms and procedural protocols.</description>
+<category>middle_east</category>
+<category>russia</category>
 </item>
 </channel>
 </rss>
