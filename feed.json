@@ -5,190 +5,15 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-25T02:52:27Z",
+ "_generated_at": "2026-09-26T02:20:53Z",
  "items": [
   {
-   "id": "2026-09-25-live-were-going-to-win-because-weve-got-no-other-choice-isr",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-25-live-were-going-to-win-because-weve-got-no-other-choice-isr",
-   "title": "Colombia severs diplomatic relations with Iran following tensions involving Israeli Prime Minister Benjamin Netanyahu.",
-   "content_text": "Colombia officially severed diplomatic relations with Iran on September 25, 2026, citing the Iranian government's ties to international terrorist and narco-terrorist organizations. While both Western and Russian outlets report the rupture as a fact, their framing differs significantly. Western media frames the move as a proactive step for hemispheric security and maritime stability, whereas Russian reporting focuses strictly on the specific bilateral accusations regarding narco-terrorism.",
-   "summary": "Colombia officially severed diplomatic relations with Iran on September 25, 2026, citing the Iranian government's ties to international terrorist and narco-terrorist organizations. While both Western and Russian outlets report the rupture as a fact, their framing differs significantly. Western media frames the move as a proactive step for hemispheric security and maritime stability, whereas Russian reporting focuses strictly on the specific bilateral accusations regarding narco-terrorism.",
-   "date_published": "2026-09-25T02:03:20+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3522,
-    "event_date": "2026-09-25",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/americas/20260924-live-netanyahu-faces-un-over-gaza-as-abbas-set-to-address-assembly-by-video"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/09/25/la-colombia-rompe-i-rapporti-diplomatici-con-liran_7c170c1d-545a-4d4a-aea6-12f09bf8c84f.html"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2192473"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3522.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-25-pezeshkian-sono-gli-usa-a-dover-decidere-se-porre-fine-alla",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-25-pezeshkian-sono-gli-usa-a-dover-decidere-se-porre-fine-alla",
-   "title": "Iranian President Pezeshkian states that the United States must decide whether to end the war.",
-   "content_text": "Iranian President Masoud Pezeshkian stated on September 25, 2026, that the United States must decide whether to end the ongoing conflict. While all sources confirm his call for diplomacy, Middle Eastern outlets and Russian state media differ in their framing of the message. Middle Eastern reports emphasize a narrative of patient readiness, framing the situation as a matter of American will, while other reports focus on the specific legal frameworks and the intensity of the current military confrontation.",
-   "summary": "Iranian President Masoud Pezeshkian stated on September 25, 2026, that the United States must decide whether to end the ongoing conflict. While all sources confirm his call for diplomacy, Middle Eastern outlets and Russian state media differ in their framing of the message. Middle Eastern reports emphasize a narrative of patient readiness, framing the situation as a matter of American will, while other reports focus on the specific legal frameworks and the intensity of the current military confrontation.",
-   "date_published": "2026-09-25T02:01:39+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3520,
-    "event_date": "2026-09-25",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/25/pezeshkian-sono-gli-usa-a-dover-decidere-se-porre-fine-alla-guerra_1f374973-6893-46db-b55f-505a1cf00203.html"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pezeshkian-says-us-choose-whether-end-war-iran"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/646172-pezeshkian-iran-un-trump/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3520.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-25-netanyahu-defends-israeli-military-action-as-delegates-walk",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-25-netanyahu-defends-israeli-military-action-as-delegates-walk",
-   "title": "UN delegates walk out during a speech by Israeli Prime Minister Benjamin Netanyahu",
-   "content_text": "On September 25, 2026, dozens of UN delegates walked out during a speech by Israeli Prime Minister Benjamin Netanyahu amid scrutiny over military actions in Gaza and Lebanon. Western outlets focus on the interpersonal rhetoric, highlighting Netanyahu’s specific accusations of \"moral cowardice\" against his critics. Conversely, Middle Eastern sources emphasize the atmosphere of hostility and the broader geopolitical implications of Israel's isolation. The coverage differs by framing the event as either a moral confrontation or a symbol of regional conflict.",
-   "summary": "On September 25, 2026, dozens of UN delegates walked out during a speech by Israeli Prime Minister Benjamin Netanyahu amid scrutiny over military actions in Gaza and Lebanon. Western outlets focus on the interpersonal rhetoric, highlighting Netanyahu’s specific accusations of \"moral cowardice\" against his critics. Conversely, Middle Eastern sources emphasize the atmosphere of hostility and the broader geopolitical implications of Israel's isolation. The coverage differs by framing the event as either a moral confrontation or a symbol of regional conflict.",
-   "date_published": "2026-09-25T01:59:50+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3517,
-    "event_date": "2026-09-25",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 12,
-    "source_count": 5,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/24/netanyahu-allonu-mamdani-anti-semita-vergognati-delle-bugie_c5246cdd-e28b-4e62-b6ad-3dfaea2e9ff9.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/israel-netanyahu-un-speed-denounce-enemies-allies-6409471"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/24/benjamin-netanyahu-attacks-israels-enemies-and-allies-in-un-speech?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dozens-envoys-across-world-walk-out-netanyahus-un-speech"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3517.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-25-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi-me",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-25-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi-me",
-   "title": "Trump and Xi meet in the United States to discuss cooperation and competition in AI.",
-   "content_text": "President Donald Trump and President Xi Jinping met at the White House to discuss trade truces, the situation in Taiwan, and competition in artificial intelligence. Western outlets framed the summit as a pragmatic effort to manage risks and maintain a stable status quo amidst technological competition. In contrast, Middle Eastern sources framed the meeting as a critical crossroads for global security, emphasizing the need for dialogue to mitigate regional conflicts and the broader risks of the AI race.",
-   "summary": "President Donald Trump and President Xi Jinping met at the White House to discuss trade truces, the situation in Taiwan, and competition in artificial intelligence. Western outlets framed the summit as a pragmatic effort to manage risks and maintain a stable status quo amidst technological competition. In contrast, Middle Eastern sources framed the meeting as a critical crossroads for global security, emphasizing the need for dialogue to mitigate regional conflicts and the broader risks of the AI race.",
-   "date_published": "2026-09-25T01:57:35+00:00",
+   "id": "2026-09-26-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-26-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days",
+   "title": "Iran proposes a seven-day roadmap to the United States to reopen the Strait of Hormuz.",
+   "content_text": "A comparative analysis of how Western, Middle Eastern, and Russian media interpret Iran’s sudden diplomatic overture.",
+   "summary": "A comparative analysis of how Western, Middle Eastern, and Russian media interpret Iran’s sudden diplomatic overture.",
+   "date_published": "2026-09-26T01:54:11+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -197,8 +22,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3514,
-    "event_date": "2026-09-25",
+    "cluster_id": 3538,
+    "event_date": "2026-09-26",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -207,130 +32,59 @@
      "russia",
      "western"
     ],
-    "article_count": 32,
-    "source_count": 12,
+    "article_count": 10,
+    "source_count": 8,
     "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/09/24/xi-cina-e-usa-devono-garantire-che-lia-si-sviluppi-sotto-il-controllo-umano_26d8c95a-7357-48f6-8e1c-0881782a9faa.html"
+      "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/tv-shows/a-propos/20260924-trump-and-xi-meet-but-hopes-for-ai-cooperation-stay-slim"
+      "url": "https://www.france24.com/en/middle-east/20260924-live-iran-s-president-says-us-must-choose-whether-to-end-war"
      },
      {
-      "name": "Il Post",
+      "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ilpost.it/2026/09/24/trump-xi-incontro-us/"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-09-24/Xi-Jinping-says-China-US-should-be-partners-not-rivals-1QGWmC5AvEA/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/us/xi-jinping-tests-donald-trump-with-thucydides-trap/articleshow/134467004.cms"
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/26/trump-ha-respinto-la-proposta-delliran-nuovi-attacchi-dopo-le-midterm_28a92973-0179-45b4-8673-07897a6eac81.html"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/donald-trump-xi-jinping-summit-takeaways-6409711"
+      "url": "https://www.channelnewsasia.com/world/iran-reopen-hormuz-strait-proposal-7-days-us-media-6410576"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/24/trump-xi-summit-four-key-takeaways-from-the-washington-dc-meeting?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/9/25/iran-says-it-awaits-us-response-on-seven-day-roadmap-to-end-war?traffic_source=rss"
      },
      {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2192431"
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-proposes-plan-reopen-hormuz-within-seven-days"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/646216-xi-trump-discuss-ai/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "El Pais English",
-      "region": "western",
-      "country": "ES",
-      "url": "https://english.elpais.com/international/2026-09-24/xi-jinping-speaking-to-trump-at-the-white-house-the-interests-of-china-and-the-us-are-deeply-intertwined.html"
+      "url": "https://www.rt.com/news/646221-iran-us-deal-elections/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      },
      {
       "name": "Euronews",
       "region": "western",
       "country": "EU",
-      "url": "https://www.euronews.com/2026/09/24/trump-and-xi-vow-cooperation-amid-healthy-competition-at-the-white-house"
+      "url": "https://www.euronews.com/2026/09/25/iran-proposes-plan-to-us-to-reopen-hormuz-in-seven-days-and-end-the-war"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3514.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-24-iranian-american-group-sues-trump-for-unconstitutional-war-o",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-24-iranian-american-group-sues-trump-for-unconstitutional-war-o",
-   "title": "Iranian-American activists file lawsuit challenging the constitutionality of the United States' war against Iran",
-   "content_text": "The National Iranian American Council filed a lawsuit in a U.S. District Court challenging the constitutionality of the American military campaign against Iran. The legal challenge argues that the executive branch initiated military operations without formal congressional authorization or a defined timeline. Middle Eastern outlets frame the case as a domestic constitutional crisis regarding executive overreach, while Russian state media emphasizes the violation of international norms and procedural protocols.",
-   "summary": "The National Iranian American Council filed a lawsuit in a U.S. District Court challenging the constitutionality of the American military campaign against Iran. The legal challenge argues that the executive branch initiated military operations without formal congressional authorization or a defined timeline. Middle Eastern outlets frame the case as a domestic constitutional crisis regarding executive overreach, while Russian state media emphasizes the violation of international norms and procedural protocols.",
-   "date_published": "2026-09-25T02:05:04+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3527,
-    "event_date": "2026-09-24",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "middle_east",
-     "russia"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "sources": [
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-american-group-sues-trump-unconstitutional-war-iran"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2192455"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3527.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3538.json",
     "languages": [
      "en",
      "it",
