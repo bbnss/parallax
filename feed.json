@@ -5,86 +5,148 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-26T02:20:53Z",
+ "_generated_at": "2026-09-27T02:22:07Z",
  "items": [
   {
-   "id": "2026-09-26-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-26-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days",
-   "title": "Iran proposes a seven-day roadmap to the United States to reopen the Strait of Hormuz.",
-   "content_text": "A comparative analysis of how Western, Middle Eastern, and Russian media interpret Iran’s sudden diplomatic overture.",
-   "summary": "A comparative analysis of how Western, Middle Eastern, and Russian media interpret Iran’s sudden diplomatic overture.",
-   "date_published": "2026-09-26T01:54:11+00:00",
+   "id": "2026-09-26-lavrov-a-kiev-regime-russofobo-europa-ostacola-i-negoziati-d",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-26-lavrov-a-kiev-regime-russofobo-europa-ostacola-i-negoziati-d",
+   "title": "Russian Foreign Minister Lavrov accuses Western nations of obstructing peace negotiations and undermining European security.",
+   "content_text": "Russian Foreign Minister Sergey Lavrov accused Western nations of dismantling European security and obstructing peace negotiations in Ukraine. Western outlets focus on the moral and logistical consequences of U.S. military aid, framing the West as a primary obstacle to a negotiated settlement. In contrast, Russian state media emphasizes the degradation of international maritime norms and highlights Lavrov’s stated willingness to maintain direct dialogue with Washington.",
+   "summary": "Russian Foreign Minister Sergey Lavrov accused Western nations of dismantling European security and obstructing peace negotiations in Ukraine. Western outlets focus on the moral and logistical consequences of U.S. military aid, framing the West as a primary obstacle to a negotiated settlement. In contrast, Russian state media emphasizes the degradation of international maritime norms and highlights Lavrov’s stated willingness to maintain direct dialogue with Washington.",
+   "date_published": "2026-09-27T01:53:05+00:00",
    "tags": [
-    "eastern",
-    "middle_east",
     "russia",
     "western",
-    "tier-A"
+    "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3538,
+    "cluster_id": 3566,
     "event_date": "2026-09-26",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
+    "tier": "C",
+    "tier_label": "Partial coverage",
     "regions": [
-     "eastern",
-     "middle_east",
      "russia",
      "western"
     ],
-    "article_count": 10,
-    "source_count": 8,
+    "article_count": 4,
+    "source_count": 2,
     "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20260924-live-iran-s-president-says-us-must-choose-whether-to-end-war"
-     },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/26/trump-ha-respinto-la-proposta-delliran-nuovi-attacchi-dopo-le-midterm_28a92973-0179-45b4-8673-07897a6eac81.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/26/lavrov-a-kiev-regime-russofobo-europa-ostacola-i-negoziati-di-pace_18fd37d3-0cde-4532-b255-47db6606a824.html"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/politics/2193377"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3566.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-26-usa-e-cina-un-canale-di-comunicazione-per-gli-incidenti-lega",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-26-usa-e-cina-un-canale-di-comunicazione-per-gli-incidenti-lega",
+   "title": "United States and China establish a communication channel to address incidents related to artificial intelligence.",
+   "content_text": "The United States and China established a dedicated communication channel on September 26, 2026, to manage incidents related to artificial intelligence and discuss the risks of superintelligence. Western outlets frame the hotline as a proactive step toward international cooperation and safety. In contrast, Russian media highlights the American insistence on withholding its own technological advancements, framing the agreement as a guarded safety mechanism existing alongside a policy of technological protectionism.",
+   "summary": "The United States and China established a dedicated communication channel on September 26, 2026, to manage incidents related to artificial intelligence and discuss the risks of superintelligence. Western outlets frame the hotline as a proactive step toward international cooperation and safety. In contrast, Russian media highlights the American insistence on withholding its own technological advancements, framing the agreement as a guarded safety mechanism existing alongside a policy of technological protectionism.",
+   "date_published": "2026-09-27T01:51:21+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "western",
+    "tier-B"
+   ],
+   "_parallax": {
+    "cluster_id": 3562,
+    "event_date": "2026-09-26",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
+    "regions": [
+     "eastern",
+     "russia",
+     "western"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/09/26/usa-e-cina-un-canale-di-comunicazione-per-gli-incidenti-legati-allia_a68844ef-5525-4d71-aacb-491b67eb421a.html"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/iran-reopen-hormuz-strait-proposal-7-days-us-media-6410576"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/25/iran-says-it-awaits-us-response-on-seven-day-roadmap-to-end-war?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-proposes-plan-reopen-hormuz-within-seven-days"
+      "url": "https://www.channelnewsasia.com/world/united-states-china-ai-communication-channel-6412426"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/646221-iran-us-deal-elections/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/25/iran-proposes-plan-to-us-to-reopen-hormuz-in-seven-days-and-end-the-war"
+      "url": "https://www.rt.com/news/646310-us-china-ai-incidents-hotline/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3538.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3562.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-25-u-s-proposed-new-round-of-ukraine-peace-talks-in-uae-zelensk",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-25-u-s-proposed-new-round-of-ukraine-peace-talks-in-uae-zelensk",
+   "title": "Ukraine and Russia may hold peace talks in the United Arab Emirates following U.S. proposal.",
+   "content_text": "The United States has proposed the United Arab Emirates as a neutral venue for a trilateral peace summit between Ukraine, Russia, and the U.S. Both Western and Russian media confirm the proposal and the potential for a meeting in the near future. Coverage diverges in framing: Western and Eastern outlets emphasize a broad multilateral effort involving partners like Egypt and India, while Russian coverage focuses more narrowly on the immediate trilateral dynamic.",
+   "summary": "The United States has proposed the United Arab Emirates as a neutral venue for a trilateral peace summit between Ukraine, Russia, and the U.S. Both Western and Russian media confirm the proposal and the potential for a meeting in the near future. Coverage diverges in framing: Western and Eastern outlets emphasize a broad multilateral effort involving partners like Egypt and India, while Russian coverage focuses more narrowly on the immediate trilateral dynamic.",
+   "date_published": "2026-09-27T01:55:02+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 3576,
+    "event_date": "2026-09-25",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "eastern",
+     "russia"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "sources": [
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/09/25/us-proposed-new-round-of-ukraine-peace-talks-in-uae-zelensky-says-a93795"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-09-25/news-1QJahAf8iWY/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3576.json",
     "languages": [
      "en",
      "it",

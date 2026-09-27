@@ -6,17 +6,34 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 26 Sep 2026 02:20:53 +0000</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 02:22:07 +0000</lastBuildDate>
 <item>
-<title>Iran proposes a seven-day roadmap to the United States to reopen the Strait of Hormuz.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-26-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days</link>
-<guid isPermaLink="false">2026-09-26-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days</guid>
-<pubDate>Sat, 26 Sep 2026 01:54:11 +0000</pubDate>
-<description>A comparative analysis of how Western, Middle Eastern, and Russian media interpret Iran’s sudden diplomatic overture.</description>
-<category>eastern</category>
-<category>middle_east</category>
+<title>Russian Foreign Minister Lavrov accuses Western nations of obstructing peace negotiations and undermining European security.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-26-lavrov-a-kiev-regime-russofobo-europa-ostacola-i-negoziati-d</link>
+<guid isPermaLink="false">2026-09-26-lavrov-a-kiev-regime-russofobo-europa-ostacola-i-negoziati-d</guid>
+<pubDate>Sun, 27 Sep 2026 01:53:05 +0000</pubDate>
+<description>Russian Foreign Minister Sergey Lavrov accused Western nations of dismantling European security and obstructing peace negotiations in Ukraine. Western outlets focus on the moral and logistical consequences of U.S. military aid, framing the West as a primary obstacle to a negotiated settlement. In contrast, Russian state media emphasizes the degradation of international maritime norms and highlights Lavrov’s stated willingness to maintain direct dialogue with Washington.</description>
 <category>russia</category>
 <category>western</category>
+</item>
+<item>
+<title>United States and China establish a communication channel to address incidents related to artificial intelligence.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-26-usa-e-cina-un-canale-di-comunicazione-per-gli-incidenti-lega</link>
+<guid isPermaLink="false">2026-09-26-usa-e-cina-un-canale-di-comunicazione-per-gli-incidenti-lega</guid>
+<pubDate>Sun, 27 Sep 2026 01:51:21 +0000</pubDate>
+<description>The United States and China established a dedicated communication channel on September 26, 2026, to manage incidents related to artificial intelligence and discuss the risks of superintelligence. Western outlets frame the hotline as a proactive step toward international cooperation and safety. In contrast, Russian media highlights the American insistence on withholding its own technological advancements, framing the agreement as a guarded safety mechanism existing alongside a policy of technological protectionism.</description>
+<category>eastern</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Ukraine and Russia may hold peace talks in the United Arab Emirates following U.S. proposal.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-25-u-s-proposed-new-round-of-ukraine-peace-talks-in-uae-zelensk</link>
+<guid isPermaLink="false">2026-09-25-u-s-proposed-new-round-of-ukraine-peace-talks-in-uae-zelensk</guid>
+<pubDate>Sun, 27 Sep 2026 01:55:02 +0000</pubDate>
+<description>The United States has proposed the United Arab Emirates as a neutral venue for a trilateral peace summit between Ukraine, Russia, and the U.S. Both Western and Russian media confirm the proposal and the potential for a meeting in the near future. Coverage diverges in framing: Western and Eastern outlets emphasize a broad multilateral effort involving partners like Egypt and India, while Russian coverage focuses more narrowly on the immediate trilateral dynamic.</description>
+<category>eastern</category>
+<category>russia</category>
 </item>
 </channel>
 </rss>
