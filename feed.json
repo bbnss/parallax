@@ -5,15 +5,68 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-29T02:23:51Z",
+ "_generated_at": "2026-09-30T02:22:31Z",
  "items": [
   {
-   "id": "2026-09-28-media-emirati-netanyahu-da-bin-zayed-per-discutere-di-relazi",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-28-media-emirati-netanyahu-da-bin-zayed-per-discutere-di-relazi",
-   "title": "Israeli Prime Minister Netanyahu meets with UAE President to discuss bilateral relations in Abu Dhabi.",
-   "content_text": "How three distinct media landscapes transformed a single diplomatic meeting into three vastly different narratives of survival, scrutiny, and scandal.",
-   "summary": "How three distinct media landscapes transformed a single diplomatic meeting into three vastly different narratives of survival, scrutiny, and scandal.",
-   "date_published": "2026-09-29T01:58:26+00:00",
+   "id": "2026-09-29-l-argentina-chiede-un-arbitrato-internazionale-sulle-falklan",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-29-l-argentina-chiede-un-arbitrato-internazionale-sulle-falklan",
+   "title": "Argentina seeks international arbitration and a halt to oil exploration in the Falkland Islands.",
+   "content_text": "How Western and Russian media outlets frame the same arbitration as either a legal hurdle or a territorial defiance.",
+   "summary": "How Western and Russian media outlets frame the same arbitration as either a legal hurdle or a territorial defiance.",
+   "date_published": "2026-09-30T01:55:19+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 3636,
+    "event_date": "2026-09-29",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/09/28/largentina-chiede-un-arbitrato-internazionale-sulle-falkland-malvinas_e41486d8-55ce-4e83-a943-c4f7721249a9.html"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cq5yj1835y1wo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/646406-argentina-uk-falklands-oil/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3636.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-28-iranian-minister-says-only-negotiation-can-end-conflict-afte",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-28-iranian-minister-says-only-negotiation-can-end-conflict-afte",
+   "title": "Trump Rejects Iran's Hormuz Peace Proposal as Both Sides Prepare for Potential Conflict",
+   "content_text": "President Donald Trump rejected a seven-day peace roadmap from Iran aimed at reopening the Strait of Hormuz in exchange for the release of frozen assets. While all sources confirm the diplomatic deadlock, coverage differs significantly in framing the consequences of the rejection. Western outlets portray the situation as a procedural hurdle in a diplomatic cycle, whereas Middle Eastern and Russian sources emphasize military readiness and the immediate threat of a potential armed conflict.",
+   "summary": "President Donald Trump rejected a seven-day peace roadmap from Iran aimed at reopening the Strait of Hormuz in exchange for the release of frozen assets. While all sources confirm the diplomatic deadlock, coverage differs significantly in framing the consequences of the rejection. Western outlets portray the situation as a procedural hurdle in a diplomatic cycle, whereas Middle Eastern and Russian sources emphasize military readiness and the immediate threat of a potential armed conflict.",
+   "date_published": "2026-09-28T01:50:19+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -22,7 +75,7 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3611,
+    "cluster_id": 3580,
     "event_date": "2026-09-28",
     "tier": "A",
     "tier_label": "Confirmed globally",
@@ -33,150 +86,52 @@
      "western"
     ],
     "article_count": 8,
-    "source_count": 5,
+    "source_count": 7,
     "sources": [
      {
-      "name": "ANSA Mondo",
+      "name": "BBC World",
       "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/28/media-emirati-netanyahu-da-bin-zayed-per-discutere-di-relazioni-bilaterali_3f36507b-2a5f-421e-b0f7-002d19374b38.html"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-09-28/Israeli-media-says-Netanyahu-visits-UAE-for-talks-with-president-1QNBjd41zVe/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/9/28/uae-confirms-netanyahu-visit-to-abu-dhabi?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-president-discussed-bilateral-relations-israels-netanyahu"
+      "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss"
      },
      {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/646357-netanyahu-hamas-attack-warnings/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3611.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-28-trump-asked-xi-to-buy-us-weapons-ambassador",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-28-trump-asked-xi-to-buy-us-weapons-ambassador",
-   "title": "U.S. Ambassador states Donald Trump offered to sell weapons to China during Xi's visit.",
-   "content_text": "How different geopolitical prisms refract a single, startling claim of American arms diplomacy.",
-   "summary": "How different geopolitical prisms refract a single, startling claim of American arms diplomacy.",
-   "date_published": "2026-09-29T01:56:17+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3610,
-    "event_date": "2026-09-28",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "eastern",
-     "russia",
-     "western"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "sources": [
+      "name": "DW News",
+      "region": "western",
+      "country": "DE",
+      "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432?maca=en-rss-en-world-4025-xml-mrss"
+     },
      {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/646340-trump-xi-us-weapons/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20260927-trump-expects-iran-talks-next-week-after-rejecting-seven-day-truce-proposal"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/east-asia/us-says-no-china-arms-sale-plans-trump-offer-6414436"
+      "url": "https://www.channelnewsasia.com/world/trump-iran-talks-rejects-deal-6414031"
      },
      {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/09/28/trump-offered-to-sell-arms-to-china-during-xi-visit-us-ambassador-tells-fox-news"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3610.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-09-28-trump-all-iran-non-ho-offerto-nulla",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-28-trump-all-iran-non-ho-offerto-nulla",
-   "title": "Donald Trump denies reports that he offered Iran sanctions relief for nuclear concessions.",
-   "content_text": "How the same denial of Iranian concessions serves two different geopolitical scripts.",
-   "summary": "How the same denial of Iranian concessions serves two different geopolitical scripts.",
-   "date_published": "2026-09-29T01:54:38+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3608,
-    "event_date": "2026-09-28",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/28/trump-alliran-non-ho-offerto-nulla_cee6ee3f-660d-48b5-be39-d1b4cf10f25b.html"
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-denies-he-offered-iran-sanctions-relief-release-frozen-funds"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-iran-says-war-us-not-over"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/646390-trump-denies-iran-concessions/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://www.rt.com/news/646338-trump-iran-talks-rhetoric/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3608.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3580.json",
     "languages": [
      "en",
      "it",

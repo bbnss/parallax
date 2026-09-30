@@ -6,34 +6,23 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 29 Sep 2026 02:23:51 +0000</lastBuildDate>
+<lastBuildDate>Wed, 30 Sep 2026 02:22:31 +0000</lastBuildDate>
 <item>
-<title>Israeli Prime Minister Netanyahu meets with UAE President to discuss bilateral relations in Abu Dhabi.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-28-media-emirati-netanyahu-da-bin-zayed-per-discutere-di-relazi</link>
-<guid isPermaLink="false">2026-09-28-media-emirati-netanyahu-da-bin-zayed-per-discutere-di-relazi</guid>
-<pubDate>Tue, 29 Sep 2026 01:58:26 +0000</pubDate>
-<description>How three distinct media landscapes transformed a single diplomatic meeting into three vastly different narratives of survival, scrutiny, and scandal.</description>
-<category>eastern</category>
-<category>middle_east</category>
+<title>Argentina seeks international arbitration and a halt to oil exploration in the Falkland Islands.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-29-l-argentina-chiede-un-arbitrato-internazionale-sulle-falklan</link>
+<guid isPermaLink="false">2026-09-29-l-argentina-chiede-un-arbitrato-internazionale-sulle-falklan</guid>
+<pubDate>Wed, 30 Sep 2026 01:55:19 +0000</pubDate>
+<description>How Western and Russian media outlets frame the same arbitration as either a legal hurdle or a territorial defiance.</description>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>U.S. Ambassador states Donald Trump offered to sell weapons to China during Xi's visit.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-28-trump-asked-xi-to-buy-us-weapons-ambassador</link>
-<guid isPermaLink="false">2026-09-28-trump-asked-xi-to-buy-us-weapons-ambassador</guid>
-<pubDate>Tue, 29 Sep 2026 01:56:17 +0000</pubDate>
-<description>How different geopolitical prisms refract a single, startling claim of American arms diplomacy.</description>
+<title>Trump Rejects Iran's Hormuz Peace Proposal as Both Sides Prepare for Potential Conflict</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-09-28-iranian-minister-says-only-negotiation-can-end-conflict-afte</link>
+<guid isPermaLink="false">2026-09-28-iranian-minister-says-only-negotiation-can-end-conflict-afte</guid>
+<pubDate>Mon, 28 Sep 2026 01:50:19 +0000</pubDate>
+<description>President Donald Trump rejected a seven-day peace roadmap from Iran aimed at reopening the Strait of Hormuz in exchange for the release of frozen assets. While all sources confirm the diplomatic deadlock, coverage differs significantly in framing the consequences of the rejection. Western outlets portray the situation as a procedural hurdle in a diplomatic cycle, whereas Middle Eastern and Russian sources emphasize military readiness and the immediate threat of a potential armed conflict.</description>
 <category>eastern</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Donald Trump denies reports that he offered Iran sanctions relief for nuclear concessions.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-09-28-trump-all-iran-non-ho-offerto-nulla</link>
-<guid isPermaLink="false">2026-09-28-trump-all-iran-non-ho-offerto-nulla</guid>
-<pubDate>Tue, 29 Sep 2026 01:54:38 +0000</pubDate>
-<description>How the same denial of Iranian concessions serves two different geopolitical scripts.</description>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
