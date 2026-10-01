@@ -5,52 +5,64 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-09-30T02:22:31Z",
+ "_generated_at": "2026-10-01T03:23:57Z",
  "items": [
   {
-   "id": "2026-09-29-l-argentina-chiede-un-arbitrato-internazionale-sulle-falklan",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-29-l-argentina-chiede-un-arbitrato-internazionale-sulle-falklan",
-   "title": "Argentina seeks international arbitration and a halt to oil exploration in the Falkland Islands.",
-   "content_text": "How Western and Russian media outlets frame the same arbitration as either a legal hurdle or a territorial defiance.",
-   "summary": "How Western and Russian media outlets frame the same arbitration as either a legal hurdle or a territorial defiance.",
-   "date_published": "2026-09-30T01:55:19+00:00",
+   "id": "2026-10-01-british-pm-alleges-there-are-strong-indications-iran-was-inv",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-01-british-pm-alleges-there-are-strong-indications-iran-was-inv",
+   "title": "British Prime Minister claims strong indications of Iranian involvement in an incident at RAF Fairford.",
+   "content_text": "British Prime Minister Andy Burnham stated there are \"strong indications\" of Iranian involvement following a bomb scare and the arrest of five men at RAF Fairford. While all outlets report the core facts of the investigation, coverage diverges in framing. Western sources emphasize the strategic military significance of the base and its role in conflicts with Tehran, while Eastern sources focus on the official diplomatic tension and the Iranian embassy's rejection of the claims.",
+   "summary": "British Prime Minister Andy Burnham stated there are \"strong indications\" of Iranian involvement following a bomb scare and the arrest of five men at RAF Fairford. While all outlets report the core facts of the investigation, coverage diverges in framing. Western sources emphasize the strategic military significance of the base and its role in conflicts with Tehran, while Eastern sources focus on the official diplomatic tension and the Iranian embassy's rejection of the claims.",
+   "date_published": "2026-10-01T02:04:20+00:00",
    "tags": [
-    "russia",
+    "eastern",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3636,
-    "event_date": "2026-09-29",
+    "cluster_id": 3645,
+    "event_date": "2026-10-01",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
-     "russia",
+     "eastern",
      "western"
     ],
-    "article_count": 3,
-    "source_count": 3,
+    "article_count": 5,
+    "source_count": 5,
     "sources": [
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/europe/20260930-british-pm-alleges-there-are-strong-indications-iran-was-involved-in-fairford-airbase-incident"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/30/raf-fairford-uomo-arrestato-telefonata-polizia/"
+     },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/09/28/largentina-chiede-un-arbitrato-internazionale-sulle-falkland-malvinas_e41486d8-55ce-4e83-a943-c4f7721249a9.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/30/burnham-forti-indicazioni-del-ruolo-delliran-nellincidente-alla-base-raf_bc82babd-758e-47c7-a026-2f0658ddfa3b.html"
      },
      {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cq5yj1835y1wo?at_medium=RSS&at_campaign=rss"
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/uk/strong-indications-uk-pm-says-iran-may-have-played-part-in-suspicious-incident-near-raf-fairford/articleshow/134599686.cms"
      },
      {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/646406-argentina-uk-falklands-oil/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/raf-fairford-iran-us-uk-burnham-6422551"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3636.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3645.json",
     "languages": [
      "en",
      "it",
@@ -61,12 +73,85 @@
    }
   },
   {
-   "id": "2026-09-28-iranian-minister-says-only-negotiation-can-end-conflict-afte",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-09-28-iranian-minister-says-only-negotiation-can-end-conflict-afte",
-   "title": "Trump Rejects Iran's Hormuz Peace Proposal as Both Sides Prepare for Potential Conflict",
-   "content_text": "President Donald Trump rejected a seven-day peace roadmap from Iran aimed at reopening the Strait of Hormuz in exchange for the release of frozen assets. While all sources confirm the diplomatic deadlock, coverage differs significantly in framing the consequences of the rejection. Western outlets portray the situation as a procedural hurdle in a diplomatic cycle, whereas Middle Eastern and Russian sources emphasize military readiness and the immediate threat of a potential armed conflict.",
-   "summary": "President Donald Trump rejected a seven-day peace roadmap from Iran aimed at reopening the Strait of Hormuz in exchange for the release of frozen assets. While all sources confirm the diplomatic deadlock, coverage differs significantly in framing the consequences of the rejection. Western outlets portray the situation as a procedural hurdle in a diplomatic cycle, whereas Middle Eastern and Russian sources emphasize military readiness and the immediate threat of a potential armed conflict.",
-   "date_published": "2026-09-28T01:50:19+00:00",
+   "id": "2026-10-01-uk-pm-to-set-out-options-for-eu-ties-around-2026-summit",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-01-uk-pm-to-set-out-options-for-eu-ties-around-2026-summit",
+   "title": "UK Prime Minister Burnham states that rejoining the European Union is an option for the UK.",
+   "content_text": "On October 1, 2026, UK Prime Minister Andy Burnham officially stated that rejoining the European Union is a viable option for the United Kingdom. Western outlets frame this as a divisive domestic political shift and a strategic pivot within the Labour Party's platform. Conversely, Eastern and Russian sources emphasize economic pragmatism, framing the move as a practical response to Brexit's impact on trade and regional cooperation.",
+   "summary": "On October 1, 2026, UK Prime Minister Andy Burnham officially stated that rejoining the European Union is a viable option for the United Kingdom. Western outlets frame this as a divisive domestic political shift and a strategic pivot within the Labour Party's platform. Conversely, Eastern and Russian sources emphasize economic pragmatism, framing the move as a practical response to Brexit's impact on trade and regional cooperation.",
+   "date_published": "2026-10-01T02:02:29+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3643,
+    "event_date": "2026-10-01",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "russia",
+     "western"
+    ],
+    "article_count": 8,
+    "source_count": 6,
+    "sources": [
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/macron-uk-eu-return-welcome-back-6422766"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20260930-uk-pm-burnham-reopens-divisive-debate-on-rejoining-eu"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/09/30/burnham-ipotesi-ritorno-unione-europea-regno-unito/"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/30/burnham-su-brexit-tutte-le-opzioni-sul-tavolo-inclusa-riadesione-a-ue_ba4b72cf-db53-40dd-8ff1-803af1d10fee.html"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/uk/uk-pm-burnham-says-may-rejoin-eu-if-pros-outweigh-cons-france-spain-say-welcome-back/articleshow/134599792.cms"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/646516-uk-may-reverse-brexit-burnham/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3643.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-01-flydubai-passenger-describes-putting-attacker-in-chokehold-a",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-01-flydubai-passenger-describes-putting-attacker-in-chokehold-a",
+   "title": "Passengers intervene after a stabbing and attempted attack on a Flydubai flight to Israel.",
+   "content_text": "On October 1, 2026, a Flydubai flight from Dubai to Tel Aviv was diverted to Saudi Arabia after a pilot was stabbed and passengers intervened to regain control of the aircraft. While all regions confirm the physical events, Western outlets frame the incident as a \"heroic\" defense against a \"jihadist terror attack.\" In contrast, Middle Eastern sources focus on the logistical fallout and regional aviation impacts, remaining more cautious regarding the specific motives and \"terrorist\" labels.",
+   "summary": "On October 1, 2026, a Flydubai flight from Dubai to Tel Aviv was diverted to Saudi Arabia after a pilot was stabbed and passengers intervened to regain control of the aircraft. While all regions confirm the physical events, Western outlets frame the incident as a \"heroic\" defense against a \"jihadist terror attack.\" In contrast, Middle Eastern sources focus on the logistical fallout and regional aviation impacts, remaining more cautious regarding the specific motives and \"terrorist\" labels.",
+   "date_published": "2026-10-01T02:00:17+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -75,8 +160,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3580,
-    "event_date": "2026-09-28",
+    "cluster_id": 3642,
+    "event_date": "2026-10-01",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -85,53 +170,150 @@
      "russia",
      "western"
     ],
-    "article_count": 8,
-    "source_count": 7,
+    "article_count": 28,
+    "source_count": 11,
     "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432?maca=en-rss-en-world-4025-xml-mrss"
+      "url": "https://www.bbc.co.uk/news/articles/cmx2z92xx57no?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20260927-trump-expects-iran-talks-next-week-after-rejecting-seven-day-truce-proposal"
+      "url": "https://www.france24.com/en/video/20260930-israel-pm-says-pilot-of-rerouted-flight-tried-to-crash-plane"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/30/nx-s1-5985806/flydubai-flight-dubai-tel-aviv-israel"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/30/katz-incidente-sul-volo-flydubai-tentativo-di-attacco-jihadista_a190ba2a-308f-4b4b-ae9c-182011cb3fe7.html"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/it-was-like-a-horror-film-israeli-passenger-recounts-restraining-flydubai-pilot-with-headphones-after-cockpit-struggle/articleshow/134600343.cms"
+     },
+     {
+      "name": "Bangkok Post",
+      "region": "eastern",
+      "country": "TH",
+      "url": "https://www.bangkokpost.com/world/3328999/israelbound-plane-diverted-after-copilot-stabs-captain"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/trump-iran-talks-rejects-deal-6414031"
+      "url": "https://www.channelnewsasia.com/world/flydubai-flight-passengers-pilot-attack-israel-uae-saudi-arabia-6422941"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss"
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/passengers-tell-of-nightmare-onboard-diverted-flydubai-flight?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-iran-says-war-us-not-over"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/flydubai-says-flights-and-israel-will-be-suspended-while-investigation"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/emergencies/2195329"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/646338-trump-iran-talks-rhetoric/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://www.rt.com/news/646469-russian-ukrainian-pilots-brawl/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3580.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3642.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-09-29-expert-says-uk-airbase-plot-fits-into-a-very-intense-pattern",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-09-29-expert-says-uk-airbase-plot-fits-into-a-very-intense-pattern",
+   "title": "British authorities release five suspects following a foiled explosives plot near a UK airbase.",
+   "content_text": "British authorities released five men on bail following a foiled explosives plot near the RAF Fairford airbase on September 29, 2026. While Western outlets focus on the technical aspects of the security breach and potential hybrid warfare, Middle Eastern sources emphasize the resulting diplomatic friction between the UK and the United States. Specifically, Middle Eastern reporting highlights Donald Trump's reaction to the release and the subsequent emergency meetings held by the UK Prime Minister.",
+   "summary": "British authorities released five men on bail following a foiled explosives plot near the RAF Fairford airbase on September 29, 2026. While Western outlets focus on the technical aspects of the security breach and potential hybrid warfare, Middle Eastern sources emphasize the resulting diplomatic friction between the UK and the United States. Specifically, Middle Eastern reporting highlights Donald Trump's reaction to the release and the subsequent emergency meetings held by the UK Prime Minister.",
+   "date_published": "2026-09-29T01:52:54+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3601,
+    "event_date": "2026-09-29",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "western"
+    ],
+    "article_count": 10,
+    "source_count": 6,
+    "sources": [
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/expert-says-uk-airbase-plot-fits-into-a-very-intense-pattern-we-ve-been-seeing-in-past-two-months"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/09/28/nx-s1-5983550/british-men-released-on-bail-after-suspected-terror-plot"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/28/attacco-contro-base-della-raf-rilasciati-su-cauzione-i-5-arrestati_ea064b2a-6334-495e-a1ee-3710ab561563.html"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/uk-examines-foreign-state-involvement-in-suspected-airbase-plot-releases-suspects-6416761"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/uk-too-soon-to-blame-airbase-plot-on-foreign-state?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-surprised-uk-freed-airbase-suspects-bail"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3601.json",
     "languages": [
      "en",
      "it",
