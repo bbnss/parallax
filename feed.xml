@@ -6,16 +6,35 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 03 Oct 2026 02:55:36 +0000</lastBuildDate>
+<lastBuildDate>Sun, 04 Oct 2026 03:01:42 +0000</lastBuildDate>
 <item>
-<title>G7 nations agree to release 100 million barrels of oil and diesel fuel.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-03-g7-to-release-100-million-barrels-of-oil-and-diesel-after-tr</link>
-<guid isPermaLink="false">2026-10-03-g7-to-release-100-million-barrels-of-oil-and-diesel-after-tr</guid>
-<pubDate>Sat, 03 Oct 2026 01:58:32 +0000</pubDate>
-<description>On October 3, 2026, G7 nations agreed to release 100 million barrels of oil and diesel from strategic reserves over four months in coordination with the International Energy Agency. While all regions confirm the volume and timeline, Western outlets frame the move as a strategic maneuver to preempt American protectionism and a specific threat of a Trump-led export ban. Conversely, Eastern and Russian sources frame the decision as a pragmatic success in global market stabilization and the removal of supply uncertainty.</description>
+<title>Russian forces strike a bridge in Kyiv amid warnings for foreign diplomats to leave.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-04-kiev-i-russi-hanno-bombardato-di-nuovo-il-ponte-sud-della-ci</link>
+<guid isPermaLink="false">2026-10-04-kiev-i-russi-hanno-bombardato-di-nuovo-il-ponte-sud-della-ci</guid>
+<pubDate>Sun, 04 Oct 2026 01:40:42 +0000</pubDate>
+<description>Russian forces struck the Southern and Northern bridges in Kyiv on October 4, 2026, causing logistical paralysis and prompting Moscow to advise foreign diplomats to evacuate. Western outlets frame the strikes as a deliberate campaign of attrition targeting civilian infrastructure and daily life. Conversely, Russian media portrays the destruction as a strategic strike against military cargo and troop movements, framing the event as a calculated move in a cycle of retaliatory strikes.</description>
+<category>eastern</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Houthi and Saudi forces exchange strikes in Yemen and against Saudi Arabian infrastructure.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-04-houthis-say-saudi-forces-launched-94-strikes-in-yemen-in-24</link>
+<guid isPermaLink="false">2026-10-04-houthis-say-saudi-forces-launched-94-strikes-in-yemen-in-24</guid>
+<pubDate>Sun, 04 Oct 2026 01:38:55 +0000</pubDate>
+<description>On October 4, 2026, Houthi and Saudi-led coalition forces engaged in a series of reciprocal strikes against infrastructure and military targets in Yemen and Saudi Arabia. Western outlets focus on the specific locations of the strikes, such as the Medina electricity station and an oil facility near Riyadh, to highlight geographic and religious sensitivities. Conversely, Middle Eastern sources emphasize the scale of the exchange, reporting high strike counts and the targeting of a major Aramco refinery as a direct retaliatory cycle.</description>
 <category>eastern</category>
 <category>middle_east</category>
-<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>UAE officials report a Flydubai co-pilot attacked the captain with an axe during a flight.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-03-flydubai-co-pilot-attacked-captain-with-axe-uae-official-say</link>
+<guid isPermaLink="false">2026-10-03-flydubai-co-pilot-attacked-captain-with-axe-uae-official-say</guid>
+<pubDate>Sun, 04 Oct 2026 01:42:51 +0000</pubDate>
+<description>An Omani co-pilot attacked a Flydubai captain with an axe during a flight from Dubai to Tel Aviv, forcing an emergency landing in Saudi Arabia. The suspect, Hamam al-Hammami, was taken into custody by Emirati authorities. Western outlets frame the incident as a failure of intelligence by highlighting the suspect's specific social media activity and radicalization. In contrast, Eastern outlets focus on official state declarations and the immediate security implications as reported by UAE officials.</description>
+<category>eastern</category>
+<category>middle_east</category>
 <category>western</category>
 </item>
 </channel>
