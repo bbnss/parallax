@@ -6,35 +6,25 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 04 Oct 2026 03:01:42 +0000</lastBuildDate>
+<lastBuildDate>Mon, 05 Oct 2026 03:00:20 +0000</lastBuildDate>
 <item>
-<title>Russian forces strike a bridge in Kyiv amid warnings for foreign diplomats to leave.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-04-kiev-i-russi-hanno-bombardato-di-nuovo-il-ponte-sud-della-ci</link>
-<guid isPermaLink="false">2026-10-04-kiev-i-russi-hanno-bombardato-di-nuovo-il-ponte-sud-della-ci</guid>
-<pubDate>Sun, 04 Oct 2026 01:40:42 +0000</pubDate>
-<description>Russian forces struck the Southern and Northern bridges in Kyiv on October 4, 2026, causing logistical paralysis and prompting Moscow to advise foreign diplomats to evacuate. Western outlets frame the strikes as a deliberate campaign of attrition targeting civilian infrastructure and daily life. Conversely, Russian media portrays the destruction as a strategic strike against military cargo and troop movements, framing the event as a calculated move in a cycle of retaliatory strikes.</description>
+<title>United States withdraws B-1 bomber aircraft from RAF Fairford military base in the United Kingdom.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-05-us-withdraws-all-b-1-bombers-from-british-military-base-raf</link>
+<guid isPermaLink="false">2026-10-05-us-withdraws-all-b-1-bombers-from-british-military-base-raf</guid>
+<pubDate>Mon, 05 Oct 2026 01:37:44 +0000</pubDate>
+<description>On October 5, 2026, the United States withdrew its B-1 bomber fleet from the RAF Fairford base in the United Kingdom following a security breach involving the detention of several individuals. While all sources confirm the physical withdrawal and the security incident, coverage diverges on the underlying motives. Western-aligned outlets frame the move as a response to a specific "suspected terror plot" involving Iranian interests, whereas other regions focus on the broader geopolitical implications of the bombers' prior mission profiles.</description>
 <category>eastern</category>
+<category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Houthi and Saudi forces exchange strikes in Yemen and against Saudi Arabian infrastructure.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-04-houthis-say-saudi-forces-launched-94-strikes-in-yemen-in-24</link>
-<guid isPermaLink="false">2026-10-04-houthis-say-saudi-forces-launched-94-strikes-in-yemen-in-24</guid>
-<pubDate>Sun, 04 Oct 2026 01:38:55 +0000</pubDate>
-<description>On October 4, 2026, Houthi and Saudi-led coalition forces engaged in a series of reciprocal strikes against infrastructure and military targets in Yemen and Saudi Arabia. Western outlets focus on the specific locations of the strikes, such as the Medina electricity station and an oil facility near Riyadh, to highlight geographic and religious sensitivities. Conversely, Middle Eastern sources emphasize the scale of the exchange, reporting high strike counts and the targeting of a major Aramco refinery as a direct retaliatory cycle.</description>
-<category>eastern</category>
-<category>middle_east</category>
-<category>western</category>
-</item>
-<item>
-<title>UAE officials report a Flydubai co-pilot attacked the captain with an axe during a flight.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-03-flydubai-co-pilot-attacked-captain-with-axe-uae-official-say</link>
-<guid isPermaLink="false">2026-10-03-flydubai-co-pilot-attacked-captain-with-axe-uae-official-say</guid>
-<pubDate>Sun, 04 Oct 2026 01:42:51 +0000</pubDate>
-<description>An Omani co-pilot attacked a Flydubai captain with an axe during a flight from Dubai to Tel Aviv, forcing an emergency landing in Saudi Arabia. The suspect, Hamam al-Hammami, was taken into custody by Emirati authorities. Western outlets frame the incident as a failure of intelligence by highlighting the suspect's specific social media activity and radicalization. In contrast, Eastern outlets focus on official state declarations and the immediate security implications as reported by UAE officials.</description>
-<category>eastern</category>
-<category>middle_east</category>
+<title>Ukraine and Russia announce plans to intensify strikes on each other's infrastructure and refineries.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-04-zelensky-aumenteremo-gli-attacchi-alle-raffinerie-russe-in-r</link>
+<guid isPermaLink="false">2026-10-04-zelensky-aumenteremo-gli-attacchi-alle-raffinerie-russe-in-r</guid>
+<pubDate>Mon, 05 Oct 2026 01:39:51 +0000</pubDate>
+<description>Ukraine and Russia have both announced plans to intensify strikes on each other's energy infrastructure and industrial hubs. Western outlets frame Ukraine's offensive as a necessary defensive response to a Russian strategy of targeting civilian infrastructure. In contrast, Russian-aligned media frame the escalation as a response to Ukrainian provocations. While both sides agree on the expanding target list, the coverage diverges on whether the actions are portrayed as defensive measures or retaliatory strikes.</description>
+<category>russia</category>
 <category>western</category>
 </item>
 </channel>

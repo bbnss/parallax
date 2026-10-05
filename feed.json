@@ -5,218 +5,127 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-04T03:01:42Z",
+ "_generated_at": "2026-10-05T03:00:20Z",
  "items": [
   {
-   "id": "2026-10-04-kiev-i-russi-hanno-bombardato-di-nuovo-il-ponte-sud-della-ci",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-04-kiev-i-russi-hanno-bombardato-di-nuovo-il-ponte-sud-della-ci",
-   "title": "Russian forces strike a bridge in Kyiv amid warnings for foreign diplomats to leave.",
-   "content_text": "Russian forces struck the Southern and Northern bridges in Kyiv on October 4, 2026, causing logistical paralysis and prompting Moscow to advise foreign diplomats to evacuate. Western outlets frame the strikes as a deliberate campaign of attrition targeting civilian infrastructure and daily life. Conversely, Russian media portrays the destruction as a strategic strike against military cargo and troop movements, framing the event as a calculated move in a cycle of retaliatory strikes.",
-   "summary": "Russian forces struck the Southern and Northern bridges in Kyiv on October 4, 2026, causing logistical paralysis and prompting Moscow to advise foreign diplomats to evacuate. Western outlets frame the strikes as a deliberate campaign of attrition targeting civilian infrastructure and daily life. Conversely, Russian media portrays the destruction as a strategic strike against military cargo and troop movements, framing the event as a calculated move in a cycle of retaliatory strikes.",
-   "date_published": "2026-10-04T01:40:42+00:00",
+   "id": "2026-10-05-us-withdraws-all-b-1-bombers-from-british-military-base-raf",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-05-us-withdraws-all-b-1-bombers-from-british-military-base-raf",
+   "title": "United States withdraws B-1 bomber aircraft from RAF Fairford military base in the United Kingdom.",
+   "content_text": "On October 5, 2026, the United States withdrew its B-1 bomber fleet from the RAF Fairford base in the United Kingdom following a security breach involving the detention of several individuals. While all sources confirm the physical withdrawal and the security incident, coverage diverges on the underlying motives. Western-aligned outlets frame the move as a response to a specific \"suspected terror plot\" involving Iranian interests, whereas other regions focus on the broader geopolitical implications of the bombers' prior mission profiles.",
+   "summary": "On October 5, 2026, the United States withdrew its B-1 bomber fleet from the RAF Fairford base in the United Kingdom following a security breach involving the detention of several individuals. While all sources confirm the physical withdrawal and the security incident, coverage diverges on the underlying motives. Western-aligned outlets frame the move as a response to a specific \"suspected terror plot\" involving Iranian interests, whereas other regions focus on the broader geopolitical implications of the bombers' prior mission profiles.",
+   "date_published": "2026-10-05T01:37:44+00:00",
    "tags": [
     "eastern",
+    "middle_east",
     "russia",
     "western",
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3680,
-    "event_date": "2026-10-04",
+    "cluster_id": 3692,
+    "event_date": "2026-10-05",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
      "eastern",
+     "middle_east",
      "russia",
      "western"
     ],
-    "article_count": 7,
+    "article_count": 5,
     "source_count": 5,
     "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/03/ucraina-colpito-il-ponte-nord-di-kiev.-mosca-avverte-diplomatici-e-stranieri-lasciate_56200a97-785e-4e6d-b43a-d0b4c6b6621e.html"
-     },
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/europe/20261003-russia-strikes-another-major-bridge-in-kyiv"
+      "url": "https://www.france24.com/en/europe/20261004-us-bombers-raf-fairford-uk-pentagon"
      },
      {
       "name": "Times of India",
       "region": "eastern",
       "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/europe/russia-vows-massive-hits-on-kyiv-urges-diplomats-to-leave/articleshow/134668415.cms"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2197171"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/03/ukraine-will-hit-russian-refineries-in-response-to-moscows-new-doctrine-of-airstrikes-a93864"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3680.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-04-houthis-say-saudi-forces-launched-94-strikes-in-yemen-in-24",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-04-houthis-say-saudi-forces-launched-94-strikes-in-yemen-in-24",
-   "title": "Houthi and Saudi forces exchange strikes in Yemen and against Saudi Arabian infrastructure.",
-   "content_text": "On October 4, 2026, Houthi and Saudi-led coalition forces engaged in a series of reciprocal strikes against infrastructure and military targets in Yemen and Saudi Arabia. Western outlets focus on the specific locations of the strikes, such as the Medina electricity station and an oil facility near Riyadh, to highlight geographic and religious sensitivities. Conversely, Middle Eastern sources emphasize the scale of the exchange, reporting high strike counts and the targeting of a major Aramco refinery as a direct retaliatory cycle.",
-   "summary": "On October 4, 2026, Houthi and Saudi-led coalition forces engaged in a series of reciprocal strikes against infrastructure and military targets in Yemen and Saudi Arabia. Western outlets focus on the specific locations of the strikes, such as the Medina electricity station and an oil facility near Riyadh, to highlight geographic and religious sensitivities. Conversely, Middle Eastern sources emphasize the scale of the exchange, reporting high strike counts and the targeting of a major Aramco refinery as a direct retaliatory cycle.",
-   "date_published": "2026-10-04T01:38:55+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3679,
-    "event_date": "2026-10-04",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 7,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attack-aramco-oil-facility-saudi-arabia"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/02/houthis-deny-saudi-accusations-of-targeting-medinas-holy-sites"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20261003-houthis-blame-saudi-air-strikes-loud-blasts-rock-yemen-capital-sanaa"
+      "url": "https://timesofindia.indiatimes.com/world/us/re-deployed-to-their-home-stations-us-withdraws-all-bombers-from-uks-raf-fairford-after-suspected-terror-plot/articleshow/134680412.cms"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/houthis-say-saudi-arabia-launches-dozens-strikes-yemen-capital-6429646"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3679.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-03-flydubai-co-pilot-attacked-captain-with-axe-uae-official-say",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-03-flydubai-co-pilot-attacked-captain-with-axe-uae-official-say",
-   "title": "UAE officials report a Flydubai co-pilot attacked the captain with an axe during a flight.",
-   "content_text": "An Omani co-pilot attacked a Flydubai captain with an axe during a flight from Dubai to Tel Aviv, forcing an emergency landing in Saudi Arabia. The suspect, Hamam al-Hammami, was taken into custody by Emirati authorities. Western outlets frame the incident as a failure of intelligence by highlighting the suspect's specific social media activity and radicalization. In contrast, Eastern outlets focus on official state declarations and the immediate security implications as reported by UAE officials.",
-   "summary": "An Omani co-pilot attacked a Flydubai captain with an axe during a flight from Dubai to Tel Aviv, forcing an emergency landing in Saudi Arabia. The suspect, Hamam al-Hammami, was taken into custody by Emirati authorities. Western outlets frame the incident as a failure of intelligence by highlighting the suspect's specific social media activity and radicalization. In contrast, Eastern outlets focus on official state declarations and the immediate security implications as reported by UAE officials.",
-   "date_published": "2026-10-04T01:42:51+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3686,
-    "event_date": "2026-10-03",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 12,
-    "source_count": 9,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20261003-co-pilot-on-flydubai-flight-was-banned-from-flying-by-oman-for-holding-extremist-views"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/03/copilota-volo-flydubai-sospeso-oman-estremismo/"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/03/il-procuratore-degli-emirati-il-copilota-del-volo-flydubai-pianificava-un-atto-terroristico_0e2f2a0a-fbfc-4cb5-8f90-04940a2f6b4a.html"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-10-02/news-1QUUrg42Wty/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/flydubai-co-pilot-attempted-terrorist-attack-uae-6428876"
+      "url": "https://www.channelnewsasia.com/world/us-removes-bombers-uk-fairford-base-security-concerns-6431771"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/jerusalem-daily-uae-says-flydubai-co-pilot-attempted-terrorist-attack?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/10/4/us-withdraws-b-1-bomber-aircraft-from-uks-fairford-base-amid-iran-fears?traffic_source=rss"
      },
      {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/03/uae-says-flydubai-co-pilot-attacked-captain-with-axe-in-terrorist-act"
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2197461"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3686.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3692.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-04-zelensky-aumenteremo-gli-attacchi-alle-raffinerie-russe-in-r",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-04-zelensky-aumenteremo-gli-attacchi-alle-raffinerie-russe-in-r",
+   "title": "Ukraine and Russia announce plans to intensify strikes on each other's infrastructure and refineries.",
+   "content_text": "Ukraine and Russia have both announced plans to intensify strikes on each other's energy infrastructure and industrial hubs. Western outlets frame Ukraine's offensive as a necessary defensive response to a Russian strategy of targeting civilian infrastructure. In contrast, Russian-aligned media frame the escalation as a response to Ukrainian provocations. While both sides agree on the expanding target list, the coverage diverges on whether the actions are portrayed as defensive measures or retaliatory strikes.",
+   "summary": "Ukraine and Russia have both announced plans to intensify strikes on each other's energy infrastructure and industrial hubs. Western outlets frame Ukraine's offensive as a necessary defensive response to a Russian strategy of targeting civilian infrastructure. In contrast, Russian-aligned media frame the escalation as a response to Ukrainian provocations. While both sides agree on the expanding target list, the coverage diverges on whether the actions are portrayed as defensive measures or retaliatory strikes.",
+   "date_published": "2026-10-05T01:39:51+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 3706,
+    "event_date": "2026-10-04",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/04/mosca-intensificheremo-gli-attacchi-contro-le-infrastrutture-ucraine_4de26cfd-532b-4ed7-9ad8-4ce3d71d2a76.html"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/10/04/zelensky-attacchi-raffinerie-russe/"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/defense/2197359"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/10/04/russia-to-intensify-strikes-on-ukraine-after-zelensky-interview-a93867"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3706.json",
     "languages": [
      "en",
      "it",
