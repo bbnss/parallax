@@ -5,60 +5,78 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-09T03:04:38Z",
+ "_generated_at": "2026-10-10T02:57:08Z",
  "items": [
   {
-   "id": "2026-10-09-houthi-rivendicano-il-terzo-raid-della-giornata-sull-aeropor",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-09-houthi-rivendicano-il-terzo-raid-della-giornata-sull-aeropor",
-   "title": "Houthi rebels claim to have launched multiple missile strikes on Riyadh airport in Saudi Arabia.",
-   "content_text": "On October 9, 2026, Houthi forces claimed to have launched cruise and ballistic missiles at King Khalid International Airport and other facilities in Saudi Arabia. While all sources confirm the claims of the strikes, coverage diverges on the primary consequences of the attack. Western outlets focus on the escalation of regional instability and logistical disruptions to aviation, whereas Middle Eastern reports emphasize the specific physical damage to infrastructure and aircraft.",
-   "summary": "On October 9, 2026, Houthi forces claimed to have launched cruise and ballistic missiles at King Khalid International Airport and other facilities in Saudi Arabia. While all sources confirm the claims of the strikes, coverage diverges on the primary consequences of the attack. Western outlets focus on the escalation of regional instability and logistical disruptions to aviation, whereas Middle Eastern reports emphasize the specific physical damage to infrastructure and aircraft.",
-   "date_published": "2026-10-09T02:15:01+00:00",
+   "id": "2026-10-10-navi-pillay-former-un-human-rights-chief-wins-nobel-peace-pr",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-navi-pillay-former-un-human-rights-chief-wins-nobel-peace-pr",
+   "title": "South African human rights lawyer Navi Pillay awarded the Nobel Peace Prize for her advocacy.",
+   "content_text": "South African human rights lawyer Navi Pillay was awarded the 2026 Nobel Peace Prize for her lifelong commitment to prosecuting war crimes and genocide. While all outlets acknowledge her extensive career as a UN High Commissioner and international judge, coverage diverges on her legacy's framing. Western media emphasizes the institutional scrutiny and diplomatic friction she faced regarding the Gaza conflict, whereas Eastern reporting focuses on her status as a global icon and her success in navigating international law.",
+   "summary": "South African human rights lawyer Navi Pillay was awarded the 2026 Nobel Peace Prize for her lifelong commitment to prosecuting war crimes and genocide. While all outlets acknowledge her extensive career as a UN High Commissioner and international judge, coverage diverges on her legacy's framing. Western media emphasizes the institutional scrutiny and diplomatic friction she faced regarding the Gaza conflict, whereas Eastern reporting focuses on her status as a global icon and her success in navigating international law.",
+   "date_published": "2026-10-10T02:03:44+00:00",
    "tags": [
+    "eastern",
     "middle_east",
-    "russia",
     "western",
-    "tier-B"
+    "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3762,
-    "event_date": "2026-10-09",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
+    "cluster_id": 3785,
+    "event_date": "2026-10-10",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
     "regions": [
+     "eastern",
      "middle_east",
-     "russia",
      "western"
     ],
-    "article_count": 5,
-    "source_count": 4,
+    "article_count": 13,
+    "source_count": 7,
     "sources": [
      {
-      "name": "ANSA Mondo",
+      "name": "BBC World",
       "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/08/houthi-rivendicano-il-terzo-raid-della-giornata-sullaeroporto-di-riad_028ba96a-62a9-4d11-9aaf-04579020cb0d.html"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-least-one-plane-severely-damaged-houthis-claim-third-riyadh"
+      "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss"
      },
      {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/646955-houthis-strike-saudi-airport/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/south-african-judge-awarded-nobel-peace-prize"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/navi-pillay-nobel-peace-prize-winner-activist-6447036"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/human-rights-veteran-navi-pillay-wins-2026-nobel-peace-prize?traffic_source=rss"
+     },
+     {
+      "name": "El Pais English",
+      "region": "western",
+      "country": "ES",
+      "url": "https://english.elpais.com/international/2026-10-09/south-african-lawyer-navi-pillay-awarded-2026-nobel-peace-prize.html"
      },
      {
       "name": "Euronews",
       "region": "western",
       "country": "EU",
-      "url": "https://www.euronews.com/2026/10/08/houthis-claim-missile-strike-on-riyadh-airport-as-explosions-heard-in-saudi-capital"
+      "url": "https://www.euronews.com/2026/10/09/i-still-want-to-verify-this-nobel-peace-prize-winner-navi-pillays-first-reaction"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3762.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3785.json",
     "languages": [
      "en",
      "it",
@@ -69,286 +87,215 @@
    }
   },
   {
-   "id": "2026-10-09-the-long-deployed-uss-lincoln-returns-home-to-san-diego-bay",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-09-the-long-deployed-uss-lincoln-returns-home-to-san-diego-bay",
-   "title": "The aircraft carrier USS Abraham Lincoln returns to San Diego after a long deployment.",
-   "content_text": "The aircraft carrier USS Abraham Lincoln returned to San Diego on October 9, 2026, following a deployment of up to 320 days supporting operations against Iran. Western outlets focus on the human cost of the mission, highlighting the crew's mental health struggles and the emotional impact of their long absence. Conversely, Middle Eastern sources frame the return through geopolitical consequences, emphasizing the vessel's role in the broader regional conflict and the political implications of its presence.",
-   "summary": "The aircraft carrier USS Abraham Lincoln returned to San Diego on October 9, 2026, following a deployment of up to 320 days supporting operations against Iran. Western outlets focus on the human cost of the mission, highlighting the crew's mental health struggles and the emotional impact of their long absence. Conversely, Middle Eastern sources frame the return through geopolitical consequences, emphasizing the vessel's role in the broader regional conflict and the political implications of its presence.",
-   "date_published": "2026-10-09T02:13:01+00:00",
+   "id": "2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it",
+   "title": "Donald Trump announces a deal to purchase Russian diesel to address high fuel prices.",
+   "content_text": "President Donald Trump announced a deal with Vladimir Putin to import 300,000 tons of Russian diesel immediately, with up to 3 million tons planned for subsequent months. Western outlets frame the deal as a controversial reversal of sanctions driven by domestic pressure and the upcoming U.S. midterm elections. Conversely, Middle Eastern sources frame the agreement as a pragmatic move toward regional stability and global energy market stabilization, focusing on cooperation between superpowers rather than friction with allies.",
+   "summary": "President Donald Trump announced a deal with Vladimir Putin to import 300,000 tons of Russian diesel immediately, with up to 3 million tons planned for subsequent months. Western outlets frame the deal as a controversial reversal of sanctions driven by domestic pressure and the upcoming U.S. midterm elections. Conversely, Middle Eastern sources frame the agreement as a pragmatic move toward regional stability and global energy market stabilization, focusing on cooperation between superpowers rather than friction with allies.",
+   "date_published": "2026-10-10T02:01:33+00:00",
    "tags": [
+    "eastern",
     "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3783,
+    "event_date": "2026-10-10",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 14,
+    "source_count": 10,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/europe/20261009-trump-strikes-diesel-deal-with-putin-reversing-years-of-pressure-on-russia-over-ukraine-war"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/09/trump-laccordo-con-la-russia-sul-diesel-importante-voglio-ringraziare-putin_1ba12655-4ae0-4d6d-953e-1ed9741c548c.html"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/trump-russia-diesel-putin-global-markets-6447926"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-welcomed-russias-involvement-iran-settlement-efforts-kremlin-says"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/economy/2200095"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/646904-trump-putin-phone-call-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/10/09/trump-says-us-to-import-russian-diesel-to-ease-prices"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3783.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-09-sondaggio-bolsonaro-ha-il-53-dei-voti-validi-per-il-ballotta",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-09-sondaggio-bolsonaro-ha-il-53-dei-voti-validi-per-il-ballotta",
+   "title": "Polls show a close race between Lula and Bolsonaro ahead of the Brazilian election.",
+   "content_text": "Polls show a statistically neck-and-neck race between Luiz Inácio Lula da Silva and the Bolsonaro camp ahead of the Brazilian presidential runoff. While both Western and Russian outlets report the narrow margins, they differ significantly in their framing of the results. Western media focuses on domestic legislative maneuvers and local coalition building, whereas Russian coverage emphasizes the election's implications for the BRICS bloc and global geopolitical stability.",
+   "summary": "Polls show a statistically neck-and-neck race between Luiz Inácio Lula da Silva and the Bolsonaro camp ahead of the Brazilian presidential runoff. While both Western and Russian outlets report the narrow margins, they differ significantly in their framing of the results. Western media focuses on domestic legislative maneuvers and local coalition building, whereas Russian coverage emphasizes the election's implications for the BRICS bloc and global geopolitical stability.",
+   "date_published": "2026-10-10T02:08:55+00:00",
+   "tags": [
+    "russia",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3761,
+    "cluster_id": 3804,
     "event_date": "2026-10-09",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/08/sondaggio-bolsonaro-ha-il-53-dei-voti-validi-per-il-ballottaggio_b7828476-489f-4d26-8c15-0be4fe5725f0.html"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/646937-brazils-election-turning-point-brics/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "El Pais English",
+      "region": "western",
+      "country": "ES",
+      "url": "https://english.elpais.com/international/2026-10-09/lula-and-bolsonaro-technically-tied-in-first-poll-ahead-of-presidential-runoff-vote.html"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3804.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-09-flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airpor",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-09-flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airpor",
+   "title": "UAE prosecutors report a Flydubai co-pilot planned a suicide attack on Tel Aviv airport.",
+   "content_text": "UAE prosecutors reported that an Omani co-pilot for Flydubai attempted to hijack a plane to strike Ben Gurion Airport in Tel Aviv before being stopped by passengers and crew. While all outlets confirm the thwarted plot and the successful intervention, coverage differs in framing. Western sources emphasize the perpetrator's radicalization and ideological links to 9/11, whereas Russian reports focus on the tactical details of the thwarted attack and the physical neutralization of the threat.",
+   "summary": "UAE prosecutors reported that an Omani co-pilot for Flydubai attempted to hijack a plane to strike Ben Gurion Airport in Tel Aviv before being stopped by passengers and crew. While all outlets confirm the thwarted plot and the successful intervention, coverage differs in framing. Western sources emphasize the perpetrator's radicalization and ideological links to 9/11, whereas Russian reports focus on the tactical details of the thwarted attack and the physical neutralization of the threat.",
+   "date_published": "2026-10-10T02:07:20+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3794,
+    "event_date": "2026-10-09",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
      "middle_east",
+     "russia",
      "western"
     ],
     "article_count": 5,
     "source_count": 5,
     "sources": [
      {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/08/nx-s1-5995911/the-long-deployed-uss-lincoln-returns-home-to-san-diego-bay"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/08/portaerei-uss-lincoln-attracco-san-diego/"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/9/uss-lincoln-returns-to-us-after-long-deployment-supporting-war-on-iran?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uss-abraham-lincoln-returns-san-diego-after-deployment-during-war-iran"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/08/us-aircraft-carrier-abraham-lincoln-returns-to-san-diego-after-record-deployment"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3761.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-09-putin-pledges-russias-support-to-end-us-led-war-on-iran",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-09-putin-pledges-russias-support-to-end-us-led-war-on-iran",
-   "title": "Russian President Putin and Iranian President Pezeshkian meet to discuss Middle East conflict.",
-   "content_text": "Russian President Vladimir Putin and Iranian President Masoud Pezeshkian met in Turkmenistan on October 8-9 to discuss the Middle East conflict and their growing strategic partnership. While both regions agree on the meeting's occurrence, coverage differs significantly in framing. Middle Eastern outlets emphasize the meeting as a defiant stance against Western hegemony and U.S. influence, whereas Russian state media focuses on the procedural cooperation and the internal mechanics of the Russo-Iranian alliance.",
-   "summary": "Russian President Vladimir Putin and Iranian President Masoud Pezeshkian met in Turkmenistan on October 8-9 to discuss the Middle East conflict and their growing strategic partnership. While both regions agree on the meeting's occurrence, coverage differs significantly in framing. Middle Eastern outlets emphasize the meeting as a defiant stance against Western hegemony and U.S. influence, whereas Russian state media focuses on the procedural cooperation and the internal mechanics of the Russo-Iranian alliance.",
-   "date_published": "2026-10-09T02:11:08+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3758,
-    "event_date": "2026-10-09",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "middle_east",
-     "russia"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/8/putin-pledges-russias-support-to-end-us-led-war-on-iran?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/putin-tells-pezeshkian-he-will-do-everything-help-end-war"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2199615"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3758.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-09-venezuela-s-ex-leader-nicolas-maduro-charged-with-conspiracy",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-09-venezuela-s-ex-leader-nicolas-maduro-charged-with-conspiracy",
-   "title": "United States authorities file torture and conspiracy charges against former Venezuelan leader Nicolás Maduro.",
-   "content_text": "U.S. authorities have filed formal charges of conspiracy to commit torture against former Venezuelan leader Nicolás Maduro and his wife, Cilia Flores, for the systematic abuse of political opponents. While all outlets confirm the indictment and the 2027 trial date, coverage differs in framing. Western media emphasizes the moral gravity and specific brutality of the human rights violations, whereas Eastern outlets provide a more clinical, procedural focus on the expansion of the existing legal dossier.",
-   "summary": "U.S. authorities have filed formal charges of conspiracy to commit torture against former Venezuelan leader Nicolás Maduro and his wife, Cilia Flores, for the systematic abuse of political opponents. While all outlets confirm the indictment and the 2027 trial date, coverage differs in framing. Western media emphasizes the moral gravity and specific brutality of the human rights violations, whereas Eastern outlets provide a more clinical, procedural focus on the expansion of the existing legal dossier.",
-   "date_published": "2026-10-09T02:09:25+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3755,
-    "event_date": "2026-10-09",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 10,
-    "source_count": 9,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss"
-     },
-     {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/americas/20261008-us-files-new-torture-charges-venezuela-nicolas-maduro-cilia-flores"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/08/nicolas-maduro-venezuela-stati-uniti-accuse-tortura/"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/us/us-charges-former-venezuela-president-maduro-with-conspiracy-to-torture-opponents/articleshow/134794831.cms"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/maduro-wife-flores-venezuela-torture-charges-6444506"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/us-charges-venezuelas-nicolas-maduro-over-torture-allegations?traffic_source=rss"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2199599"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/08/us-charges-former-venezuelan-president-nicolas-maduro-with-torture"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3755.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-08-russian-strike-on-buses-kills-at-least-30-say-officials-as-d",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-08-russian-strike-on-buses-kills-at-least-30-say-officials-as-d",
-   "title": "Russian strike on buses in Kramatorsk kills at least 30 people in Ukraine.",
-   "content_text": "A Russian strike on two public buses in Kramatorsk on October 8, 2026, killed at least 30 people and caused significant infrastructure damage. Western outlets frame the event as a deliberate escalation of violence against non-combatants and a humanitarian crisis. Conversely, Russian reporting focuses on the tactical scale of the exchange, emphasizing the Ukrainian air force's ability to intercept the majority of incoming drones.",
-   "summary": "A Russian strike on two public buses in Kramatorsk on October 8, 2026, killed at least 30 people and caused significant infrastructure damage. Western outlets frame the event as a deliberate escalation of violence against non-combatants and a humanitarian crisis. Conversely, Russian reporting focuses on the tactical scale of the exchange, emphasizing the Ukrainian air force's ability to intercept the majority of incoming drones.",
-   "date_published": "2026-10-09T02:17:09+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3769,
-    "event_date": "2026-10-08",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "russia",
-     "western"
-    ],
-    "article_count": 9,
-    "source_count": 7,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/video/20261008-russian-attack-on-ukraine-busses-part-of-a-steady-increase-in-attacks-on-civilians"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/08/g-s1-147106/russia-ukraine-war"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/08/kramatorsk-bombardamento-russo-ucraina/"
+      "url": "https://www.france24.com/en/middle-east/20261009-flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airport-inspired-by-9-11"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/08/zelensky-attacco-di-kramatorsk-non-restera-senza-risposta_3bbcc0eb-6abc-4d77-b4cb-07448087493e.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/09/procura-emirati-copilota-flydubai-voleva-colpire-ben-gurion-si-e-ispirato-a-119_aeccbd9c-de96-46a0-97dd-3bf0770375d2.html"
      },
      {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/russia-strike-bus-ukraine-6443076"
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/10/9/flydubai-co-pilot-plotted-suicide-attack-on-israel-uae-says?traffic_source=rss"
      },
      {
-      "name": "The Moscow Times",
+      "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/07/at-least-24-killed-in-ukraine-zelensky-condemns-one-of-russias-most-vile-strikes-a93901"
+      "url": "https://tass.com/society/2200015"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/10/09/flydubai-co-pilot-planned-suicide-attack-in-tel-aviv-airport-inspired-by-911"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3769.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3794.json",
     "languages": [
      "en",
      "it",
@@ -359,77 +306,43 @@
    }
   },
   {
-   "id": "2026-10-06-trump-says-threat-led-us-to-pull-bombers-from-raf-fairford",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-06-trump-says-threat-led-us-to-pull-bombers-from-raf-fairford",
-   "title": "United States removes bombers from RAF Fairford base following reports of security concerns",
-   "content_text": "On October 6, 2026, the United States relocated B-1 bombers from RAF Fairford following a security incident and counter-terrorism investigation on September 27. While all outlets confirm the relocation due to suspicious activity, coverage diverges on the framing of the threat. Western sources emphasize operational continuity and proactive defense measures, while Eastern and Russian outlets focus more heavily on the specific \"Iranian link\" and the implications of the security breach.",
-   "summary": "On October 6, 2026, the United States relocated B-1 bombers from RAF Fairford following a security incident and counter-terrorism investigation on September 27. While all outlets confirm the relocation due to suspicious activity, coverage diverges on the framing of the threat. Western sources emphasize operational continuity and proactive defense measures, while Eastern and Russian outlets focus more heavily on the specific \"Iranian link\" and the implications of the security breach.",
-   "date_published": "2026-10-06T01:58:41+00:00",
+   "id": "2026-10-09-netanyahu-comitato-nobel-ha-perso-bussola-morale-pillay-demo",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-09-netanyahu-comitato-nobel-ha-perso-bussola-morale-pillay-demo",
+   "title": "Benjamin Netanyahu criticizes the Nobel Committee's decision to award the Peace Prize.",
+   "content_text": "Israeli Prime Minister Benjamin Netanyahu criticized the Nobel Committee for awarding the Peace Prize to South African lawyer Navi Pillay, accusing the committee of losing its moral compass. While both Western and Russian outlets report on his scathing remarks regarding Pillay's history, they differ in framing. Western coverage emphasizes the moral and identity-based accusations regarding the \"demonization\" of Jewish people, whereas Russian reporting focuses on the institutional politicization of the award as a \"grotesque weaponization\" of international prizes.",
+   "summary": "Israeli Prime Minister Benjamin Netanyahu criticized the Nobel Committee for awarding the Peace Prize to South African lawyer Navi Pillay, accusing the committee of losing its moral compass. While both Western and Russian outlets report on his scathing remarks regarding Pillay's history, they differ in framing. Western coverage emphasizes the moral and identity-based accusations regarding the \"demonization\" of Jewish people, whereas Russian reporting focuses on the institutional politicization of the award as a \"grotesque weaponization\" of international prizes.",
+   "date_published": "2026-10-10T02:05:35+00:00",
    "tags": [
-    "eastern",
-    "middle_east",
     "russia",
     "western",
-    "tier-A"
+    "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3710,
-    "event_date": "2026-10-06",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
+    "cluster_id": 3793,
+    "event_date": "2026-10-09",
+    "tier": "C",
+    "tier_label": "Partial coverage",
     "regions": [
-     "eastern",
-     "middle_east",
      "russia",
      "western"
     ],
-    "article_count": 7,
-    "source_count": 7,
+    "article_count": 3,
+    "source_count": 2,
     "sources": [
      {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "Il Post",
+      "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/05/raf-fairford-ritiro-bombardieri-stati-uniti/"
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/09/netanyahu-comitato-nobel-ha-perso-bussola-morale-pillay-demonizza-gli-ebrei_849487fb-ce45-42cf-8fd9-c79f326f1c4b.html"
      },
      {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-10-05/US-removes-all-Air-Force-bombers-from-UK-base-amid-security-concerns-1QZgO36boUE/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/trump-us-bombers-threat-raf-fairford-uk-base-6434401"
-     },
-     {
-      "name": "Anadolu Agency",
-      "region": "middle_east",
-      "country": "TR",
-      "url": "https://www.aa.com.tr/en/middle-east/uk-says-raf-fairford-base-safe-after-us-withdrawal-of-bombers/4079104"
-     },
-     {
-      "name": "RT",
+      "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/646718-us-rushes-bombers-out-uk/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/05/us-pulls-all-b-1-bombers-from-uk-airbase-at-centre-of-terror-probe"
+      "url": "https://tass.com/world/2200019"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3710.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3793.json",
     "languages": [
      "en",
      "it",
