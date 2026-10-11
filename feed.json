@@ -5,177 +5,66 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-10T02:57:08Z",
+ "_generated_at": "2026-10-11T02:46:37Z",
  "items": [
   {
-   "id": "2026-10-10-navi-pillay-former-un-human-rights-chief-wins-nobel-peace-pr",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-navi-pillay-former-un-human-rights-chief-wins-nobel-peace-pr",
-   "title": "South African human rights lawyer Navi Pillay awarded the Nobel Peace Prize for her advocacy.",
-   "content_text": "South African human rights lawyer Navi Pillay was awarded the 2026 Nobel Peace Prize for her lifelong commitment to prosecuting war crimes and genocide. While all outlets acknowledge her extensive career as a UN High Commissioner and international judge, coverage diverges on her legacy's framing. Western media emphasizes the institutional scrutiny and diplomatic friction she faced regarding the Gaza conflict, whereas Eastern reporting focuses on her status as a global icon and her success in navigating international law.",
-   "summary": "South African human rights lawyer Navi Pillay was awarded the 2026 Nobel Peace Prize for her lifelong commitment to prosecuting war crimes and genocide. While all outlets acknowledge her extensive career as a UN High Commissioner and international judge, coverage diverges on her legacy's framing. Western media emphasizes the institutional scrutiny and diplomatic friction she faced regarding the Gaza conflict, whereas Eastern reporting focuses on her status as a global icon and her success in navigating international law.",
-   "date_published": "2026-10-10T02:03:44+00:00",
+   "id": "2026-10-11-russian-glide-bomb-attack-on-zaporizhzhia-kills-at-least-20",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-11-russian-glide-bomb-attack-on-zaporizhzhia-kills-at-least-20",
+   "title": "Russian glide bomb attack in Zaporizhzhia kills at least 15 to 20 people.",
+   "content_text": "On October 11, 2026, five Russian glide bombs struck residential areas in Zaporizhzhia, killing between 15 and 20 people, including several children. Western outlets focus on the humanitarian impact and the violation of civilian safety, linking the timing to the easing of U.S. diesel sanctions. Conversely, Russian-aligned reporting frames the strike as a calculated retaliatory response to those specific Western policy shifts and diplomatic maneuvers.",
+   "summary": "On October 11, 2026, five Russian glide bombs struck residential areas in Zaporizhzhia, killing between 15 and 20 people, including several children. Western outlets focus on the humanitarian impact and the violation of civilian safety, linking the timing to the easing of U.S. diesel sanctions. Conversely, Russian-aligned reporting frames the strike as a calculated retaliatory response to those specific Western policy shifts and diplomatic maneuvers.",
+   "date_published": "2026-10-11T01:41:56+00:00",
    "tags": [
     "eastern",
-    "middle_east",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3785,
-    "event_date": "2026-10-10",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 13,
-    "source_count": 7,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/south-african-judge-awarded-nobel-peace-prize"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/navi-pillay-nobel-peace-prize-winner-activist-6447036"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/human-rights-veteran-navi-pillay-wins-2026-nobel-peace-prize?traffic_source=rss"
-     },
-     {
-      "name": "El Pais English",
-      "region": "western",
-      "country": "ES",
-      "url": "https://english.elpais.com/international/2026-10-09/south-african-lawyer-navi-pillay-awarded-2026-nobel-peace-prize.html"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/09/i-still-want-to-verify-this-nobel-peace-prize-winner-navi-pillays-first-reaction"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3785.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it",
-   "title": "Donald Trump announces a deal to purchase Russian diesel to address high fuel prices.",
-   "content_text": "President Donald Trump announced a deal with Vladimir Putin to import 300,000 tons of Russian diesel immediately, with up to 3 million tons planned for subsequent months. Western outlets frame the deal as a controversial reversal of sanctions driven by domestic pressure and the upcoming U.S. midterm elections. Conversely, Middle Eastern sources frame the agreement as a pragmatic move toward regional stability and global energy market stabilization, focusing on cooperation between superpowers rather than friction with allies.",
-   "summary": "President Donald Trump announced a deal with Vladimir Putin to import 300,000 tons of Russian diesel immediately, with up to 3 million tons planned for subsequent months. Western outlets frame the deal as a controversial reversal of sanctions driven by domestic pressure and the upcoming U.S. midterm elections. Conversely, Middle Eastern sources frame the agreement as a pragmatic move toward regional stability and global energy market stabilization, focusing on cooperation between superpowers rather than friction with allies.",
-   "date_published": "2026-10-10T02:01:33+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
     "russia",
     "western",
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3783,
-    "event_date": "2026-10-10",
+    "cluster_id": 3808,
+    "event_date": "2026-10-11",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
      "eastern",
-     "middle_east",
      "russia",
      "western"
     ],
-    "article_count": 14,
-    "source_count": 10,
+    "article_count": 6,
+    "source_count": 5,
     "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/europe/20261009-trump-strikes-diesel-deal-with-putin-reversing-years-of-pressure-on-russia-over-ukraine-war"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms"
+      "url": "https://www.france24.com/en/video/20261010-war-in-ukraine-russian-strikes-kill-15-including-a-young-girl"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/09/trump-laccordo-con-la-russia-sul-diesel-importante-voglio-ringraziare-putin_1ba12655-4ae0-4d6d-953e-1ed9741c548c.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/10/kiev-saliti-a-15-i-morti-nellattacco-russo-a-zaporizhzhia-tra-cui-3-bambini_2bf58d0a-1428-4cdc-ae47-fefc1c9c70e2.html"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/trump-russia-diesel-putin-global-markets-6447926"
+      "url": "https://www.channelnewsasia.com/world/russian-attack-ukrainian-city-kills-20-day-after-trump-eases-diesel-sanctions-moscow-6449106"
      },
      {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-welcomed-russias-involvement-iran-settlement-efforts-kremlin-says"
-     },
-     {
-      "name": "TASS",
+      "name": "The Moscow Times",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/economy/2200095"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/646904-trump-putin-phone-call-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/09/trump-says-us-to-import-russian-diesel-to-ease-prices"
+      "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3783.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3808.json",
     "languages": [
      "en",
      "it",
@@ -186,20 +75,20 @@
    }
   },
   {
-   "id": "2026-10-09-sondaggio-bolsonaro-ha-il-53-dei-voti-validi-per-il-ballotta",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-09-sondaggio-bolsonaro-ha-il-53-dei-voti-validi-per-il-ballotta",
-   "title": "Polls show a close race between Lula and Bolsonaro ahead of the Brazilian election.",
-   "content_text": "Polls show a statistically neck-and-neck race between Luiz Inácio Lula da Silva and the Bolsonaro camp ahead of the Brazilian presidential runoff. While both Western and Russian outlets report the narrow margins, they differ significantly in their framing of the results. Western media focuses on domestic legislative maneuvers and local coalition building, whereas Russian coverage emphasizes the election's implications for the BRICS bloc and global geopolitical stability.",
-   "summary": "Polls show a statistically neck-and-neck race between Luiz Inácio Lula da Silva and the Bolsonaro camp ahead of the Brazilian presidential runoff. While both Western and Russian outlets report the narrow margins, they differ significantly in their framing of the results. Western media focuses on domestic legislative maneuvers and local coalition building, whereas Russian coverage emphasizes the election's implications for the BRICS bloc and global geopolitical stability.",
-   "date_published": "2026-10-10T02:08:55+00:00",
+   "id": "2026-10-10-casa-bianca-sospende-temporaneamente-le-sanzioni-sul-diesel",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-casa-bianca-sospende-temporaneamente-le-sanzioni-sul-diesel",
+   "title": "The United States temporarily suspends sanctions on Russian diesel fuel following a new agreement.",
+   "content_text": "The U.S. Department of the Treasury issued a general temporary license on October 10, 2026, to suspend sanctions on Russian diesel fuel to address global shortages. Western outlets report the move with cautious pragmatism, focusing on logistical uncertainties and questioning whether the influx will lower domestic prices. Conversely, Russian state media frames the agreement as a significant diplomatic victory and a milestone in broader geopolitical realignment between the U.S. and Russia.",
+   "summary": "The U.S. Department of the Treasury issued a general temporary license on October 10, 2026, to suspend sanctions on Russian diesel fuel to address global shortages. Western outlets report the move with cautious pragmatism, focusing on logistical uncertainties and questioning whether the influx will lower domestic prices. Conversely, Russian state media frames the agreement as a significant diplomatic victory and a milestone in broader geopolitical realignment between the U.S. and Russia.",
+   "date_published": "2026-10-11T01:51:49+00:00",
    "tags": [
     "russia",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3804,
-    "event_date": "2026-10-09",
+    "cluster_id": 3820,
+    "event_date": "2026-10-10",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
@@ -213,22 +102,22 @@
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/08/sondaggio-bolsonaro-ha-il-53-dei-voti-validi-per-il-ballottaggio_b7828476-489f-4d26-8c15-0be4fe5725f0.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/09/casa-bianca-sospende-temporaneamente-le-sanzioni-sul-diesel-russo_06fea163-046a-4bde-8c6a-6b3060548141.html"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/10/10/accordo-diesel-trump-putin/"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/646937-brazils-election-turning-point-brics/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "El Pais English",
-      "region": "western",
-      "country": "ES",
-      "url": "https://english.elpais.com/international/2026-10-09/lula-and-bolsonaro-technically-tied-in-first-poll-ahead-of-presidential-runoff-vote.html"
+      "url": "https://www.rt.com/news/647021-pasta-us-russia-diesel-deal/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3804.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3820.json",
     "languages": [
      "en",
      "it",
@@ -239,12 +128,146 @@
    }
   },
   {
-   "id": "2026-10-09-flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airpor",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-09-flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airpor",
-   "title": "UAE prosecutors report a Flydubai co-pilot planned a suicide attack on Tel Aviv airport.",
-   "content_text": "UAE prosecutors reported that an Omani co-pilot for Flydubai attempted to hijack a plane to strike Ben Gurion Airport in Tel Aviv before being stopped by passengers and crew. While all outlets confirm the thwarted plot and the successful intervention, coverage differs in framing. Western sources emphasize the perpetrator's radicalization and ideological links to 9/11, whereas Russian reports focus on the tactical details of the thwarted attack and the physical neutralization of the threat.",
-   "summary": "UAE prosecutors reported that an Omani co-pilot for Flydubai attempted to hijack a plane to strike Ben Gurion Airport in Tel Aviv before being stopped by passengers and crew. While all outlets confirm the thwarted plot and the successful intervention, coverage differs in framing. Western sources emphasize the perpetrator's radicalization and ideological links to 9/11, whereas Russian reports focus on the tactical details of the thwarted attack and the physical neutralization of the threat.",
-   "date_published": "2026-10-10T02:07:20+00:00",
+   "id": "2026-10-10-time-for-ukraine-to-get-new-president-says-trump-after-zele",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-time-for-ukraine-to-get-new-president-says-trump-after-zele",
+   "title": "Donald Trump states that Ukraine should elect a new president to negotiate ending the war.",
+   "content_text": "Donald Trump stated that Ukraine should elect a new president capable of negotiating an end to the war, a comment linked to a U.S. agreement to lift sanctions on Russian diesel exports. While Western and Middle Eastern outlets focus on the breakdown of negotiations and the specific friction over energy policy, Russian coverage emphasizes the broader implications of the peace process and the perceived failure of current leadership. The reporting differs primarily in the narrative weight assigned to the motivations behind the diplomatic impasse.",
+   "summary": "Donald Trump stated that Ukraine should elect a new president capable of negotiating an end to the war, a comment linked to a U.S. agreement to lift sanctions on Russian diesel exports. While Western and Middle Eastern outlets focus on the breakdown of negotiations and the specific friction over energy policy, Russian coverage emphasizes the broader implications of the peace process and the perceived failure of current leadership. The reporting differs primarily in the narrative weight assigned to the motivations behind the diplomatic impasse.",
+   "date_published": "2026-10-11T01:50:03+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-B"
+   ],
+   "_parallax": {
+    "cluster_id": 3814,
+    "event_date": "2026-10-10",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
+    "regions": [
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 6,
+    "source_count": 4,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/europe/20261010-live-russian-strikes-on-ukraine-zaporizhzhia-kill-least-seven-including-children"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/647031-ukraine-should-elect-new-president/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3814.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-10-us-announces-sanctions-on-icc-hours-after-nobel-award-to-for",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-us-announces-sanctions-on-icc-hours-after-nobel-award-to-for",
+   "title": "United States imposes sanctions on the International Criminal Court following a Nobel Peace Prize award.",
+   "content_text": "On October 10, 2026, the United States imposed sanctions on the International Criminal Court, freezing its assets and prohibiting financial transactions. Western outlets frame the move as an assault on the rule of law, emphasizing the institutional shock and the resulting diplomatic friction with the European Union. Conversely, Middle Eastern reporting focuses on the administration's motives, framing the sanctions as a deliberate attempt to dismantle the court's authority and undermine international sovereignty.",
+   "summary": "On October 10, 2026, the United States imposed sanctions on the International Criminal Court, freezing its assets and prohibiting financial transactions. Western outlets frame the move as an assault on the rule of law, emphasizing the institutional shock and the resulting diplomatic friction with the European Union. Conversely, Middle Eastern reporting focuses on the administration's motives, framing the sanctions as a deliberate attempt to dismantle the court's authority and undermine international sovereignty.",
+   "date_published": "2026-10-11T01:47:58+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3813,
+    "event_date": "2026-10-10",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "western"
+    ],
+    "article_count": 9,
+    "source_count": 6,
+    "sources": [
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/us-icc-sanctions-rubio-nobel-prize-6447851"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/10/09/stati-uniti-sanzioni-corte-penale-internazionale-2/"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/10/premio-nobel-pillay-inaccettabili-le-sanzioni-usa-alla-cpi_52d0649e-7c2e-4a4e-8af2-029380260ce1.html"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/10/why-is-the-trump-administration-trying-to-dismantle-the-icc?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eu-urges-us-reverse-proposed-sanctions-against-icc"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3813.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-10-turkey-qatar-kuwait-condemn-houthi-attacks-on-saudi-airports",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-turkey-qatar-kuwait-condemn-houthi-attacks-on-saudi-airports",
+   "title": "International leaders and the United States condemn Houthi attacks on Saudi Arabian airports.",
+   "content_text": "International leaders and the United States have condemned Houthi attacks on King Khalid International Airport in Riyadh, which caused significant aviation disruptions. Western outlets focus on the U.S. executive branch's deliberations regarding military involvement and potential escalation. Conversely, Middle Eastern coverage emphasizes the human cost, the violation of regional sovereignty, and condemnation from neighboring states. Russian reports frame the incident within the broader context of proxy warfare and escalating tensions between Riyadh and Tehran.",
+   "summary": "International leaders and the United States have condemned Houthi attacks on King Khalid International Airport in Riyadh, which caused significant aviation disruptions. Western outlets focus on the U.S. executive branch's deliberations regarding military involvement and potential escalation. Conversely, Middle Eastern coverage emphasizes the human cost, the violation of regional sovereignty, and condemnation from neighboring states. Russian reports frame the incident within the broader context of proxy warfare and escalating tensions between Riyadh and Tehran.",
+   "date_published": "2026-10-11T01:46:09+00:00",
    "tags": [
     "middle_east",
     "russia",
@@ -252,8 +275,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3794,
-    "event_date": "2026-10-09",
+    "cluster_id": 3811,
+    "event_date": "2026-10-10",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -261,88 +284,41 @@
      "russia",
      "western"
     ],
-    "article_count": 5,
+    "article_count": 6,
     "source_count": 5,
     "sources": [
      {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20261009-flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airport-inspired-by-9-11"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/09/procura-emirati-copilota-flydubai-voleva-colpire-ben-gurion-si-e-ispirato-a-119_aeccbd9c-de96-46a0-97dd-3bf0770375d2.html"
-     },
-     {
-      "name": "Al Jazeera",
+      "name": "Middle East Eye",
       "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/9/flydubai-co-pilot-plotted-suicide-attack-on-israel-uae-says?traffic_source=rss"
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-qatar-kuwait-condemn-houthi-attacks-saudi-airports"
      },
      {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/society/2200015"
+      "name": "Anadolu Agency",
+      "region": "middle_east",
+      "country": "TR",
+      "url": "https://www.aa.com.tr/en/world/us-voices-concern-over-houthi-escalation-condemns-attacks-on-saudi-arabia/4083771"
      },
      {
-      "name": "Euronews",
+      "name": "NPR World",
       "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/09/flydubai-co-pilot-planned-suicide-attack-in-tel-aviv-airport-inspired-by-911"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3794.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-09-netanyahu-comitato-nobel-ha-perso-bussola-morale-pillay-demo",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-09-netanyahu-comitato-nobel-ha-perso-bussola-morale-pillay-demo",
-   "title": "Benjamin Netanyahu criticizes the Nobel Committee's decision to award the Peace Prize.",
-   "content_text": "Israeli Prime Minister Benjamin Netanyahu criticized the Nobel Committee for awarding the Peace Prize to South African lawyer Navi Pillay, accusing the committee of losing its moral compass. While both Western and Russian outlets report on his scathing remarks regarding Pillay's history, they differ in framing. Western coverage emphasizes the moral and identity-based accusations regarding the \"demonization\" of Jewish people, whereas Russian reporting focuses on the institutional politicization of the award as a \"grotesque weaponization\" of international prizes.",
-   "summary": "Israeli Prime Minister Benjamin Netanyahu criticized the Nobel Committee for awarding the Peace Prize to South African lawyer Navi Pillay, accusing the committee of losing its moral compass. While both Western and Russian outlets report on his scathing remarks regarding Pillay's history, they differ in framing. Western coverage emphasizes the moral and identity-based accusations regarding the \"demonization\" of Jewish people, whereas Russian reporting focuses on the institutional politicization of the award as a \"grotesque weaponization\" of international prizes.",
-   "date_published": "2026-10-10T02:05:35+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3793,
-    "event_date": "2026-10-09",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "sources": [
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack"
+     },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/09/netanyahu-comitato-nobel-ha-perso-bussola-morale-pillay-demonizza-gli-ebrei_849487fb-ce45-42cf-8fd9-c79f326f1c4b.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/10/trump-non-esclude-di-unirsi-ai-raid-sauditi-decideremo_8eaf7259-d934-45e0-8e78-a1635119431a.html"
      },
      {
-      "name": "TASS",
+      "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2200019"
+      "url": "https://www.rt.com/news/647035-trump-saudi-strikes-yemen/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3793.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3811.json",
     "languages": [
      "en",
      "it",
