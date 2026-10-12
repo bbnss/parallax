@@ -5,66 +5,98 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-11T02:46:37Z",
+ "_generated_at": "2026-10-12T02:47:31Z",
  "items": [
   {
-   "id": "2026-10-11-russian-glide-bomb-attack-on-zaporizhzhia-kills-at-least-20",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-11-russian-glide-bomb-attack-on-zaporizhzhia-kills-at-least-20",
-   "title": "Russian glide bomb attack in Zaporizhzhia kills at least 15 to 20 people.",
-   "content_text": "On October 11, 2026, five Russian glide bombs struck residential areas in Zaporizhzhia, killing between 15 and 20 people, including several children. Western outlets focus on the humanitarian impact and the violation of civilian safety, linking the timing to the easing of U.S. diesel sanctions. Conversely, Russian-aligned reporting frames the strike as a calculated retaliatory response to those specific Western policy shifts and diplomatic maneuvers.",
-   "summary": "On October 11, 2026, five Russian glide bombs struck residential areas in Zaporizhzhia, killing between 15 and 20 people, including several children. Western outlets focus on the humanitarian impact and the violation of civilian safety, linking the timing to the easing of U.S. diesel sanctions. Conversely, Russian-aligned reporting frames the strike as a calculated retaliatory response to those specific Western policy shifts and diplomatic maneuvers.",
-   "date_published": "2026-10-11T01:41:56+00:00",
+   "id": "2026-10-12-trump-zelensky-la-smetta-di-colpire-le-raffinerie-russe",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-12-trump-zelensky-la-smetta-di-colpire-le-raffinerie-russe",
+   "title": "Donald Trump claims Russia and Ukraine agreed to a ceasefire regarding strikes on energy infrastructure.",
+   "content_text": "President Donald Trump announced that Russia and Ukraine agreed to an \"energy ceasefire\" regarding strikes on critical infrastructure, involving a proposed diesel trade deal. Western outlets focus on the logistical friction and the \"coerced\" nature of Ukraine's position regarding trade-offs and global diesel prices. Conversely, Eastern and Russian sources emphasize the domestic political consequences for President Zelenskyy, specifically his willingness to hold new elections in exchange for a 60-day pause in hostilities.",
+   "summary": "President Donald Trump announced that Russia and Ukraine agreed to an \"energy ceasefire\" regarding strikes on critical infrastructure, involving a proposed diesel trade deal. Western outlets focus on the logistical friction and the \"coerced\" nature of Ukraine's position regarding trade-offs and global diesel prices. Conversely, Eastern and Russian sources emphasize the domestic political consequences for President Zelenskyy, specifically his willingness to hold new elections in exchange for a 60-day pause in hostilities.",
+   "date_published": "2026-10-12T01:50:04+00:00",
    "tags": [
     "eastern",
+    "middle_east",
     "russia",
     "western",
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3808,
-    "event_date": "2026-10-11",
+    "cluster_id": 3827,
+    "event_date": "2026-10-12",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
      "eastern",
+     "middle_east",
      "russia",
      "western"
     ],
-    "article_count": 6,
-    "source_count": 5,
+    "article_count": 20,
+    "source_count": 10,
     "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/11/zelensky-mosca-ha-colpito-centrale-elettrica-dopo-annuncio-trump-su-tregua_7ff12b5a-d4f2-4afe-99a8-3f0ac2922557.html"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/647045-russia-ukraine-energy-ceasefire-trump/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "DW News",
+      "region": "western",
+      "country": "DE",
+      "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-world-4025-xml-mrss"
      },
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/video/20261010-war-in-ukraine-russian-strikes-kill-15-including-a-young-girl"
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261011-ukraine-coerced-into-a-corner"
      },
      {
-      "name": "ANSA Mondo",
+      "name": "NPR World",
       "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/10/kiev-saliti-a-15-i-morti-nellattacco-russo-a-zaporizhzhia-tra-cui-3-bambini_2bf58d0a-1428-4cdc-ae47-fefc1c9c70e2.html"
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5997466/ukrainian-mp-calls-u-s-russia-diesel-deal-a-betrayal"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/europe/zelenskyy-hits-back-after-trumps-remark-says-ready-to-hold-ukraine-elections-if-russia-offers-60-day-ceasefire/articleshow/134873439.cms"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/russian-attack-ukrainian-city-kills-20-day-after-trump-eases-diesel-sanctions-moscow-6449106"
+      "url": "https://www.channelnewsasia.com/world/ukraine-zelenskyy-elections-russia-ceasefire-6450376"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss"
      },
      {
       "name": "The Moscow Times",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941"
+      "url": "https://www.themoscowtimes.com/2026/10/11/ukraine-will-stop-hitting-refineries-if-russia-halts-energy-attacks-zelensky-says-a93943"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3808.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3827.json",
     "languages": [
      "en",
      "it",
@@ -75,20 +107,20 @@
    }
   },
   {
-   "id": "2026-10-10-casa-bianca-sospende-temporaneamente-le-sanzioni-sul-diesel",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-casa-bianca-sospende-temporaneamente-le-sanzioni-sul-diesel",
-   "title": "The United States temporarily suspends sanctions on Russian diesel fuel following a new agreement.",
-   "content_text": "The U.S. Department of the Treasury issued a general temporary license on October 10, 2026, to suspend sanctions on Russian diesel fuel to address global shortages. Western outlets report the move with cautious pragmatism, focusing on logistical uncertainties and questioning whether the influx will lower domestic prices. Conversely, Russian state media frames the agreement as a significant diplomatic victory and a milestone in broader geopolitical realignment between the U.S. and Russia.",
-   "summary": "The U.S. Department of the Treasury issued a general temporary license on October 10, 2026, to suspend sanctions on Russian diesel fuel to address global shortages. Western outlets report the move with cautious pragmatism, focusing on logistical uncertainties and questioning whether the influx will lower domestic prices. Conversely, Russian state media frames the agreement as a significant diplomatic victory and a milestone in broader geopolitical realignment between the U.S. and Russia.",
-   "date_published": "2026-10-11T01:51:49+00:00",
+   "id": "2026-10-11-dopo-critiche-zelensky-usa-minacciano-stop-a-condivisione-i",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-11-dopo-critiche-zelensky-usa-minacciano-stop-a-condivisione-i",
+   "title": "United States threatens to limit intelligence sharing and weapon supplies to Ukraine following criticism.",
+   "content_text": "The United States issued a formal ultimatum to Ukraine on October 11, 2026, threatening to curtail intelligence sharing and weapon procurement following Ukrainian strikes on Russian energy infrastructure. Western outlets frame the move as a disciplinary measure to curb Ukrainian overreach and maintain a unified front after President Zelensky criticized U.S. policy on diesel sanctions. In contrast, Russian state media frames the same ultimatum as a strategic retreat or a tactical maneuver within the broader war of attrition.",
+   "summary": "The United States issued a formal ultimatum to Ukraine on October 11, 2026, threatening to curtail intelligence sharing and weapon procurement following Ukrainian strikes on Russian energy infrastructure. Western outlets frame the move as a disciplinary measure to curb Ukrainian overreach and maintain a unified front after President Zelensky criticized U.S. policy on diesel sanctions. In contrast, Russian state media frames the same ultimatum as a strategic retreat or a tactical maneuver within the broader war of attrition.",
+   "date_published": "2026-10-12T01:53:30+00:00",
    "tags": [
     "russia",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3820,
-    "event_date": "2026-10-10",
+    "cluster_id": 3832,
+    "event_date": "2026-10-11",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
@@ -96,28 +128,22 @@
      "western"
     ],
     "article_count": 3,
-    "source_count": 3,
+    "source_count": 2,
     "sources": [
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/09/casa-bianca-sospende-temporaneamente-le-sanzioni-sul-diesel-russo_06fea163-046a-4bde-8c6a-6b3060548141.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/10/dopo-critiche-zelensky-usa-minacciano-stop-a-condivisione-intelligence-con-kiev_c924a9bf-249c-40f9-bf7a-b491eb11d3e5.html"
      },
      {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/10/accordo-diesel-trump-putin/"
-     },
-     {
-      "name": "RT",
+      "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/647021-pasta-us-russia-diesel-deal/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://tass.com/world/2200589"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3820.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3832.json",
     "languages": [
      "en",
      "it",
@@ -128,197 +154,43 @@
    }
   },
   {
-   "id": "2026-10-10-time-for-ukraine-to-get-new-president-says-trump-after-zele",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-time-for-ukraine-to-get-new-president-says-trump-after-zele",
-   "title": "Donald Trump states that Ukraine should elect a new president to negotiate ending the war.",
-   "content_text": "Donald Trump stated that Ukraine should elect a new president capable of negotiating an end to the war, a comment linked to a U.S. agreement to lift sanctions on Russian diesel exports. While Western and Middle Eastern outlets focus on the breakdown of negotiations and the specific friction over energy policy, Russian coverage emphasizes the broader implications of the peace process and the perceived failure of current leadership. The reporting differs primarily in the narrative weight assigned to the motivations behind the diplomatic impasse.",
-   "summary": "Donald Trump stated that Ukraine should elect a new president capable of negotiating an end to the war, a comment linked to a U.S. agreement to lift sanctions on Russian diesel exports. While Western and Middle Eastern outlets focus on the breakdown of negotiations and the specific friction over energy policy, Russian coverage emphasizes the broader implications of the peace process and the perceived failure of current leadership. The reporting differs primarily in the narrative weight assigned to the motivations behind the diplomatic impasse.",
-   "date_published": "2026-10-11T01:50:03+00:00",
+   "id": "2026-10-11-iran-says-us-response-falls-short-of-conditions-for-deal",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-11-iran-says-us-response-falls-short-of-conditions-for-deal",
+   "title": "Iran officials state that the United States' response to their conditions for a deal is insufficient.",
+   "content_text": "Iranian security chief Mohsen Rezaei stated on October 11, 2026, that the United States' response to Iran's conditions for a deal is insufficient. While all sources confirm the standoff regarding the Strait of Hormuz, coverage differs in focus. Middle Eastern and Russian outlets emphasize specific economic demands, such as lifting naval blockades and removing oil export restrictions. In contrast, Western reporting frames the situation as a failure of the U.S. to provide clear, definitive concessions.",
+   "summary": "Iranian security chief Mohsen Rezaei stated on October 11, 2026, that the United States' response to Iran's conditions for a deal is insufficient. While all sources confirm the standoff regarding the Strait of Hormuz, coverage differs in focus. Middle Eastern and Russian outlets emphasize specific economic demands, such as lifting naval blockades and removing oil export restrictions. In contrast, Western reporting frames the situation as a failure of the U.S. to provide clear, definitive concessions.",
+   "date_published": "2026-10-12T01:51:49+00:00",
    "tags": [
     "middle_east",
     "russia",
-    "western",
-    "tier-B"
+    "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 3814,
-    "event_date": "2026-10-10",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
+    "cluster_id": 3829,
+    "event_date": "2026-10-11",
+    "tier": "C",
+    "tier_label": "Partial coverage",
     "regions": [
      "middle_east",
-     "russia",
-     "western"
+     "russia"
     ],
-    "article_count": 6,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/europe/20261010-live-russian-strikes-on-ukraine-zaporizhzhia-kill-least-seven-including-children"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/647031-ukraine-should-elect-new-president/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3814.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-10-us-announces-sanctions-on-icc-hours-after-nobel-award-to-for",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-us-announces-sanctions-on-icc-hours-after-nobel-award-to-for",
-   "title": "United States imposes sanctions on the International Criminal Court following a Nobel Peace Prize award.",
-   "content_text": "On October 10, 2026, the United States imposed sanctions on the International Criminal Court, freezing its assets and prohibiting financial transactions. Western outlets frame the move as an assault on the rule of law, emphasizing the institutional shock and the resulting diplomatic friction with the European Union. Conversely, Middle Eastern reporting focuses on the administration's motives, framing the sanctions as a deliberate attempt to dismantle the court's authority and undermine international sovereignty.",
-   "summary": "On October 10, 2026, the United States imposed sanctions on the International Criminal Court, freezing its assets and prohibiting financial transactions. Western outlets frame the move as an assault on the rule of law, emphasizing the institutional shock and the resulting diplomatic friction with the European Union. Conversely, Middle Eastern reporting focuses on the administration's motives, framing the sanctions as a deliberate attempt to dismantle the court's authority and undermine international sovereignty.",
-   "date_published": "2026-10-11T01:47:58+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3813,
-    "event_date": "2026-10-10",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 9,
-    "source_count": 6,
-    "sources": [
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/us-icc-sanctions-rubio-nobel-prize-6447851"
-     },
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/09/stati-uniti-sanzioni-corte-penale-internazionale-2/"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/10/premio-nobel-pillay-inaccettabili-le-sanzioni-usa-alla-cpi_52d0649e-7c2e-4a4e-8af2-029380260ce1.html"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/10/10/why-is-the-trump-administration-trying-to-dismantle-the-icc?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eu-urges-us-reverse-proposed-sanctions-against-icc"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3813.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-10-turkey-qatar-kuwait-condemn-houthi-attacks-on-saudi-airports",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-10-turkey-qatar-kuwait-condemn-houthi-attacks-on-saudi-airports",
-   "title": "International leaders and the United States condemn Houthi attacks on Saudi Arabian airports.",
-   "content_text": "International leaders and the United States have condemned Houthi attacks on King Khalid International Airport in Riyadh, which caused significant aviation disruptions. Western outlets focus on the U.S. executive branch's deliberations regarding military involvement and potential escalation. Conversely, Middle Eastern coverage emphasizes the human cost, the violation of regional sovereignty, and condemnation from neighboring states. Russian reports frame the incident within the broader context of proxy warfare and escalating tensions between Riyadh and Tehran.",
-   "summary": "International leaders and the United States have condemned Houthi attacks on King Khalid International Airport in Riyadh, which caused significant aviation disruptions. Western outlets focus on the U.S. executive branch's deliberations regarding military involvement and potential escalation. Conversely, Middle Eastern coverage emphasizes the human cost, the violation of regional sovereignty, and condemnation from neighboring states. Russian reports frame the incident within the broader context of proxy warfare and escalating tensions between Riyadh and Tehran.",
-   "date_published": "2026-10-11T01:46:09+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3811,
-    "event_date": "2026-10-10",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 6,
-    "source_count": 5,
+    "article_count": 3,
+    "source_count": 2,
     "sources": [
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-qatar-kuwait-condemn-houthi-attacks-saudi-airports"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-us-response-falls-short-conditions-deal"
      },
      {
-      "name": "Anadolu Agency",
-      "region": "middle_east",
-      "country": "TR",
-      "url": "https://www.aa.com.tr/en/world/us-voices-concern-over-houthi-escalation-condemns-attacks-on-saudi-arabia/4083771"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/10/trump-non-esclude-di-unirsi-ai-raid-sauditi-decideremo_8eaf7259-d934-45e0-8e78-a1635119431a.html"
-     },
-     {
-      "name": "RT",
+      "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.rt.com/news/647035-trump-saudi-strikes-yemen/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://tass.com/world/2200597"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3811.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3829.json",
     "languages": [
      "en",
      "it",

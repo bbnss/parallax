@@ -6,55 +6,35 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 11 Oct 2026 02:46:37 +0000</lastBuildDate>
+<lastBuildDate>Mon, 12 Oct 2026 02:47:31 +0000</lastBuildDate>
 <item>
-<title>Russian glide bomb attack in Zaporizhzhia kills at least 15 to 20 people.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-11-russian-glide-bomb-attack-on-zaporizhzhia-kills-at-least-20</link>
-<guid isPermaLink="false">2026-10-11-russian-glide-bomb-attack-on-zaporizhzhia-kills-at-least-20</guid>
-<pubDate>Sun, 11 Oct 2026 01:41:56 +0000</pubDate>
-<description>On October 11, 2026, five Russian glide bombs struck residential areas in Zaporizhzhia, killing between 15 and 20 people, including several children. Western outlets focus on the humanitarian impact and the violation of civilian safety, linking the timing to the easing of U.S. diesel sanctions. Conversely, Russian-aligned reporting frames the strike as a calculated retaliatory response to those specific Western policy shifts and diplomatic maneuvers.</description>
-<category>eastern</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>The United States temporarily suspends sanctions on Russian diesel fuel following a new agreement.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-10-casa-bianca-sospende-temporaneamente-le-sanzioni-sul-diesel</link>
-<guid isPermaLink="false">2026-10-10-casa-bianca-sospende-temporaneamente-le-sanzioni-sul-diesel</guid>
-<pubDate>Sun, 11 Oct 2026 01:51:49 +0000</pubDate>
-<description>The U.S. Department of the Treasury issued a general temporary license on October 10, 2026, to suspend sanctions on Russian diesel fuel to address global shortages. Western outlets report the move with cautious pragmatism, focusing on logistical uncertainties and questioning whether the influx will lower domestic prices. Conversely, Russian state media frames the agreement as a significant diplomatic victory and a milestone in broader geopolitical realignment between the U.S. and Russia.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Donald Trump states that Ukraine should elect a new president to negotiate ending the war.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-10-time-for-ukraine-to-get-new-president-says-trump-after-zele</link>
-<guid isPermaLink="false">2026-10-10-time-for-ukraine-to-get-new-president-says-trump-after-zele</guid>
-<pubDate>Sun, 11 Oct 2026 01:50:03 +0000</pubDate>
-<description>Donald Trump stated that Ukraine should elect a new president capable of negotiating an end to the war, a comment linked to a U.S. agreement to lift sanctions on Russian diesel exports. While Western and Middle Eastern outlets focus on the breakdown of negotiations and the specific friction over energy policy, Russian coverage emphasizes the broader implications of the peace process and the perceived failure of current leadership. The reporting differs primarily in the narrative weight assigned to the motivations behind the diplomatic impasse.</description>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>United States imposes sanctions on the International Criminal Court following a Nobel Peace Prize award.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-10-us-announces-sanctions-on-icc-hours-after-nobel-award-to-for</link>
-<guid isPermaLink="false">2026-10-10-us-announces-sanctions-on-icc-hours-after-nobel-award-to-for</guid>
-<pubDate>Sun, 11 Oct 2026 01:47:58 +0000</pubDate>
-<description>On October 10, 2026, the United States imposed sanctions on the International Criminal Court, freezing its assets and prohibiting financial transactions. Western outlets frame the move as an assault on the rule of law, emphasizing the institutional shock and the resulting diplomatic friction with the European Union. Conversely, Middle Eastern reporting focuses on the administration's motives, framing the sanctions as a deliberate attempt to dismantle the court's authority and undermine international sovereignty.</description>
+<title>Donald Trump claims Russia and Ukraine agreed to a ceasefire regarding strikes on energy infrastructure.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-12-trump-zelensky-la-smetta-di-colpire-le-raffinerie-russe</link>
+<guid isPermaLink="false">2026-10-12-trump-zelensky-la-smetta-di-colpire-le-raffinerie-russe</guid>
+<pubDate>Mon, 12 Oct 2026 01:50:04 +0000</pubDate>
+<description>President Donald Trump announced that Russia and Ukraine agreed to an "energy ceasefire" regarding strikes on critical infrastructure, involving a proposed diesel trade deal. Western outlets focus on the logistical friction and the "coerced" nature of Ukraine's position regarding trade-offs and global diesel prices. Conversely, Eastern and Russian sources emphasize the domestic political consequences for President Zelenskyy, specifically his willingness to hold new elections in exchange for a 60-day pause in hostilities.</description>
 <category>eastern</category>
 <category>middle_east</category>
+<category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>International leaders and the United States condemn Houthi attacks on Saudi Arabian airports.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-10-turkey-qatar-kuwait-condemn-houthi-attacks-on-saudi-airports</link>
-<guid isPermaLink="false">2026-10-10-turkey-qatar-kuwait-condemn-houthi-attacks-on-saudi-airports</guid>
-<pubDate>Sun, 11 Oct 2026 01:46:09 +0000</pubDate>
-<description>International leaders and the United States have condemned Houthi attacks on King Khalid International Airport in Riyadh, which caused significant aviation disruptions. Western outlets focus on the U.S. executive branch's deliberations regarding military involvement and potential escalation. Conversely, Middle Eastern coverage emphasizes the human cost, the violation of regional sovereignty, and condemnation from neighboring states. Russian reports frame the incident within the broader context of proxy warfare and escalating tensions between Riyadh and Tehran.</description>
-<category>middle_east</category>
+<title>United States threatens to limit intelligence sharing and weapon supplies to Ukraine following criticism.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-11-dopo-critiche-zelensky-usa-minacciano-stop-a-condivisione-i</link>
+<guid isPermaLink="false">2026-10-11-dopo-critiche-zelensky-usa-minacciano-stop-a-condivisione-i</guid>
+<pubDate>Mon, 12 Oct 2026 01:53:30 +0000</pubDate>
+<description>The United States issued a formal ultimatum to Ukraine on October 11, 2026, threatening to curtail intelligence sharing and weapon procurement following Ukrainian strikes on Russian energy infrastructure. Western outlets frame the move as a disciplinary measure to curb Ukrainian overreach and maintain a unified front after President Zelensky criticized U.S. policy on diesel sanctions. In contrast, Russian state media frames the same ultimatum as a strategic retreat or a tactical maneuver within the broader war of attrition.</description>
 <category>russia</category>
 <category>western</category>
+</item>
+<item>
+<title>Iran officials state that the United States' response to their conditions for a deal is insufficient.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-11-iran-says-us-response-falls-short-of-conditions-for-deal</link>
+<guid isPermaLink="false">2026-10-11-iran-says-us-response-falls-short-of-conditions-for-deal</guid>
+<pubDate>Mon, 12 Oct 2026 01:51:49 +0000</pubDate>
+<description>Iranian security chief Mohsen Rezaei stated on October 11, 2026, that the United States' response to Iran's conditions for a deal is insufficient. While all sources confirm the standoff regarding the Strait of Hormuz, coverage differs in focus. Middle Eastern and Russian outlets emphasize specific economic demands, such as lifting naval blockades and removing oil export restrictions. In contrast, Western reporting frames the situation as a failure of the U.S. to provide clear, definitive concessions.</description>
+<category>middle_east</category>
+<category>russia</category>
 </item>
 </channel>
 </rss>
