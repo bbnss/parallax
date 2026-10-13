@@ -5,15 +5,82 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-12T02:47:31Z",
+ "_generated_at": "2026-10-13T02:48:58Z",
  "items": [
   {
-   "id": "2026-10-12-trump-zelensky-la-smetta-di-colpire-le-raffinerie-russe",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-12-trump-zelensky-la-smetta-di-colpire-le-raffinerie-russe",
-   "title": "Donald Trump claims Russia and Ukraine agreed to a ceasefire regarding strikes on energy infrastructure.",
-   "content_text": "President Donald Trump announced that Russia and Ukraine agreed to an \"energy ceasefire\" regarding strikes on critical infrastructure, involving a proposed diesel trade deal. Western outlets focus on the logistical friction and the \"coerced\" nature of Ukraine's position regarding trade-offs and global diesel prices. Conversely, Eastern and Russian sources emphasize the domestic political consequences for President Zelenskyy, specifically his willingness to hold new elections in exchange for a 60-day pause in hostilities.",
-   "summary": "President Donald Trump announced that Russia and Ukraine agreed to an \"energy ceasefire\" regarding strikes on critical infrastructure, involving a proposed diesel trade deal. Western outlets focus on the logistical friction and the \"coerced\" nature of Ukraine's position regarding trade-offs and global diesel prices. Conversely, Eastern and Russian sources emphasize the domestic political consequences for President Zelenskyy, specifically his willingness to hold new elections in exchange for a 60-day pause in hostilities.",
-   "date_published": "2026-10-12T01:50:04+00:00",
+   "id": "2026-10-12-uk-iran-highly-likely-to-be-behind-raf-fairford-incident",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-12-uk-iran-highly-likely-to-be-behind-raf-fairford-incident",
+   "title": "UK Accuses Iran of Involvement in RAF Fairford Incident as Tensions Rise Over Alleged Plot",
+   "content_text": "British authorities detained five nationals and imposed sanctions on two Iranians following a suspected plot at RAF Fairford, which the UK attributes to the Islamic Revolutionary Guard. Western outlets frame the incident as a clear national security threat and a proactive defense against state-sponsored aggression. In contrast, Middle Eastern sources emphasize Iran’s official denials and the nuances of diplomatic cooperation, framing the event as a contested diplomatic confrontation rather than a confirmed security breach.",
+   "summary": "British authorities detained five nationals and imposed sanctions on two Iranians following a suspected plot at RAF Fairford, which the UK attributes to the Islamic Revolutionary Guard. Western outlets frame the incident as a clear national security threat and a proactive defense against state-sponsored aggression. In contrast, Middle Eastern sources emphasize Iran’s official denials and the nuances of diplomatic cooperation, framing the event as a contested diplomatic confrontation rather than a confirmed security breach.",
+   "date_published": "2026-10-13T02:04:42+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3853,
+    "event_date": "2026-10-12",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "western"
+    ],
+    "article_count": 6,
+    "source_count": 5,
+    "sources": [
+     {
+      "name": "DW News",
+      "region": "western",
+      "country": "DE",
+      "url": "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-world-4025-xml-mrss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/europe/20261012-tehran-denies-involvement-in-uk-fairford-air-base-incident-as-britain-summons-iranian-ambassador"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/uk-fairford-incident-iran-involvement-andy-burnham-6453551"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/10/12/uk-blames-iran-for-airbase-plot-sanctions-two-iranian-nationals?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-ambassador-uk-denies-role-fairford-attack-plot-iranian-state-media"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3853.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-12-saudi-led-coalition-launches-wide-ranging-operation-against",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-12-saudi-led-coalition-launches-wide-ranging-operation-against",
+   "title": "Houthi rebels launch a second attack on Riyadh airport resulting in casualties and injuries.",
+   "content_text": "Houthi rebels launched two strikes on King Khalid International Airport in Riyadh on October 11 and 12, 2026, causing material damage and multiple casualties. While all regions confirm the attacks and the Saudi-led coalition's subsequent warnings, coverage diverges on the primary narrative. Western outlets frame the strikes as a threat to global trade and international stability, whereas Middle Eastern sources focus on the local military escalation and the direct impact on Saudi infrastructure and sovereignty.",
+   "summary": "Houthi rebels launched two strikes on King Khalid International Airport in Riyadh on October 11 and 12, 2026, causing material damage and multiple casualties. While all regions confirm the attacks and the Saudi-led coalition's subsequent warnings, coverage diverges on the primary narrative. Western outlets frame the strikes as a threat to global trade and international stability, whereas Middle Eastern sources focus on the local military escalation and the direct impact on Saudi infrastructure and sovereignty.",
+   "date_published": "2026-10-12T01:47:46+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -22,7 +89,7 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3827,
+    "cluster_id": 3823,
     "event_date": "2026-10-12",
     "tier": "A",
     "tier_label": "Confirmed globally",
@@ -32,165 +99,83 @@
      "russia",
      "western"
     ],
-    "article_count": 20,
-    "source_count": 10,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/11/zelensky-mosca-ha-colpito-centrale-elettrica-dopo-annuncio-trump-su-tregua_7ff12b5a-d4f2-4afe-99a8-3f0ac2922557.html"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.rt.com/news/647045-russia-ukraine-energy-ceasefire-trump/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261011-ukraine-coerced-into-a-corner"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/11/nx-s1-5997466/ukrainian-mp-calls-u-s-russia-diesel-deal-a-betrayal"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/europe/zelenskyy-hits-back-after-trumps-remark-says-ready-to-hold-ukraine-elections-if-russia-offers-60-day-ceasefire/articleshow/134873439.cms"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/ukraine-zelenskyy-elections-russia-ceasefire-6450376"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/11/ukraine-will-stop-hitting-refineries-if-russia-halts-energy-attacks-zelensky-says-a93943"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3827.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-11-dopo-critiche-zelensky-usa-minacciano-stop-a-condivisione-i",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-11-dopo-critiche-zelensky-usa-minacciano-stop-a-condivisione-i",
-   "title": "United States threatens to limit intelligence sharing and weapon supplies to Ukraine following criticism.",
-   "content_text": "The United States issued a formal ultimatum to Ukraine on October 11, 2026, threatening to curtail intelligence sharing and weapon procurement following Ukrainian strikes on Russian energy infrastructure. Western outlets frame the move as a disciplinary measure to curb Ukrainian overreach and maintain a unified front after President Zelensky criticized U.S. policy on diesel sanctions. In contrast, Russian state media frames the same ultimatum as a strategic retreat or a tactical maneuver within the broader war of attrition.",
-   "summary": "The United States issued a formal ultimatum to Ukraine on October 11, 2026, threatening to curtail intelligence sharing and weapon procurement following Ukrainian strikes on Russian energy infrastructure. Western outlets frame the move as a disciplinary measure to curb Ukrainian overreach and maintain a unified front after President Zelensky criticized U.S. policy on diesel sanctions. In contrast, Russian state media frames the same ultimatum as a strategic retreat or a tactical maneuver within the broader war of attrition.",
-   "date_published": "2026-10-12T01:53:30+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3832,
-    "event_date": "2026-10-11",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/10/dopo-critiche-zelensky-usa-minacciano-stop-a-condivisione-intelligence-con-kiev_c924a9bf-249c-40f9-bf7a-b491eb11d3e5.html"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2200589"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3832.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-11-iran-says-us-response-falls-short-of-conditions-for-deal",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-11-iran-says-us-response-falls-short-of-conditions-for-deal",
-   "title": "Iran officials state that the United States' response to their conditions for a deal is insufficient.",
-   "content_text": "Iranian security chief Mohsen Rezaei stated on October 11, 2026, that the United States' response to Iran's conditions for a deal is insufficient. While all sources confirm the standoff regarding the Strait of Hormuz, coverage differs in focus. Middle Eastern and Russian outlets emphasize specific economic demands, such as lifting naval blockades and removing oil export restrictions. In contrast, Western reporting frames the situation as a failure of the U.S. to provide clear, definitive concessions.",
-   "summary": "Iranian security chief Mohsen Rezaei stated on October 11, 2026, that the United States' response to Iran's conditions for a deal is insufficient. While all sources confirm the standoff regarding the Strait of Hormuz, coverage differs in focus. Middle Eastern and Russian outlets emphasize specific economic demands, such as lifting naval blockades and removing oil export restrictions. In contrast, Western reporting frames the situation as a failure of the U.S. to provide clear, definitive concessions.",
-   "date_published": "2026-10-12T01:51:49+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3829,
-    "event_date": "2026-10-11",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "middle_east",
-     "russia"
-    ],
-    "article_count": 3,
-    "source_count": 2,
+    "article_count": 33,
+    "source_count": 12,
     "sources": [
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-us-response-falls-short-conditions-deal"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/riyadh-airport-attack-kills-one-wounds-11-saudi-aviation-authority-says"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/10/12/almeno-un-morto-e-11-feriti-nel-nuovo-attacco-allaeroporto-di-riad_986f58f7-adc0-44f2-b4cb-132445c1fcaf.html"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20261011-live-saudi-arabia-vows-decisive-response-after-deadly-houthi-strike-on-riyadh-airport"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/10/10/attacco-aeroporto-riyad/"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-10-11/news-1R91QtVGJlm/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/bloodied-passengers-panic-and-screams-survivors-recall-riyadh-airport-strike/articleshow/134874610.cms"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/saudi-arabia-riyadh-airport-attack-houthis-6451631"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2200597"
+      "url": "https://tass.com/world/2200609"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.rt.com/news/647055-riyadh-airport-strike-day-attack/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/10/11/riyadh-airport-stays-shut-after-deadly-attack-as-trump-says-us-may-join-saudi-strikes-on-h"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3829.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3823.json",
     "languages": [
      "en",
      "it",

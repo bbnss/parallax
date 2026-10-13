@@ -6,35 +6,27 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 12 Oct 2026 02:47:31 +0000</lastBuildDate>
+<lastBuildDate>Tue, 13 Oct 2026 02:48:58 +0000</lastBuildDate>
 <item>
-<title>Donald Trump claims Russia and Ukraine agreed to a ceasefire regarding strikes on energy infrastructure.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-12-trump-zelensky-la-smetta-di-colpire-le-raffinerie-russe</link>
-<guid isPermaLink="false">2026-10-12-trump-zelensky-la-smetta-di-colpire-le-raffinerie-russe</guid>
-<pubDate>Mon, 12 Oct 2026 01:50:04 +0000</pubDate>
-<description>President Donald Trump announced that Russia and Ukraine agreed to an "energy ceasefire" regarding strikes on critical infrastructure, involving a proposed diesel trade deal. Western outlets focus on the logistical friction and the "coerced" nature of Ukraine's position regarding trade-offs and global diesel prices. Conversely, Eastern and Russian sources emphasize the domestic political consequences for President Zelenskyy, specifically his willingness to hold new elections in exchange for a 60-day pause in hostilities.</description>
+<title>UK Accuses Iran of Involvement in RAF Fairford Incident as Tensions Rise Over Alleged Plot</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-12-uk-iran-highly-likely-to-be-behind-raf-fairford-incident</link>
+<guid isPermaLink="false">2026-10-12-uk-iran-highly-likely-to-be-behind-raf-fairford-incident</guid>
+<pubDate>Tue, 13 Oct 2026 02:04:42 +0000</pubDate>
+<description>British authorities detained five nationals and imposed sanctions on two Iranians following a suspected plot at RAF Fairford, which the UK attributes to the Islamic Revolutionary Guard. Western outlets frame the incident as a clear national security threat and a proactive defense against state-sponsored aggression. In contrast, Middle Eastern sources emphasize Iran’s official denials and the nuances of diplomatic cooperation, framing the event as a contested diplomatic confrontation rather than a confirmed security breach.</description>
+<category>eastern</category>
+<category>middle_east</category>
+<category>western</category>
+</item>
+<item>
+<title>Houthi rebels launch a second attack on Riyadh airport resulting in casualties and injuries.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-12-saudi-led-coalition-launches-wide-ranging-operation-against</link>
+<guid isPermaLink="false">2026-10-12-saudi-led-coalition-launches-wide-ranging-operation-against</guid>
+<pubDate>Mon, 12 Oct 2026 01:47:46 +0000</pubDate>
+<description>Houthi rebels launched two strikes on King Khalid International Airport in Riyadh on October 11 and 12, 2026, causing material damage and multiple casualties. While all regions confirm the attacks and the Saudi-led coalition's subsequent warnings, coverage diverges on the primary narrative. Western outlets frame the strikes as a threat to global trade and international stability, whereas Middle Eastern sources focus on the local military escalation and the direct impact on Saudi infrastructure and sovereignty.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
-</item>
-<item>
-<title>United States threatens to limit intelligence sharing and weapon supplies to Ukraine following criticism.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-11-dopo-critiche-zelensky-usa-minacciano-stop-a-condivisione-i</link>
-<guid isPermaLink="false">2026-10-11-dopo-critiche-zelensky-usa-minacciano-stop-a-condivisione-i</guid>
-<pubDate>Mon, 12 Oct 2026 01:53:30 +0000</pubDate>
-<description>The United States issued a formal ultimatum to Ukraine on October 11, 2026, threatening to curtail intelligence sharing and weapon procurement following Ukrainian strikes on Russian energy infrastructure. Western outlets frame the move as a disciplinary measure to curb Ukrainian overreach and maintain a unified front after President Zelensky criticized U.S. policy on diesel sanctions. In contrast, Russian state media frames the same ultimatum as a strategic retreat or a tactical maneuver within the broader war of attrition.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Iran officials state that the United States' response to their conditions for a deal is insufficient.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-11-iran-says-us-response-falls-short-of-conditions-for-deal</link>
-<guid isPermaLink="false">2026-10-11-iran-says-us-response-falls-short-of-conditions-for-deal</guid>
-<pubDate>Mon, 12 Oct 2026 01:51:49 +0000</pubDate>
-<description>Iranian security chief Mohsen Rezaei stated on October 11, 2026, that the United States' response to Iran's conditions for a deal is insufficient. While all sources confirm the standoff regarding the Strait of Hormuz, coverage differs in focus. Middle Eastern and Russian outlets emphasize specific economic demands, such as lifting naval blockades and removing oil export restrictions. In contrast, Western reporting frames the situation as a failure of the U.S. to provide clear, definitive concessions.</description>
-<category>middle_east</category>
-<category>russia</category>
 </item>
 </channel>
 </rss>
