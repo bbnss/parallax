@@ -6,50 +6,14 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 14 Oct 2026 02:58:33 +0000</lastBuildDate>
+<lastBuildDate>Thu, 15 Oct 2026 02:30:43 +0000</lastBuildDate>
 <item>
-<title>Russian Authorities Detain a Japanese Journalist on Suspicions of Espionage in Sakhalin</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-14-mosca-fermato-per-spionaggio-un-giornalista-giapponese-a-sak</link>
-<guid isPermaLink="false">2026-10-14-mosca-fermato-per-spionaggio-un-giornalista-giapponese-a-sak</guid>
-<pubDate>Wed, 14 Oct 2026 01:57:03 +0000</pubDate>
-<description>On October 14, 2026, the Russian Federal Security Service detained a Japanese journalist from the *Hokkaido Shimbun* in the Sakhalin region on suspicion of espionage. While all outlets confirm the arrest and the specific accusation, coverage differs in framing. Western sources emphasize the journalist's professional credentials and the disruption of media activity, whereas Russian sources focus on specific legal codes and the broader geopolitical tensions of the region.</description>
+<title>Ukraine and SpaceX address technical limitations and speed restrictions on Starlink satellite internet.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-15-musk-says-us-government-may-be-behind-slowdown-of-ukraine-dr</link>
+<guid isPermaLink="false">2026-10-15-musk-says-us-government-may-be-behind-slowdown-of-ukraine-dr</guid>
+<pubDate>Thu, 15 Oct 2026 01:51:09 +0000</pubDate>
+<description>Ukraine and SpaceX have acknowledged technical speed limits on Starlink satellite internet, which have impacted the operational capabilities of Ukrainian drone missions. While both Western and Russian outlets confirm these specific speed thresholds, they differ on the underlying motive. Western media frames the restrictions as a logistical and diplomatic friction point between Ukraine and its allies, whereas Russian media portrays the limitations as a deliberate, politically-motivated sabotage of Ukrainian capabilities by the United States.</description>
 <category>eastern</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Ukraine strikes Yandex data centers amid reports regarding the impact on Russian online disinformation.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-13-ukraines-strikes-on-yandex-data-centers-explained</link>
-<guid isPermaLink="false">2026-10-13-ukraines-strikes-on-yandex-data-centers-explained</guid>
-<pubDate>Wed, 14 Oct 2026 02:05:38 +0000</pubDate>
-<description>Ukraine launched drone strikes on three Yandex data centers in the Sasovo, Kaluga, and Vladimir regions, causing significant service disruptions to Russian tech infrastructure. While both Western and Russian sources confirm the physical strikes occurred, they differ on the impact regarding online disinformation. Western outlets are divided: some report that the strikes successfully silenced pro-Russian propaganda, while others argue the drop in automated traffic was a technical byproduct of server damage rather than a targeted strike on a propaganda network.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Donald Trump and Vladimir Putin reach an agreement regarding the supply of Russian diesel fuel.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-13-ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-wit</link>
-<guid isPermaLink="false">2026-10-13-ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-wit</guid>
-<pubDate>Wed, 14 Oct 2026 02:03:52 +0000</pubDate>
-<description>On October 13, 2026, Donald Trump and Vladimir Putin agreed to lift specific sanctions on Russian diesel fuel for global markets. While both Western and Russian outlets confirm the deal, they differ significantly in their framing of the consequences. Western media emphasizes internal friction within NATO and the European Union regarding Ukraine's security, whereas Russian reporting focuses on the deal as a strategic maneuver and a potential shift in Sino-Russian relations.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Donald Trump states that Washington continues to share intelligence with Ukraine to end the war.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-13-trump-condividiamo-intelligence-con-l-ucraina-lavoriamo-per</link>
-<guid isPermaLink="false">2026-10-13-trump-condividiamo-intelligence-con-l-ucraina-lavoriamo-per</guid>
-<pubDate>Wed, 14 Oct 2026 02:02:11 +0000</pubDate>
-<description>Donald Trump issued a formal statement confirming that the United States continues to share intelligence with Ukraine while working toward a diplomatic end to the conflict. Western outlets frame the statement as a proactive reaffirmation of the ongoing alliance and a commitment to peace. Conversely, Russian state media focuses on the statement as a specific rebuttal of rumors regarding a cessation of support. Both regions agree on the facts but differ on whether the news represents a proactive stance or a defensive clarification.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Netanyahu and Trump discussed the possibility of resuming military hostilities against Iran.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-13-media-netanyahu-ha-parlato-con-trump-di-riprendere-guerra-co</link>
-<guid isPermaLink="false">2026-10-13-media-netanyahu-ha-parlato-con-trump-di-riprendere-guerra-co</guid>
-<pubDate>Wed, 14 Oct 2026 02:00:41 +0000</pubDate>
-<description>Israeli Prime Minister Benjamin Netanyahu and U.S. President Donald Trump discussed resuming military hostilities against Iran due to its accelerating nuclear ambitions. While both Western and Russian outlets confirm the meeting occurred before key elections, they differ in framing the military objectives. Western reports focus on Netanyahu’s specific concerns regarding Iranian nuclear progress, whereas Russian reports emphasize the scale of potential operations and internal U.S. debates between military strikes and economic sanctions.</description>
 <category>russia</category>
 <category>western</category>
 </item>
