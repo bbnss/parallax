@@ -6,14 +6,64 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 15 Oct 2026 02:30:43 +0000</lastBuildDate>
+<lastBuildDate>Fri, 16 Oct 2026 02:51:09 +0000</lastBuildDate>
 <item>
-<title>Ukraine and SpaceX address technical limitations and speed restrictions on Starlink satellite internet.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-15-musk-says-us-government-may-be-behind-slowdown-of-ukraine-dr</link>
-<guid isPermaLink="false">2026-10-15-musk-says-us-government-may-be-behind-slowdown-of-ukraine-dr</guid>
-<pubDate>Thu, 15 Oct 2026 01:51:09 +0000</pubDate>
-<description>Ukraine and SpaceX have acknowledged technical speed limits on Starlink satellite internet, which have impacted the operational capabilities of Ukrainian drone missions. While both Western and Russian outlets confirm these specific speed thresholds, they differ on the underlying motive. Western media frames the restrictions as a logistical and diplomatic friction point between Ukraine and its allies, whereas Russian media portrays the limitations as a deliberate, politically-motivated sabotage of Ukrainian capabilities by the United States.</description>
+<title>Houthi missile attack on a government building in Aden, Yemen, kills five people.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-16-houthi-missile-attack-on-yemeni-presidential-palace-kills-fi</link>
+<guid isPermaLink="false">2026-10-16-houthi-missile-attack-on-yemeni-presidential-palace-kills-fi</guid>
+<pubDate>Fri, 16 Oct 2026 02:01:28 +0000</pubDate>
+<description>A Houthi missile strike on a government building in Aden, Yemen, on October 15, 2026, killed at least five people and injured sixteen others. Western outlets frame the attack as a general escalation of the regional conflict involving Saudi Arabia and Iran, highlighting the strike's location at the presidential palace. In contrast, Russian media focuses on Houthi claims that the strike specifically targeted Saudi officials and military headquarters, framing it as a targeted strike against foreign forces.</description>
 <category>eastern</category>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Venezuelan President Nicolas Maduro and his wife deny torture charges in a New York court.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-16-maduro-pleads-not-guilty-to-new-torture-related-charges-in-n</link>
+<guid isPermaLink="false">2026-10-16-maduro-pleads-not-guilty-to-new-torture-related-charges-in-n</guid>
+<pubDate>Fri, 16 Oct 2026 01:59:45 +0000</pubDate>
+<description>Venezuelan President Nicolás Maduro and his wife, Cilia Flores, pleaded not guilty in a New York court to charges involving a state-sponsored system of torture and repression since 2013. Western outlets emphasize the moral gravity of the human rights abuses and the involvement of American citizens. In contrast, Eastern reporting adopts a more detached tone, focusing on the procedural timeline of the prosecution and the potential postponement of the trial.</description>
+<category>eastern</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Ukraine resumes drone strikes on Russian oil refineries following a brief period of ceasefire.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-15-mosca-attaccate-due-nostre-raffinerie-kiev-non-si-muove-vers</link>
+<guid isPermaLink="false">2026-10-15-mosca-attaccate-due-nostre-raffinerie-kiev-non-si-muove-vers</guid>
+<pubDate>Fri, 16 Oct 2026 02:05:39 +0000</pubDate>
+<description>On October 15, 2026, Ukrainian drone strikes hit Russian oil refineries in the Saratov and Ryazan regions, ending a brief period of calm. While both sides acknowledge the physical strikes, coverage diverges on the interpretation of the preceding "energy ceasefire." Western outlets frame the event as a breakdown of a complex, American-led diplomatic initiative, whereas Russian reporting portrays the strikes as a deliberate, defiant violation of a declared peace.</description>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Ukraine Reports Restoration of Starshield and Starlink Connectivity for Military Drone Operations</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-15-ukraine-says-its-starshield-access-is-back</link>
+<guid isPermaLink="false">2026-10-15-ukraine-says-its-starshield-access-is-back</guid>
+<pubDate>Fri, 16 Oct 2026 02:03:48 +0000</pubDate>
+<description>On October 15, 2026, Starshield and Starlink connectivity were restored for Ukrainian military drones after technical issues caused by high-speed maneuvers. While all outlets confirm the restoration, coverage differs on the underlying cause of the initial service disruption. Western sources frame the issue as a logistical hurdle and a nuanced diplomatic disagreement over military targets, whereas Russian reporting frames the technical "throttling" as a direct consequence of a deteriorating geopolitical partnership between Washington and Kyiv.</description>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Houthis claim strike on Saudi oil infrastructure and threaten further escalation in Yemen conflict.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-15-houthis-threaten-escalation-after-strike-on-saudi-oil-giant</link>
+<guid isPermaLink="false">2026-10-15-houthis-threaten-escalation-after-strike-on-saudi-oil-giant</guid>
+<pubDate>Thu, 15 Oct 2026 01:53:25 +0000</pubDate>
+<description>On October 15, 2026, the Houthi movement claimed successful strikes against Saudi Aramco infrastructure and transportation hubs, including Riyadh's airports. While all regions confirm the escalation of the Yemen conflict, coverage differs significantly in framing. Western outlets focus on immediate security risks and diplomatic friction, whereas Middle Eastern reports emphasize the failure of regional containment and impacts on local populations. Russian sources frame the event as a geopolitical standoff and a cycle of reciprocal retaliation.</description>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Donald Trump announces a proposed energy ceasefire between Russia and Ukraine amid international skepticism.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-13-analysis-trump-s-global-headaches-worsen-weeks-before-crucia</link>
+<guid isPermaLink="false">2026-10-13-analysis-trump-s-global-headaches-worsen-weeks-before-crucia</guid>
+<pubDate>Tue, 13 Oct 2026 02:01:07 +0000</pubDate>
+<description>President Donald Trump announced an "energy ceasefire" between Russia and Ukraine to halt attacks on energy infrastructure and facilitate Russian diesel imports to the United States. While all outlets confirm the announcement, coverage diverges on the underlying motives and strategic implications. Western sources emphasize the potential betrayal of Ukrainian interests and the strain on existing alliances, whereas Eastern and Russian outlets frame the move as a pragmatic "America First" shift toward domestic economic priorities.</description>
+<category>eastern</category>
+<category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
