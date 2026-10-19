@@ -5,15 +5,15 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-18T08:37:54Z",
+ "_generated_at": "2026-10-19T02:20:04Z",
  "items": [
   {
-   "id": "2026-10-18-european-diplomats-attacked-by-israeli-settlers-in-west-bank",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-18-european-diplomats-attacked-by-israeli-settlers-in-west-bank",
-   "title": "Israeli settlers attack European diplomats and a French mayor in the West Bank.",
-   "content_text": "On October 18, 2026, masked Israeli settlers physically attacked a convoy of European diplomats and a French mayor in the West Bank near Ramallah. While all sources confirm the assault occurred, Western outlets focus on the physical victimization of the officials and the violation of diplomatic sanctity. Conversely, Russian reporting frames the incident as a systemic consequence of land disputes and settlement expansion, emphasizing the underlying motives regarding Palestinian olive harvesting.",
-   "summary": "On October 18, 2026, masked Israeli settlers physically attacked a convoy of European diplomats and a French mayor in the West Bank near Ramallah. While all sources confirm the assault occurred, Western outlets focus on the physical victimization of the officials and the violation of diplomatic sanctity. Conversely, Russian reporting frames the incident as a systemic consequence of land disputes and settlement expansion, emphasizing the underlying motives regarding Palestinian olive harvesting.",
-   "date_published": "2026-10-18T07:45:59+00:00",
+   "id": "2026-10-19-trump-endorses-embattled-israeli-pm-netanyahu-ahead-of-octob",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-19-trump-endorses-embattled-israeli-pm-netanyahu-ahead-of-octob",
+   "title": "Donald Trump endorses Israeli Prime Minister Benjamin Netanyahu ahead of the upcoming legislative elections.",
+   "content_text": "On October 19, 2026, U.S. President Donald Trump issued a formal endorsement of Israeli Prime Minister Benjamin Netanyahu on Truth Social nine days before the upcoming legislative elections. Western outlets frame the endorsement as a strategic move to bolster mutual political standing and security cooperation against Iran. Conversely, Middle Eastern sources emphasize the high-stakes rhetoric and the \"total\" nature of the support, while Russian reports highlight the friction between American policy and Israeli ground realities.",
+   "summary": "On October 19, 2026, U.S. President Donald Trump issued a formal endorsement of Israeli Prime Minister Benjamin Netanyahu on Truth Social nine days before the upcoming legislative elections. Western outlets frame the endorsement as a strategic move to bolster mutual political standing and security cooperation against Iran. Conversely, Middle Eastern sources emphasize the high-stakes rhetoric and the \"total\" nature of the support, while Russian reports highlight the friction between American policy and Israeli ground realities.",
+   "date_published": "2026-10-19T01:30:27+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -22,264 +22,57 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3956,
-    "event_date": "2026-10-18",
+    "cluster_id": 3974,
+    "event_date": "2026-10-19",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
      "eastern",
      "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 5,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20261017-israeli-settlers-attack-european-delegation-convoy-in-west-bank-beat-french-mayor"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/israeli-settlers-attack-european-diplomats-beat-french-mayor-6469036"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/647344-israeli-settlers-attack-european-diplomats/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3956.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-18-trump-waives-several-russia-sanctions-as-row-with-zelensky-i",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-18-trump-waives-several-russia-sanctions-as-row-with-zelensky-i",
-   "title": "Donald Trump waives several new sanctions and tariffs previously imposed against Russia.",
-   "content_text": "A comparative analysis of how Western, Eastern, and Russian outlets interpret the shifting landscape of U.S.-Russia sanctions.",
-   "summary": "A comparative analysis of how Western, Eastern, and Russian outlets interpret the shifting landscape of U.S.-Russia sanctions.",
-   "date_published": "2026-10-18T07:44:13+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3952,
-    "event_date": "2026-10-18",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
      "russia",
      "western"
     ],
     "article_count": 9,
-    "source_count": 9,
+    "source_count": 6,
     "sources": [
      {
-      "name": "BBC World",
+      "name": "France 24",
       "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20261018-trump-endorses-embattled-israeli-pm-netanyahu-ahead-of-october-27-election"
      },
      {
-      "name": "Il Post",
+      "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/17/trump-sospeso-sanzioni-russia/"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-10-17/news-1Rj642qS8hi/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/europe/trump-blocking-russia-curbs-historic-moment-putin-envoy/articleshow/135022833.cms"
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/18/le-famiglie-delle-vittime-del-7-ottobre-e-degli-ostaggi-chiedono-unindagine-penale_b83ace76-5a3b-45fc-aedf-ce5bfc7eddeb.html"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/trump-waives-russia-sanctions-oil-gas-energy-6467991"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2203635"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/647324-trump-waives-graham-sanctions-russia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/17/trump-signs-order-exempting-russia-from-new-sanctions-legislation-a94012"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3952.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-18-irgc-says-tanker-exploded-after-hitting-mine-in-strait-of-ho",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-18-irgc-says-tanker-exploded-after-hitting-mine-in-strait-of-ho",
-   "title": "Iranian Guards report two oil tankers caught fire after hitting mines in the Strait of Hormuz.",
-   "content_text": "On October 18, 2026, the Islamic Revolutionary Guard Corps reported that two oil tankers were struck by naval mines and ignited in the Strait of Hormuz. While all sources confirm the destruction of the vessels, coverage diverges on the legality of the ships' movements. Eastern outlets frame the incident as a consequence of clandestine maneuvers by vessels on unauthorized routes, whereas Western reporting focuses more on the broader implications of maritime security and regional control.",
-   "summary": "On October 18, 2026, the Islamic Revolutionary Guard Corps reported that two oil tankers were struck by naval mines and ignited in the Strait of Hormuz. While all sources confirm the destruction of the vessels, coverage diverges on the legality of the ships' movements. Eastern outlets frame the incident as a consequence of clandestine maneuvers by vessels on unauthorized routes, whereas Western reporting focuses more on the broader implications of maritime security and regional control.",
-   "date_published": "2026-10-18T07:42:07+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3951,
-    "event_date": "2026-10-18",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 5,
-    "sources": [
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-10-17/news-1RjaeQ14TWE/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/two-oil-tankers-on-fire-after-hitting-mines-irans-guards/articleshow/135022868.cms"
+      "url": "https://www.channelnewsasia.com/world/trump-endorses-netanyahu-in-israeli-election-6469761"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/647340-two-tankers-hormuz-mines-irgc/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/17/super-tanker-ablaze-after-striking-mine-in-strait-of-hormuz-irgc-says"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3951.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-17-italy-probes-israels-katz-over-abuse-sexual-assault-of-floti",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-17-italy-probes-israels-katz-over-abuse-sexual-assault-of-floti",
-   "title": "Italian authorities launch investigation into allegations of abuse and torture against flotilla activists.",
-   "content_text": "Italian authorities have launched an investigation into allegations of torture, beatings, and sexual assault against Italian activists detained during Gaza-bound flotilla interceptions in 2025 and 2026. The probe specifically targets Israeli Defense Minister Israel Katz and other high-ranking officials. While all sources report the legal proceedings, Middle Eastern outlets emphasize the specific nature of human rights violations and physical violence, whereas other reports focus on the institutional reach of the Italian judiciary against the Israeli state.",
-   "summary": "Italian authorities have launched an investigation into allegations of torture, beatings, and sexual assault against Italian activists detained during Gaza-bound flotilla interceptions in 2025 and 2026. The probe specifically targets Israeli Defense Minister Israel Katz and other high-ranking officials. While all sources report the legal proceedings, Middle Eastern outlets emphasize the specific nature of human rights violations and physical violence, whereas other reports focus on the institutional reach of the Italian judiciary against the Israeli state.",
-   "date_published": "2026-10-18T07:49:31+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 3971,
-    "event_date": "2026-10-17",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "middle_east",
-     "russia"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/16/italy-probes-israels-katz-over-abuse-sexual-assault-of-flotilla-activists?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/10/18/trump-endorses-netanyahu-in-israeli-legislative-elections?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/italy-widens-flotilla-torture-probe-include-israeli-defence-minister"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-gives-netanyahu-complete-and-total-endorsement-ahead-israeli"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://rt-english.com/news/647328-italy-israel-katz-gaza/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://rt-english.com/news/647367-trump-netanyahu-us-israel-settler-violence/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3971.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3974.json",
     "languages": [
      "en",
      "it",
@@ -290,43 +83,112 @@
    }
   },
   {
-   "id": "2026-10-17-japans-pm-sends-offering-to-temple-considered-symbol-of-mili",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-17-japans-pm-sends-offering-to-temple-considered-symbol-of-mili",
-   "title": "Japanese Prime Minister Sanae Takaichi makes a ceremonial offering at the Yasukuni Shrine.",
-   "content_text": "On October 17, 2026, Japanese Prime Minister Sanae Takaichi performed a ceremonial offering at the Yasukuni Shrine during its autumn festival. While all outlets confirm the date and location, coverage diverges significantly regarding the shrine's symbolism. Eastern sources, such as CGTN, frame the act as a provocative glorification of World War II militarism and a threat to regional stability. In contrast, Western reporting focuses more on the immediate diplomatic friction caused by the ritual.",
-   "summary": "On October 17, 2026, Japanese Prime Minister Sanae Takaichi performed a ceremonial offering at the Yasukuni Shrine during its autumn festival. While all outlets confirm the date and location, coverage diverges significantly regarding the shrine's symbolism. Eastern sources, such as CGTN, frame the act as a provocative glorification of World War II militarism and a threat to regional stability. In contrast, Western reporting focuses more on the immediate diplomatic friction caused by the ritual.",
-   "date_published": "2026-10-18T07:47:52+00:00",
+   "id": "2026-10-18-saudi-helicopter-crashes-in-najran-killing-two-crew-members",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-18-saudi-helicopter-crashes-in-najran-killing-two-crew-members",
+   "title": "Two Saudi helicopter crew members killed in a crash near the Yemen border.",
+   "content_text": "On October 18, 2026, an AH-6i reconnaissance helicopter crashed near the Saudi-Yemen border, killing two Saudi National Guard officers. While all sources confirm the crash and the conflicting claims of a technical malfunction versus a Houthi shoot-down, coverage varies in depth. Western outlets provide a concise, neutral report of both claims, whereas Middle Eastern sources provide more local context by linking the incident to specific military jurisdictions and domestic infrastructure.",
+   "summary": "On October 18, 2026, an AH-6i reconnaissance helicopter crashed near the Saudi-Yemen border, killing two Saudi National Guard officers. While all sources confirm the crash and the conflicting claims of a technical malfunction versus a Houthi shoot-down, coverage varies in depth. Western outlets provide a concise, neutral report of both claims, whereas Middle Eastern sources provide more local context by linking the incident to specific military jurisdictions and domestic infrastructure.",
+   "date_published": "2026-10-19T01:34:46+00:00",
    "tags": [
-    "eastern",
+    "middle_east",
     "russia",
-    "tier-C"
+    "western",
+    "tier-B"
    ],
    "_parallax": {
-    "cluster_id": 3969,
-    "event_date": "2026-10-17",
-    "tier": "C",
-    "tier_label": "Partial coverage",
+    "cluster_id": 3978,
+    "event_date": "2026-10-18",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
     "regions": [
-     "eastern",
-     "russia"
+     "middle_east",
+     "russia",
+     "western"
     ],
-    "article_count": 3,
-    "source_count": 2,
+    "article_count": 5,
+    "source_count": 3,
     "sources": [
      {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2203401"
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-chopper-pilots-killed-landmark-tower-closes-offices-amid-houthi"
      },
      {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-10-17/Poll-on-Japanese-PM-Sanae-Takaichi-s-offering-to-Yasukuni-Shrine-1RjDDngddBu/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/18/elicottero-saudita-precipita-vicino-allo-yemen-morti-due-ufficiali_2260db6a-f6d5-4207-a533-39ce6ad4b8c4.html"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/647370-saudi-chopper-crash-officers-dead/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3969.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3978.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-18-trump-defends-russia-sanctions-relief-blasts-zelensky-on-pea",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-18-trump-defends-russia-sanctions-relief-blasts-zelensky-on-pea",
+   "title": "Donald Trump and Volodymyr Zelenskyy exchange conflicting statements regarding peace negotiations and the war in Ukraine.",
+   "content_text": "On October 18, 2026, Donald Trump waived sanctions on Russian diesel to encourage negotiations, prompting Volodymyr Zelenskyy to accuse him of pressuring Ukraine toward surrender. Western outlets frame the exchange as a complex diplomatic tug-of-war over economic pragmatism and security trade-offs. In contrast, Russian reporting portrays the situation as a failure of Ukrainian diplomacy, focusing on Zelenskyy's alleged intransigence and the escalation of strikes on oil infrastructure.",
+   "summary": "On October 18, 2026, Donald Trump waived sanctions on Russian diesel to encourage negotiations, prompting Volodymyr Zelenskyy to accuse him of pressuring Ukraine toward surrender. Western outlets frame the exchange as a complex diplomatic tug-of-war over economic pragmatism and security trade-offs. In contrast, Russian reporting portrays the situation as a failure of Ukrainian diplomacy, focusing on Zelenskyy's alleged intransigence and the escalation of strikes on oil infrastructure.",
+   "date_published": "2026-10-19T01:32:35+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-B"
+   ],
+   "_parallax": {
+    "cluster_id": 3975,
+    "event_date": "2026-10-18",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
+    "regions": [
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 6,
+    "source_count": 4,
+    "sources": [
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/europe/20261018-ukraine-zelensky-war-trump-peace-russia-sanctions"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/18/trump-accusa-zelensky-non-vuole-la-fine-della-guerra_65fa0f90-d675-4d8a-8b9e-fb363ba75d1a.html"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/10/18/russias-war-on-ukraine-must-be-brought-to-an-end-zelenskyy-says?traffic_source=rss"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/647371-trump-zelensky-never-wanted-end-war/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3975.json",
     "languages": [
      "en",
      "it",
