@@ -5,15 +5,143 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-19T02:20:04Z",
+ "_generated_at": "2026-10-20T02:38:23Z",
  "items": [
   {
-   "id": "2026-10-19-trump-endorses-embattled-israeli-pm-netanyahu-ahead-of-octob",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-19-trump-endorses-embattled-israeli-pm-netanyahu-ahead-of-octob",
-   "title": "Donald Trump endorses Israeli Prime Minister Benjamin Netanyahu ahead of the upcoming legislative elections.",
-   "content_text": "On October 19, 2026, U.S. President Donald Trump issued a formal endorsement of Israeli Prime Minister Benjamin Netanyahu on Truth Social nine days before the upcoming legislative elections. Western outlets frame the endorsement as a strategic move to bolster mutual political standing and security cooperation against Iran. Conversely, Middle Eastern sources emphasize the high-stakes rhetoric and the \"total\" nature of the support, while Russian reports highlight the friction between American policy and Israeli ground realities.",
-   "summary": "On October 19, 2026, U.S. President Donald Trump issued a formal endorsement of Israeli Prime Minister Benjamin Netanyahu on Truth Social nine days before the upcoming legislative elections. Western outlets frame the endorsement as a strategic move to bolster mutual political standing and security cooperation against Iran. Conversely, Middle Eastern sources emphasize the high-stakes rhetoric and the \"total\" nature of the support, while Russian reports highlight the friction between American policy and Israeli ground realities.",
-   "date_published": "2026-10-19T01:30:27+00:00",
+   "id": "2026-10-20-eight-yemeni-government-forces-killed-in-battle-with-houthis",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-20-eight-yemeni-government-forces-killed-in-battle-with-houthis",
+   "title": "Houthis and Saudi forces exchange strikes in Yemen and Saudi Arabia resulting in casualties.",
+   "content_text": "On October 20, 2026, Houthi rebels and Saudi-aligned forces engaged in a high-intensity exchange of ballistic missiles and drones across the Yemen-Saudi border. Western outlets focus on the humanitarian impact of strikes on a training camp, framing the high casualty count as a grave military escalation. Conversely, Middle Eastern sources provide a broader regional perspective, emphasizing the multi-front nature of the conflict and the specific targeting of infrastructure and military positions.",
+   "summary": "On October 20, 2026, Houthi rebels and Saudi-aligned forces engaged in a high-intensity exchange of ballistic missiles and drones across the Yemen-Saudi border. Western outlets focus on the humanitarian impact of strikes on a training camp, framing the high casualty count as a grave military escalation. Conversely, Middle Eastern sources provide a broader regional perspective, emphasizing the multi-front nature of the conflict and the specific targeting of infrastructure and military positions.",
+   "date_published": "2026-10-20T01:53:55+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-B"
+   ],
+   "_parallax": {
+    "cluster_id": 3987,
+    "event_date": "2026-10-20",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
+    "regions": [
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 11,
+    "source_count": 4,
+    "sources": [
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-claim-six-attacks-targets-saudi-arabia"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/19/sale-a-50-il-numero-delle-vittime-nel-raid-houthi-contro-campo-militare_a668636d-17e3-470e-9ec8-e984e706b1e0.html"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2204325"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3987.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-19-russia-huge-flames-and-smoke-rise-over-st-petersburg-after-d",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-19-russia-huge-flames-and-smoke-rise-over-st-petersburg-after-d",
+   "title": "Russia and Ukraine exchange drone strikes resulting in casualties and damage in both countries.",
+   "content_text": "On October 19, 2026, Russia and Ukraine exchanged drone and missile strikes, damaging energy infrastructure in St. Petersburg and causing casualties in the Kharkiv region. Western outlets focus on the humanitarian impact, specifically the deaths of children, and frame the escalation as a sign of deteriorating diplomacy between the U.S. and Ukraine. In contrast, Russian reporting emphasizes the scale of defense and the industrial impact of the strikes on Russian territory.",
+   "summary": "On October 19, 2026, Russia and Ukraine exchanged drone and missile strikes, damaging energy infrastructure in St. Petersburg and causing casualties in the Kharkiv region. Western outlets focus on the humanitarian impact, specifically the deaths of children, and frame the escalation as a sign of deteriorating diplomacy between the U.S. and Ukraine. In contrast, Russian reporting emphasizes the scale of defense and the industrial impact of the strikes on Russian territory.",
+   "date_published": "2026-10-20T01:55:45+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 3990,
+    "event_date": "2026-10-19",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 5,
+    "source_count": 5,
+    "sources": [
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/video/2026/10/18/russia-huge-flames-and-smoke-rise-over-st-petersburg-after-drone-strikes"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/19/nx-s1-6007371/ukraine-and-russia-exchange-strikes-as-relations-between-trump-and-zelenskyy-sour"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/19/kiev-raid-russo-su-un-parco-giochi-nel-kharkiv-6-morti-tra-cui_17c66b9e-57e4-43af-a761-11e8e66d1f03.html"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/children-among-six-killed-in-russian-drone-strike-on-ukraine-park?traffic_source=rss"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/10/18/one-killed-5-injured-in-ukrainian-drone-attack-on-st-petersburg-governor-says-a94015"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3990.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-17-from-tehran-s-pupils-to-missile-makers-why-houthis-are-a-big",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-17-from-tehran-s-pupils-to-missile-makers-why-houthis-are-a-big",
+   "title": "Houthi forces launch missile attacks on strategic targets in Yemen amid regional tensions.",
+   "content_text": "On October 17, 2026, Houthi forces launched missile strikes against the presidential palace and international airport in Aden, targeting infrastructure linked to the Yemeni government and Saudi-aligned interests. Western outlets frame these attacks as threats to Saudi economic diversification and the international trade status quo. In contrast, Middle Eastern reporting focuses on the tactical military exchanges and the specific diplomatic fallout regarding the 2023 rapprochement between Saudi Arabia and Iran.",
+   "summary": "On October 17, 2026, Houthi forces launched missile strikes against the presidential palace and international airport in Aden, targeting infrastructure linked to the Yemeni government and Saudi-aligned interests. Western outlets frame these attacks as threats to Saudi economic diversification and the international trade status quo. In contrast, Middle Eastern reporting focuses on the tactical military exchanges and the specific diplomatic fallout regarding the 2023 rapprochement between Saudi Arabia and Iran.",
+   "date_published": "2026-10-17T01:58:33+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -22,8 +150,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3974,
-    "event_date": "2026-10-19",
+    "cluster_id": 3931,
+    "event_date": "2026-10-17",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -32,163 +160,65 @@
      "russia",
      "western"
     ],
-    "article_count": 9,
-    "source_count": 6,
+    "article_count": 12,
+    "source_count": 9,
     "sources": [
      {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20261018-trump-endorses-embattled-israeli-pm-netanyahu-ahead-of-october-27-election"
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/from-tehrans-pupils-to-missile-makers-why-houthis-are-a-bigger-threat-now/articleshow/134973516.cms"
      },
      {
-      "name": "ANSA Mondo",
+      "name": "DW News",
       "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/18/le-famiglie-delle-vittime-del-7-ottobre-e-degli-ostaggi-chiedono-unindagine-penale_b83ace76-5a3b-45fc-aedf-ce5bfc7eddeb.html"
+      "country": "DE",
+      "url": "https://www.dw.com/en/houthi-attacks-on-strategic-saudi-assets-threaten-riyadh-s-regional-leadership-and-economic-ambitions/a-79680200?maca=en-rss-en-world-4025-xml-mrss"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-10-16/5-killed-in-presidential-palace-attack-in-Yemen-s-Aden-1RhrliTWjeM/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/trump-endorses-netanyahu-in-israeli-election-6469761"
+      "url": "https://www.channelnewsasia.com/world/iran-denies-houthi-attacks-saudi-arabia-6467476"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/18/trump-endorses-netanyahu-in-israeli-legislative-elections?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-gives-netanyahu-complete-and-total-endorsement-ahead-israeli"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-forces-saudi-led-coalition-say-378-houthis-killed-two-missile"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2203367"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://rt-english.com/news/647367-trump-netanyahu-us-israel-settler-violence/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://rt-english.com/news/647309-saudi-arabia-ansar-allah/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/10/16/houthi-missile-attack-targets-yemeni-presidential-palace-in-aden"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3974.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-18-saudi-helicopter-crashes-in-najran-killing-two-crew-members",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-18-saudi-helicopter-crashes-in-najran-killing-two-crew-members",
-   "title": "Two Saudi helicopter crew members killed in a crash near the Yemen border.",
-   "content_text": "On October 18, 2026, an AH-6i reconnaissance helicopter crashed near the Saudi-Yemen border, killing two Saudi National Guard officers. While all sources confirm the crash and the conflicting claims of a technical malfunction versus a Houthi shoot-down, coverage varies in depth. Western outlets provide a concise, neutral report of both claims, whereas Middle Eastern sources provide more local context by linking the incident to specific military jurisdictions and domestic infrastructure.",
-   "summary": "On October 18, 2026, an AH-6i reconnaissance helicopter crashed near the Saudi-Yemen border, killing two Saudi National Guard officers. While all sources confirm the crash and the conflicting claims of a technical malfunction versus a Houthi shoot-down, coverage varies in depth. Western outlets provide a concise, neutral report of both claims, whereas Middle Eastern sources provide more local context by linking the incident to specific military jurisdictions and domestic infrastructure.",
-   "date_published": "2026-10-19T01:34:46+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3978,
-    "event_date": "2026-10-18",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-chopper-pilots-killed-landmark-tower-closes-offices-amid-houthi"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/18/elicottero-saudita-precipita-vicino-allo-yemen-morti-due-ufficiali_2260db6a-f6d5-4207-a533-39ce6ad4b8c4.html"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/647370-saudi-chopper-crash-officers-dead/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3978.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-18-trump-defends-russia-sanctions-relief-blasts-zelensky-on-pea",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-18-trump-defends-russia-sanctions-relief-blasts-zelensky-on-pea",
-   "title": "Donald Trump and Volodymyr Zelenskyy exchange conflicting statements regarding peace negotiations and the war in Ukraine.",
-   "content_text": "On October 18, 2026, Donald Trump waived sanctions on Russian diesel to encourage negotiations, prompting Volodymyr Zelenskyy to accuse him of pressuring Ukraine toward surrender. Western outlets frame the exchange as a complex diplomatic tug-of-war over economic pragmatism and security trade-offs. In contrast, Russian reporting portrays the situation as a failure of Ukrainian diplomacy, focusing on Zelenskyy's alleged intransigence and the escalation of strikes on oil infrastructure.",
-   "summary": "On October 18, 2026, Donald Trump waived sanctions on Russian diesel to encourage negotiations, prompting Volodymyr Zelenskyy to accuse him of pressuring Ukraine toward surrender. Western outlets frame the exchange as a complex diplomatic tug-of-war over economic pragmatism and security trade-offs. In contrast, Russian reporting portrays the situation as a failure of Ukrainian diplomacy, focusing on Zelenskyy's alleged intransigence and the escalation of strikes on oil infrastructure.",
-   "date_published": "2026-10-19T01:32:35+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3975,
-    "event_date": "2026-10-18",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 6,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/europe/20261018-ukraine-zelensky-war-trump-peace-russia-sanctions"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/18/trump-accusa-zelensky-non-vuole-la-fine-della-guerra_65fa0f90-d675-4d8a-8b9e-fb363ba75d1a.html"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/18/russias-war-on-ukraine-must-be-brought-to-an-end-zelenskyy-says?traffic_source=rss"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/647371-trump-zelensky-never-wanted-end-war/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3975.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3931.json",
     "languages": [
      "en",
      "it",

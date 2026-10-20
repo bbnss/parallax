@@ -6,34 +6,34 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 19 Oct 2026 02:20:04 +0000</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 02:38:23 +0000</lastBuildDate>
 <item>
-<title>Donald Trump endorses Israeli Prime Minister Benjamin Netanyahu ahead of the upcoming legislative elections.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-19-trump-endorses-embattled-israeli-pm-netanyahu-ahead-of-octob</link>
-<guid isPermaLink="false">2026-10-19-trump-endorses-embattled-israeli-pm-netanyahu-ahead-of-octob</guid>
-<pubDate>Mon, 19 Oct 2026 01:30:27 +0000</pubDate>
-<description>On October 19, 2026, U.S. President Donald Trump issued a formal endorsement of Israeli Prime Minister Benjamin Netanyahu on Truth Social nine days before the upcoming legislative elections. Western outlets frame the endorsement as a strategic move to bolster mutual political standing and security cooperation against Iran. Conversely, Middle Eastern sources emphasize the high-stakes rhetoric and the "total" nature of the support, while Russian reports highlight the friction between American policy and Israeli ground realities.</description>
+<title>Houthis and Saudi forces exchange strikes in Yemen and Saudi Arabia resulting in casualties.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-20-eight-yemeni-government-forces-killed-in-battle-with-houthis</link>
+<guid isPermaLink="false">2026-10-20-eight-yemeni-government-forces-killed-in-battle-with-houthis</guid>
+<pubDate>Tue, 20 Oct 2026 01:53:55 +0000</pubDate>
+<description>On October 20, 2026, Houthi rebels and Saudi-aligned forces engaged in a high-intensity exchange of ballistic missiles and drones across the Yemen-Saudi border. Western outlets focus on the humanitarian impact of strikes on a training camp, framing the high casualty count as a grave military escalation. Conversely, Middle Eastern sources provide a broader regional perspective, emphasizing the multi-front nature of the conflict and the specific targeting of infrastructure and military positions.</description>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Russia and Ukraine exchange drone strikes resulting in casualties and damage in both countries.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-19-russia-huge-flames-and-smoke-rise-over-st-petersburg-after-d</link>
+<guid isPermaLink="false">2026-10-19-russia-huge-flames-and-smoke-rise-over-st-petersburg-after-d</guid>
+<pubDate>Tue, 20 Oct 2026 01:55:45 +0000</pubDate>
+<description>On October 19, 2026, Russia and Ukraine exchanged drone and missile strikes, damaging energy infrastructure in St. Petersburg and causing casualties in the Kharkiv region. Western outlets focus on the humanitarian impact, specifically the deaths of children, and frame the escalation as a sign of deteriorating diplomacy between the U.S. and Ukraine. In contrast, Russian reporting emphasizes the scale of defense and the industrial impact of the strikes on Russian territory.</description>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Houthi forces launch missile attacks on strategic targets in Yemen amid regional tensions.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-17-from-tehran-s-pupils-to-missile-makers-why-houthis-are-a-big</link>
+<guid isPermaLink="false">2026-10-17-from-tehran-s-pupils-to-missile-makers-why-houthis-are-a-big</guid>
+<pubDate>Sat, 17 Oct 2026 01:58:33 +0000</pubDate>
+<description>On October 17, 2026, Houthi forces launched missile strikes against the presidential palace and international airport in Aden, targeting infrastructure linked to the Yemeni government and Saudi-aligned interests. Western outlets frame these attacks as threats to Saudi economic diversification and the international trade status quo. In contrast, Middle Eastern reporting focuses on the tactical military exchanges and the specific diplomatic fallout regarding the 2023 rapprochement between Saudi Arabia and Iran.</description>
 <category>eastern</category>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Two Saudi helicopter crew members killed in a crash near the Yemen border.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-18-saudi-helicopter-crashes-in-najran-killing-two-crew-members</link>
-<guid isPermaLink="false">2026-10-18-saudi-helicopter-crashes-in-najran-killing-two-crew-members</guid>
-<pubDate>Mon, 19 Oct 2026 01:34:46 +0000</pubDate>
-<description>On October 18, 2026, an AH-6i reconnaissance helicopter crashed near the Saudi-Yemen border, killing two Saudi National Guard officers. While all sources confirm the crash and the conflicting claims of a technical malfunction versus a Houthi shoot-down, coverage varies in depth. Western outlets provide a concise, neutral report of both claims, whereas Middle Eastern sources provide more local context by linking the incident to specific military jurisdictions and domestic infrastructure.</description>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Donald Trump and Volodymyr Zelenskyy exchange conflicting statements regarding peace negotiations and the war in Ukraine.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-18-trump-defends-russia-sanctions-relief-blasts-zelensky-on-pea</link>
-<guid isPermaLink="false">2026-10-18-trump-defends-russia-sanctions-relief-blasts-zelensky-on-pea</guid>
-<pubDate>Mon, 19 Oct 2026 01:32:35 +0000</pubDate>
-<description>On October 18, 2026, Donald Trump waived sanctions on Russian diesel to encourage negotiations, prompting Volodymyr Zelenskyy to accuse him of pressuring Ukraine toward surrender. Western outlets frame the exchange as a complex diplomatic tug-of-war over economic pragmatism and security trade-offs. In contrast, Russian reporting portrays the situation as a failure of Ukrainian diplomacy, focusing on Zelenskyy's alleged intransigence and the escalation of strikes on oil infrastructure.</description>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
