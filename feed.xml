@@ -6,35 +6,53 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 20 Oct 2026 02:38:23 +0000</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 02:49:40 +0000</lastBuildDate>
 <item>
-<title>Houthis and Saudi forces exchange strikes in Yemen and Saudi Arabia resulting in casualties.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-20-eight-yemeni-government-forces-killed-in-battle-with-houthis</link>
-<guid isPermaLink="false">2026-10-20-eight-yemeni-government-forces-killed-in-battle-with-houthis</guid>
-<pubDate>Tue, 20 Oct 2026 01:53:55 +0000</pubDate>
-<description>On October 20, 2026, Houthi rebels and Saudi-aligned forces engaged in a high-intensity exchange of ballistic missiles and drones across the Yemen-Saudi border. Western outlets focus on the humanitarian impact of strikes on a training camp, framing the high casualty count as a grave military escalation. Conversely, Middle Eastern sources provide a broader regional perspective, emphasizing the multi-front nature of the conflict and the specific targeting of infrastructure and military positions.</description>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Russia and Ukraine exchange drone strikes resulting in casualties and damage in both countries.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-19-russia-huge-flames-and-smoke-rise-over-st-petersburg-after-d</link>
-<guid isPermaLink="false">2026-10-19-russia-huge-flames-and-smoke-rise-over-st-petersburg-after-d</guid>
-<pubDate>Tue, 20 Oct 2026 01:55:45 +0000</pubDate>
-<description>On October 19, 2026, Russia and Ukraine exchanged drone and missile strikes, damaging energy infrastructure in St. Petersburg and causing casualties in the Kharkiv region. Western outlets focus on the humanitarian impact, specifically the deaths of children, and frame the escalation as a sign of deteriorating diplomacy between the U.S. and Ukraine. In contrast, Russian reporting emphasizes the scale of defense and the industrial impact of the strikes on Russian territory.</description>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Houthi forces launch missile attacks on strategic targets in Yemen amid regional tensions.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-17-from-tehran-s-pupils-to-missile-makers-why-houthis-are-a-big</link>
-<guid isPermaLink="false">2026-10-17-from-tehran-s-pupils-to-missile-makers-why-houthis-are-a-big</guid>
-<pubDate>Sat, 17 Oct 2026 01:58:33 +0000</pubDate>
-<description>On October 17, 2026, Houthi forces launched missile strikes against the presidential palace and international airport in Aden, targeting infrastructure linked to the Yemeni government and Saudi-aligned interests. Western outlets frame these attacks as threats to Saudi economic diversification and the international trade status quo. In contrast, Middle Eastern reporting focuses on the tactical military exchanges and the specific diplomatic fallout regarding the 2023 rapprochement between Saudi Arabia and Iran.</description>
+<title>Russian President Putin meets with U.S. envoy Witkoff to discuss potential peace negotiations regarding Ukraine.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-22-rosenberg-us-diplomatic-push-offers-little-hope-for-imminent</link>
+<guid isPermaLink="false">2026-10-22-rosenberg-us-diplomatic-push-offers-little-hope-for-imminent</guid>
+<pubDate>Thu, 22 Oct 2026 01:53:38 +0000</pubDate>
+<description>Russian President Vladimir Putin met with U.S. Special Envoy Steve Witkoff in St. Petersburg to discuss resuming trilateral peace negotiations regarding Ukraine. Western outlets frame the meeting with skepticism, emphasizing the Kremlin's refusal to make significant concessions and the lack of an immediate resolution. Conversely, Eastern reporting focuses on the deteriorating relationship between Washington and Kyiv, framing the event as a complex geopolitical realignment involving potential trilateral summits with China.</description>
 <category>eastern</category>
 <category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>One person killed and eight others injured in an attack at a Saudi Arabian airport.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-22-attacco-su-aeroporto-in-arabia-saudita-un-morto-e-otto-ferit</link>
+<guid isPermaLink="false">2026-10-22-attacco-su-aeroporto-in-arabia-saudita-un-morto-e-otto-ferit</guid>
+<pubDate>Thu, 22 Oct 2026 01:51:23 +0000</pubDate>
+<description>An attack at King Fahd International Airport in Dammam, Saudi Arabia, on October 22, 2026, resulted in one death and eight injuries. While both Middle Eastern and Russian outlets confirm the casualty figures, they differ significantly in their framing of the event's implications. Middle Eastern sources frame the attack as a direct escalation of the Houthi-Saudi conflict, whereas Russian reporting treats the incident as a data point within a broader, fragmented international news cycle.</description>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Reports emerge regarding Elon Musk's role in limiting Starlink satellite coverage in Ukraine.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-21-wsj-musk-ha-ordinato-il-rallentamento-di-starlink-in-ucraina</link>
+<guid isPermaLink="false">2026-10-21-wsj-musk-ha-ordinato-il-rallentamento-di-starlink-in-ucraina</guid>
+<pubDate>Thu, 22 Oct 2026 01:57:34 +0000</pubDate>
+<description>Ukrainian forces experienced Starlink signal degradation when operating drones exceeding 160 kilometers per hour. Western outlets frame the issue as a matter of personal influence, reporting that Elon Musk personally ordered the service limitations following consultations with U.S. officials. Conversely, Russian reports focus on the contradiction between these Western claims and Musk’s public denials, framing the Western narrative as an unreliable chain of anonymous sources.</description>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Russia releases American citizen Stephen Hubbard following a request from Donald Trump.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-21-trump-ho-chiesto-a-putin-la-liberazione-dell-americano-hubba</link>
+<guid isPermaLink="false">2026-10-21-trump-ho-chiesto-a-putin-la-liberazione-dell-americano-hubba</guid>
+<pubDate>Thu, 22 Oct 2026 01:55:56 +0000</pubDate>
+<description>Russia released American citizen Stephen Hubbard following a direct request from Donald Trump after a meeting between President Putin and U.S. envoy Steve Witkoff. While both sides confirm the release and the move toward trilateral peace talks, coverage differs in framing. Western outlets emphasize the "no strings attached" nature of the deal and the domestic controversy over the envoy's rhetoric, whereas Russian media presents the release as a pragmatic, procedural step toward establishing a diplomatic framework for peace.</description>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Alberta voters vote against a referendum on separating from Canada to remain in the federation.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-20-alberta-s-decisive-decision-to-stay-in-canada-gives-carney-b</link>
+<guid isPermaLink="false">2026-10-20-alberta-s-decisive-decision-to-stay-in-canada-gives-carney-b</guid>
+<pubDate>Wed, 21 Oct 2026 01:55:35 +0000</pubDate>
+<description>On October 19, 2026, the majority of Alberta voters rejected a referendum to separate from Canada, with results reported between 75% and 77%. Western outlets frame the outcome as a victory for national unity and a political win for Prime Minister Mark Carney against separatist ambitions. Conversely, Russian reporting focuses on the province's status as an oil-rich region, framing the vote as a site of geopolitical friction involving potential foreign influence and resource sovereignty.</description>
+<category>eastern</category>
 <category>russia</category>
 <category>western</category>
 </item>

@@ -5,143 +5,15 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-20T02:38:23Z",
+ "_generated_at": "2026-10-22T02:49:40Z",
  "items": [
   {
-   "id": "2026-10-20-eight-yemeni-government-forces-killed-in-battle-with-houthis",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-20-eight-yemeni-government-forces-killed-in-battle-with-houthis",
-   "title": "Houthis and Saudi forces exchange strikes in Yemen and Saudi Arabia resulting in casualties.",
-   "content_text": "On October 20, 2026, Houthi rebels and Saudi-aligned forces engaged in a high-intensity exchange of ballistic missiles and drones across the Yemen-Saudi border. Western outlets focus on the humanitarian impact of strikes on a training camp, framing the high casualty count as a grave military escalation. Conversely, Middle Eastern sources provide a broader regional perspective, emphasizing the multi-front nature of the conflict and the specific targeting of infrastructure and military positions.",
-   "summary": "On October 20, 2026, Houthi rebels and Saudi-aligned forces engaged in a high-intensity exchange of ballistic missiles and drones across the Yemen-Saudi border. Western outlets focus on the humanitarian impact of strikes on a training camp, framing the high casualty count as a grave military escalation. Conversely, Middle Eastern sources provide a broader regional perspective, emphasizing the multi-front nature of the conflict and the specific targeting of infrastructure and military positions.",
-   "date_published": "2026-10-20T01:53:55+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 3987,
-    "event_date": "2026-10-20",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 11,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-claim-six-attacks-targets-saudi-arabia"
-     },
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/19/sale-a-50-il-numero-delle-vittime-nel-raid-houthi-contro-campo-militare_a668636d-17e3-470e-9ec8-e984e706b1e0.html"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2204325"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3987.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-19-russia-huge-flames-and-smoke-rise-over-st-petersburg-after-d",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-19-russia-huge-flames-and-smoke-rise-over-st-petersburg-after-d",
-   "title": "Russia and Ukraine exchange drone strikes resulting in casualties and damage in both countries.",
-   "content_text": "On October 19, 2026, Russia and Ukraine exchanged drone and missile strikes, damaging energy infrastructure in St. Petersburg and causing casualties in the Kharkiv region. Western outlets focus on the humanitarian impact, specifically the deaths of children, and frame the escalation as a sign of deteriorating diplomacy between the U.S. and Ukraine. In contrast, Russian reporting emphasizes the scale of defense and the industrial impact of the strikes on Russian territory.",
-   "summary": "On October 19, 2026, Russia and Ukraine exchanged drone and missile strikes, damaging energy infrastructure in St. Petersburg and causing casualties in the Kharkiv region. Western outlets focus on the humanitarian impact, specifically the deaths of children, and frame the escalation as a sign of deteriorating diplomacy between the U.S. and Ukraine. In contrast, Russian reporting emphasizes the scale of defense and the industrial impact of the strikes on Russian territory.",
-   "date_published": "2026-10-20T01:55:45+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 3990,
-    "event_date": "2026-10-19",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 5,
-    "sources": [
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/video/2026/10/18/russia-huge-flames-and-smoke-rise-over-st-petersburg-after-drone-strikes"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/19/nx-s1-6007371/ukraine-and-russia-exchange-strikes-as-relations-between-trump-and-zelenskyy-sour"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/19/kiev-raid-russo-su-un-parco-giochi-nel-kharkiv-6-morti-tra-cui_17c66b9e-57e4-43af-a761-11e8e66d1f03.html"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/children-among-six-killed-in-russian-drone-strike-on-ukraine-park?traffic_source=rss"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/18/one-killed-5-injured-in-ukrainian-drone-attack-on-st-petersburg-governor-says-a94015"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3990.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-17-from-tehran-s-pupils-to-missile-makers-why-houthis-are-a-big",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-17-from-tehran-s-pupils-to-missile-makers-why-houthis-are-a-big",
-   "title": "Houthi forces launch missile attacks on strategic targets in Yemen amid regional tensions.",
-   "content_text": "On October 17, 2026, Houthi forces launched missile strikes against the presidential palace and international airport in Aden, targeting infrastructure linked to the Yemeni government and Saudi-aligned interests. Western outlets frame these attacks as threats to Saudi economic diversification and the international trade status quo. In contrast, Middle Eastern reporting focuses on the tactical military exchanges and the specific diplomatic fallout regarding the 2023 rapprochement between Saudi Arabia and Iran.",
-   "summary": "On October 17, 2026, Houthi forces launched missile strikes against the presidential palace and international airport in Aden, targeting infrastructure linked to the Yemeni government and Saudi-aligned interests. Western outlets frame these attacks as threats to Saudi economic diversification and the international trade status quo. In contrast, Middle Eastern reporting focuses on the tactical military exchanges and the specific diplomatic fallout regarding the 2023 rapprochement between Saudi Arabia and Iran.",
-   "date_published": "2026-10-17T01:58:33+00:00",
+   "id": "2026-10-22-rosenberg-us-diplomatic-push-offers-little-hope-for-imminent",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-22-rosenberg-us-diplomatic-push-offers-little-hope-for-imminent",
+   "title": "Russian President Putin meets with U.S. envoy Witkoff to discuss potential peace negotiations regarding Ukraine.",
+   "content_text": "Russian President Vladimir Putin met with U.S. Special Envoy Steve Witkoff in St. Petersburg to discuss resuming trilateral peace negotiations regarding Ukraine. Western outlets frame the meeting with skepticism, emphasizing the Kremlin's refusal to make significant concessions and the lack of an immediate resolution. Conversely, Eastern reporting focuses on the deteriorating relationship between Washington and Kyiv, framing the event as a complex geopolitical realignment involving potential trilateral summits with China.",
+   "summary": "Russian President Vladimir Putin met with U.S. Special Envoy Steve Witkoff in St. Petersburg to discuss resuming trilateral peace negotiations regarding Ukraine. Western outlets frame the meeting with skepticism, emphasizing the Kremlin's refusal to make significant concessions and the lack of an immediate resolution. Conversely, Eastern reporting focuses on the deteriorating relationship between Washington and Kyiv, framing the event as a complex geopolitical realignment involving potential trilateral summits with China.",
+   "date_published": "2026-10-22T01:53:38+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -150,8 +22,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 3931,
-    "event_date": "2026-10-17",
+    "cluster_id": 4038,
+    "event_date": "2026-10-22",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -160,65 +32,311 @@
      "russia",
      "western"
     ],
-    "article_count": 12,
-    "source_count": 9,
+    "article_count": 11,
+    "source_count": 6,
     "sources": [
      {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/from-tehrans-pupils-to-missile-makers-why-houthis-are-a-bigger-threat-now/articleshow/134973516.cms"
-     },
-     {
-      "name": "DW News",
+      "name": "BBC World",
       "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/houthi-attacks-on-strategic-saudi-assets-threaten-riyadh-s-regional-leadership-and-economic-ambitions/a-79680200?maca=en-rss-en-world-4025-xml-mrss"
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss"
      },
      {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-10-16/5-killed-in-presidential-palace-attack-in-Yemen-s-Aden-1RhrliTWjeM/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/cremlino-lincontro-putin-witkoff-terminato-dopo-circa-3-ore_e254deed-2ad6-41c7-b00c-477302052df6.html"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/iran-denies-houthi-attacks-saudi-arabia-6467476"
+      "url": "https://www.channelnewsasia.com/world/russia-ukraine-peace-deal-us-witkoff-substance-6479671"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-forces-saudi-led-coalition-say-378-houthis-killed-two-missile"
+      "url": "https://www.aljazeera.com/news/2026/10/21/what-happened-during-witkoff-and-kushners-latest-meeting-with-putin?traffic_source=rss"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2203367"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/647309-saudi-arabia-ansar-allah/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://tass.com/politics/2205855"
      },
      {
       "name": "Euronews",
       "region": "western",
       "country": "EU",
-      "url": "https://www.euronews.com/2026/10/16/houthi-missile-attack-targets-yemeni-presidential-palace-in-aden"
+      "url": "https://www.euronews.com/2026/10/21/us-envoy-in-russia-for-putin-talks-after-positive-zelenskyy-meeting"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/3931.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4038.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-22-attacco-su-aeroporto-in-arabia-saudita-un-morto-e-otto-ferit",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-22-attacco-su-aeroporto-in-arabia-saudita-un-morto-e-otto-ferit",
+   "title": "One person killed and eight others injured in an attack at a Saudi Arabian airport.",
+   "content_text": "An attack at King Fahd International Airport in Dammam, Saudi Arabia, on October 22, 2026, resulted in one death and eight injuries. While both Middle Eastern and Russian outlets confirm the casualty figures, they differ significantly in their framing of the event's implications. Middle Eastern sources frame the attack as a direct escalation of the Houthi-Saudi conflict, whereas Russian reporting treats the incident as a data point within a broader, fragmented international news cycle.",
+   "summary": "An attack at King Fahd International Airport in Dammam, Saudi Arabia, on October 22, 2026, resulted in one death and eight injuries. While both Middle Eastern and Russian outlets confirm the casualty figures, they differ significantly in their framing of the event's implications. Middle Eastern sources frame the attack as a direct escalation of the Houthi-Saudi conflict, whereas Russian reporting treats the incident as a data point within a broader, fragmented international news cycle.",
+   "date_published": "2026-10-22T01:51:23+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-B"
+   ],
+   "_parallax": {
+    "cluster_id": 4034,
+    "event_date": "2026-10-22",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
+    "regions": [
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 4,
+    "source_count": 4,
+    "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/22/attacco-su-aeroporto-in-arabia-saudita-un-morto-e-otto-feriti_106a5e82-4450-4268-9cd1-01f97f17bf68.html"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/one-killed-eight-injured-saudi-arabias-king-fahd-airport-attack"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/emergencies/2205901"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4034.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-21-wsj-musk-ha-ordinato-il-rallentamento-di-starlink-in-ucraina",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-21-wsj-musk-ha-ordinato-il-rallentamento-di-starlink-in-ucraina",
+   "title": "Reports emerge regarding Elon Musk's role in limiting Starlink satellite coverage in Ukraine.",
+   "content_text": "Ukrainian forces experienced Starlink signal degradation when operating drones exceeding 160 kilometers per hour. Western outlets frame the issue as a matter of personal influence, reporting that Elon Musk personally ordered the service limitations following consultations with U.S. officials. Conversely, Russian reports focus on the contradiction between these Western claims and Musk’s public denials, framing the Western narrative as an unreliable chain of anonymous sources.",
+   "summary": "Ukrainian forces experienced Starlink signal degradation when operating drones exceeding 160 kilometers per hour. Western outlets frame the issue as a matter of personal influence, reporting that Elon Musk personally ordered the service limitations following consultations with U.S. officials. Conversely, Russian reports focus on the contradiction between these Western claims and Musk’s public denials, framing the Western narrative as an unreliable chain of anonymous sources.",
+   "date_published": "2026-10-22T01:57:34+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4052,
+    "event_date": "2026-10-21",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/20/wsj-musk-ha-ordinato-il-rallentamento-di-starlink-in-ucraina_bd68abc1-b75d-4a99-b890-74b4778ad55e.html"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/10/21/starlink-ucraina-limitazioni-elon-musk/"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/647471-musk-starlink-order-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4052.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-21-trump-ho-chiesto-a-putin-la-liberazione-dell-americano-hubba",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-21-trump-ho-chiesto-a-putin-la-liberazione-dell-americano-hubba",
+   "title": "Russia releases American citizen Stephen Hubbard following a request from Donald Trump.",
+   "content_text": "Russia released American citizen Stephen Hubbard following a direct request from Donald Trump after a meeting between President Putin and U.S. envoy Steve Witkoff. While both sides confirm the release and the move toward trilateral peace talks, coverage differs in framing. Western outlets emphasize the \"no strings attached\" nature of the deal and the domestic controversy over the envoy's rhetoric, whereas Russian media presents the release as a pragmatic, procedural step toward establishing a diplomatic framework for peace.",
+   "summary": "Russia released American citizen Stephen Hubbard following a direct request from Donald Trump after a meeting between President Putin and U.S. envoy Steve Witkoff. While both sides confirm the release and the move toward trilateral peace talks, coverage differs in framing. Western outlets emphasize the \"no strings attached\" nature of the deal and the domestic controversy over the envoy's rhetoric, whereas Russian media presents the release as a pragmatic, procedural step toward establishing a diplomatic framework for peace.",
+   "date_published": "2026-10-22T01:55:56+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4050,
+    "event_date": "2026-10-21",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 8,
+    "source_count": 5,
+    "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/witkoff-a-putin-anche-lei-e-compassionevole.-bufera-in-usa-e-un-assassino_2324ab5a-a346-4ebb-9209-a407dc6e6263.html"
+     },
+     {
+      "name": "DW News",
+      "region": "western",
+      "country": "DE",
+      "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-world-4025-xml-mrss"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/10/21/putin-releases-american-jailed-in-russia-after-us-envoy-arrives-for-ukraine-talks-a94037"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4050.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-20-alberta-s-decisive-decision-to-stay-in-canada-gives-carney-b",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-20-alberta-s-decisive-decision-to-stay-in-canada-gives-carney-b",
+   "title": "Alberta voters vote against a referendum on separating from Canada to remain in the federation.",
+   "content_text": "On October 19, 2026, the majority of Alberta voters rejected a referendum to separate from Canada, with results reported between 75% and 77%. Western outlets frame the outcome as a victory for national unity and a political win for Prime Minister Mark Carney against separatist ambitions. Conversely, Russian reporting focuses on the province's status as an oil-rich region, framing the vote as a site of geopolitical friction involving potential foreign influence and resource sovereignty.",
+   "summary": "On October 19, 2026, the majority of Alberta voters rejected a referendum to separate from Canada, with results reported between 75% and 77%. Western outlets frame the outcome as a victory for national unity and a political win for Prime Minister Mark Carney against separatist ambitions. Conversely, Russian reporting focuses on the province's status as an oil-rich region, framing the vote as a site of geopolitical friction involving potential foreign influence and resource sovereignty.",
+   "date_published": "2026-10-21T01:55:35+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 4017,
+    "event_date": "2026-10-20",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "russia",
+     "western"
+    ],
+    "article_count": 10,
+    "source_count": 8,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "DW News",
+      "region": "western",
+      "country": "DE",
+      "url": "https://www.dw.com/en/canada-alberta-rejects-separation-bid-cbc-projects/a-79708520?maca=en-rss-en-world-4025-xml-mrss"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/10/20/alberta-voto-contro-referendum-indipendenza-canada/"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/canada-alberta-secession-referedum-vote-6474136"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/647423-alberta-vote-reject-independence-canada/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "El Pais English",
+      "region": "western",
+      "country": "ES",
+      "url": "https://english.elpais.com/international/2026-10-20/albertans-back-remaining-in-canada-in-referendum.html"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/10/20/alberta-rejects-independence-referendum-plan-but-separatists-vow-to-keep-fighting"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4017.json",
     "languages": [
      "en",
      "it",
