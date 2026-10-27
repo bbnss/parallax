@@ -6,83 +6,57 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 25 Oct 2026 03:58:23 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 03:59:06 +0000</lastBuildDate>
 <item>
-<title>Donald Trump suggests potential military action against Iran or the negotiation of a deal.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-25-iran-war-live-trump-hints-at-possible-sunday-iran-attack-or</link>
-<guid isPermaLink="false">2026-10-25-iran-war-live-trump-hints-at-possible-sunday-iran-attack-or</guid>
-<pubDate>Sun, 25 Oct 2026 02:46:02 +0000</pubDate>
-<description>President Donald Trump issued an ultimatum to Iran on October 25, 2026, stating the U.S. will either launch military action or reach a definitive diplomatic settlement. While both regions confirm the binary nature of the ultimatum, coverage differs in focus. Middle Eastern outlets emphasize the immediate timeline and nuclear non-proliferation goals, whereas Russian state media frames the situation as a strategic calculation of outcomes.</description>
-<category>middle_east</category>
-<category>russia</category>
-</item>
-<item>
-<title>Thousands of people gather in Tel Aviv to protest against the government before upcoming elections.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-25-thousands-take-to-tel-aviv-s-streets-for-protests-against-ne</link>
-<guid isPermaLink="false">2026-10-25-thousands-take-to-tel-aviv-s-streets-for-protests-against-ne</guid>
-<pubDate>Sun, 25 Oct 2026 02:44:07 +0000</pubDate>
-<description>Thousands gathered in Tel Aviv to protest Prime Minister Benjamin Netanyahu’s government and demand an independent commission of inquiry regarding the October 7 security failures. Western outlets frame the event as a domestic political struggle focused on accountability and the upcoming election. In contrast, Middle Eastern outlets emphasize the symbolic location of "Hostages Square" and the specific involvement of high-level opposition leaders. Both regions report the same core facts but differ in their focus on local symbolism versus domestic policy.</description>
-<category>eastern</category>
-<category>middle_east</category>
-<category>western</category>
-</item>
-<item>
-<title>Elon Musk claims Ukraine violated Starlink terms of service regarding the use of satellite internet.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-25-to-kill-people-musk-accuses-ukraine-military-of-misusing-st</link>
-<guid isPermaLink="false">2026-10-25-to-kill-people-musk-accuses-ukraine-military-of-misusing-st</guid>
-<pubDate>Sun, 25 Oct 2026 02:42:26 +0000</pubDate>
-<description>Elon Musk accused the Ukrainian military of violating Starlink terms of service by using the satellite network for offensive drone strikes. While both regions report on the technical restoration of the service and the core dispute over usage, their framing differs significantly. Eastern outlets focus on the operational logistics and the practical mechanics of the service restoration, whereas Russian coverage emphasizes the moral and strategic implications of the conflict's duration.</description>
-<category>eastern</category>
-<category>russia</category>
-</item>
-<item>
-<title>Houthi forces launch attacks on Saudi Arabian oil facilities and airports in Yemen and Saudi Arabia.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-24-houthis-launch-attacks-on-saudi-arabia-and-yemens-aden</link>
-<guid isPermaLink="false">2026-10-24-houthis-launch-attacks-on-saudi-arabia-and-yemens-aden</guid>
-<pubDate>Sun, 25 Oct 2026 02:49:35 +0000</pubDate>
-<description>On October 24, 2026, Houthi forces launched a multi-pronged attack using ballistic missiles and drones against Saudi Arabian oil facilities, airports, and military installations, as well as Yemeni infrastructure including the Aden International Airport. While all sources confirm the strikes occurred, coverage differs in framing. Middle Eastern outlets focus on the localized impact on Yemeni infrastructure and regional stability, whereas Russian and other sources frame the events as a broader geopolitical maneuver.</description>
-<category>middle_east</category>
-<category>russia</category>
-</item>
-<item>
-<title>Israeli forces conduct military operations and demolish homes in Hebron following a deadly attack.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-24-military-vehicles-storm-west-banks-hebron-as-israeli-army-st</link>
-<guid isPermaLink="false">2026-10-24-military-vehicles-storm-west-banks-hebron-as-israeli-army-st</guid>
-<pubDate>Sun, 25 Oct 2026 02:48:03 +0000</pubDate>
-<description>Following a deadly attack on Israeli soldiers on October 24, 2026, Israeli forces launched a military operation in Hebron involving structure demolitions and the displacement of Palestinian residents. While all regions report the military's stated goal of dismantling terrorist infrastructure, coverage diverges on the framing of the operation's impact. Western outlets emphasize the humanitarian consequences and international law, while Middle Eastern sources focus on the immediate reality of the siege and the local experience of residents under lockdown.</description>
-<category>eastern</category>
-<category>middle_east</category>
-<category>western</category>
-</item>
-<item>
-<title>Israel imposes a West Bank closure and begins demolitions following a shooting in Hebron.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-24-israeli-forces-begin-demolishing-palestinian-buildings-in-he</link>
-<guid isPermaLink="false">2026-10-24-israeli-forces-begin-demolishing-palestinian-buildings-in-he</guid>
-<pubDate>Sat, 24 Oct 2026 01:49:12 +0000</pubDate>
-<description>A violent confrontation in the southern West Bank on October 24, 2026, resulted in the deaths of two Israeli soldiers and two Palestinian gunmen, triggering an immediate Israeli military blockade and property demolitions. Western outlets focus on the security implications and the impact of the incident on Israel's domestic political landscape. Conversely, Middle Eastern reporting emphasizes the humanitarian consequences for Palestinian civilians and the broader context of the military occupation.</description>
+<title>Luiz Inácio Lula da Silva wins a fourth term as president of Brazil.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-27-messico-presidente-sheinbaum-celebra-la-rielezione-di-lula-i</link>
+<guid isPermaLink="false">2026-10-27-messico-presidente-sheinbaum-celebra-la-rielezione-di-lula-i</guid>
+<pubDate>Tue, 27 Oct 2026 02:55:01 +0000</pubDate>
+<description>A study in perspective: How the same electoral victory serves as a narrative of personal triumph, geopolitical friction, and institutional chaos.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Melania Trump brokered a localized ceasefire between Russia and Ukraine in the city of Oleshky.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-24-white-house-says-melania-trump-brokered-truce-for-ukraine-ci</link>
-<guid isPermaLink="false">2026-10-24-white-house-says-melania-trump-brokered-truce-for-ukraine-ci</guid>
-<pubDate>Sat, 24 Oct 2026 01:47:09 +0000</pubDate>
-<description>Melania Trump brokered a localized ceasefire in the town of Oleshky to facilitate humanitarian relief and civilian evacuations in the Kherson region. While both Western and Russian outlets confirm the truce, they differ in their framing of the intervention. Western sources emphasize the high-stakes diplomatic rescue and the urgency of the humanitarian crisis, whereas Russian reports focus on the procedural logistics and the involvement of local leaders in coordinating aid for specific demographics.</description>
+<title>Mecca Pact nations and Iran hold talks to discuss regional security and peace.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-27-mecca-pact-nations-hold-talks-with-iran-to-prevent-renewed-m</link>
+<guid isPermaLink="false">2026-10-27-mecca-pact-nations-hold-talks-with-iran-to-prevent-renewed-m</guid>
+<pubDate>Tue, 27 Oct 2026 02:52:45 +0000</pubDate>
+<description>On October 27, 2026, officials from Saudi Arabia, Turkey, and Pakistan met with Iranian leadership in Tehran to discuss regional security and de-escalate tensions involving Houthi militants. While all outlets confirm the meeting's primary goal of preventing war, coverage diverges on the role of external powers. Western sources frame the talks around the specific friction between Iran and the United States, whereas Eastern sources omit the American role to focus on the internal dynamics of the Middle East.</description>
+<category>eastern</category>
+<category>middle_east</category>
+<category>western</category>
+</item>
+<item>
+<title>Jordanian airstrikes in Syria following a church attack result in several civilian deaths.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-27-jordan-s-strikes-on-syria-over-church-terror-attack-kill-sev</link>
+<guid isPermaLink="false">2026-10-27-jordan-s-strikes-on-syria-over-church-terror-attack-kill-sev</guid>
+<pubDate>Tue, 27 Oct 2026 02:51:06 +0000</pubDate>
+<description>On October 27, 2026, the Jordanian Air Force conducted strikes in Syria's Daraa Governorate targeting extremist hideouts following an attack on a church in Karak. Reports confirm between five and seven civilian deaths, including women and children. While the physical facts are undisputed, Middle Eastern outlets emphasize the immediate retaliatory nature of the strikes and the resulting diplomatic friction with Damascus. In contrast, other reports focus more on the specific coordination levels between the two governments.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Ukraine and Russia exchange strikes following a visit by a U.S. envoy to the Kremlin</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-22-ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to</link>
-<guid isPermaLink="false">2026-10-22-ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to</guid>
-<pubDate>Fri, 23 Oct 2026 01:58:30 +0000</pubDate>
-<description>Ukraine and Russia exchanged drone and missile strikes on October 22, 2026, following a meeting between U.S. envoy Steve Witkoff and President Vladimir Putin. While all sources confirm the timing and occurrence of the strikes, coverage differs significantly in framing. Western outlets emphasize the humanitarian toll and the potential for renewed diplomacy, whereas Russian-aligned reporting focuses on the scale of the military defense and the reboot of peace talks.</description>
+<title>Israel holds a high-stakes national election as Benjamin Netanyahu faces a significant leadership test.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-27-why-israel-s-election-is-one-of-the-most-important-in-its-hi</link>
+<guid isPermaLink="false">2026-10-27-why-israel-s-election-is-one-of-the-most-important-in-its-hi</guid>
+<pubDate>Tue, 27 Oct 2026 02:49:19 +0000</pubDate>
+<description>Israel holds a national election on October 27, 2026, serving as a critical referendum on Prime Minister Benjamin Netanyahu’s leadership following the 2023 attacks and subsequent regional wars. Western outlets frame the vote as a domestic debate over national identity and internal policy shifts, such as judicial reform and religious exemptions. Conversely, Eastern coverage emphasizes the theme of political survival, focusing on Netanyahu's ability to maintain power amidst international isolation and the pressures of ongoing regional conflicts.</description>
+<category>eastern</category>
 <category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Venezuelan opposition leader and Nobel laureate María Corina Machado returns to the country after months of exile.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-26-venezuelan-opposition-leader-maria-machado-returns-after-mon</link>
+<guid isPermaLink="false">2026-10-26-venezuelan-opposition-leader-maria-machado-returns-after-mon</guid>
+<pubDate>Mon, 26 Oct 2026 02:47:32 +0000</pubDate>
+<description>Opposition leader and Nobel laureate María Corina Machado returned to Venezuela on October 26, 2026, ending a ten-month exile following the removal of Nicolás Maduro. Western media outlets frame her arrival as a result of complex U.S.-led diplomatic negotiations and a direct challenge to the interim government. In contrast, Middle Eastern and other regional outlets focus on the immediate public reaction and the visual spectacle of her arrival in the streets.</description>
+<category>eastern</category>
+<category>middle_east</category>
 <category>western</category>
 </item>
 </channel>

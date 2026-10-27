@@ -5,52 +5,104 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-25T03:58:23Z",
+ "_generated_at": "2026-10-27T03:59:06Z",
  "items": [
   {
-   "id": "2026-10-25-iran-war-live-trump-hints-at-possible-sunday-iran-attack-or",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-25-iran-war-live-trump-hints-at-possible-sunday-iran-attack-or",
-   "title": "Donald Trump suggests potential military action against Iran or the negotiation of a deal.",
-   "content_text": "President Donald Trump issued an ultimatum to Iran on October 25, 2026, stating the U.S. will either launch military action or reach a definitive diplomatic settlement. While both regions confirm the binary nature of the ultimatum, coverage differs in focus. Middle Eastern outlets emphasize the immediate timeline and nuclear non-proliferation goals, whereas Russian state media frames the situation as a strategic calculation of outcomes.",
-   "summary": "President Donald Trump issued an ultimatum to Iran on October 25, 2026, stating the U.S. will either launch military action or reach a definitive diplomatic settlement. While both regions confirm the binary nature of the ultimatum, coverage differs in focus. Middle Eastern outlets emphasize the immediate timeline and nuclear non-proliferation goals, whereas Russian state media frames the situation as a strategic calculation of outcomes.",
-   "date_published": "2026-10-25T02:46:02+00:00",
+   "id": "2026-10-27-messico-presidente-sheinbaum-celebra-la-rielezione-di-lula-i",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-27-messico-presidente-sheinbaum-celebra-la-rielezione-di-lula-i",
+   "title": "Luiz Inácio Lula da Silva wins a fourth term as president of Brazil.",
+   "content_text": "A study in perspective: How the same electoral victory serves as a narrative of personal triumph, geopolitical friction, and institutional chaos.",
+   "summary": "A study in perspective: How the same electoral victory serves as a narrative of personal triumph, geopolitical friction, and institutional chaos.",
+   "date_published": "2026-10-27T02:55:01+00:00",
    "tags": [
+    "eastern",
     "middle_east",
     "russia",
-    "tier-C"
+    "western",
+    "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 4097,
-    "event_date": "2026-10-25",
-    "tier": "C",
-    "tier_label": "Partial coverage",
+    "cluster_id": 4137,
+    "event_date": "2026-10-27",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
     "regions": [
+     "eastern",
      "middle_east",
-     "russia"
+     "russia",
+     "western"
     ],
-    "article_count": 3,
-    "source_count": 3,
+    "article_count": 22,
+    "source_count": 11,
     "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/27/-brasile-il-partito-di-bolsonaro-riconosce-la-vittoria-di-lula-_21777964-2ff7-4d24-baa1-7961dd4eac88.html"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/brazil-s-lula-reelected-president-in-runoff-vote-a-look-back-at-his-career"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/10/26/ragioni-rimonta-lula-brasile/"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-10-26/news-1Ry0dIAj0Q0/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/brazil-bucks-regional-shift-to-right-brings-back-lula/articleshow/135222016.cms"
+     },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-could-strike-iran-tomorrow-or-strike-beautiful-deal"
+      "url": "https://www.aljazeera.com/news/2026/10/27/bolsonaros-party-accepts-result-after-trump-suggests-vote-was?traffic_source=rss"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2207359"
+      "url": "https://tass.com/world/2208263"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/647768-trump-brazil-election-rigged/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "El Pais English",
+      "region": "western",
+      "country": "ES",
+      "url": "https://english.elpais.com/international/2026-10-26/latin-americas-left-celebrates-lulas-victory-the-pele-of-progressivism.html"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/10/26/trump-says-brazil-election-looked-rigged-without-giving-evidence"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4097.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4137.json",
     "languages": [
      "en",
      "it",
@@ -61,12 +113,12 @@
    }
   },
   {
-   "id": "2026-10-25-thousands-take-to-tel-aviv-s-streets-for-protests-against-ne",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-25-thousands-take-to-tel-aviv-s-streets-for-protests-against-ne",
-   "title": "Thousands of people gather in Tel Aviv to protest against the government before upcoming elections.",
-   "content_text": "Thousands gathered in Tel Aviv to protest Prime Minister Benjamin Netanyahu’s government and demand an independent commission of inquiry regarding the October 7 security failures. Western outlets frame the event as a domestic political struggle focused on accountability and the upcoming election. In contrast, Middle Eastern outlets emphasize the symbolic location of \"Hostages Square\" and the specific involvement of high-level opposition leaders. Both regions report the same core facts but differ in their focus on local symbolism versus domestic policy.",
-   "summary": "Thousands gathered in Tel Aviv to protest Prime Minister Benjamin Netanyahu’s government and demand an independent commission of inquiry regarding the October 7 security failures. Western outlets frame the event as a domestic political struggle focused on accountability and the upcoming election. In contrast, Middle Eastern outlets emphasize the symbolic location of \"Hostages Square\" and the specific involvement of high-level opposition leaders. Both regions report the same core facts but differ in their focus on local symbolism versus domestic policy.",
-   "date_published": "2026-10-25T02:44:07+00:00",
+   "id": "2026-10-27-mecca-pact-nations-hold-talks-with-iran-to-prevent-renewed-m",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-27-mecca-pact-nations-hold-talks-with-iran-to-prevent-renewed-m",
+   "title": "Mecca Pact nations and Iran hold talks to discuss regional security and peace.",
+   "content_text": "On October 27, 2026, officials from Saudi Arabia, Turkey, and Pakistan met with Iranian leadership in Tehran to discuss regional security and de-escalate tensions involving Houthi militants. While all outlets confirm the meeting's primary goal of preventing war, coverage diverges on the role of external powers. Western sources frame the talks around the specific friction between Iran and the United States, whereas Eastern sources omit the American role to focus on the internal dynamics of the Middle East.",
+   "summary": "On October 27, 2026, officials from Saudi Arabia, Turkey, and Pakistan met with Iranian leadership in Tehran to discuss regional security and de-escalate tensions involving Houthi militants. While all outlets confirm the meeting's primary goal of preventing war, coverage diverges on the role of external powers. Western sources frame the talks around the specific friction between Iran and the United States, whereas Eastern sources omit the American role to focus on the internal dynamics of the Middle East.",
+   "date_published": "2026-10-27T02:52:45+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -74,8 +126,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 4093,
-    "event_date": "2026-10-25",
+    "cluster_id": 4136,
+    "event_date": "2026-10-27",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -83,238 +135,41 @@
      "middle_east",
      "western"
     ],
-    "article_count": 5,
+    "article_count": 6,
     "source_count": 5,
     "sources": [
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20261024-thousands-take-to-tel-aviv-streets-for-protests-against-netanyahu"
+      "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war"
      },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/24/migliaia-in-piazza-a-tel-aviv-contro-netanyahu-prima-delle-elezioni_ea4661b2-4230-4940-8176-971f26244f3d.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/thousands-rally-in-tel-aviv-against-netanyahu-ahead-vote-6489811"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/24/thousands-of-israelis-rally-against-netanyahu-govt-days-before-election?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/thousands-rally-against-netanyahu-ahead-elections"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4093.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-25-to-kill-people-musk-accuses-ukraine-military-of-misusing-st",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-25-to-kill-people-musk-accuses-ukraine-military-of-misusing-st",
-   "title": "Elon Musk claims Ukraine violated Starlink terms of service regarding the use of satellite internet.",
-   "content_text": "Elon Musk accused the Ukrainian military of violating Starlink terms of service by using the satellite network for offensive drone strikes. While both regions report on the technical restoration of the service and the core dispute over usage, their framing differs significantly. Eastern outlets focus on the operational logistics and the practical mechanics of the service restoration, whereas Russian coverage emphasizes the moral and strategic implications of the conflict's duration.",
-   "summary": "Elon Musk accused the Ukrainian military of violating Starlink terms of service by using the satellite network for offensive drone strikes. While both regions report on the technical restoration of the service and the core dispute over usage, their framing differs significantly. Eastern outlets focus on the operational logistics and the practical mechanics of the service restoration, whereas Russian coverage emphasizes the moral and strategic implications of the conflict's duration.",
-   "date_published": "2026-10-25T02:42:26+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4092,
-    "event_date": "2026-10-25",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "eastern",
-     "russia"
-    ],
-    "article_count": 4,
-    "source_count": 4,
-    "sources": [
      {
       "name": "Times of India",
       "region": "eastern",
       "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/europe/to-kill-people-musk-accuses-ukraine-military-of-misusing-starlink-for-drone-strikes/articleshow/135181125.cms"
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-defence-pact-countries-push-for-peace-in-iran/articleshow/135222262.cms"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/ukraine-says-starshield-back-normal-musk-says-kyiv-violated-terms-6489801"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2207339"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/647624-musk-closes-starlink-loophole/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4092.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-24-houthis-launch-attacks-on-saudi-arabia-and-yemens-aden",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-24-houthis-launch-attacks-on-saudi-arabia-and-yemens-aden",
-   "title": "Houthi forces launch attacks on Saudi Arabian oil facilities and airports in Yemen and Saudi Arabia.",
-   "content_text": "On October 24, 2026, Houthi forces launched a multi-pronged attack using ballistic missiles and drones against Saudi Arabian oil facilities, airports, and military installations, as well as Yemeni infrastructure including the Aden International Airport. While all sources confirm the strikes occurred, coverage differs in framing. Middle Eastern outlets focus on the localized impact on Yemeni infrastructure and regional stability, whereas Russian and other sources frame the events as a broader geopolitical maneuver.",
-   "summary": "On October 24, 2026, Houthi forces launched a multi-pronged attack using ballistic missiles and drones against Saudi Arabian oil facilities, airports, and military installations, as well as Yemeni infrastructure including the Aden International Airport. While all sources confirm the strikes occurred, coverage differs in framing. Middle Eastern outlets focus on the localized impact on Yemeni infrastructure and regional stability, whereas Russian and other sources frame the events as a broader geopolitical maneuver.",
-   "date_published": "2026-10-25T02:49:35+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4100,
-    "event_date": "2026-10-24",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "middle_east",
-     "russia"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss"
+      "url": "https://www.channelnewsasia.com/world/mecca-iran-talks-middle-east-6494456"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-attacked-saudi-oil-facilities-airports"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2207323"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4100.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-24-military-vehicles-storm-west-banks-hebron-as-israeli-army-st",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-24-military-vehicles-storm-west-banks-hebron-as-israeli-army-st",
-   "title": "Israeli forces conduct military operations and demolish homes in Hebron following a deadly attack.",
-   "content_text": "Following a deadly attack on Israeli soldiers on October 24, 2026, Israeli forces launched a military operation in Hebron involving structure demolitions and the displacement of Palestinian residents. While all regions report the military's stated goal of dismantling terrorist infrastructure, coverage diverges on the framing of the operation's impact. Western outlets emphasize the humanitarian consequences and international law, while Middle Eastern sources focus on the immediate reality of the siege and the local experience of residents under lockdown.",
-   "summary": "Following a deadly attack on Israeli soldiers on October 24, 2026, Israeli forces launched a military operation in Hebron involving structure demolitions and the displacement of Palestinian residents. While all regions report the military's stated goal of dismantling terrorist infrastructure, coverage diverges on the framing of the operation's impact. Western outlets emphasize the humanitarian consequences and international law, while Middle Eastern sources focus on the immediate reality of the siege and the local experience of residents under lockdown.",
-   "date_published": "2026-10-25T02:48:03+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 4098,
-    "event_date": "2026-10-24",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 11,
-    "source_count": 8,
-    "sources": [
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/disaster-zone-hebron-under-full-israeli-siege-mayor-says"
-     },
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/israel-begins-demolitions-in-west-bank"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-10-24/Netanyahu-says-Israel-is-planning-a-major-West-Bank-military-operation-1RuFifSnEVa/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/israel-launches-west-bank-operation-after-attack-days-election-6488581"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss"
+      "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security"
      },
      {
       "name": "Euronews",
       "region": "western",
       "country": "EU",
-      "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier"
+      "url": "https://www.euronews.com/2026/10/26/from-the-mecca-defence-pact-to-tehran-talks-is-the-middle-easts-security-landscape-shiftin"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4098.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4136.json",
     "languages": [
      "en",
      "it",
@@ -325,12 +180,12 @@
    }
   },
   {
-   "id": "2026-10-24-israeli-forces-begin-demolishing-palestinian-buildings-in-he",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-24-israeli-forces-begin-demolishing-palestinian-buildings-in-he",
-   "title": "Israel imposes a West Bank closure and begins demolitions following a shooting in Hebron.",
-   "content_text": "A violent confrontation in the southern West Bank on October 24, 2026, resulted in the deaths of two Israeli soldiers and two Palestinian gunmen, triggering an immediate Israeli military blockade and property demolitions. Western outlets focus on the security implications and the impact of the incident on Israel's domestic political landscape. Conversely, Middle Eastern reporting emphasizes the humanitarian consequences for Palestinian civilians and the broader context of the military occupation.",
-   "summary": "A violent confrontation in the southern West Bank on October 24, 2026, resulted in the deaths of two Israeli soldiers and two Palestinian gunmen, triggering an immediate Israeli military blockade and property demolitions. Western outlets focus on the security implications and the impact of the incident on Israel's domestic political landscape. Conversely, Middle Eastern reporting emphasizes the humanitarian consequences for Palestinian civilians and the broader context of the military occupation.",
-   "date_published": "2026-10-24T01:49:12+00:00",
+   "id": "2026-10-27-jordan-s-strikes-on-syria-over-church-terror-attack-kill-sev",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-27-jordan-s-strikes-on-syria-over-church-terror-attack-kill-sev",
+   "title": "Jordanian airstrikes in Syria following a church attack result in several civilian deaths.",
+   "content_text": "On October 27, 2026, the Jordanian Air Force conducted strikes in Syria's Daraa Governorate targeting extremist hideouts following an attack on a church in Karak. Reports confirm between five and seven civilian deaths, including women and children. While the physical facts are undisputed, Middle Eastern outlets emphasize the immediate retaliatory nature of the strikes and the resulting diplomatic friction with Damascus. In contrast, other reports focus more on the specific coordination levels between the two governments.",
+   "summary": "On October 27, 2026, the Jordanian Air Force conducted strikes in Syria's Daraa Governorate targeting extremist hideouts following an attack on a church in Karak. Reports confirm between five and seven civilian deaths, including women and children. While the physical facts are undisputed, Middle Eastern outlets emphasize the immediate retaliatory nature of the strikes and the resulting diplomatic friction with Damascus. In contrast, other reports focus more on the specific coordination levels between the two governments.",
+   "date_published": "2026-10-27T02:51:06+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -339,8 +194,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 4082,
-    "event_date": "2026-10-24",
+    "cluster_id": 4133,
+    "event_date": "2026-10-27",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -350,174 +205,210 @@
      "western"
     ],
     "article_count": 6,
-    "source_count": 6,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/netanyahu-orders-west-bank-closure-attack-wounds-israelis-election-6485546"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-forcing-hebron-residents-evacuate-foot-qnn-reports"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/647590-netanyahu-west-bank-blockade/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4082.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-24-white-house-says-melania-trump-brokered-truce-for-ukraine-ci",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-24-white-house-says-melania-trump-brokered-truce-for-ukraine-ci",
-   "title": "Melania Trump brokered a localized ceasefire between Russia and Ukraine in the city of Oleshky.",
-   "content_text": "Melania Trump brokered a localized ceasefire in the town of Oleshky to facilitate humanitarian relief and civilian evacuations in the Kherson region. While both Western and Russian outlets confirm the truce, they differ in their framing of the intervention. Western sources emphasize the high-stakes diplomatic rescue and the urgency of the humanitarian crisis, whereas Russian reports focus on the procedural logistics and the involvement of local leaders in coordinating aid for specific demographics.",
-   "summary": "Melania Trump brokered a localized ceasefire in the town of Oleshky to facilitate humanitarian relief and civilian evacuations in the Kherson region. While both Western and Russian outlets confirm the truce, they differ in their framing of the intervention. Western sources emphasize the high-stakes diplomatic rescue and the urgency of the humanitarian crisis, whereas Russian reports focus on the procedural logistics and the involvement of local leaders in coordinating aid for specific demographics.",
-   "date_published": "2026-10-24T01:47:09+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 4080,
-    "event_date": "2026-10-24",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 8,
-    "source_count": 6,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/23/mosca-cessate-il-fuoco-a-oleshky-dal-27-ottobre_2f41febd-9a31-4acc-a67e-b675e0161c97.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/melania-trumo-ukraine-russia-truce-oleshky-6487441"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/647580-melania-trump-russia-ukraine-alyoshki-ceasefire/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/23/melania-trump-brokers-ceasefire-in-occupied-ukraines-oleshky-a94069"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4080.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-22-ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-22-ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to",
-   "title": "Ukraine and Russia exchange strikes following a visit by a U.S. envoy to the Kremlin",
-   "content_text": "Ukraine and Russia exchanged drone and missile strikes on October 22, 2026, following a meeting between U.S. envoy Steve Witkoff and President Vladimir Putin. While all sources confirm the timing and occurrence of the strikes, coverage differs significantly in framing. Western outlets emphasize the humanitarian toll and the potential for renewed diplomacy, whereas Russian-aligned reporting focuses on the scale of the military defense and the reboot of peace talks.",
-   "summary": "Ukraine and Russia exchanged drone and missile strikes on October 22, 2026, following a meeting between U.S. envoy Steve Witkoff and President Vladimir Putin. While all sources confirm the timing and occurrence of the strikes, coverage differs significantly in framing. Western outlets emphasize the humanitarian toll and the potential for renewed diplomacy, whereas Russian-aligned reporting focuses on the scale of the military defense and the reboot of peace talks.",
-   "date_published": "2026-10-23T01:58:30+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4074,
-    "event_date": "2026-10-22",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 3,
-    "source_count": 3,
+    "source_count": 5,
     "sources": [
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to-the-kremlin"
+      "url": "https://www.france24.com/en/middle-east/20261026-jordan-arrests-three-following-deadly-terror-attack-on-church"
      },
      {
-      "name": "The Moscow Times",
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/7-civilians-killed-in-jordan-strike-on-syrian-militants-in-retaliation-to-church-attack/articleshow/135222477.cms"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/10/26/jordan-launches-air-strikes-in-syria-in-response-to-a-fatal-church-shooting?traffic_source=rss"
+     },
+     {
+      "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/22/ukraine-and-russia-trade-deadly-strikes-after-us-tries-to-reboot-peace-talks-a94044"
+      "url": "https://tass.com/world/2208277"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/647771-jordan-bombs-syria-terrorists/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4133.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-27-why-israel-s-election-is-one-of-the-most-important-in-its-hi",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-27-why-israel-s-election-is-one-of-the-most-important-in-its-hi",
+   "title": "Israel holds a high-stakes national election as Benjamin Netanyahu faces a significant leadership test.",
+   "content_text": "Israel holds a national election on October 27, 2026, serving as a critical referendum on Prime Minister Benjamin Netanyahu’s leadership following the 2023 attacks and subsequent regional wars. Western outlets frame the vote as a domestic debate over national identity and internal policy shifts, such as judicial reform and religious exemptions. Conversely, Eastern coverage emphasizes the theme of political survival, focusing on Netanyahu's ability to maintain power amidst international isolation and the pressures of ongoing regional conflicts.",
+   "summary": "Israel holds a national election on October 27, 2026, serving as a critical referendum on Prime Minister Benjamin Netanyahu’s leadership following the 2023 attacks and subsequent regional wars. Western outlets frame the vote as a domestic debate over national identity and internal policy shifts, such as judicial reform and religious exemptions. Conversely, Eastern coverage emphasizes the theme of political survival, focusing on Netanyahu's ability to maintain power amidst international isolation and the pressures of ongoing regional conflicts.",
+   "date_published": "2026-10-27T02:49:19+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 4132,
+    "event_date": "2026-10-27",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "russia",
+     "western"
+    ],
+    "article_count": 7,
+    "source_count": 7,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-10-26/Israel-election-tests-Netanyahu-s-grip-amid-security-political-rifts-1RxaOfwSFH2/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/can-netanyahu-survive-another-storm-israel-votes-after-october-7-gaza-and-iran-wars/articleshow/135222527.cms"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/israel-election-prime-minister-netanyahu-6494976"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/647731-israel-election-2026-netanyahu-political-survival/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      },
      {
       "name": "Euronews",
       "region": "western",
       "country": "EU",
-      "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit"
+      "url": "https://www.euronews.com/2026/10/26/why-israels-wartime-election-isnt-just-about-the-battle-with-iran-and-hamas"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4074.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4132.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-26-venezuelan-opposition-leader-maria-machado-returns-after-mon",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-26-venezuelan-opposition-leader-maria-machado-returns-after-mon",
+   "title": "Venezuelan opposition leader and Nobel laureate María Corina Machado returns to the country after months of exile.",
+   "content_text": "Opposition leader and Nobel laureate María Corina Machado returned to Venezuela on October 26, 2026, ending a ten-month exile following the removal of Nicolás Maduro. Western media outlets frame her arrival as a result of complex U.S.-led diplomatic negotiations and a direct challenge to the interim government. In contrast, Middle Eastern and other regional outlets focus on the immediate public reaction and the visual spectacle of her arrival in the streets.",
+   "summary": "Opposition leader and Nobel laureate María Corina Machado returned to Venezuela on October 26, 2026, ending a ten-month exile following the removal of Nicolás Maduro. Western media outlets frame her arrival as a result of complex U.S.-led diplomatic negotiations and a direct challenge to the interim government. In contrast, Middle Eastern and other regional outlets focus on the immediate public reaction and the visual spectacle of her arrival in the streets.",
+   "date_published": "2026-10-26T02:47:32+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 4117,
+    "event_date": "2026-10-26",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "western"
+    ],
+    "article_count": 11,
+    "source_count": 9,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/americas/20261025-opposition-leader-machado-returns-to-venezuela-after-10-months-in-exile"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/25/la-premio-nobel-machado-torna-in-venezuela-dopo-dieci-mesi_5e7fe194-a6eb-407f-97d9-d5bd0891ac76.html"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/i-am-here-with-you-nobel-laureate-venezuela-opposition-leader-machado-returns-after-nearly-a-year-in-exile/articleshow/135197260.cms"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/venezuela-opposition-leader-machado-returns-home-after-fraught-year-away-6490756"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/venezuelas-opposition-leader-machado-returns-after-months-in-exile?traffic_source=rss"
+     },
+     {
+      "name": "El Pais English",
+      "region": "western",
+      "country": "ES",
+      "url": "https://english.elpais.com/international/2026-10-25/maria-corina-machado-returns-to-venezuela.html"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/10/25/maria-corina-machado-back-in-venezuela-after-nearly-10-months-in-exile"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4117.json",
     "languages": [
      "en",
      "it",
