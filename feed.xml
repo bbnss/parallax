@@ -6,56 +6,54 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 27 Oct 2026 03:59:06 +0000</lastBuildDate>
+<lastBuildDate>Wed, 28 Oct 2026 03:43:01 +0000</lastBuildDate>
 <item>
-<title>Luiz Inácio Lula da Silva wins a fourth term as president of Brazil.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-27-messico-presidente-sheinbaum-celebra-la-rielezione-di-lula-i</link>
-<guid isPermaLink="false">2026-10-27-messico-presidente-sheinbaum-celebra-la-rielezione-di-lula-i</guid>
-<pubDate>Tue, 27 Oct 2026 02:55:01 +0000</pubDate>
-<description>A study in perspective: How the same electoral victory serves as a narrative of personal triumph, geopolitical friction, and institutional chaos.</description>
+<title>Russia and Ukraine begin a local humanitarian ceasefire in Oleshky following a U.S.-brokered agreement.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-28-russia-annuncia-al-via-la-tregua-umanitaria-a-oleshky</link>
+<guid isPermaLink="false">2026-10-28-russia-annuncia-al-via-la-tregua-umanitaria-a-oleshky</guid>
+<pubDate>Wed, 28 Oct 2026 02:56:14 +0000</pubDate>
+<description>Russia and Ukraine established a localized humanitarian ceasefire in the Kherson region town of Oleshky to facilitate civilian evacuations and the delivery of essential supplies. While all outlets confirm the truce occurred, coverage diverges on the framing of the mediation. Western sources emphasize the diplomatic role of U.S. mediators and the sanctity of the humanitarian mission, whereas Eastern reports focus on the practical functionality of the 3 a.m. truce amidst ongoing strikes in other regions.</description>
+<category>eastern</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Flavio Bolsonaro travels to the United States following a Brazilian court travel ban.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-28-flavio-bolsonaro-vows-to-lead-opposition-after-brazil-court</link>
+<guid isPermaLink="false">2026-10-28-flavio-bolsonaro-vows-to-lead-opposition-after-brazil-court</guid>
+<pubDate>Wed, 28 Oct 2026 02:54:11 +0000</pubDate>
+<description>Senator Flavio Bolsonaro fled to the United States following a Brazilian Supreme Court order to surrender his passports amid money-laundering investigations. While all regions report the flight occurred after his presidential election loss, coverage diverges on the narrative framing of his departure. Western outlets focus on the domestic political fallout and the "shameful" nature of his defiance against Brazilian law, while Eastern and Middle Eastern sources emphasize the role of the U.S. government as a sanctuary for political allies.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Mecca Pact nations and Iran hold talks to discuss regional security and peace.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-27-mecca-pact-nations-hold-talks-with-iran-to-prevent-renewed-m</link>
-<guid isPermaLink="false">2026-10-27-mecca-pact-nations-hold-talks-with-iran-to-prevent-renewed-m</guid>
-<pubDate>Tue, 27 Oct 2026 02:52:45 +0000</pubDate>
-<description>On October 27, 2026, officials from Saudi Arabia, Turkey, and Pakistan met with Iranian leadership in Tehran to discuss regional security and de-escalate tensions involving Houthi militants. While all outlets confirm the meeting's primary goal of preventing war, coverage diverges on the role of external powers. Western sources frame the talks around the specific friction between Iran and the United States, whereas Eastern sources omit the American role to focus on the internal dynamics of the Middle East.</description>
-<category>eastern</category>
-<category>middle_east</category>
-<category>western</category>
-</item>
-<item>
-<title>Jordanian airstrikes in Syria following a church attack result in several civilian deaths.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-27-jordan-s-strikes-on-syria-over-church-terror-attack-kill-sev</link>
-<guid isPermaLink="false">2026-10-27-jordan-s-strikes-on-syria-over-church-terror-attack-kill-sev</guid>
-<pubDate>Tue, 27 Oct 2026 02:51:06 +0000</pubDate>
-<description>On October 27, 2026, the Jordanian Air Force conducted strikes in Syria's Daraa Governorate targeting extremist hideouts following an attack on a church in Karak. Reports confirm between five and seven civilian deaths, including women and children. While the physical facts are undisputed, Middle Eastern outlets emphasize the immediate retaliatory nature of the strikes and the resulting diplomatic friction with Damascus. In contrast, other reports focus more on the specific coordination levels between the two governments.</description>
+<title>Israel holds a general election following the events of October 7 to determine its leadership.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-28-alta-tensione-in-israele-il-giorno-della-verita-per-netanyah</link>
+<guid isPermaLink="false">2026-10-28-alta-tensione-in-israele-il-giorno-della-verita-per-netanyah</guid>
+<pubDate>Wed, 28 Oct 2026 02:51:47 +0000</pubDate>
+<description>Israel held its first general election since the October 7 attacks, recording a historic voter turnout exceeding 74 percent. Western outlets frame the vote primarily as a referendum on Prime Minister Benjamin Netanyahu’s leadership and the nation's internal stability. Conversely, Middle Eastern reporting focuses on the surge in Arab party participation and the potential for minority voices to influence coalition negotiations. Both regions agree on the high stakes of the vote despite these differing narrative focuses.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Israel holds a high-stakes national election as Benjamin Netanyahu faces a significant leadership test.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-27-why-israel-s-election-is-one-of-the-most-important-in-its-hi</link>
-<guid isPermaLink="false">2026-10-27-why-israel-s-election-is-one-of-the-most-important-in-its-hi</guid>
-<pubDate>Tue, 27 Oct 2026 02:49:19 +0000</pubDate>
-<description>Israel holds a national election on October 27, 2026, serving as a critical referendum on Prime Minister Benjamin Netanyahu’s leadership following the 2023 attacks and subsequent regional wars. Western outlets frame the vote as a domestic debate over national identity and internal policy shifts, such as judicial reform and religious exemptions. Conversely, Eastern coverage emphasizes the theme of political survival, focusing on Netanyahu's ability to maintain power amidst international isolation and the pressures of ongoing regional conflicts.</description>
+<title>Saudi-led coalition and Houthi forces exchange strikes and report intercepted missiles and drones.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-27-houthis-and-saudi-led-coalition-exchange-strikes-casualties</link>
+<guid isPermaLink="false">2026-10-27-houthis-and-saudi-led-coalition-exchange-strikes-casualties</guid>
+<pubDate>Tue, 27 Oct 2026 02:56:38 +0000</pubDate>
+<description>How regional geography and geopolitical proximity reshape the reporting of a single aerial exchange.</description>
 <category>eastern</category>
-<category>russia</category>
-<category>western</category>
+<category>middle_east</category>
 </item>
 <item>
-<title>Venezuelan opposition leader and Nobel laureate María Corina Machado returns to the country after months of exile.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-26-venezuelan-opposition-leader-maria-machado-returns-after-mon</link>
-<guid isPermaLink="false">2026-10-26-venezuelan-opposition-leader-maria-machado-returns-after-mon</guid>
-<pubDate>Mon, 26 Oct 2026 02:47:32 +0000</pubDate>
-<description>Opposition leader and Nobel laureate María Corina Machado returned to Venezuela on October 26, 2026, ending a ten-month exile following the removal of Nicolás Maduro. Western media outlets frame her arrival as a result of complex U.S.-led diplomatic negotiations and a direct challenge to the interim government. In contrast, Middle Eastern and other regional outlets focus on the immediate public reaction and the visual spectacle of her arrival in the streets.</description>
-<category>eastern</category>
+<title>Israel to close West Bank crossings on election day following a shooting in Hebron.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-25-israel-to-close-west-bank-crossings-on-election-day-as-crack</link>
+<guid isPermaLink="false">2026-10-25-israel-to-close-west-bank-crossings-on-election-day-as-crack</guid>
+<pubDate>Tue, 27 Oct 2026 03:00:15 +0000</pubDate>
+<description>The Israeli military announced the closure of all West Bank land crossings on October 25, 2026, following a fatal shooting in Hebron. While all outlets report the physical closure of transit points and the barring of Palestinian workers, they differ significantly in their framing of the motive. Western sources frame the move as a reactive security measure to address immediate threats, whereas Middle Eastern sources characterize it as a deliberate political siege intended to cut off Palestinian revenue.</description>
 <category>middle_east</category>
 <category>western</category>
 </item>
