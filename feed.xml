@@ -6,55 +6,45 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 28 Oct 2026 03:43:01 +0000</lastBuildDate>
+<lastBuildDate>Thu, 29 Oct 2026 03:47:20 +0000</lastBuildDate>
 <item>
-<title>Russia and Ukraine begin a local humanitarian ceasefire in Oleshky following a U.S.-brokered agreement.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-28-russia-annuncia-al-via-la-tregua-umanitaria-a-oleshky</link>
-<guid isPermaLink="false">2026-10-28-russia-annuncia-al-via-la-tregua-umanitaria-a-oleshky</guid>
-<pubDate>Wed, 28 Oct 2026 02:56:14 +0000</pubDate>
-<description>Russia and Ukraine established a localized humanitarian ceasefire in the Kherson region town of Oleshky to facilitate civilian evacuations and the delivery of essential supplies. While all outlets confirm the truce occurred, coverage diverges on the framing of the mediation. Western sources emphasize the diplomatic role of U.S. mediators and the sanctity of the humanitarian mission, whereas Eastern reports focus on the practical functionality of the 3 a.m. truce amidst ongoing strikes in other regions.</description>
-<category>eastern</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Flavio Bolsonaro travels to the United States following a Brazilian court travel ban.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-28-flavio-bolsonaro-vows-to-lead-opposition-after-brazil-court</link>
-<guid isPermaLink="false">2026-10-28-flavio-bolsonaro-vows-to-lead-opposition-after-brazil-court</guid>
-<pubDate>Wed, 28 Oct 2026 02:54:11 +0000</pubDate>
-<description>Senator Flavio Bolsonaro fled to the United States following a Brazilian Supreme Court order to surrender his passports amid money-laundering investigations. While all regions report the flight occurred after his presidential election loss, coverage diverges on the narrative framing of his departure. Western outlets focus on the domestic political fallout and the "shameful" nature of his defiance against Brazilian law, while Eastern and Middle Eastern sources emphasize the role of the U.S. government as a sanctuary for political allies.</description>
+<title>Israeli election results show a fragmented outcome with no clear winner and a potential deadlock.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-29-netanyahu-rallies-likud-voters-with-megaphone-in-shopping-ma</link>
+<guid isPermaLink="false">2026-10-29-netanyahu-rallies-likud-voters-with-megaphone-in-shopping-ma</guid>
+<pubDate>Thu, 29 Oct 2026 02:53:10 +0000</pubDate>
+<description>Israeli parliamentary elections resulted in a deadlock as neither Benjamin Netanyahu’s right-wing bloc nor the opposition secured a clear majority. While all regions report record voter turnout and significant gains for Arab-majority parties, coverage diverges on the implications of these results. Western outlets frame the outcome as a complex procedural hurdle for democratic coalition-building, whereas Middle Eastern sources emphasize the shift in power dynamics for Palestinian citizens and the impact on regional conflict.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Israel holds a general election following the events of October 7 to determine its leadership.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-28-alta-tensione-in-israele-il-giorno-della-verita-per-netanyah</link>
-<guid isPermaLink="false">2026-10-28-alta-tensione-in-israele-il-giorno-della-verita-per-netanyah</guid>
-<pubDate>Wed, 28 Oct 2026 02:51:47 +0000</pubDate>
-<description>Israel held its first general election since the October 7 attacks, recording a historic voter turnout exceeding 74 percent. Western outlets frame the vote primarily as a referendum on Prime Minister Benjamin Netanyahu’s leadership and the nation's internal stability. Conversely, Middle Eastern reporting focuses on the surge in Arab party participation and the potential for minority voices to influence coalition negotiations. Both regions agree on the high stakes of the vote despite these differing narrative focuses.</description>
-<category>eastern</category>
-<category>middle_east</category>
+<title>Serbian police shoot and kill a man who attacked the Israeli embassy in Belgrade.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-28-serbian-shot-dead-after-attacking-officer-outside-israeli-em</link>
+<guid isPermaLink="false">2026-10-28-serbian-shot-dead-after-attacking-officer-outside-israeli-em</guid>
+<pubDate>Thu, 29 Oct 2026 02:56:59 +0000</pubDate>
+<description>On October 28, 2026, Serbian police shot and killed a man who attacked a guard with a knife at the Israeli embassy in Belgrade, prompting a "red alert" terrorism status. Western outlets frame the incident as a targeted act of terrorism by a self-identified Islamic State supporter. In contrast, Russian reports focus on the suspect's local identity as a minor from Sabac and characterize the police action as a matter of immediate self-defense.</description>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Saudi-led coalition and Houthi forces exchange strikes and report intercepted missiles and drones.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-27-houthis-and-saudi-led-coalition-exchange-strikes-casualties</link>
-<guid isPermaLink="false">2026-10-27-houthis-and-saudi-led-coalition-exchange-strikes-casualties</guid>
-<pubDate>Tue, 27 Oct 2026 02:56:38 +0000</pubDate>
-<description>How regional geography and geopolitical proximity reshape the reporting of a single aerial exchange.</description>
-<category>eastern</category>
-<category>middle_east</category>
+<title>Finnish President and Norwegian Prime Minister held a phone call with Russian President Vladimir Putin.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-28-store-telefonata-di-90-minuti-con-putin-alleati-ue-erano-sta</link>
+<guid isPermaLink="false">2026-10-28-store-telefonata-di-90-minuti-con-putin-alleati-ue-erano-sta</guid>
+<pubDate>Thu, 29 Oct 2026 02:55:08 +0000</pubDate>
+<description>Finnish President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre held a 90-minute call with Russian President Vladimir Putin on October 28, 2026, to discuss peace negotiations in Ukraine. Western outlets frame the call as a proactive, unified step toward de-escalation and a practical move toward upcoming talks in the UAE. In contrast, Russian media highlights the event as a rare break in silence while framing it as a source of internal European fragmentation regarding unified representation.</description>
+<category>russia</category>
+<category>western</category>
 </item>
 <item>
-<title>Israel to close West Bank crossings on election day following a shooting in Hebron.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-25-israel-to-close-west-bank-crossings-on-election-day-as-crack</link>
-<guid isPermaLink="false">2026-10-25-israel-to-close-west-bank-crossings-on-election-day-as-crack</guid>
-<pubDate>Tue, 27 Oct 2026 03:00:15 +0000</pubDate>
-<description>The Israeli military announced the closure of all West Bank land crossings on October 25, 2026, following a fatal shooting in Hebron. While all outlets report the physical closure of transit points and the barring of Palestinian workers, they differ significantly in their framing of the motive. Western sources frame the move as a reactive security measure to address immediate threats, whereas Middle Eastern sources characterize it as a deliberate political siege intended to cut off Palestinian revenue.</description>
+<title>Early exit polls show a deadlock between Netanyahu and Eisenkot in the Israeli election.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-28-watch-what-happens-now-after-close-vote-in-israeli-election</link>
+<guid isPermaLink="false">2026-10-28-watch-what-happens-now-after-close-vote-in-israeli-election</guid>
+<pubDate>Thu, 29 Oct 2026 02:59:14 +0000</pubDate>
+<description>Following the October 28 elections, exit polls confirmed a deadlock between Benjamin Netanyahu and Gadi Eisenkot, with neither candidate securing a majority despite a 77% voter turnout. Western outlets frame the results as a domestic referendum on Netanyahu’s leadership and the technical hurdles of forming a coalition. In contrast, Middle Eastern and Russian sources emphasize the regional implications, highlighting the increased leverage of Arab parties as a direct consequence of the conflict in Gaza.</description>
+<category>eastern</category>
 <category>middle_east</category>
+<category>russia</category>
 <category>western</category>
 </item>
 </channel>

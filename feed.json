@@ -5,94 +5,15 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-28T03:43:01Z",
+ "_generated_at": "2026-10-29T03:47:20Z",
  "items": [
   {
-   "id": "2026-10-28-russia-annuncia-al-via-la-tregua-umanitaria-a-oleshky",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-28-russia-annuncia-al-via-la-tregua-umanitaria-a-oleshky",
-   "title": "Russia and Ukraine begin a local humanitarian ceasefire in Oleshky following a U.S.-brokered agreement.",
-   "content_text": "Russia and Ukraine established a localized humanitarian ceasefire in the Kherson region town of Oleshky to facilitate civilian evacuations and the delivery of essential supplies. While all outlets confirm the truce occurred, coverage diverges on the framing of the mediation. Western sources emphasize the diplomatic role of U.S. mediators and the sanctity of the humanitarian mission, whereas Eastern reports focus on the practical functionality of the 3 a.m. truce amidst ongoing strikes in other regions.",
-   "summary": "Russia and Ukraine established a localized humanitarian ceasefire in the Kherson region town of Oleshky to facilitate civilian evacuations and the delivery of essential supplies. While all outlets confirm the truce occurred, coverage diverges on the framing of the mediation. Western sources emphasize the diplomatic role of U.S. mediators and the sanctity of the humanitarian mission, whereas Eastern reports focus on the practical functionality of the 3 a.m. truce amidst ongoing strikes in other regions.",
-   "date_published": "2026-10-28T02:56:14+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 4161,
-    "event_date": "2026-10-28",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "russia",
-     "western"
-    ],
-    "article_count": 9,
-    "source_count": 7,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/27/russia-annuncia-al-via-la-tregua-umanitaria-a-oleshky_dcbfe7fb-aeb2-4bf2-ab14-bce634a36c96.html"
-     },
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/27/tregua-umanitaria-oleshky/"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/ukraine-russia-us-brokered-truce-holding-6497861"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/27/us-brokered-truce-appears-to-hold-in-ukrainian-town-close-to-starvation-a94092"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4161.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-28-flavio-bolsonaro-vows-to-lead-opposition-after-brazil-court",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-28-flavio-bolsonaro-vows-to-lead-opposition-after-brazil-court",
-   "title": "Flavio Bolsonaro travels to the United States following a Brazilian court travel ban.",
-   "content_text": "Senator Flavio Bolsonaro fled to the United States following a Brazilian Supreme Court order to surrender his passports amid money-laundering investigations. While all regions report the flight occurred after his presidential election loss, coverage diverges on the narrative framing of his departure. Western outlets focus on the domestic political fallout and the \"shameful\" nature of his defiance against Brazilian law, while Eastern and Middle Eastern sources emphasize the role of the U.S. government as a sanctuary for political allies.",
-   "summary": "Senator Flavio Bolsonaro fled to the United States following a Brazilian Supreme Court order to surrender his passports amid money-laundering investigations. While all regions report the flight occurred after his presidential election loss, coverage diverges on the narrative framing of his departure. Western outlets focus on the domestic political fallout and the \"shameful\" nature of his defiance against Brazilian law, while Eastern and Middle Eastern sources emphasize the role of the U.S. government as a sanctuary for political allies.",
-   "date_published": "2026-10-28T02:54:11+00:00",
+   "id": "2026-10-29-netanyahu-rallies-likud-voters-with-megaphone-in-shopping-ma",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-29-netanyahu-rallies-likud-voters-with-megaphone-in-shopping-ma",
+   "title": "Israeli election results show a fragmented outcome with no clear winner and a potential deadlock.",
+   "content_text": "Israeli parliamentary elections resulted in a deadlock as neither Benjamin Netanyahu’s right-wing bloc nor the opposition secured a clear majority. While all regions report record voter turnout and significant gains for Arab-majority parties, coverage diverges on the implications of these results. Western outlets frame the outcome as a complex procedural hurdle for democratic coalition-building, whereas Middle Eastern sources emphasize the shift in power dynamics for Palestinian citizens and the impact on regional conflict.",
+   "summary": "Israeli parliamentary elections resulted in a deadlock as neither Benjamin Netanyahu’s right-wing bloc nor the opposition secured a clear majority. While all regions report record voter turnout and significant gains for Arab-majority parties, coverage diverges on the implications of these results. Western outlets frame the outcome as a complex procedural hurdle for democratic coalition-building, whereas Middle Eastern sources emphasize the shift in power dynamics for Palestinian citizens and the impact on regional conflict.",
+   "date_published": "2026-10-29T02:53:10+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -101,8 +22,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 4159,
-    "event_date": "2026-10-28",
+    "cluster_id": 4177,
+    "event_date": "2026-10-29",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -111,65 +32,77 @@
      "russia",
      "western"
     ],
-    "article_count": 17,
-    "source_count": 9,
+    "article_count": 19,
+    "source_count": 11,
     "sources": [
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/israelis-rally-for-jewish-arab-government-after-election-gains?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-exit-polls-show-huge-palestinian-gains-block-netanyahu-forming"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss"
+     },
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/americas/20261027-defeated-brazilian-candidate-flavio-bolsonaro-passports-cancelled-whereabouts-unknown"
+      "url": "https://www.france24.com/en/historic-gains-for-arab-majority-parties-in-israeli-election"
      },
      {
-      "name": "ANSA Mondo",
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak"
+     },
+     {
+      "name": "Il Post",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/28/brasile-flavio-bolsonaro-arriva-in-florida-e-incontra-il-fratello-eduardo_725f6658-bf4f-409a-841e-3f138990b43e.html"
+      "url": "https://www.ilpost.it/2026/10/28/elezioni-israeliane-2026-primi-risultati/"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-10-28/news-1RBgFrKuNI4/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
      },
      {
       "name": "Times of India",
       "region": "eastern",
       "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/flavio-bolsonaro-flees-brazil-after-lula-defeat-us-offers-visas-to-family/articleshow/135247888.cms"
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/israel-poll-results-deadlocked-amid-historic-showing-by-arab-parties/articleshow/135283677.cms"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/bolsonaro-brazil-election-defeat-lula-us-6497941"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/president-lula-calls-bolsonaros-brazil-exit?traffic_source=rss"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2209173"
+      "url": "https://www.channelnewsasia.com/commentary/israel-election-results-benjamin-netanyahu-divided-6499566"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://rt-english.com/news/647857-bolsonaro-flees-to-us-brazil-election/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://rt-english.com/news/647968-israel-election-arab-coalition/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      },
      {
       "name": "El Pais English",
       "region": "western",
       "country": "ES",
-      "url": "https://english.elpais.com/international/2026-10-27/flavio-bolsonaro-flees-to-the-united-states-after-election-defeat-to-lula.html"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/27/brazilian-police-probe-claims-flavio-bolsonaro-fled-to-argentina-after-election-defeat"
+      "url": "https://english.elpais.com/international/2026-10-28/netanyahu-wins-israel-elections-but-his-coalition-falls-short-of-a-majority.html"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4159.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4177.json",
     "languages": [
      "en",
      "it",
@@ -180,12 +113,124 @@
    }
   },
   {
-   "id": "2026-10-28-alta-tensione-in-israele-il-giorno-della-verita-per-netanyah",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-28-alta-tensione-in-israele-il-giorno-della-verita-per-netanyah",
-   "title": "Israel holds a general election following the events of October 7 to determine its leadership.",
-   "content_text": "Israel held its first general election since the October 7 attacks, recording a historic voter turnout exceeding 74 percent. Western outlets frame the vote primarily as a referendum on Prime Minister Benjamin Netanyahu’s leadership and the nation's internal stability. Conversely, Middle Eastern reporting focuses on the surge in Arab party participation and the potential for minority voices to influence coalition negotiations. Both regions agree on the high stakes of the vote despite these differing narrative focuses.",
-   "summary": "Israel held its first general election since the October 7 attacks, recording a historic voter turnout exceeding 74 percent. Western outlets frame the vote primarily as a referendum on Prime Minister Benjamin Netanyahu’s leadership and the nation's internal stability. Conversely, Middle Eastern reporting focuses on the surge in Arab party participation and the potential for minority voices to influence coalition negotiations. Both regions agree on the high stakes of the vote despite these differing narrative focuses.",
-   "date_published": "2026-10-28T02:51:47+00:00",
+   "id": "2026-10-28-serbian-shot-dead-after-attacking-officer-outside-israeli-em",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-28-serbian-shot-dead-after-attacking-officer-outside-israeli-em",
+   "title": "Serbian police shoot and kill a man who attacked the Israeli embassy in Belgrade.",
+   "content_text": "On October 28, 2026, Serbian police shot and killed a man who attacked a guard with a knife at the Israeli embassy in Belgrade, prompting a \"red alert\" terrorism status. Western outlets frame the incident as a targeted act of terrorism by a self-identified Islamic State supporter. In contrast, Russian reports focus on the suspect's local identity as a minor from Sabac and characterize the police action as a matter of immediate self-defense.",
+   "summary": "On October 28, 2026, Serbian police shot and killed a man who attacked a guard with a knife at the Israeli embassy in Belgrade, prompting a \"red alert\" terrorism status. Western outlets frame the incident as a targeted act of terrorism by a self-identified Islamic State supporter. In contrast, Russian reports focus on the suspect's local identity as a minor from Sabac and characterize the police action as a matter of immediate self-defense.",
+   "date_published": "2026-10-29T02:56:59+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4192,
+    "event_date": "2026-10-28",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "DW News",
+      "region": "western",
+      "country": "DE",
+      "url": "https://www.dw.com/en/serbian-police-shoot-dead-assailant-at-israeli-embassy/a-79782905?maca=en-rss-en-world-4025-xml-mrss"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/647932-knife-attack-serbia-israeli-embassy/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4192.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-28-store-telefonata-di-90-minuti-con-putin-alleati-ue-erano-sta",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-28-store-telefonata-di-90-minuti-con-putin-alleati-ue-erano-sta",
+   "title": "Finnish President and Norwegian Prime Minister held a phone call with Russian President Vladimir Putin.",
+   "content_text": "Finnish President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre held a 90-minute call with Russian President Vladimir Putin on October 28, 2026, to discuss peace negotiations in Ukraine. Western outlets frame the call as a proactive, unified step toward de-escalation and a practical move toward upcoming talks in the UAE. In contrast, Russian media highlights the event as a rare break in silence while framing it as a source of internal European fragmentation regarding unified representation.",
+   "summary": "Finnish President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre held a 90-minute call with Russian President Vladimir Putin on October 28, 2026, to discuss peace negotiations in Ukraine. Western outlets frame the call as a proactive, unified step toward de-escalation and a practical move toward upcoming talks in the UAE. In contrast, Russian media highlights the event as a rare break in silence while framing it as a source of internal European fragmentation regarding unified representation.",
+   "date_published": "2026-10-29T02:55:08+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4190,
+    "event_date": "2026-10-28",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "sources": [
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/28/ue-telefonata-stubb-store-iniziativa-bilaterale-messaggio-sia-unito_7eef095a-d01c-4de4-932a-ee4543fe906c.html"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/10/27/finlandia-norvegia-chiamata-putin/"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2209661"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/10/28/norwegian-prime-minister-defends-phone-call-with-vladimir-putin-a94104"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4190.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-28-watch-what-happens-now-after-close-vote-in-israeli-election",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-28-watch-what-happens-now-after-close-vote-in-israeli-election",
+   "title": "Early exit polls show a deadlock between Netanyahu and Eisenkot in the Israeli election.",
+   "content_text": "Following the October 28 elections, exit polls confirmed a deadlock between Benjamin Netanyahu and Gadi Eisenkot, with neither candidate securing a majority despite a 77% voter turnout. Western outlets frame the results as a domestic referendum on Netanyahu’s leadership and the technical hurdles of forming a coalition. In contrast, Middle Eastern and Russian sources emphasize the regional implications, highlighting the increased leverage of Arab parties as a direct consequence of the conflict in Gaza.",
+   "summary": "Following the October 28 elections, exit polls confirmed a deadlock between Benjamin Netanyahu and Gadi Eisenkot, with neither candidate securing a majority despite a 77% voter turnout. Western outlets frame the results as a domestic referendum on Netanyahu’s leadership and the technical hurdles of forming a coalition. In contrast, Middle Eastern and Russian sources emphasize the regional implications, highlighting the increased leverage of Arab parties as a direct consequence of the conflict in Gaza.",
+   "date_published": "2026-10-29T02:59:14+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -194,7 +239,7 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 4157,
+    "cluster_id": 4162,
     "event_date": "2026-10-28",
     "tier": "A",
     "tier_label": "Confirmed globally",
@@ -204,183 +249,65 @@
      "russia",
      "western"
     ],
-    "article_count": 22,
-    "source_count": 11,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/27/exit-poll-israele-boom-dei-partiti-arabi-verso-18-seggi_a909a84f-4428-4a31-a5e0-9127943d018a.html"
-     },
-     {
-      "name": "DW News",
-      "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/will-elections-in-israel-change-its-iran-approach/a-79776122?maca=en-rss-en-world-4025-xml-mrss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/tv-shows/the-debate/20261027-bibi-s-moment-of-truth-israel-votes-in-first-general-election-since-october-7"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/27/israele-foto-giornata-elettorale/"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/israelis-shatter-turnout-records-to-pass-wartime-judgement-on-bibi/articleshow/135248573.cms"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/28/arab-parties-could-win-18-seats-in-israeli-elections-exit-polls-suggest?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/official-vote-count-under-way-israeli-election"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2209133"
-     },
-     {
-      "name": "El Pais English",
-      "region": "western",
-      "country": "ES",
-      "url": "https://english.elpais.com/international/2026-10-27/netanyahus-future-hangs-in-the-balance-in-a-decisive-election-for-the-entire-middle-east.html"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/27/israelis-head-to-polls-in-first-general-election-since-7-october-attacks-with-no-clear-fav"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4157.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-27-houthis-and-saudi-led-coalition-exchange-strikes-casualties",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-27-houthis-and-saudi-led-coalition-exchange-strikes-casualties",
-   "title": "Saudi-led coalition and Houthi forces exchange strikes and report intercepted missiles and drones.",
-   "content_text": "How regional geography and geopolitical proximity reshape the reporting of a single aerial exchange.",
-   "summary": "How regional geography and geopolitical proximity reshape the reporting of a single aerial exchange.",
-   "date_published": "2026-10-27T02:56:38+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4141,
-    "event_date": "2026-10-27",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "eastern",
-     "middle_east"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-10-25/Houthis-and-Saudi-led-coalition-exchange-strikes-casualties-reported-1RwzGeb5Smc/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/saudi-houthis-riyadh-airport-attack-missile-6492261"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/air-defences-destroy-four-houthi-drones-targeting-saudi-arabias-southern"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4141.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-25-israel-to-close-west-bank-crossings-on-election-day-as-crack",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-25-israel-to-close-west-bank-crossings-on-election-day-as-crack",
-   "title": "Israel to close West Bank crossings on election day following a shooting in Hebron.",
-   "content_text": "The Israeli military announced the closure of all West Bank land crossings on October 25, 2026, following a fatal shooting in Hebron. While all outlets report the physical closure of transit points and the barring of Palestinian workers, they differ significantly in their framing of the motive. Western sources frame the move as a reactive security measure to address immediate threats, whereas Middle Eastern sources characterize it as a deliberate political siege intended to cut off Palestinian revenue.",
-   "summary": "The Israeli military announced the closure of all West Bank land crossings on October 25, 2026, following a fatal shooting in Hebron. While all outlets report the physical closure of transit points and the barring of Palestinian workers, they differ significantly in their framing of the motive. Western sources frame the move as a reactive security measure to address immediate threats, whereas Middle Eastern sources characterize it as a deliberate political siege intended to cut off Palestinian revenue.",
-   "date_published": "2026-10-27T03:00:15+00:00",
-   "tags": [
-    "middle_east",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4123,
-    "event_date": "2026-10-25",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "middle_east",
-     "western"
-    ],
-    "article_count": 4,
-    "source_count": 3,
+    "article_count": 20,
+    "source_count": 9,
     "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/videos/cm79p5pxqey2o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20261027-israel-election-record-turnout-netanyahu-eisenkot-deadlock"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/27/eisenkot-risultati-preliminari-indicano-chiara-sfiducia-per-governo-netanyahu_cf4b18c9-c57e-4d4a-a20e-3ef0aceeb3d2.html"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/israel-election-netanyahu-eisenkot-exit-polls-6497831"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/10/28/exit-polls-trigger-heated-debate-across-israeli-political-divide?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-close-occupied-west-bank-crossings-over-election"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/least-94000-votes-counted-israeli-elections"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2209151"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/647802-israel-election-netanyahu-live-updates/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      },
      {
       "name": "Euronews",
       "region": "western",
       "country": "EU",
-      "url": "https://www.euronews.com/2026/10/25/israel-orders-west-bank-crossings-to-close-on-election-day-following-hebron-shooting"
+      "url": "https://www.euronews.com/2026/10/27/exit-polls-suggest-no-clear-victor-in-israeli-election"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4123.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4162.json",
     "languages": [
      "en",
      "it",
