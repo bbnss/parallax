@@ -6,45 +6,14 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 29 Oct 2026 03:47:20 +0000</lastBuildDate>
+<lastBuildDate>Fri, 30 Oct 2026 03:24:12 +0000</lastBuildDate>
 <item>
-<title>Israeli election results show a fragmented outcome with no clear winner and a potential deadlock.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-29-netanyahu-rallies-likud-voters-with-megaphone-in-shopping-ma</link>
-<guid isPermaLink="false">2026-10-29-netanyahu-rallies-likud-voters-with-megaphone-in-shopping-ma</guid>
-<pubDate>Thu, 29 Oct 2026 02:53:10 +0000</pubDate>
-<description>Israeli parliamentary elections resulted in a deadlock as neither Benjamin Netanyahu’s right-wing bloc nor the opposition secured a clear majority. While all regions report record voter turnout and significant gains for Arab-majority parties, coverage diverges on the implications of these results. Western outlets frame the outcome as a complex procedural hurdle for democratic coalition-building, whereas Middle Eastern sources emphasize the shift in power dynamics for Palestinian citizens and the impact on regional conflict.</description>
+<title>European Central Bank President Christine Lagarde announces her resignation from the position before her term ends.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-30-european-central-bank-ecb-head-christine-lagarde-to-step-dow</link>
+<guid isPermaLink="false">2026-10-30-european-central-bank-ecb-head-christine-lagarde-to-step-dow</guid>
+<pubDate>Fri, 30 Oct 2026 02:46:35 +0000</pubDate>
+<description>European Central Bank President Christine Lagarde announced her resignation, effective February 7, 2027, triggering an immediate search for her successor. While all outlets confirm the timeline, Western coverage frames the move as a pragmatic shift toward broader fiscal policy and personal mandate freedom. Conversely, Eastern reports interpret her departure as a deliberate move to abandon institutional neutrality in favor of active political engagement.</description>
 <category>eastern</category>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Serbian police shoot and kill a man who attacked the Israeli embassy in Belgrade.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-28-serbian-shot-dead-after-attacking-officer-outside-israeli-em</link>
-<guid isPermaLink="false">2026-10-28-serbian-shot-dead-after-attacking-officer-outside-israeli-em</guid>
-<pubDate>Thu, 29 Oct 2026 02:56:59 +0000</pubDate>
-<description>On October 28, 2026, Serbian police shot and killed a man who attacked a guard with a knife at the Israeli embassy in Belgrade, prompting a "red alert" terrorism status. Western outlets frame the incident as a targeted act of terrorism by a self-identified Islamic State supporter. In contrast, Russian reports focus on the suspect's local identity as a minor from Sabac and characterize the police action as a matter of immediate self-defense.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Finnish President and Norwegian Prime Minister held a phone call with Russian President Vladimir Putin.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-28-store-telefonata-di-90-minuti-con-putin-alleati-ue-erano-sta</link>
-<guid isPermaLink="false">2026-10-28-store-telefonata-di-90-minuti-con-putin-alleati-ue-erano-sta</guid>
-<pubDate>Thu, 29 Oct 2026 02:55:08 +0000</pubDate>
-<description>Finnish President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre held a 90-minute call with Russian President Vladimir Putin on October 28, 2026, to discuss peace negotiations in Ukraine. Western outlets frame the call as a proactive, unified step toward de-escalation and a practical move toward upcoming talks in the UAE. In contrast, Russian media highlights the event as a rare break in silence while framing it as a source of internal European fragmentation regarding unified representation.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Early exit polls show a deadlock between Netanyahu and Eisenkot in the Israeli election.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-28-watch-what-happens-now-after-close-vote-in-israeli-election</link>
-<guid isPermaLink="false">2026-10-28-watch-what-happens-now-after-close-vote-in-israeli-election</guid>
-<pubDate>Thu, 29 Oct 2026 02:59:14 +0000</pubDate>
-<description>Following the October 28 elections, exit polls confirmed a deadlock between Benjamin Netanyahu and Gadi Eisenkot, with neither candidate securing a majority despite a 77% voter turnout. Western outlets frame the results as a domestic referendum on Netanyahu’s leadership and the technical hurdles of forming a coalition. In contrast, Middle Eastern and Russian sources emphasize the regional implications, highlighting the increased leverage of Arab parties as a direct consequence of the conflict in Gaza.</description>
-<category>eastern</category>
-<category>middle_east</category>
-<category>russia</category>
 <category>western</category>
 </item>
 </channel>
