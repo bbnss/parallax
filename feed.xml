@@ -6,14 +6,43 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 30 Oct 2026 03:24:12 +0000</lastBuildDate>
+<lastBuildDate>Sat, 31 Oct 2026 03:47:57 +0000</lastBuildDate>
 <item>
-<title>European Central Bank President Christine Lagarde announces her resignation from the position before her term ends.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-30-european-central-bank-ecb-head-christine-lagarde-to-step-dow</link>
-<guid isPermaLink="false">2026-10-30-european-central-bank-ecb-head-christine-lagarde-to-step-dow</guid>
-<pubDate>Fri, 30 Oct 2026 02:46:35 +0000</pubDate>
-<description>European Central Bank President Christine Lagarde announced her resignation, effective February 7, 2027, triggering an immediate search for her successor. While all outlets confirm the timeline, Western coverage frames the move as a pragmatic shift toward broader fiscal policy and personal mandate freedom. Conversely, Eastern reports interpret her departure as a deliberate move to abandon institutional neutrality in favor of active political engagement.</description>
+<title>United States approves the sale of 500 Patriot missiles to Ukraine for $2.1 billion.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-31-us-approves-sale-of-500-patriot-missiles-to-ukraine</link>
+<guid isPermaLink="false">2026-10-31-us-approves-sale-of-500-patriot-missiles-to-ukraine</guid>
+<pubDate>Sat, 31 Oct 2026 02:54:25 +0000</pubDate>
+<description>The United States approved the sale of 500 Patriot PAC-3 missiles and equipment to Ukraine for $2.1 billion. Western outlets frame the deal as a collaborative effort of a unified front, emphasizing international cooperation and the urgency of Ukraine's defense needs. Conversely, Russian reporting focuses on the technical infrastructure of the deal, specifically detailing the multi-national financial architecture involving Canada, Germany, and Norway. Both sides report the same figures but differ on the narrative of intent.</description>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Binance reports a significant cryptocurrency theft and freezes funds following a major security breach.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-31-binance-says-3bn-in-crypto-funds-frozen-amid-potential-secur</link>
+<guid isPermaLink="false">2026-10-31-binance-says-3bn-in-crypto-funds-frozen-amid-potential-secur</guid>
+<pubDate>Sat, 31 Oct 2026 02:52:44 +0000</pubDate>
+<description>On October 31, 2026, Binance reported a $6.3 billion cryptocurrency theft during a 20-minute breach, leading to the freezing of $3 billion in assets. While all regions confirm the scale of the theft, Western outlets frame the event as a geopolitical security issue involving North Korean state-sponsored actors. Conversely, Eastern coverage focuses on the technical failures of the exchange's infrastructure and the resulting regulatory consequences for local investors and regional market stability.</description>
 <category>eastern</category>
+<category>middle_east</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>G20 leaders cancel group photo after European diplomats object to Russian minister's presence</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-30-g20-family-photo-cancelled-after-protests-over-presence-of-r</link>
+<guid isPermaLink="false">2026-10-30-g20-family-photo-cancelled-after-protests-over-presence-of-r</guid>
+<pubDate>Sat, 31 Oct 2026 02:57:57 +0000</pubDate>
+<description>During the G20 Foreign Ministers' Meeting in Atlanta on October 30, 2026, the planned group photo was canceled after European diplomats refused to pose with Russian Foreign Minister Sergei Lavrov. Western outlets frame the cancellation as a direct result of moral and political friction caused by the war in Ukraine. Conversely, Middle Eastern outlets frame the event as a symptom of broader global instability and multi-polar tensions involving regional actors and the global economic order.</description>
+<category>middle_east</category>
+<category>western</category>
+</item>
+<item>
+<title>Civilians are being evacuated from the town of Oleshky during a temporary ceasefire.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-30-how-has-the-ceasefire-in-russian-occupied-oleshky-been-unfol</link>
+<guid isPermaLink="false">2026-10-30-how-has-the-ceasefire-in-russian-occupied-oleshky-been-unfol</guid>
+<pubDate>Sat, 31 Oct 2026 02:56:16 +0000</pubDate>
+<description>On October 30, 2026, a humanitarian ceasefire was enacted to evacuate civilians from the Russian-occupied town of Oleshky due to severe shortages of food and medicine. While both Western and Russian outlets confirm the evacuation took place via a diplomatic agreement, their framing differs significantly. Western media emphasizes the complex diplomatic machinery and the role of U.S. officials in brokering the truce, whereas Russian reports focus on a localized human-interest narrative centered on a specific family of seven children.</description>
+<category>russia</category>
 <category>western</category>
 </item>
 </channel>

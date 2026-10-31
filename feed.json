@@ -5,58 +5,257 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-10-30T03:24:12Z",
+ "_generated_at": "2026-10-31T03:47:57Z",
  "items": [
   {
-   "id": "2026-10-30-european-central-bank-ecb-head-christine-lagarde-to-step-dow",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-30-european-central-bank-ecb-head-christine-lagarde-to-step-dow",
-   "title": "European Central Bank President Christine Lagarde announces her resignation from the position before her term ends.",
-   "content_text": "European Central Bank President Christine Lagarde announced her resignation, effective February 7, 2027, triggering an immediate search for her successor. While all outlets confirm the timeline, Western coverage frames the move as a pragmatic shift toward broader fiscal policy and personal mandate freedom. Conversely, Eastern reports interpret her departure as a deliberate move to abandon institutional neutrality in favor of active political engagement.",
-   "summary": "European Central Bank President Christine Lagarde announced her resignation, effective February 7, 2027, triggering an immediate search for her successor. While all outlets confirm the timeline, Western coverage frames the move as a pragmatic shift toward broader fiscal policy and personal mandate freedom. Conversely, Eastern reports interpret her departure as a deliberate move to abandon institutional neutrality in favor of active political engagement.",
-   "date_published": "2026-10-30T02:46:35+00:00",
+   "id": "2026-10-31-us-approves-sale-of-500-patriot-missiles-to-ukraine",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-31-us-approves-sale-of-500-patriot-missiles-to-ukraine",
+   "title": "United States approves the sale of 500 Patriot missiles to Ukraine for $2.1 billion.",
+   "content_text": "The United States approved the sale of 500 Patriot PAC-3 missiles and equipment to Ukraine for $2.1 billion. Western outlets frame the deal as a collaborative effort of a unified front, emphasizing international cooperation and the urgency of Ukraine's defense needs. Conversely, Russian reporting focuses on the technical infrastructure of the deal, specifically detailing the multi-national financial architecture involving Canada, Germany, and Norway. Both sides report the same figures but differ on the narrative of intent.",
+   "summary": "The United States approved the sale of 500 Patriot PAC-3 missiles and equipment to Ukraine for $2.1 billion. Western outlets frame the deal as a collaborative effort of a unified front, emphasizing international cooperation and the urgency of Ukraine's defense needs. Conversely, Russian reporting focuses on the technical infrastructure of the deal, specifically detailing the multi-national financial architecture involving Canada, Germany, and Norway. Both sides report the same figures but differ on the narrative of intent.",
+   "date_published": "2026-10-31T02:54:25+00:00",
    "tags": [
-    "eastern",
+    "russia",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 4199,
-    "event_date": "2026-10-30",
+    "cluster_id": 4227,
+    "event_date": "2026-10-31",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
-     "eastern",
+     "russia",
      "western"
     ],
-    "article_count": 4,
-    "source_count": 4,
+    "article_count": 3,
+    "source_count": 3,
     "sources": [
      {
-      "name": "DW News",
+      "name": "BBC World",
       "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-world-4025-xml-mrss"
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/30/gli-usa-approvano-la-possibile-vendita-di-patriot-allucraina-per-21-miliardi_27efd64a-a4fa-48fc-8ece-1b77c59e0435.html"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2211295"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4227.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-31-binance-says-3bn-in-crypto-funds-frozen-amid-potential-secur",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-31-binance-says-3bn-in-crypto-funds-frozen-amid-potential-secur",
+   "title": "Binance reports a significant cryptocurrency theft and freezes funds following a major security breach.",
+   "content_text": "On October 31, 2026, Binance reported a $6.3 billion cryptocurrency theft during a 20-minute breach, leading to the freezing of $3 billion in assets. While all regions confirm the scale of the theft, Western outlets frame the event as a geopolitical security issue involving North Korean state-sponsored actors. Conversely, Eastern coverage focuses on the technical failures of the exchange's infrastructure and the resulting regulatory consequences for local investors and regional market stability.",
+   "summary": "On October 31, 2026, Binance reported a $6.3 billion cryptocurrency theft during a 20-minute breach, leading to the freezing of $3 billion in assets. While all regions confirm the scale of the theft, Western outlets frame the event as a geopolitical security issue involving North Korean state-sponsored actors. Conversely, Eastern coverage focuses on the technical failures of the exchange's infrastructure and the resulting regulatory consequences for local investors and regional market stability.",
+   "date_published": "2026-10-31T02:52:44+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 4226,
+    "event_date": "2026-10-31",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 10,
+    "source_count": 8,
+    "sources": [
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue?traffic_source=rss"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/tv-shows/business/20261029-ecb-president-lagarde-steps-down-in-order-to-speak-out"
+      "url": "https://www.france24.com/en/video/20261030-biggest-hack-in-history-cryptocurrency-giant-binance-loses-6-3-billion"
      },
      {
-      "name": "Times of India",
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/10/30/maxi-attacco-hacker-a-binance-in-soli-20-minuti-e-il-furto-del-secolo_8228f445-0ee5-4994-9d41-66dbd03f1202.html"
+     },
+     {
+      "name": "Bangkok Post",
       "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/europe/lagarde-quits-ecb-to-shed-neutrality-enter-political-fray/articleshow/135337096.cms"
+      "country": "TH",
+      "url": "https://www.bangkokpost.com/business/general/3345716/binance-hack-prompts-thai-scrutiny"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/european-central-bank-president-christine-lagarde-resign-6503246"
+      "url": "https://www.channelnewsasia.com/business/binance-cryptocurrency-heist-biggest-20-minutes-explainer-6506676"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/economy/2211103"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4199.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4226.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-30-g20-family-photo-cancelled-after-protests-over-presence-of-r",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-30-g20-family-photo-cancelled-after-protests-over-presence-of-r",
+   "title": "G20 leaders cancel group photo after European diplomats object to Russian minister's presence",
+   "content_text": "During the G20 Foreign Ministers' Meeting in Atlanta on October 30, 2026, the planned group photo was canceled after European diplomats refused to pose with Russian Foreign Minister Sergei Lavrov. Western outlets frame the cancellation as a direct result of moral and political friction caused by the war in Ukraine. Conversely, Middle Eastern outlets frame the event as a symptom of broader global instability and multi-polar tensions involving regional actors and the global economic order.",
+   "summary": "During the G20 Foreign Ministers' Meeting in Atlanta on October 30, 2026, the planned group photo was canceled after European diplomats refused to pose with Russian Foreign Minister Sergei Lavrov. Western outlets frame the cancellation as a direct result of moral and political friction caused by the war in Ukraine. Conversely, Middle Eastern outlets frame the event as a symptom of broader global instability and multi-polar tensions involving regional actors and the global economic order.",
+   "date_published": "2026-10-31T02:57:57+00:00",
+   "tags": [
+    "middle_east",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4234,
+    "event_date": "2026-10-30",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "middle_east",
+     "western"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/10/30/eu-diplomats-object-to-g20-photo-with-lavrov-prompting-us-cancellation"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4234.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-10-30-how-has-the-ceasefire-in-russian-occupied-oleshky-been-unfol",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-30-how-has-the-ceasefire-in-russian-occupied-oleshky-been-unfol",
+   "title": "Civilians are being evacuated from the town of Oleshky during a temporary ceasefire.",
+   "content_text": "On October 30, 2026, a humanitarian ceasefire was enacted to evacuate civilians from the Russian-occupied town of Oleshky due to severe shortages of food and medicine. While both Western and Russian outlets confirm the evacuation took place via a diplomatic agreement, their framing differs significantly. Western media emphasizes the complex diplomatic machinery and the role of U.S. officials in brokering the truce, whereas Russian reports focus on a localized human-interest narrative centered on a specific family of seven children.",
+   "summary": "On October 30, 2026, a humanitarian ceasefire was enacted to evacuate civilians from the Russian-occupied town of Oleshky due to severe shortages of food and medicine. While both Western and Russian outlets confirm the evacuation took place via a diplomatic agreement, their framing differs significantly. Western media emphasizes the complex diplomatic machinery and the role of U.S. officials in brokering the truce, whereas Russian reports focus on a localized human-interest narrative centered on a specific family of seven children.",
+   "date_published": "2026-10-31T02:56:16+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4233,
+    "event_date": "2026-10-30",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 9,
+    "source_count": 5,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/10/30/arrivo-aiuti-oleshky/"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/30/kiev-partiti-i-civili-evacuati-da-oleshky_7f2e75c6-30f7-47cf-bdd2-8b6ed00d6b03.html"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/society/2211139"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4233.json",
     "languages": [
      "en",
      "it",
