@@ -6,74 +6,22 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 01 Nov 2026 04:02:31 +0000</lastBuildDate>
+<lastBuildDate>Mon, 02 Nov 2026 03:26:57 +0000</lastBuildDate>
 <item>
-<title>Iran and the United States discuss a two-day plan to reopen the Strait of Hormuz.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-01-iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to</link>
-<guid isPermaLink="false">2026-11-01-iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to</guid>
-<pubDate>Sun, 01 Nov 2026 02:44:06 +0000</pubDate>
-<description>Iranian Foreign Minister Abbas Araghchi announced a two-day plan to reopen the Strait of Hormuz, contingent upon specific agreements with the United States. While all sources confirm the 48-hour timeline, coverage diverges on the framing of Iran's motives. Middle Eastern outlets emphasize the move as a high-stakes standoff, highlighting Tehran's demands for sanctions relief and military readiness. In contrast, other reports focus on the strategic maneuvers of diplomatic negotiation and the formal recognition of maritime routes.</description>
+<title>Israeli strikes in Gaza result in multiple casualties according to various reports.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-01-at-least-four-palestinians-killed-in-gaza-as-israeli-attacks</link>
+<guid isPermaLink="false">2026-11-01-at-least-four-palestinians-killed-in-gaza-as-israeli-attacks</guid>
+<pubDate>Mon, 02 Nov 2026 02:42:27 +0000</pubDate>
+<description>On November 1, 2026, Israeli missile and drone strikes in Gaza City and Khan Yunis killed at least eight people, including one child. While all outlets confirm the casualties, coverage diverges significantly in framing. Western sources focus on military objectives and tactical details regarding targets like Hamas and local police. In contrast, Middle Eastern sources emphasize the humanitarian impact, highlighting the systematic destruction of infrastructure and the broader scale of civilian casualties since the 2025 ceasefire.</description>
 <category>middle_east</category>
-<category>russia</category>
-</item>
-<item>
-<title>Binance reports a 6.3 billion dollar theft and identifies North Korea as the primary suspect.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-01-crypto-firm-binance-covers-90-of-losses-after-6-3bn-hack</link>
-<guid isPermaLink="false">2026-11-01-crypto-firm-binance-covers-90-of-losses-after-6-3bn-hack</guid>
-<pubDate>Sun, 01 Nov 2026 02:42:24 +0000</pubDate>
-<description>Binance reported a $6.3 billion theft on October 29, 2026, attributed to the North Korean state-backed "Lazarus Group." While both Western and Russian outlets confirm the theft and the FBI's involvement, they differ in their narrative focus. Western media emphasizes the platform's resilience and the sophisticated recruitment of hackers to fund the regime, while Russian reports provide more granular detail on the specific laundering mechanics and internal fund allocations used for compensation.</description>
-<category>middle_east</category>
-<category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Ukrainian residents from the occupied town of Oleshky reunite with family members after evacuation.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-31-we-came-back-from-hell-say-ukrainians-after-years-in-russia</link>
-<guid isPermaLink="false">2026-10-31-we-came-back-from-hell-say-ukrainians-after-years-in-russia</guid>
-<pubDate>Sun, 01 Nov 2026 02:53:10 +0000</pubDate>
-<description>On October 31, 2026, a local ceasefire allowed residents of the Russian-occupied town of Oleshky to evacuate through Belarus and reunite with family in Ukraine. Western outlets frame the event through a humanistic lens, emphasizing the emotional toll of the war and the psychological impact of the reunions. Conversely, Eastern sources focus on the logistical mechanics of the evacuation, highlighting the specific transportation methods and the functionality of the humanitarian pause.</description>
-<category>eastern</category>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>U.S. Embassy Issues Warning Regarding a Credible Threat at the Tsaritsyno Museum in Moscow</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-31-ambasciata-usa-registrata-una-minaccia-credibile-al-museo-ts</link>
-<guid isPermaLink="false">2026-10-31-ambasciata-usa-registrata-una-minaccia-credibile-al-museo-ts</guid>
-<pubDate>Sun, 01 Nov 2026 02:51:12 +0000</pubDate>
-<description>On October 31, 2026, the U.S. Embassy in Moscow issued a formal warning regarding a credible threat at the Tsaritsyno Museum, prompting a coordinated response from local law enforcement. While both Western and Russian outlets confirm the embassy's notification and the subsequent security actions, their framing differs significantly. Western reports emphasize the procedural cooperation and diplomatic coordination between the two nations, whereas Russian coverage focuses on the severity of the potential violence and the involvement of domestic security forces.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Senator Rubio states that President Trump has not yet decided on new strikes against Iran.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-31-rubio-trump-non-ha-ancora-deciso-su-un-nuovo-attacco-all-ira</link>
-<guid isPermaLink="false">2026-10-31-rubio-trump-non-ha-ancora-deciso-su-un-nuovo-attacco-all-ira</guid>
-<pubDate>Sun, 01 Nov 2026 02:49:35 +0000</pubDate>
-<description>U.S. Secretary of State Marco Rubio confirmed on October 31, 2026, that President Trump has not yet decided on new military strikes against Iran. Western outlets report this as a standalone update on the administration's current status, focusing strictly on the delay in executive action. In contrast, Russian media frames the statement within a broader geopolitical context, linking the decision to ongoing negotiations involving Qatari mediators and warnings from Iranian leadership.</description>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Secretary Rubio hosts G20 ministers amid discussions regarding Russia's participation and potential high-level meetings.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-31-rubio-hosts-g20-ministers-as-iran-ukraine-wars-divide-member</link>
-<guid isPermaLink="false">2026-10-31-rubio-hosts-g20-ministers-as-iran-ukraine-wars-divide-member</guid>
-<pubDate>Sun, 01 Nov 2026 02:47:53 +0000</pubDate>
-<description>U.S. Secretary of State Marco Rubio and Russian Foreign Minister Sergey Lavrov met at the G20 summit to discuss the Ukraine conflict, nuclear escalation, and a potential high-level meeting between Donald Trump and Vladimir Putin. Western outlets frame the event as a strained multilateral process marked by a lack of consensus among G20 members. Conversely, Russian state media emphasizes the functional success of the dialogue, highlighting Rubio's remarks on the necessity of maintaining direct communication with Russia.</description>
-<category>eastern</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Iranian Supreme Leader Warns United States and Israel Against New Attacks and Threatens Response</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-31-iran-s-khamenei-warns-us-and-israel-against-new-attacks</link>
-<guid isPermaLink="false">2026-10-31-iran-s-khamenei-warns-us-and-israel-against-new-attacks</guid>
-<pubDate>Sun, 01 Nov 2026 02:45:57 +0000</pubDate>
-<description>Iranian Supreme Leader Mojtaba Khamenei ordered the military to respond "immediately and decisively" to threats from the United States and Israel, expanding the nation's target list to include American and Zionist assets. Western outlets frame this decree as an immediate escalation and a direct warning against a unified "American-Zionist" threat. Conversely, Russian media portrays the move as a strategic doctrine of "maximum deterrence" focused on Iranian sovereignty and historical military precedents.</description>
-<category>eastern</category>
-<category>middle_east</category>
+<title>Independent Russian newspaper Novaya Gazeta announces the closure of its Russian edition.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-10-30-il-giornale-indipendente-novaya-gazeta-chiudera-la-sua-edizi</link>
+<guid isPermaLink="false">2026-10-30-il-giornale-indipendente-novaya-gazeta-chiudera-la-sua-edizi</guid>
+<pubDate>Mon, 02 Nov 2026 02:44:27 +0000</pubDate>
+<description>Independent Russian newspaper *Novaya Gazeta* announced the closure of its Russian edition on October 30, 2026, with operations set to cease on November 9. Both Western and Russian outlets confirm the shutdown follows intense state pressure and restrictions regarding war reporting. Western sources frame the closure as a deliberate campaign of state repression against independent voices, while Russian reporting emphasizes the loss of a historic institution and the practical logistical hurdles of maintaining editorial independence.</description>
 <category>russia</category>
 <category>western</category>
 </item>

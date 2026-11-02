@@ -5,119 +5,58 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-11-01T04:02:31Z",
+ "_generated_at": "2026-11-02T03:26:57Z",
  "items": [
   {
-   "id": "2026-11-01-iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-01-iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to",
-   "title": "Iran and the United States discuss a two-day plan to reopen the Strait of Hormuz.",
-   "content_text": "Iranian Foreign Minister Abbas Araghchi announced a two-day plan to reopen the Strait of Hormuz, contingent upon specific agreements with the United States. While all sources confirm the 48-hour timeline, coverage diverges on the framing of Iran's motives. Middle Eastern outlets emphasize the move as a high-stakes standoff, highlighting Tehran's demands for sanctions relief and military readiness. In contrast, other reports focus on the strategic maneuvers of diplomatic negotiation and the formal recognition of maritime routes.",
-   "summary": "Iranian Foreign Minister Abbas Araghchi announced a two-day plan to reopen the Strait of Hormuz, contingent upon specific agreements with the United States. While all sources confirm the 48-hour timeline, coverage diverges on the framing of Iran's motives. Middle Eastern outlets emphasize the move as a high-stakes standoff, highlighting Tehran's demands for sanctions relief and military readiness. In contrast, other reports focus on the strategic maneuvers of diplomatic negotiation and the formal recognition of maritime routes.",
-   "date_published": "2026-11-01T02:44:06+00:00",
+   "id": "2026-11-01-at-least-four-palestinians-killed-in-gaza-as-israeli-attacks",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-01-at-least-four-palestinians-killed-in-gaza-as-israeli-attacks",
+   "title": "Israeli strikes in Gaza result in multiple casualties according to various reports.",
+   "content_text": "On November 1, 2026, Israeli missile and drone strikes in Gaza City and Khan Yunis killed at least eight people, including one child. While all outlets confirm the casualties, coverage diverges significantly in framing. Western sources focus on military objectives and tactical details regarding targets like Hamas and local police. In contrast, Middle Eastern sources emphasize the humanitarian impact, highlighting the systematic destruction of infrastructure and the broader scale of civilian casualties since the 2025 ceasefire.",
+   "summary": "On November 1, 2026, Israeli missile and drone strikes in Gaza City and Khan Yunis killed at least eight people, including one child. While all outlets confirm the casualties, coverage diverges significantly in framing. Western sources focus on military objectives and tactical details regarding targets like Hamas and local police. In contrast, Middle Eastern sources emphasize the humanitarian impact, highlighting the systematic destruction of infrastructure and the broader scale of civilian casualties since the 2025 ceasefire.",
+   "date_published": "2026-11-02T02:42:27+00:00",
    "tags": [
     "middle_east",
-    "russia",
+    "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 4243,
+    "cluster_id": 4273,
     "event_date": "2026-11-01",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
      "middle_east",
-     "russia"
+     "western"
     ],
-    "article_count": 3,
-    "source_count": 3,
+    "article_count": 5,
+    "source_count": 4,
     "sources": [
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/10/31/at-least-four-palestinians-killed-in-gaza-as-israeli-attacks-continue?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-iran-prepared-war-tehran-sets-conditions-hormuz-reopening"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-ten-people-gaza"
      },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2211373"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4243.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-01-crypto-firm-binance-covers-90-of-losses-after-6-3bn-hack",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-01-crypto-firm-binance-covers-90-of-losses-after-6-3bn-hack",
-   "title": "Binance reports a 6.3 billion dollar theft and identifies North Korea as the primary suspect.",
-   "content_text": "Binance reported a $6.3 billion theft on October 29, 2026, attributed to the North Korean state-backed \"Lazarus Group.\" While both Western and Russian outlets confirm the theft and the FBI's involvement, they differ in their narrative focus. Western media emphasizes the platform's resilience and the sophisticated recruitment of hackers to fund the regime, while Russian reports provide more granular detail on the specific laundering mechanics and internal fund allocations used for compensation.",
-   "summary": "Binance reported a $6.3 billion theft on October 29, 2026, attributed to the North Korean state-backed \"Lazarus Group.\" While both Western and Russian outlets confirm the theft and the FBI's involvement, they differ in their narrative focus. Western media emphasizes the platform's resilience and the sophisticated recruitment of hackers to fund the regime, while Russian reports provide more granular detail on the specific laundering mechanics and internal fund allocations used for compensation.",
-   "date_published": "2026-11-01T02:42:24+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 4240,
-    "event_date": "2026-11-01",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 6,
-    "source_count": 5,
-    "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/binance-hit-by-6-3-billion-dollar-crypto-theft"
+      "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/31/fbi-corea-del-nord-responsabile-dellattacco-hacker-a-binance_c6516a63-edf0-4276-b90b-cd80a68ac9d7.html"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/10/31/how-vulnerable-are-cryptocurrency-platforms?traffic_source=rss"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/economy/2211451"
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/01/media-gaza-almeno-8-vittime-in-due-raid-dellidf-sulla-striscia_6366d555-f4e4-4751-9161-94bf44b53598.html"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4240.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4273.json",
     "languages": [
      "en",
      "it",
@@ -128,309 +67,55 @@
    }
   },
   {
-   "id": "2026-10-31-we-came-back-from-hell-say-ukrainians-after-years-in-russia",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-31-we-came-back-from-hell-say-ukrainians-after-years-in-russia",
-   "title": "Ukrainian residents from the occupied town of Oleshky reunite with family members after evacuation.",
-   "content_text": "On October 31, 2026, a local ceasefire allowed residents of the Russian-occupied town of Oleshky to evacuate through Belarus and reunite with family in Ukraine. Western outlets frame the event through a humanistic lens, emphasizing the emotional toll of the war and the psychological impact of the reunions. Conversely, Eastern sources focus on the logistical mechanics of the evacuation, highlighting the specific transportation methods and the functionality of the humanitarian pause.",
-   "summary": "On October 31, 2026, a local ceasefire allowed residents of the Russian-occupied town of Oleshky to evacuate through Belarus and reunite with family in Ukraine. Western outlets frame the event through a humanistic lens, emphasizing the emotional toll of the war and the psychological impact of the reunions. Conversely, Eastern sources focus on the logistical mechanics of the evacuation, highlighting the specific transportation methods and the functionality of the humanitarian pause.",
-   "date_published": "2026-11-01T02:53:10+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 4251,
-    "event_date": "2026-10-31",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 9,
-    "source_count": 7,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/europe/20261031-evacuees-from-russian-occupied-oleshky-arrive-in-ukraine"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/31/zelensky-rientrati-in-ucraina-i-residenti-evacuati-da-oleshky_66d44356-c05d-4e6f-8f18-8fe55661236b.html"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-10-30/news-1RFhNXSfCGQ/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/residents-russian-controlled-ukrainian-town-arrive-in-belarus-6509371"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_evacuees-from-oleshky-reunite-w-families-in-ukraine-311026?traffic_source=rss"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/31/oleshky-evacuees-arrive-in-belarus-before-heading-to-ukraine-a94142"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4251.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-31-ambasciata-usa-registrata-una-minaccia-credibile-al-museo-ts",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-31-ambasciata-usa-registrata-una-minaccia-credibile-al-museo-ts",
-   "title": "U.S. Embassy Issues Warning Regarding a Credible Threat at the Tsaritsyno Museum in Moscow",
-   "content_text": "On October 31, 2026, the U.S. Embassy in Moscow issued a formal warning regarding a credible threat at the Tsaritsyno Museum, prompting a coordinated response from local law enforcement. While both Western and Russian outlets confirm the embassy's notification and the subsequent security actions, their framing differs significantly. Western reports emphasize the procedural cooperation and diplomatic coordination between the two nations, whereas Russian coverage focuses on the severity of the potential violence and the involvement of domestic security forces.",
-   "summary": "On October 31, 2026, the U.S. Embassy in Moscow issued a formal warning regarding a credible threat at the Tsaritsyno Museum, prompting a coordinated response from local law enforcement. While both Western and Russian outlets confirm the embassy's notification and the subsequent security actions, their framing differs significantly. Western reports emphasize the procedural cooperation and diplomatic coordination between the two nations, whereas Russian coverage focuses on the severity of the potential violence and the involvement of domestic security forces.",
-   "date_published": "2026-11-01T02:51:12+00:00",
+   "id": "2026-10-30-il-giornale-indipendente-novaya-gazeta-chiudera-la-sua-edizi",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-10-30-il-giornale-indipendente-novaya-gazeta-chiudera-la-sua-edizi",
+   "title": "Independent Russian newspaper Novaya Gazeta announces the closure of its Russian edition.",
+   "content_text": "Independent Russian newspaper *Novaya Gazeta* announced the closure of its Russian edition on October 30, 2026, with operations set to cease on November 9. Both Western and Russian outlets confirm the shutdown follows intense state pressure and restrictions regarding war reporting. Western sources frame the closure as a deliberate campaign of state repression against independent voices, while Russian reporting emphasizes the loss of a historic institution and the practical logistical hurdles of maintaining editorial independence.",
+   "summary": "Independent Russian newspaper *Novaya Gazeta* announced the closure of its Russian edition on October 30, 2026, with operations set to cease on November 9. Both Western and Russian outlets confirm the shutdown follows intense state pressure and restrictions regarding war reporting. Western sources frame the closure as a deliberate campaign of state repression against independent voices, while Russian reporting emphasizes the loss of a historic institution and the practical logistical hurdles of maintaining editorial independence.",
+   "date_published": "2026-11-02T02:44:27+00:00",
    "tags": [
     "russia",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 4250,
-    "event_date": "2026-10-31",
+    "cluster_id": 4236,
+    "event_date": "2026-10-30",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/31/ambasciata-usa-registrata-una-minaccia-credibile-al-museo-tsaritsyno-di-mosca_f5a27121-0906-4bde-b86f-2464a8b61769.html"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/31/us-embassy-warns-of-potential-mass-casualty-event-in-moscow-2-a94144"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4250.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-31-rubio-trump-non-ha-ancora-deciso-su-un-nuovo-attacco-all-ira",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-31-rubio-trump-non-ha-ancora-deciso-su-un-nuovo-attacco-all-ira",
-   "title": "Senator Rubio states that President Trump has not yet decided on new strikes against Iran.",
-   "content_text": "U.S. Secretary of State Marco Rubio confirmed on October 31, 2026, that President Trump has not yet decided on new military strikes against Iran. Western outlets report this as a standalone update on the administration's current status, focusing strictly on the delay in executive action. In contrast, Russian media frames the statement within a broader geopolitical context, linking the decision to ongoing negotiations involving Qatari mediators and warnings from Iranian leadership.",
-   "summary": "U.S. Secretary of State Marco Rubio confirmed on October 31, 2026, that President Trump has not yet decided on new military strikes against Iran. Western outlets report this as a standalone update on the administration's current status, focusing strictly on the delay in executive action. In contrast, Russian media frames the statement within a broader geopolitical context, linking the decision to ongoing negotiations involving Qatari mediators and warnings from Iranian leadership.",
-   "date_published": "2026-11-01T02:49:35+00:00",
-   "tags": [
-    "middle_east",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 4249,
-    "event_date": "2026-10-31",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "middle_east",
      "russia",
      "western"
     ],
     "article_count": 4,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/31/rubio-trump-non-ha-ancora-deciso-su-un-nuovo-attacco-alliran_16f348c1-89d2-448a-8ae0-8a69badaa5b3.html"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-has-not-decided-whether-resume-strikes-iran-rubio-says"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/648187-trump-has-not-decided-on-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4249.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-31-rubio-hosts-g20-ministers-as-iran-ukraine-wars-divide-member",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-31-rubio-hosts-g20-ministers-as-iran-ukraine-wars-divide-member",
-   "title": "Secretary Rubio hosts G20 ministers amid discussions regarding Russia's participation and potential high-level meetings.",
-   "content_text": "U.S. Secretary of State Marco Rubio and Russian Foreign Minister Sergey Lavrov met at the G20 summit to discuss the Ukraine conflict, nuclear escalation, and a potential high-level meeting between Donald Trump and Vladimir Putin. Western outlets frame the event as a strained multilateral process marked by a lack of consensus among G20 members. Conversely, Russian state media emphasizes the functional success of the dialogue, highlighting Rubio's remarks on the necessity of maintaining direct communication with Russia.",
-   "summary": "U.S. Secretary of State Marco Rubio and Russian Foreign Minister Sergey Lavrov met at the G20 summit to discuss the Ukraine conflict, nuclear escalation, and a potential high-level meeting between Donald Trump and Vladimir Putin. Western outlets frame the event as a strained multilateral process marked by a lack of consensus among G20 members. Conversely, Russian state media emphasizes the functional success of the dialogue, highlighting Rubio's remarks on the necessity of maintaining direct communication with Russia.",
-   "date_published": "2026-11-01T02:47:53+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 4246,
-    "event_date": "2026-10-31",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "eastern",
-     "russia",
-     "western"
-    ],
-    "article_count": 7,
     "source_count": 4,
     "sources": [
      {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/us-marco-rubio-g20-ministers-iran-ukraine-war-6506156"
-     },
-     {
-      "name": "NPR World",
+      "name": "Il Post",
       "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/10/31/nx-s1-6022223/secretary-rubio-has-a-tough-time-getting-officials-at-g20-on-the-same-page"
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/10/30/novaya-gazeta-chiusura-russia/"
      },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/31/rubio-non-so-se-putin-sara-a-miami-con-lavrov-discusso-possibile-incontro_3b3129c5-5c76-4c6f-9232-d71221bcfc5b.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/30/novaya-gazeta-chiude-in-russia-uccisi-dalle-autorita-e-dai-servizi_2fb3b7cc-2f66-422a-b2d5-49259c41ee9d.html"
      },
      {
-      "name": "TASS",
+      "name": "The Moscow Times",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2211409"
+      "url": "https://www.themoscowtimes.com/2026/10/30/russias-oldest-independent-newspaper-novaya-gazeta-announces-closure-a94130"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/10/30/russian-independent-newspaper-novaya-gazeta-says-it-will-shut-down-following-pressure-from"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4246.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-10-31-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-31-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
-   "title": "Iranian Supreme Leader Warns United States and Israel Against New Attacks and Threatens Response",
-   "content_text": "Iranian Supreme Leader Mojtaba Khamenei ordered the military to respond \"immediately and decisively\" to threats from the United States and Israel, expanding the nation's target list to include American and Zionist assets. Western outlets frame this decree as an immediate escalation and a direct warning against a unified \"American-Zionist\" threat. Conversely, Russian media portrays the move as a strategic doctrine of \"maximum deterrence\" focused on Iranian sovereignty and historical military precedents.",
-   "summary": "Iranian Supreme Leader Mojtaba Khamenei ordered the military to respond \"immediately and decisively\" to threats from the United States and Israel, expanding the nation's target list to include American and Zionist assets. Western outlets frame this decree as an immediate escalation and a direct warning against a unified \"American-Zionist\" threat. Conversely, Russian media portrays the move as a strategic doctrine of \"maximum deterrence\" focused on Iranian sovereignty and historical military precedents.",
-   "date_published": "2026-11-01T02:45:57+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 4245,
-    "event_date": "2026-10-31",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 6,
-    "source_count": 5,
-    "sources": [
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/31/layatollah-khamenei-agli-usa-risponderemo-a-ogni-minaccia_15e28fd5-2ee9-4469-bcbe-0a4e0b0b4104.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/iran-supreme-leader-warn-us-israel-new-attacks-6509621"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/khamenei-orders-immediate-response-any-threat-without-geographical"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2211365"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4245.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4236.json",
     "languages": [
      "en",
      "it",
