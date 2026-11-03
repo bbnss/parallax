@@ -6,22 +6,32 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 02 Nov 2026 03:26:57 +0000</lastBuildDate>
+<lastBuildDate>Tue, 03 Nov 2026 04:02:01 +0000</lastBuildDate>
 <item>
-<title>Israeli strikes in Gaza result in multiple casualties according to various reports.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-01-at-least-four-palestinians-killed-in-gaza-as-israeli-attacks</link>
-<guid isPermaLink="false">2026-11-01-at-least-four-palestinians-killed-in-gaza-as-israeli-attacks</guid>
-<pubDate>Mon, 02 Nov 2026 02:42:27 +0000</pubDate>
-<description>On November 1, 2026, Israeli missile and drone strikes in Gaza City and Khan Yunis killed at least eight people, including one child. While all outlets confirm the casualties, coverage diverges significantly in framing. Western sources focus on military objectives and tactical details regarding targets like Hamas and local police. In contrast, Middle Eastern sources emphasize the humanitarian impact, highlighting the systematic destruction of infrastructure and the broader scale of civilian casualties since the 2025 ceasefire.</description>
-<category>middle_east</category>
+<title>Exit polls indicate Iliana Yotova has won the presidential runoff election in Bulgaria.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-02-exit-poll-la-presidente-yotova-vince-il-ballottaggio-in-bulg</link>
+<guid isPermaLink="false">2026-11-02-exit-poll-la-presidente-yotova-vince-il-ballottaggio-in-bulg</guid>
+<pubDate>Tue, 03 Nov 2026 03:08:07 +0000</pubDate>
+<description>Iliana Yotova won the Bulgarian presidential runoff against Andrei Gyurov, with reports citing a victory margin between 52% and 57%. While both Western and Russian outlets confirm the result, they differ significantly in their framing of Yotova's platform. Western media emphasizes a domestic shift toward a "peace" narrative and dialogue with Moscow, whereas Russian reporting frames her victory as a strategic reaction to regional security tensions and a rejection of military aid to Ukraine.</description>
+<category>eastern</category>
+<category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Independent Russian newspaper Novaya Gazeta announces the closure of its Russian edition.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-10-30-il-giornale-indipendente-novaya-gazeta-chiudera-la-sua-edizi</link>
-<guid isPermaLink="false">2026-10-30-il-giornale-indipendente-novaya-gazeta-chiudera-la-sua-edizi</guid>
-<pubDate>Mon, 02 Nov 2026 02:44:27 +0000</pubDate>
-<description>Independent Russian newspaper *Novaya Gazeta* announced the closure of its Russian edition on October 30, 2026, with operations set to cease on November 9. Both Western and Russian outlets confirm the shutdown follows intense state pressure and restrictions regarding war reporting. Western sources frame the closure as a deliberate campaign of state repression against independent voices, while Russian reporting emphasizes the loss of a historic institution and the practical logistical hurdles of maintaining editorial independence.</description>
+<title>United States push for resuming Russian gas sales to Europe via Ukraine faces Kremlin skepticism.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-02-gli-usa-premono-per-il-ripristino-delle-vendite-di-gas-russ</link>
+<guid isPermaLink="false">2026-11-02-gli-usa-premono-per-il-ripristino-delle-vendite-di-gas-russ</guid>
+<pubDate>Tue, 03 Nov 2026 03:06:34 +0000</pubDate>
+<description>The United States is pushing for a "winter energy truce" to resume Russian natural gas flows to Europe through Ukrainian pipelines using a U.S. intermediary and an escrow payment system. Western outlets frame this as a proactive diplomatic push to stabilize European energy markets. Conversely, Russian reporting emphasizes the Kremlin's skepticism, framing the proposal as a remote possibility due to significant logistical and political hurdles. The coverage differs on whether the initiative represents an active negotiation or a remote possibility.</description>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Fighting resumes in the Kherson region following the conclusion of a temporary ceasefire.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-02-fighting-returns-to-kherson-region-after-longest-ukraine-war</link>
+<guid isPermaLink="false">2026-11-02-fighting-returns-to-kherson-region-after-longest-ukraine-war</guid>
+<pubDate>Tue, 03 Nov 2026 03:04:57 +0000</pubDate>
+<description>Fighting resumed in the Kherson region following a six-day ceasefire intended to evacuate civilians and deliver supplies to the town of Oleshky. While both Western and Russian sources agree on the timeline and humanitarian goals, they differ significantly in their framing of the truce's purpose. Western outlets focus on the diplomatic complexities and Ukrainian claims of Russian military repositioning, whereas Russian media emphasizes the successful completion of the humanitarian mission and the lack of violations.</description>
 <category>russia</category>
 <category>western</category>
 </item>

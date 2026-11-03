@@ -5,58 +5,60 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-11-02T03:26:57Z",
+ "_generated_at": "2026-11-03T04:02:01Z",
  "items": [
   {
-   "id": "2026-11-01-at-least-four-palestinians-killed-in-gaza-as-israeli-attacks",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-01-at-least-four-palestinians-killed-in-gaza-as-israeli-attacks",
-   "title": "Israeli strikes in Gaza result in multiple casualties according to various reports.",
-   "content_text": "On November 1, 2026, Israeli missile and drone strikes in Gaza City and Khan Yunis killed at least eight people, including one child. While all outlets confirm the casualties, coverage diverges significantly in framing. Western sources focus on military objectives and tactical details regarding targets like Hamas and local police. In contrast, Middle Eastern sources emphasize the humanitarian impact, highlighting the systematic destruction of infrastructure and the broader scale of civilian casualties since the 2025 ceasefire.",
-   "summary": "On November 1, 2026, Israeli missile and drone strikes in Gaza City and Khan Yunis killed at least eight people, including one child. While all outlets confirm the casualties, coverage diverges significantly in framing. Western sources focus on military objectives and tactical details regarding targets like Hamas and local police. In contrast, Middle Eastern sources emphasize the humanitarian impact, highlighting the systematic destruction of infrastructure and the broader scale of civilian casualties since the 2025 ceasefire.",
-   "date_published": "2026-11-02T02:42:27+00:00",
+   "id": "2026-11-02-exit-poll-la-presidente-yotova-vince-il-ballottaggio-in-bulg",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-02-exit-poll-la-presidente-yotova-vince-il-ballottaggio-in-bulg",
+   "title": "Exit polls indicate Iliana Yotova has won the presidential runoff election in Bulgaria.",
+   "content_text": "Iliana Yotova won the Bulgarian presidential runoff against Andrei Gyurov, with reports citing a victory margin between 52% and 57%. While both Western and Russian outlets confirm the result, they differ significantly in their framing of Yotova's platform. Western media emphasizes a domestic shift toward a \"peace\" narrative and dialogue with Moscow, whereas Russian reporting frames her victory as a strategic reaction to regional security tensions and a rejection of military aid to Ukraine.",
+   "summary": "Iliana Yotova won the Bulgarian presidential runoff against Andrei Gyurov, with reports citing a victory margin between 52% and 57%. While both Western and Russian outlets confirm the result, they differ significantly in their framing of Yotova's platform. Western media emphasizes a domestic shift toward a \"peace\" narrative and dialogue with Moscow, whereas Russian reporting frames her victory as a strategic reaction to regional security tensions and a rejection of military aid to Ukraine.",
+   "date_published": "2026-11-03T03:08:07+00:00",
    "tags": [
-    "middle_east",
+    "eastern",
+    "russia",
     "western",
-    "tier-C"
+    "tier-B"
    ],
    "_parallax": {
-    "cluster_id": 4273,
-    "event_date": "2026-11-01",
-    "tier": "C",
-    "tier_label": "Partial coverage",
+    "cluster_id": 4305,
+    "event_date": "2026-11-02",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
     "regions": [
-     "middle_east",
+     "eastern",
+     "russia",
      "western"
     ],
-    "article_count": 5,
+    "article_count": 4,
     "source_count": 4,
     "sources": [
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/10/31/at-least-four-palestinians-killed-in-gaza-as-israeli-attacks-continue?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-ten-people-gaza"
-     },
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
-     },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/01/media-gaza-almeno-8-vittime-in-due-raid-dellidf-sulla-striscia_6366d555-f4e4-4751-9161-94bf44b53598.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/01/exit-poll-la-presidente-yotova-vince-il-ballottaggio-in-bulgaria_2b0ce8ea-aeac-402a-9467-3097e8d028be.html"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/648211-bulgarian-presidential-election-runoff/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "DW News",
+      "region": "western",
+      "country": "DE",
+      "url": "https://www.dw.com/en/how-iliana-yotova-won-the-presidential-election-in-bulgaria/a-79829019?maca=en-rss-en-world-4025-xml-mrss"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-11-02/news-1RJzrwIXzCo/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4273.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4305.json",
     "languages": [
      "en",
      "it",
@@ -67,55 +69,96 @@
    }
   },
   {
-   "id": "2026-10-30-il-giornale-indipendente-novaya-gazeta-chiudera-la-sua-edizi",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-10-30-il-giornale-indipendente-novaya-gazeta-chiudera-la-sua-edizi",
-   "title": "Independent Russian newspaper Novaya Gazeta announces the closure of its Russian edition.",
-   "content_text": "Independent Russian newspaper *Novaya Gazeta* announced the closure of its Russian edition on October 30, 2026, with operations set to cease on November 9. Both Western and Russian outlets confirm the shutdown follows intense state pressure and restrictions regarding war reporting. Western sources frame the closure as a deliberate campaign of state repression against independent voices, while Russian reporting emphasizes the loss of a historic institution and the practical logistical hurdles of maintaining editorial independence.",
-   "summary": "Independent Russian newspaper *Novaya Gazeta* announced the closure of its Russian edition on October 30, 2026, with operations set to cease on November 9. Both Western and Russian outlets confirm the shutdown follows intense state pressure and restrictions regarding war reporting. Western sources frame the closure as a deliberate campaign of state repression against independent voices, while Russian reporting emphasizes the loss of a historic institution and the practical logistical hurdles of maintaining editorial independence.",
-   "date_published": "2026-11-02T02:44:27+00:00",
+   "id": "2026-11-02-gli-usa-premono-per-il-ripristino-delle-vendite-di-gas-russ",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-02-gli-usa-premono-per-il-ripristino-delle-vendite-di-gas-russ",
+   "title": "United States push for resuming Russian gas sales to Europe via Ukraine faces Kremlin skepticism.",
+   "content_text": "The United States is pushing for a \"winter energy truce\" to resume Russian natural gas flows to Europe through Ukrainian pipelines using a U.S. intermediary and an escrow payment system. Western outlets frame this as a proactive diplomatic push to stabilize European energy markets. Conversely, Russian reporting emphasizes the Kremlin's skepticism, framing the proposal as a remote possibility due to significant logistical and political hurdles. The coverage differs on whether the initiative represents an active negotiation or a remote possibility.",
+   "summary": "The United States is pushing for a \"winter energy truce\" to resume Russian natural gas flows to Europe through Ukrainian pipelines using a U.S. intermediary and an escrow payment system. Western outlets frame this as a proactive diplomatic push to stabilize European energy markets. Conversely, Russian reporting emphasizes the Kremlin's skepticism, framing the proposal as a remote possibility due to significant logistical and political hurdles. The coverage differs on whether the initiative represents an active negotiation or a remote possibility.",
+   "date_published": "2026-11-03T03:06:34+00:00",
    "tags": [
     "russia",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 4236,
-    "event_date": "2026-10-30",
+    "cluster_id": 4304,
+    "event_date": "2026-11-02",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
      "russia",
      "western"
     ],
-    "article_count": 4,
-    "source_count": 4,
+    "article_count": 3,
+    "source_count": 2,
     "sources": [
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/10/30/novaya-gazeta-chiusura-russia/"
-     },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/30/novaya-gazeta-chiude-in-russia-uccisi-dalle-autorita-e-dai-servizi_2fb3b7cc-2f66-422a-b2d5-49259c41ee9d.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/02/gli-usa-premono-per-il-ripristino-delle-vendite-di-gas-russo-in-ue-attraverso_31e8a0c8-cc4c-4e69-a0ea-4a3dc942392b.html"
      },
      {
       "name": "The Moscow Times",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/10/30/russias-oldest-independent-newspaper-novaya-gazeta-announces-closure-a94130"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/10/30/russian-independent-newspaper-novaya-gazeta-says-it-will-shut-down-following-pressure-from"
+      "url": "https://www.themoscowtimes.com/2026/11/02/kremlin-downplays-prospect-of-resuming-gas-shipments-to-europe-via-ukraine-a94151"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4236.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4304.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-02-fighting-returns-to-kherson-region-after-longest-ukraine-war",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-02-fighting-returns-to-kherson-region-after-longest-ukraine-war",
+   "title": "Fighting resumes in the Kherson region following the conclusion of a temporary ceasefire.",
+   "content_text": "Fighting resumed in the Kherson region following a six-day ceasefire intended to evacuate civilians and deliver supplies to the town of Oleshky. While both Western and Russian sources agree on the timeline and humanitarian goals, they differ significantly in their framing of the truce's purpose. Western outlets focus on the diplomatic complexities and Ukrainian claims of Russian military repositioning, whereas Russian media emphasizes the successful completion of the humanitarian mission and the lack of violations.",
+   "summary": "Fighting resumed in the Kherson region following a six-day ceasefire intended to evacuate civilians and deliver supplies to the town of Oleshky. While both Western and Russian sources agree on the timeline and humanitarian goals, they differ significantly in their framing of the truce's purpose. Western outlets focus on the diplomatic complexities and Ukrainian claims of Russian military repositioning, whereas Russian media emphasizes the successful completion of the humanitarian mission and the lack of violations.",
+   "date_published": "2026-11-03T03:04:57+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4301,
+    "event_date": "2026-11-02",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/11/02/oleshky-ceasefire-and-aid-operation-end-without-any-violations-lantratova-says-a94152"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4301.json",
     "languages": [
      "en",
      "it",
