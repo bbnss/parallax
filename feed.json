@@ -5,160 +5,200 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-11-03T04:02:01Z",
+ "_generated_at": "2026-11-04T03:49:40Z",
  "items": [
   {
-   "id": "2026-11-02-exit-poll-la-presidente-yotova-vince-il-ballottaggio-in-bulg",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-02-exit-poll-la-presidente-yotova-vince-il-ballottaggio-in-bulg",
-   "title": "Exit polls indicate Iliana Yotova has won the presidential runoff election in Bulgaria.",
-   "content_text": "Iliana Yotova won the Bulgarian presidential runoff against Andrei Gyurov, with reports citing a victory margin between 52% and 57%. While both Western and Russian outlets confirm the result, they differ significantly in their framing of Yotova's platform. Western media emphasizes a domestic shift toward a \"peace\" narrative and dialogue with Moscow, whereas Russian reporting frames her victory as a strategic reaction to regional security tensions and a rejection of military aid to Ukraine.",
-   "summary": "Iliana Yotova won the Bulgarian presidential runoff against Andrei Gyurov, with reports citing a victory margin between 52% and 57%. While both Western and Russian outlets confirm the result, they differ significantly in their framing of Yotova's platform. Western media emphasizes a domestic shift toward a \"peace\" narrative and dialogue with Moscow, whereas Russian reporting frames her victory as a strategic reaction to regional security tensions and a rejection of military aid to Ukraine.",
-   "date_published": "2026-11-03T03:08:07+00:00",
+   "id": "2026-11-04-trump-says-he-will-not-attack-iran-after-midterms",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-04-trump-says-he-will-not-attack-iran-after-midterms",
+   "title": "Donald Trump states there are no immediate plans for a military strike against Iran.",
+   "content_text": "On November 4, 2026, President Donald Trump confirmed that there are no immediate plans for a military strike against Iran. While all outlets reported this fact, coverage diverged on the underlying motivations for this restraint. Middle Eastern sources focused on Iran's economic pressures and the potential for a settlement, whereas Western-aligned reporting emphasized the duality of American military readiness and \"prepared patience\" ahead of the upcoming midterm elections.",
+   "summary": "On November 4, 2026, President Donald Trump confirmed that there are no immediate plans for a military strike against Iran. While all outlets reported this fact, coverage diverged on the underlying motivations for this restraint. Middle Eastern sources focused on Iran's economic pressures and the potential for a settlement, whereas Western-aligned reporting emphasized the duality of American military readiness and \"prepared patience\" ahead of the upcoming midterm elections.",
+   "date_published": "2026-11-04T03:00:21+00:00",
    "tags": [
-    "eastern",
+    "middle_east",
     "russia",
     "western",
     "tier-B"
    ],
    "_parallax": {
-    "cluster_id": 4305,
-    "event_date": "2026-11-02",
+    "cluster_id": 4313,
+    "event_date": "2026-11-04",
     "tier": "B",
     "tier_label": "Cross-bloc coverage",
     "regions": [
-     "eastern",
+     "middle_east",
      "russia",
      "western"
     ],
     "article_count": 4,
-    "source_count": 4,
+    "source_count": 3,
     "sources": [
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-suggests-no-immediate-plan-strike-iran-says-us-locked-and-loaded"
+     },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/01/exit-poll-la-presidente-yotova-vince-il-ballottaggio-in-bulgaria_2b0ce8ea-aeac-402a-9467-3097e8d028be.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/04/trump-nessun-piano-immediato-per-attaccare-liran_d6dab7ef-5200-4bc2-8114-9fa9ec26ffa9.html"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2212773"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4313.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-04-trump-cuts-israeli-military-aid-3-8-billion-in-security-assi",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-04-trump-cuts-israeli-military-aid-3-8-billion-in-security-assi",
+   "title": "Donald Trump announces the termination of $3.8 billion in annual military aid to Israel.",
+   "content_text": "President Donald Trump announced the termination of $3.8 billion in annual military aid to Israel, effective at the end of 2026. Western outlets framed the move as a pragmatic shift toward a purchase-based military model influenced by midterm election timing and regional energy costs. In contrast, Middle Eastern sources highlighted the lack of prior notification to the Israeli finance ministry, framing the decision as a sudden and poorly coordinated diplomatic pivot.",
+   "summary": "President Donald Trump announced the termination of $3.8 billion in annual military aid to Israel, effective at the end of 2026. Western outlets framed the move as a pragmatic shift toward a purchase-based military model influenced by midterm election timing and regional energy costs. In contrast, Middle Eastern sources highlighted the lack of prior notification to the Israeli finance ministry, framing the decision as a sudden and poorly coordinated diplomatic pivot.",
+   "date_published": "2026-11-04T02:58:39+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 4310,
+    "event_date": "2026-11-04",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 11,
+    "source_count": 9,
+    "sources": [
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/video/20261103-trump-cuts-israeli-military-aid-3-8-billion-in-security-assistance-slashed"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/03/trump-a-fine-anno-stop-agli-aiuti-militari-a-israele-accordo-con_675d44f6-5c21-4bbd-b26f-ba7aee00c51a.html"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/my-approval-rating-there-is-99-trump-jokes-hell-move-to-israel-and-become-pm-if-americans-get-tired-of-him/articleshow/135513481.cms"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/trump-us-ending-annual-aid-israel-6518421"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/scepticism-as-trump-says-hes-ending-israels-3-8-bn-military-aid-deal?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-israeli-finance-ministry-unaware-plans-end-us-military-aid-trump"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2212749"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://rt-english.com/news/648211-bulgarian-presidential-election-runoff/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://rt-english.com/news/648344-trump-israel-aid-midterm-election/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      },
      {
-      "name": "DW News",
+      "name": "Euronews",
       "region": "western",
-      "country": "DE",
-      "url": "https://www.dw.com/en/how-iliana-yotova-won-the-presidential-election-in-bulgaria/a-79829019?maca=en-rss-en-world-4025-xml-mrss"
-     },
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/11/03/trump-says-us-will-end-military-aid-to-israel-as-americans-vote-in-midterms"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4310.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-03-us-to-host-trilateral-talks-with-russia-ukraine-next-week-in",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-03-us-to-host-trilateral-talks-with-russia-ukraine-next-week-in",
+   "title": "United States to mediate trilateral talks between Russia and Ukraine in Abu Dhabi next week.",
+   "content_text": "The United States will mediate trilateral talks between Russia and Ukraine in Abu Dhabi on November 10 and 11 to discuss post-war security and de-escalation. While all sources confirm the logistics, coverage diverges on the framing of the American role. Western outlets emphasize the mediation as a comprehensive, multi-layered diplomatic offensive involving European and NATO coordination. In contrast, Russian sources frame the summit as a streamlined resumption of a specific peace process focused on direct trilateral dialogue.",
+   "summary": "The United States will mediate trilateral talks between Russia and Ukraine in Abu Dhabi on November 10 and 11 to discuss post-war security and de-escalation. While all sources confirm the logistics, coverage diverges on the framing of the American role. Western outlets emphasize the mediation as a comprehensive, multi-layered diplomatic offensive involving European and NATO coordination. In contrast, Russian sources frame the summit as a streamlined resumption of a specific peace process focused on direct trilateral dialogue.",
+   "date_published": "2026-11-04T03:02:07+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4327,
+    "event_date": "2026-11-03",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "eastern",
+     "russia"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "sources": [
      {
       "name": "CGTN",
       "region": "eastern",
       "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-11-02/news-1RJzrwIXzCo/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4305.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-02-gli-usa-premono-per-il-ripristino-delle-vendite-di-gas-russ",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-02-gli-usa-premono-per-il-ripristino-delle-vendite-di-gas-russ",
-   "title": "United States push for resuming Russian gas sales to Europe via Ukraine faces Kremlin skepticism.",
-   "content_text": "The United States is pushing for a \"winter energy truce\" to resume Russian natural gas flows to Europe through Ukrainian pipelines using a U.S. intermediary and an escrow payment system. Western outlets frame this as a proactive diplomatic push to stabilize European energy markets. Conversely, Russian reporting emphasizes the Kremlin's skepticism, framing the proposal as a remote possibility due to significant logistical and political hurdles. The coverage differs on whether the initiative represents an active negotiation or a remote possibility.",
-   "summary": "The United States is pushing for a \"winter energy truce\" to resume Russian natural gas flows to Europe through Ukrainian pipelines using a U.S. intermediary and an escrow payment system. Western outlets frame this as a proactive diplomatic push to stabilize European energy markets. Conversely, Russian reporting emphasizes the Kremlin's skepticism, framing the proposal as a remote possibility due to significant logistical and political hurdles. The coverage differs on whether the initiative represents an active negotiation or a remote possibility.",
-   "date_published": "2026-11-03T03:06:34+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4304,
-    "event_date": "2026-11-02",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "sources": [
+      "url": "https://news.cgtn.com/news/2026-11-03/news-1RLdcyocydO/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     },
      {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/02/gli-usa-premono-per-il-ripristino-delle-vendite-di-gas-russo-in-ue-attraverso_31e8a0c8-cc4c-4e69-a0ea-4a3dc942392b.html"
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/russia-ukraine-us-trilateral-talks-6516046"
      },
      {
       "name": "The Moscow Times",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/11/02/kremlin-downplays-prospect-of-resuming-gas-shipments-to-europe-via-ukraine-a94151"
+      "url": "https://www.themoscowtimes.com/2026/11/03/us-mediated-ukraine-peace-talks-to-resume-in-abu-dhabi-next-week-a94160"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4304.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-02-fighting-returns-to-kherson-region-after-longest-ukraine-war",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-02-fighting-returns-to-kherson-region-after-longest-ukraine-war",
-   "title": "Fighting resumes in the Kherson region following the conclusion of a temporary ceasefire.",
-   "content_text": "Fighting resumed in the Kherson region following a six-day ceasefire intended to evacuate civilians and deliver supplies to the town of Oleshky. While both Western and Russian sources agree on the timeline and humanitarian goals, they differ significantly in their framing of the truce's purpose. Western outlets focus on the diplomatic complexities and Ukrainian claims of Russian military repositioning, whereas Russian media emphasizes the successful completion of the humanitarian mission and the lack of violations.",
-   "summary": "Fighting resumed in the Kherson region following a six-day ceasefire intended to evacuate civilians and deliver supplies to the town of Oleshky. While both Western and Russian sources agree on the timeline and humanitarian goals, they differ significantly in their framing of the truce's purpose. Western outlets focus on the diplomatic complexities and Ukrainian claims of Russian military repositioning, whereas Russian media emphasizes the successful completion of the humanitarian mission and the lack of violations.",
-   "date_published": "2026-11-03T03:04:57+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4301,
-    "event_date": "2026-11-02",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "NPR World",
-      "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/11/02/oleshky-ceasefire-and-aid-operation-end-without-any-violations-lantratova-says-a94152"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4301.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4327.json",
     "languages": [
      "en",
      "it",
