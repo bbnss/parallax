@@ -6,36 +6,56 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 04 Nov 2026 03:49:40 +0000</lastBuildDate>
+<lastBuildDate>Thu, 05 Nov 2026 03:50:40 +0000</lastBuildDate>
 <item>
-<title>Donald Trump states there are no immediate plans for a military strike against Iran.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-04-trump-says-he-will-not-attack-iran-after-midterms</link>
-<guid isPermaLink="false">2026-11-04-trump-says-he-will-not-attack-iran-after-midterms</guid>
-<pubDate>Wed, 04 Nov 2026 03:00:21 +0000</pubDate>
-<description>On November 4, 2026, President Donald Trump confirmed that there are no immediate plans for a military strike against Iran. While all outlets reported this fact, coverage diverged on the underlying motivations for this restraint. Middle Eastern sources focused on Iran's economic pressures and the potential for a settlement, whereas Western-aligned reporting emphasized the duality of American military readiness and "prepared patience" ahead of the upcoming midterm elections.</description>
-<category>middle_east</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Donald Trump announces the termination of $3.8 billion in annual military aid to Israel.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-04-trump-cuts-israeli-military-aid-3-8-billion-in-security-assi</link>
-<guid isPermaLink="false">2026-11-04-trump-cuts-israeli-military-aid-3-8-billion-in-security-assi</guid>
-<pubDate>Wed, 04 Nov 2026 02:58:39 +0000</pubDate>
-<description>President Donald Trump announced the termination of $3.8 billion in annual military aid to Israel, effective at the end of 2026. Western outlets framed the move as a pragmatic shift toward a purchase-based military model influenced by midterm election timing and regional energy costs. In contrast, Middle Eastern sources highlighted the lack of prior notification to the Israeli finance ministry, framing the decision as a sudden and poorly coordinated diplomatic pivot.</description>
+<title>Donald Trump attributes Republican losses in the midterm elections to the costs of the Iran war.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-05-how-trump-s-broken-promises-on-war-inflation-handed-democrat</link>
+<guid isPermaLink="false">2026-11-05-how-trump-s-broken-promises-on-war-inflation-handed-democrat</guid>
+<pubDate>Thu, 05 Nov 2026 03:01:50 +0000</pubDate>
+<description>President Donald Trump attributed the Republican Party's 2026 midterm election losses to the economic fallout and high gasoline prices caused by the war in Iran. While all outlets reported this admission, coverage diverged significantly in framing. Western media focused on the administration's failure to meet domestic economic promises, whereas Eastern and Middle Eastern outlets emphasized the strategic necessity of the conflict and the leader's commitment to long-term security over short-term political popularity.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>United States to mediate trilateral talks between Russia and Ukraine in Abu Dhabi next week.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-03-us-to-host-trilateral-talks-with-russia-ukraine-next-week-in</link>
-<guid isPermaLink="false">2026-11-03-us-to-host-trilateral-talks-with-russia-ukraine-next-week-in</guid>
-<pubDate>Wed, 04 Nov 2026 03:02:07 +0000</pubDate>
-<description>The United States will mediate trilateral talks between Russia and Ukraine in Abu Dhabi on November 10 and 11 to discuss post-war security and de-escalation. While all sources confirm the logistics, coverage diverges on the framing of the American role. Western outlets emphasize the mediation as a comprehensive, multi-layered diplomatic offensive involving European and NATO coordination. In contrast, Russian sources frame the summit as a streamlined resumption of a specific peace process focused on direct trilateral dialogue.</description>
+<title>Israeli President Herzog accepts election results and begins consultations to form a new government.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-05-israel-s-president-begins-consultations-with-parties-after-e</link>
+<guid isPermaLink="false">2026-11-05-israel-s-president-begins-consultations-with-parties-after-e</guid>
+<pubDate>Thu, 05 Nov 2026 02:59:36 +0000</pubDate>
+<description>President Isaac Herzog has officially accepted the certified election results and begun consultations to form a new coalition government following a fractured parliamentary vote. Western outlets frame the transition as a matter of institutional stability, emphasizing the presidency's role in maintaining democratic integrity and trust in national security. Conversely, Eastern reporting focuses on shifting regional dynamics, highlighting the gains of Arab-led parties and the potential for a more inclusive coalition.</description>
+<category>eastern</category>
+<category>middle_east</category>
+<category>western</category>
+</item>
+<item>
+<title>Democrats win control of the United States Congress in the midterm elections.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-04-everything-you-need-to-know-from-the-us-midterm-elections</link>
+<guid isPermaLink="false">2026-11-04-everything-you-need-to-know-from-the-us-midterm-elections</guid>
+<pubDate>Thu, 05 Nov 2026 03:03:36 +0000</pubDate>
+<description>The Democratic Party won control of both the House of Representatives and the Senate in the 2026 midterm elections during the Trump presidency. Western outlets frame the victory as a grassroots rebuke of the administration, emphasizing domestic socioeconomic issues and diverse demographic milestones. Conversely, Russian reporting focuses on the executive branch's reaction, highlighting President Trump's personal response and the resulting institutional negotiations. Both regions agree on the results but differ on whether the narrative is driven by public sentiment or executive dynamics.</description>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>North Korea denies U.S. allegations linking the country to a $6.3 billion Binance hack.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-03-north-korea-denies-being-behind-record-6-3bn-binance-hack</link>
+<guid isPermaLink="false">2026-11-03-north-korea-denies-being-behind-record-6-3bn-binance-hack</guid>
+<pubDate>Tue, 03 Nov 2026 03:02:49 +0000</pubDate>
+<description>Following a $6.3 billion cryptocurrency heist on the Binance platform, the United States accused North Korea of involvement, a claim the North Korean government dismissed as a political provocation. Western outlets focus on this diplomatic clash, highlighting the specific rhetoric used by North Korean officials in their rebuttal. Conversely, Russian media emphasizes the technical aspects of the U.S. law enforcement investigation and the FBI's role in tracking the "TraderTraitor" group.</description>
 <category>eastern</category>
 <category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Iran offers to reopen the Strait of Hormuz following negotiations with the United States.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-03-teheran-se-le-nostre-richieste-saranno-soddisfatte-hormuz-ri</link>
+<guid isPermaLink="false">2026-11-03-teheran-se-le-nostre-richieste-saranno-soddisfatte-hormuz-ri</guid>
+<pubDate>Tue, 03 Nov 2026 03:01:15 +0000</pubDate>
+<description>Iran has offered to reopen the Strait of Hormuz within 48 hours following mediated negotiations with the United States to end regional hostilities and resume nuclear talks. While all regions report the same timeline and core facts, coverage differs in framing. Western outlets focus on the diplomatic nuances of Iranian demands regarding sanctions and domestic political pressures, whereas Middle Eastern and Eastern sources emphasize the immediate necessity of securing global energy corridors and establishing a ceasefire.</description>
+<category>eastern</category>
+<category>middle_east</category>
+<category>western</category>
 </item>
 </channel>
 </rss>
