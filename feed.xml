@@ -6,53 +6,45 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 05 Nov 2026 03:50:40 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 14:27:22 +0000</lastBuildDate>
 <item>
-<title>Donald Trump attributes Republican losses in the midterm elections to the costs of the Iran war.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-05-how-trump-s-broken-promises-on-war-inflation-handed-democrat</link>
-<guid isPermaLink="false">2026-11-05-how-trump-s-broken-promises-on-war-inflation-handed-democrat</guid>
-<pubDate>Thu, 05 Nov 2026 03:01:50 +0000</pubDate>
-<description>President Donald Trump attributed the Republican Party's 2026 midterm election losses to the economic fallout and high gasoline prices caused by the war in Iran. While all outlets reported this admission, coverage diverged significantly in framing. Western media focused on the administration's failure to meet domestic economic promises, whereas Eastern and Middle Eastern outlets emphasized the strategic necessity of the conflict and the leader's commitment to long-term security over short-term political popularity.</description>
+<title>Donald Trump meets with Xi Jinping and Vladimir Putin during a summit in Shenzhen.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-22-what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the</link>
+<guid isPermaLink="false">2026-11-22-what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the</guid>
+<pubDate>Sun, 22 Nov 2026 13:37:50 +0000</pubDate>
+<description>On November 22, 2026, Donald Trump met with Xi Jinping and Vladimir Putin in Shenzhen to discuss AI regulation, nuclear weapons, and conflicts in Ukraine and the Korean Peninsula. Western outlets focus on the lack of concrete results and frame the interaction as a tactical, skeptical diplomatic exercise. Conversely, Russian state media emphasizes the personal chemistry between the leaders, framing the summit as a successful milestone for global peace and cooperation.</description>
+<category>eastern</category>
+<category>russia</category>
+<category>western</category>
+</item>
+<item>
+<title>Iran launches an attack on industrial and military sites in Bahrain involving missile interceptions.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-22-bahrein-incendio-in-un-sito-industriale-civile-per-un-attacc</link>
+<guid isPermaLink="false">2026-11-22-bahrein-incendio-in-un-sito-industriale-civile-per-un-attacc</guid>
+<pubDate>Sun, 22 Nov 2026 13:35:56 +0000</pubDate>
+<description>On November 22, 2026, the Iranian Islamic Revolutionary Guard Corps launched a missile and drone strike against military and industrial sites in Bahrain, which were partially intercepted by local defenses. While both Eastern and Russian sources confirm the physical exchange, they differ significantly in their framing of the motive. Eastern outlets frame the attack as a response to Western economic pressure and U.S. nuclear policy, whereas Russian sources focus primarily on the immediate military causality and specific hardware.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Israeli President Herzog accepts election results and begins consultations to form a new government.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-05-israel-s-president-begins-consultations-with-parties-after-e</link>
-<guid isPermaLink="false">2026-11-05-israel-s-president-begins-consultations-with-parties-after-e</guid>
-<pubDate>Thu, 05 Nov 2026 02:59:36 +0000</pubDate>
-<description>President Isaac Herzog has officially accepted the certified election results and begun consultations to form a new coalition government following a fractured parliamentary vote. Western outlets frame the transition as a matter of institutional stability, emphasizing the presidency's role in maintaining democratic integrity and trust in national security. Conversely, Eastern reporting focuses on shifting regional dynamics, highlighting the gains of Arab-led parties and the potential for a more inclusive coalition.</description>
+<title>Russian cargo ship set on fire by drone attack in the Gulf of Finland</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-22-russia-bound-ship-attacked-in-gulf-of-finland</link>
+<guid isPermaLink="false">2026-11-22-russia-bound-ship-attacked-in-gulf-of-finland</guid>
+<pubDate>Sun, 22 Nov 2026 13:34:02 +0000</pubDate>
+<description>On November 22, 2026, the Russian cargo vessel *Sparta II* was struck by drones and caught fire while traveling toward Kaliningrad, eventually drifting into Finnish waters. While all outlets confirm the physical reality of the fire and the subsequent Finnish intervention, coverage varies significantly in focus. Western outlets emphasize the tactical implications of the drone strike, whereas Middle Eastern and Eastern sources prioritize the immediate maritime safety risks and the ongoing efforts to contain the fire.</description>
 <category>eastern</category>
 <category>middle_east</category>
-<category>western</category>
-</item>
-<item>
-<title>Democrats win control of the United States Congress in the midterm elections.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-04-everything-you-need-to-know-from-the-us-midterm-elections</link>
-<guid isPermaLink="false">2026-11-04-everything-you-need-to-know-from-the-us-midterm-elections</guid>
-<pubDate>Thu, 05 Nov 2026 03:03:36 +0000</pubDate>
-<description>The Democratic Party won control of both the House of Representatives and the Senate in the 2026 midterm elections during the Trump presidency. Western outlets frame the victory as a grassroots rebuke of the administration, emphasizing domestic socioeconomic issues and diverse demographic milestones. Conversely, Russian reporting focuses on the executive branch's reaction, highlighting President Trump's personal response and the resulting institutional negotiations. Both regions agree on the results but differ on whether the narrative is driven by public sentiment or executive dynamics.</description>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>North Korea denies U.S. allegations linking the country to a $6.3 billion Binance hack.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-03-north-korea-denies-being-behind-record-6-3bn-binance-hack</link>
-<guid isPermaLink="false">2026-11-03-north-korea-denies-being-behind-record-6-3bn-binance-hack</guid>
-<pubDate>Tue, 03 Nov 2026 03:02:49 +0000</pubDate>
-<description>Following a $6.3 billion cryptocurrency heist on the Binance platform, the United States accused North Korea of involvement, a claim the North Korean government dismissed as a political provocation. Western outlets focus on this diplomatic clash, highlighting the specific rhetoric used by North Korean officials in their rebuttal. Conversely, Russian media emphasizes the technical aspects of the U.S. law enforcement investigation and the FBI's role in tracking the "TraderTraitor" group.</description>
-<category>eastern</category>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Iran offers to reopen the Strait of Hormuz following negotiations with the United States.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-03-teheran-se-le-nostre-richieste-saranno-soddisfatte-hormuz-ri</link>
-<guid isPermaLink="false">2026-11-03-teheran-se-le-nostre-richieste-saranno-soddisfatte-hormuz-ri</guid>
-<pubDate>Tue, 03 Nov 2026 03:01:15 +0000</pubDate>
-<description>Iran has offered to reopen the Strait of Hormuz within 48 hours following mediated negotiations with the United States to end regional hostilities and resume nuclear talks. While all regions report the same timeline and core facts, coverage differs in framing. Western outlets focus on the diplomatic nuances of Iranian demands regarding sanctions and domestic political pressures, whereas Middle Eastern and Eastern sources emphasize the immediate necessity of securing global energy corridors and establishing a ceasefire.</description>
+<title>Negotiations for the COP31 climate agreement face delays over disagreements regarding fossil fuel language.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-22-cop31-deep-divisions-persist-over-energy-finance-and-science</link>
+<guid isPermaLink="false">2026-11-22-cop31-deep-divisions-persist-over-energy-finance-and-science</guid>
+<pubDate>Sun, 22 Nov 2026 13:31:55 +0000</pubDate>
+<description>Negotiations for the COP31 climate agreement have stalled as delegates debate the specific phrasing regarding fossil fuel phase-outs in the draft agreement. Western outlets focus on the procedural nuances of the text, highlighting the European Union's efforts to balance carbon capture technologies with indirect references to fossil fuel reduction. Conversely, Eastern reporting frames the deadlock as a fundamental conflict between immediate climate goals and the practical realities of global energy sources, emphasizing the absence of explicit commitments to end coal, oil, and gas.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>western</category>

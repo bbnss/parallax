@@ -5,15 +5,70 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-11-05T03:50:40Z",
+ "_generated_at": "2026-11-22T14:27:22Z",
  "items": [
   {
-   "id": "2026-11-05-how-trump-s-broken-promises-on-war-inflation-handed-democrat",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-05-how-trump-s-broken-promises-on-war-inflation-handed-democrat",
-   "title": "Donald Trump attributes Republican losses in the midterm elections to the costs of the Iran war.",
-   "content_text": "President Donald Trump attributed the Republican Party's 2026 midterm election losses to the economic fallout and high gasoline prices caused by the war in Iran. While all outlets reported this admission, coverage diverged significantly in framing. Western media focused on the administration's failure to meet domestic economic promises, whereas Eastern and Middle Eastern outlets emphasized the strategic necessity of the conflict and the leader's commitment to long-term security over short-term political popularity.",
-   "summary": "President Donald Trump attributed the Republican Party's 2026 midterm election losses to the economic fallout and high gasoline prices caused by the war in Iran. While all outlets reported this admission, coverage diverged significantly in framing. Western media focused on the administration's failure to meet domestic economic promises, whereas Eastern and Middle Eastern outlets emphasized the strategic necessity of the conflict and the leader's commitment to long-term security over short-term political popularity.",
-   "date_published": "2026-11-05T03:01:50+00:00",
+   "id": "2026-11-22-what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-22-what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the",
+   "title": "Donald Trump meets with Xi Jinping and Vladimir Putin during a summit in Shenzhen.",
+   "content_text": "On November 22, 2026, Donald Trump met with Xi Jinping and Vladimir Putin in Shenzhen to discuss AI regulation, nuclear weapons, and conflicts in Ukraine and the Korean Peninsula. Western outlets focus on the lack of concrete results and frame the interaction as a tactical, skeptical diplomatic exercise. Conversely, Russian state media emphasizes the personal chemistry between the leaders, framing the summit as a successful milestone for global peace and cooperation.",
+   "summary": "On November 22, 2026, Donald Trump met with Xi Jinping and Vladimir Putin in Shenzhen to discuss AI regulation, nuclear weapons, and conflicts in Ukraine and the Korean Peninsula. Western outlets focus on the lack of concrete results and frame the interaction as a tactical, skeptical diplomatic exercise. Conversely, Russian state media emphasizes the personal chemistry between the leaders, framing the summit as a successful milestone for global peace and cooperation.",
+   "date_published": "2026-11-22T13:37:50+00:00",
+   "tags": [
+    "eastern",
+    "russia",
+    "western",
+    "tier-B"
+   ],
+   "_parallax": {
+    "cluster_id": 4356,
+    "event_date": "2026-11-22",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
+    "regions": [
+     "eastern",
+     "russia",
+     "western"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/11/21/nx-s1-6048741/what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the-shenzhen-summit"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-11-21/China-Russia-US-engagement-opens-new-path-to-global-stability-experts-1SfmNL0hO2A/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/649199-my-friend-trump-posts-photos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4356.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-22-bahrein-incendio-in-un-sito-industriale-civile-per-un-attacc",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-22-bahrein-incendio-in-un-sito-industriale-civile-per-un-attacc",
+   "title": "Iran launches an attack on industrial and military sites in Bahrain involving missile interceptions.",
+   "content_text": "On November 22, 2026, the Iranian Islamic Revolutionary Guard Corps launched a missile and drone strike against military and industrial sites in Bahrain, which were partially intercepted by local defenses. While both Eastern and Russian sources confirm the physical exchange, they differ significantly in their framing of the motive. Eastern outlets frame the attack as a response to Western economic pressure and U.S. nuclear policy, whereas Russian sources focus primarily on the immediate military causality and specific hardware.",
+   "summary": "On November 22, 2026, the Iranian Islamic Revolutionary Guard Corps launched a missile and drone strike against military and industrial sites in Bahrain, which were partially intercepted by local defenses. While both Eastern and Russian sources confirm the physical exchange, they differ significantly in their framing of the motive. Eastern outlets frame the attack as a response to Western economic pressure and U.S. nuclear policy, whereas Russian sources focus primarily on the immediate military causality and specific hardware.",
+   "date_published": "2026-11-22T13:35:56+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -22,8 +77,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 4333,
-    "event_date": "2026-11-05",
+    "cluster_id": 4349,
+    "event_date": "2026-11-22",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -32,246 +87,47 @@
      "russia",
      "western"
     ],
-    "article_count": 9,
-    "source_count": 8,
+    "article_count": 6,
+    "source_count": 6,
     "sources": [
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/video/20261104-how-trump-s-broken-promises-on-war-inflation-handed-democrats-the-midterms"
-     },
      {
       "name": "ANSA Mondo",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/04/trump-non-abbiamo-perso-per-la-guerra-ma-per-il-carovita_fe7481ef-8fa7-4d25-a140-c7e730197523.html"
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/21/bahrein-incendio-in-un-sito-industriale-civile-per-un-attacco-iraniano_4e3fd91c-b52e-4cd3-8904-11dd3b7f70dd.html"
      },
      {
-      "name": "Times of India",
+      "name": "CGTN",
       "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/largely-true-trump-backs-vances-claim-that-iran-war-cost-gop-midterms-says-hed-do-it-again/articleshow/135551312.cms"
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-11-22/IRGC-targets-US-radars-in-Bahrain-as-Trump-seeks-permanent-deal--1SgRClAT5x6/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/trump-us-midterms-iran-war-republican-loss-6525316"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss"
+      "url": "https://www.channelnewsasia.com/world/bahrain-intercept-iran-attack-6572311"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-admits-iran-war-caused-election-losses-we-had-do-it"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-condemns-iranian-attack-bahrain"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2212995"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/11/04/democrats-did-a-good-job-trump-congratulates-democrats-on-midterm-wins"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4333.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-05-israel-s-president-begins-consultations-with-parties-after-e",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-05-israel-s-president-begins-consultations-with-parties-after-e",
-   "title": "Israeli President Herzog accepts election results and begins consultations to form a new government.",
-   "content_text": "President Isaac Herzog has officially accepted the certified election results and begun consultations to form a new coalition government following a fractured parliamentary vote. Western outlets frame the transition as a matter of institutional stability, emphasizing the presidency's role in maintaining democratic integrity and trust in national security. Conversely, Eastern reporting focuses on shifting regional dynamics, highlighting the gains of Arab-led parties and the potential for a more inclusive coalition.",
-   "summary": "President Isaac Herzog has officially accepted the certified election results and begun consultations to form a new coalition government following a fractured parliamentary vote. Western outlets frame the transition as a matter of institutional stability, emphasizing the presidency's role in maintaining democratic integrity and trust in national security. Conversely, Eastern reporting focuses on shifting regional dynamics, highlighting the gains of Arab-led parties and the potential for a more inclusive coalition.",
-   "date_published": "2026-11-05T02:59:36+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 4331,
-    "event_date": "2026-11-05",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/04/presidente-herzog-accetta-i-risultati-ufficiali-delle-elezioni_d99dbb45-b388-4b30-b355-d3e74941a2d2.html"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/israel-president-herzog-accepts-election-results-netanyahu-eisenkot-6525906"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government?traffic_source=rss"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4331.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-04-everything-you-need-to-know-from-the-us-midterm-elections",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-04-everything-you-need-to-know-from-the-us-midterm-elections",
-   "title": "Democrats win control of the United States Congress in the midterm elections.",
-   "content_text": "The Democratic Party won control of both the House of Representatives and the Senate in the 2026 midterm elections during the Trump presidency. Western outlets frame the victory as a grassroots rebuke of the administration, emphasizing domestic socioeconomic issues and diverse demographic milestones. Conversely, Russian reporting focuses on the executive branch's reaction, highlighting President Trump's personal response and the resulting institutional negotiations. Both regions agree on the results but differ on whether the narrative is driven by public sentiment or executive dynamics.",
-   "summary": "The Democratic Party won control of both the House of Representatives and the Senate in the 2026 midterm elections during the Trump presidency. Western outlets frame the victory as a grassroots rebuke of the administration, emphasizing domestic socioeconomic issues and diverse demographic milestones. Conversely, Russian reporting focuses on the executive branch's reaction, highlighting President Trump's personal response and the resulting institutional negotiations. Both regions agree on the results but differ on whether the narrative is driven by public sentiment or executive dynamics.",
-   "date_published": "2026-11-05T03:03:36+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4339,
-    "event_date": "2026-11-04",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 6,
-    "source_count": 5,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/11/04/risultati-midterm-2026-grafici/"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2212917"
-     },
-     {
-      "name": "El Pais English",
-      "region": "western",
-      "country": "ES",
-      "url": "https://english.elpais.com/usa/2026-11-04/democrats-sweep-the-midterms-on-a-wave-of-rebuke-to-trumps-presidency.html"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/11/04/democrats-set-to-seize-control-of-congress-after-long-night-for-republican-party"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4339.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-03-north-korea-denies-being-behind-record-6-3bn-binance-hack",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-03-north-korea-denies-being-behind-record-6-3bn-binance-hack",
-   "title": "North Korea denies U.S. allegations linking the country to a $6.3 billion Binance hack.",
-   "content_text": "Following a $6.3 billion cryptocurrency heist on the Binance platform, the United States accused North Korea of involvement, a claim the North Korean government dismissed as a political provocation. Western outlets focus on this diplomatic clash, highlighting the specific rhetoric used by North Korean officials in their rebuttal. Conversely, Russian media emphasizes the technical aspects of the U.S. law enforcement investigation and the FBI's role in tracking the \"TraderTraitor\" group.",
-   "summary": "Following a $6.3 billion cryptocurrency heist on the Binance platform, the United States accused North Korea of involvement, a claim the North Korean government dismissed as a political provocation. Western outlets focus on this diplomatic clash, highlighting the specific rhetoric used by North Korean officials in their rebuttal. Conversely, Russian media emphasizes the technical aspects of the U.S. law enforcement investigation and the FBI's role in tracking the \"TraderTraitor\" group.",
-   "date_published": "2026-11-03T03:02:49+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "western",
-    "tier-B"
-   ],
-   "_parallax": {
-    "cluster_id": 4282,
-    "event_date": "2026-11-03",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
-    "regions": [
-     "eastern",
-     "russia",
-     "western"
-    ],
-    "article_count": 4,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/asia-pacific/20261102-north-korea-rejects-us-allegations-over-6-billion-binance-crypto-heist"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/east-asia/north-korea-binance-hack-fbi-grave-provocation-6514311"
+      "url": "https://tass.com/world/2222947"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://rt-english.com/news/648247-fbi-north-korea-hack/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://rt-english.com/news/649196-iran-bahrain-us-bases/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4282.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4349.json",
     "languages": [
      "en",
      "it",
@@ -282,12 +138,93 @@
    }
   },
   {
-   "id": "2026-11-03-teheran-se-le-nostre-richieste-saranno-soddisfatte-hormuz-ri",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-03-teheran-se-le-nostre-richieste-saranno-soddisfatte-hormuz-ri",
-   "title": "Iran offers to reopen the Strait of Hormuz following negotiations with the United States.",
-   "content_text": "Iran has offered to reopen the Strait of Hormuz within 48 hours following mediated negotiations with the United States to end regional hostilities and resume nuclear talks. While all regions report the same timeline and core facts, coverage differs in framing. Western outlets focus on the diplomatic nuances of Iranian demands regarding sanctions and domestic political pressures, whereas Middle Eastern and Eastern sources emphasize the immediate necessity of securing global energy corridors and establishing a ceasefire.",
-   "summary": "Iran has offered to reopen the Strait of Hormuz within 48 hours following mediated negotiations with the United States to end regional hostilities and resume nuclear talks. While all regions report the same timeline and core facts, coverage differs in framing. Western outlets focus on the diplomatic nuances of Iranian demands regarding sanctions and domestic political pressures, whereas Middle Eastern and Eastern sources emphasize the immediate necessity of securing global energy corridors and establishing a ceasefire.",
-   "date_published": "2026-11-03T03:01:15+00:00",
+   "id": "2026-11-22-russia-bound-ship-attacked-in-gulf-of-finland",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-22-russia-bound-ship-attacked-in-gulf-of-finland",
+   "title": "Russian cargo ship set on fire by drone attack in the Gulf of Finland",
+   "content_text": "On November 22, 2026, the Russian cargo vessel *Sparta II* was struck by drones and caught fire while traveling toward Kaliningrad, eventually drifting into Finnish waters. While all outlets confirm the physical reality of the fire and the subsequent Finnish intervention, coverage varies significantly in focus. Western outlets emphasize the tactical implications of the drone strike, whereas Middle Eastern and Eastern sources prioritize the immediate maritime safety risks and the ongoing efforts to contain the fire.",
+   "summary": "On November 22, 2026, the Russian cargo vessel *Sparta II* was struck by drones and caught fire while traveling toward Kaliningrad, eventually drifting into Finnish waters. While all outlets confirm the physical reality of the fire and the subsequent Finnish intervention, coverage varies significantly in focus. Western outlets emphasize the tactical implications of the drone strike, whereas Middle Eastern and Eastern sources prioritize the immediate maritime safety risks and the ongoing efforts to contain the fire.",
+   "date_published": "2026-11-22T13:34:02+00:00",
+   "tags": [
+    "eastern",
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 4346,
+    "event_date": "2026-11-22",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 8,
+    "source_count": 7,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/11/21/la-nave-cargo-russa-attaccata-da-droni-nel-golfo-di-finlandia/"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-11-21/news-1SfVsM5rxQI/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/russian-cargo-ship-hit-drones-in-baltic-finland-tightens-security-6571981"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/russian-ship-attacked-by-drone-in-baltic-sea-off-finland?traffic_source=rss"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-attack-a94343"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4346.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-22-cop31-deep-divisions-persist-over-energy-finance-and-science",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-22-cop31-deep-divisions-persist-over-energy-finance-and-science",
+   "title": "Negotiations for the COP31 climate agreement face delays over disagreements regarding fossil fuel language.",
+   "content_text": "Negotiations for the COP31 climate agreement have stalled as delegates debate the specific phrasing regarding fossil fuel phase-outs in the draft agreement. Western outlets focus on the procedural nuances of the text, highlighting the European Union's efforts to balance carbon capture technologies with indirect references to fossil fuel reduction. Conversely, Eastern reporting frames the deadlock as a fundamental conflict between immediate climate goals and the practical realities of global energy sources, emphasizing the absence of explicit commitments to end coal, oil, and gas.",
+   "summary": "Negotiations for the COP31 climate agreement have stalled as delegates debate the specific phrasing regarding fossil fuel phase-outs in the draft agreement. Western outlets focus on the procedural nuances of the text, highlighting the European Union's efforts to balance carbon capture technologies with indirect references to fossil fuel reduction. Conversely, Eastern reporting frames the deadlock as a fundamental conflict between immediate climate goals and the practical realities of global energy sources, emphasizing the absence of explicit commitments to end coal, oil, and gas.",
+   "date_published": "2026-11-22T13:31:55+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -295,8 +232,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 4281,
-    "event_date": "2026-11-03",
+    "cluster_id": 4345,
+    "event_date": "2026-11-22",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -308,43 +245,43 @@
     "source_count": 6,
     "sources": [
      {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/02/iran-pronti-a-riaprire-hormuz-in-2-giorni-se-usa-accettano-condizioni_8d60d04e-312a-4cff-b205-b6f223f1e34a.html"
-     },
-     {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak"
+      "url": "https://www.france24.com/en/cop31-deep-divisions-persist-over-energy-finance-and-science"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/22/cop31-nuova-bozza-con-riferimento-indiretto-a-uscita-da-fossili_d5d76c15-7f98-4144-a933-3e46ce78150b.html"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/home/environment/cop31-trkiyes-draft-agreement-omits-fossil-fuels-draws-backlash/articleshow/136070785.cms"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/us-iran-war-talks-progress-trump-tehran-hormuz-6514421"
+      "url": "https://www.channelnewsasia.com/sustainability/cop31-draft-deal-fossil-fuels-6572531"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss"
-     },
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-ready-reopen-hormuz-two-days-if-us-agrees-demands"
+      "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss"
      },
      {
       "name": "Euronews",
       "region": "western",
       "country": "EU",
-      "url": "https://www.euronews.com/2026/11/02/iran-says-it-can-reopen-hormuz-in-two-days-if-us-meets-conditions"
+      "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4281.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4345.json",
     "languages": [
      "en",
      "it",
