@@ -6,47 +6,44 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 22 Nov 2026 14:27:22 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 03:36:59 +0000</lastBuildDate>
 <item>
-<title>Donald Trump meets with Xi Jinping and Vladimir Putin during a summit in Shenzhen.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-22-what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the</link>
-<guid isPermaLink="false">2026-11-22-what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the</guid>
-<pubDate>Sun, 22 Nov 2026 13:37:50 +0000</pubDate>
-<description>On November 22, 2026, Donald Trump met with Xi Jinping and Vladimir Putin in Shenzhen to discuss AI regulation, nuclear weapons, and conflicts in Ukraine and the Korean Peninsula. Western outlets focus on the lack of concrete results and frame the interaction as a tactical, skeptical diplomatic exercise. Conversely, Russian state media emphasizes the personal chemistry between the leaders, framing the summit as a successful milestone for global peace and cooperation.</description>
-<category>eastern</category>
+<title>Russian drone strikes in the Kyiv region result in multiple casualties and reported injuries.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-23-ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv</link>
+<guid isPermaLink="false">2026-11-23-ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv</guid>
+<pubDate>Mon, 23 Nov 2026 02:41:10 +0000</pubDate>
+<description>On November 23, 2026, a Russian drone strike destroyed a five-story residential building in the Dymer area of the Kyiv region, causing multiple casualties. Western outlets focus on the humanitarian crisis, emphasizing the immediate human toll and the rescue efforts for victims in Ukraine. In contrast, Russian-aligned sources frame the event as part of a reciprocal cycle of escalation, frequently pairing the report of the strike with Ukrainian drone strikes on the Belgorod Region.</description>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Iran launches an attack on industrial and military sites in Bahrain involving missile interceptions.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-22-bahrein-incendio-in-un-sito-industriale-civile-per-un-attacc</link>
-<guid isPermaLink="false">2026-11-22-bahrein-incendio-in-un-sito-industriale-civile-per-un-attacc</guid>
-<pubDate>Sun, 22 Nov 2026 13:35:56 +0000</pubDate>
-<description>On November 22, 2026, the Iranian Islamic Revolutionary Guard Corps launched a missile and drone strike against military and industrial sites in Bahrain, which were partially intercepted by local defenses. While both Eastern and Russian sources confirm the physical exchange, they differ significantly in their framing of the motive. Eastern outlets frame the attack as a response to Western economic pressure and U.S. nuclear policy, whereas Russian sources focus primarily on the immediate military causality and specific hardware.</description>
+<title>Israeli settlers and forces conduct a series of attacks and cause fires in West Bank villages.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-23-israeli-settlers-torch-vehicles-in-west-bank-paint-racist-gr</link>
+<guid isPermaLink="false">2026-11-23-israeli-settlers-torch-vehicles-in-west-bank-paint-racist-gr</guid>
+<pubDate>Mon, 23 Nov 2026 02:39:29 +0000</pubDate>
+<description>On November 23, 2026, vehicles and property were set ablaze in several West Bank villages, prompting an official Israeli investigation and a military response. Western outlets frame the incident as a domestic legal issue, focusing on internal Israeli political backlash and the condemnation of "settler violence." Conversely, Middle Eastern sources frame the events as a systemic pattern of aggression, emphasizing the psychological impact on Palestinian residents and the broader scope of escalating hostilities.</description>
+<category>middle_east</category>
+<category>western</category>
+</item>
+<item>
+<title>Russian warship hit by suspected drone attack at a naval base in Libya</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-23-explosion-on-russian-ship-at-libya-port-caused-by-suspected</link>
+<guid isPermaLink="false">2026-11-23-explosion-on-russian-ship-at-libya-port-caused-by-suspected</guid>
+<pubDate>Mon, 23 Nov 2026 02:35:40 +0000</pubDate>
+<description>On November 23, 2026, a Russian warship at the Benghazi naval base in Libya was struck by an explosion, which local authorities identified as a suspected drone attack. While all sources confirm the strike occurred with no reported casualties, coverage differs significantly in its framing of the incident's scope. Western outlets focus on the potential link to the Ukraine conflict, whereas Middle Eastern reporting emphasizes regional maritime security and the involvement of a second nearby vessel.</description>
 <category>eastern</category>
 <category>middle_east</category>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Russian cargo ship set on fire by drone attack in the Gulf of Finland</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-22-russia-bound-ship-attacked-in-gulf-of-finland</link>
-<guid isPermaLink="false">2026-11-22-russia-bound-ship-attacked-in-gulf-of-finland</guid>
-<pubDate>Sun, 22 Nov 2026 13:34:02 +0000</pubDate>
-<description>On November 22, 2026, the Russian cargo vessel *Sparta II* was struck by drones and caught fire while traveling toward Kaliningrad, eventually drifting into Finnish waters. While all outlets confirm the physical reality of the fire and the subsequent Finnish intervention, coverage varies significantly in focus. Western outlets emphasize the tactical implications of the drone strike, whereas Middle Eastern and Eastern sources prioritize the immediate maritime safety risks and the ongoing efforts to contain the fire.</description>
-<category>eastern</category>
+<title>Israeli official condemns settler attacks in the West Bank as acts of Jewish terrorism.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-22-israels-eisenkot-slams-jewish-terrorism-after-attacks-by-set</link>
+<guid isPermaLink="false">2026-11-22-israels-eisenkot-slams-jewish-terrorism-after-attacks-by-set</guid>
+<pubDate>Mon, 23 Nov 2026 02:42:44 +0000</pubDate>
+<description>Israeli politician Gadi Eisenkot condemned a series of arson attacks and racist graffiti in Palestinian villages near Ramallah as "Jewish terrorism." While all sources report the condemnation and the resulting internal friction regarding right-wing ministers, coverage diverges on the primary framing of the incident. Middle Eastern outlets emphasize the violence as a result of government-fueled policies and international pressure, whereas other reports focus more on the internal political fallout and domestic implications.</description>
 <category>middle_east</category>
 <category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>Negotiations for the COP31 climate agreement face delays over disagreements regarding fossil fuel language.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-22-cop31-deep-divisions-persist-over-energy-finance-and-science</link>
-<guid isPermaLink="false">2026-11-22-cop31-deep-divisions-persist-over-energy-finance-and-science</guid>
-<pubDate>Sun, 22 Nov 2026 13:31:55 +0000</pubDate>
-<description>Negotiations for the COP31 climate agreement have stalled as delegates debate the specific phrasing regarding fossil fuel phase-outs in the draft agreement. Western outlets focus on the procedural nuances of the text, highlighting the European Union's efforts to balance carbon capture technologies with indirect references to fossil fuel reduction. Conversely, Eastern reporting frames the deadlock as a fundamental conflict between immediate climate goals and the practical realities of global energy sources, emphasizing the absence of explicit commitments to end coal, oil, and gas.</description>
-<category>eastern</category>
-<category>middle_east</category>
 <category>western</category>
 </item>
 </channel>

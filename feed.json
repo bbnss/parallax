@@ -5,28 +5,227 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-11-22T14:27:22Z",
+ "_generated_at": "2026-11-23T03:36:59Z",
  "items": [
   {
-   "id": "2026-11-22-what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-22-what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the",
-   "title": "Donald Trump meets with Xi Jinping and Vladimir Putin during a summit in Shenzhen.",
-   "content_text": "On November 22, 2026, Donald Trump met with Xi Jinping and Vladimir Putin in Shenzhen to discuss AI regulation, nuclear weapons, and conflicts in Ukraine and the Korean Peninsula. Western outlets focus on the lack of concrete results and frame the interaction as a tactical, skeptical diplomatic exercise. Conversely, Russian state media emphasizes the personal chemistry between the leaders, framing the summit as a successful milestone for global peace and cooperation.",
-   "summary": "On November 22, 2026, Donald Trump met with Xi Jinping and Vladimir Putin in Shenzhen to discuss AI regulation, nuclear weapons, and conflicts in Ukraine and the Korean Peninsula. Western outlets focus on the lack of concrete results and frame the interaction as a tactical, skeptical diplomatic exercise. Conversely, Russian state media emphasizes the personal chemistry between the leaders, framing the summit as a successful milestone for global peace and cooperation.",
-   "date_published": "2026-11-22T13:37:50+00:00",
+   "id": "2026-11-23-ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-23-ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv",
+   "title": "Russian drone strikes in the Kyiv region result in multiple casualties and reported injuries.",
+   "content_text": "On November 23, 2026, a Russian drone strike destroyed a five-story residential building in the Dymer area of the Kyiv region, causing multiple casualties. Western outlets focus on the humanitarian crisis, emphasizing the immediate human toll and the rescue efforts for victims in Ukraine. In contrast, Russian-aligned sources frame the event as part of a reciprocal cycle of escalation, frequently pairing the report of the strike with Ukrainian drone strikes on the Belgorod Region.",
+   "summary": "On November 23, 2026, a Russian drone strike destroyed a five-story residential building in the Dymer area of the Kyiv region, causing multiple casualties. Western outlets focus on the humanitarian crisis, emphasizing the immediate human toll and the rescue efforts for victims in Ukraine. In contrast, Russian-aligned sources frame the event as part of a reciprocal cycle of escalation, frequently pairing the report of the strike with Ukrainian drone strikes on the Belgorod Region.",
+   "date_published": "2026-11-23T02:41:10+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4381,
+    "event_date": "2026-11-23",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "sources": [
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/video/2026/11/22/ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv-after-russian-attack"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/22/nave-militare-russa-colpita-a-bengasi-sono-stati-gli-ucraini-_957fd3f3-aa7b-4ed5-b2d5-03500486cfde.html"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/emergencies/2223029"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/11/22/at-least-4-killed-in-russian-drone-attacks-on-kyiv-region-officials-say-a94345"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4381.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-23-israeli-settlers-torch-vehicles-in-west-bank-paint-racist-gr",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-23-israeli-settlers-torch-vehicles-in-west-bank-paint-racist-gr",
+   "title": "Israeli settlers and forces conduct a series of attacks and cause fires in West Bank villages.",
+   "content_text": "On November 23, 2026, vehicles and property were set ablaze in several West Bank villages, prompting an official Israeli investigation and a military response. Western outlets frame the incident as a domestic legal issue, focusing on internal Israeli political backlash and the condemnation of \"settler violence.\" Conversely, Middle Eastern sources frame the events as a systemic pattern of aggression, emphasizing the psychological impact on Palestinian residents and the broader scope of escalating hostilities.",
+   "summary": "On November 23, 2026, vehicles and property were set ablaze in several West Bank villages, prompting an official Israeli investigation and a military response. Western outlets frame the incident as a domestic legal issue, focusing on internal Israeli political backlash and the condemnation of \"settler violence.\" Conversely, Middle Eastern sources frame the events as a systemic pattern of aggression, emphasizing the psychological impact on Palestinian residents and the broader scope of escalating hostilities.",
+   "date_published": "2026-11-23T02:39:29+00:00",
+   "tags": [
+    "middle_east",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4379,
+    "event_date": "2026-11-23",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "middle_east",
+     "western"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-palestinians-describe-fear-after-israeli-settlers-attack-west-bank"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/west-bank-attacks-opposition-leader-eisenkot-decries-jewish-terrorism"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/video/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4379.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-23-explosion-on-russian-ship-at-libya-port-caused-by-suspected",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-23-explosion-on-russian-ship-at-libya-port-caused-by-suspected",
+   "title": "Russian warship hit by suspected drone attack at a naval base in Libya",
+   "content_text": "On November 23, 2026, a Russian warship at the Benghazi naval base in Libya was struck by an explosion, which local authorities identified as a suspected drone attack. While all sources confirm the strike occurred with no reported casualties, coverage differs significantly in its framing of the incident's scope. Western outlets focus on the potential link to the Ukraine conflict, whereas Middle Eastern reporting emphasizes regional maritime security and the involvement of a second nearby vessel.",
+   "summary": "On November 23, 2026, a Russian warship at the Benghazi naval base in Libya was struck by an explosion, which local authorities identified as a suspected drone attack. While all sources confirm the strike occurred with no reported casualties, coverage differs significantly in its framing of the incident's scope. Western outlets focus on the potential link to the Ukraine conflict, whereas Middle Eastern reporting emphasizes regional maritime security and the involvement of a second nearby vessel.",
+   "date_published": "2026-11-23T02:35:40+00:00",
    "tags": [
     "eastern",
+    "middle_east",
+    "russia",
+    "western",
+    "tier-A"
+   ],
+   "_parallax": {
+    "cluster_id": 4373,
+    "event_date": "2026-11-23",
+    "tier": "A",
+    "tier_label": "Confirmed globally",
+    "regions": [
+     "eastern",
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 11,
+    "source_count": 8,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/11/22/libia-bengasi-sospetto-attacco-nave-russa/"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/africa/2026/11/22/nave-russa-colpita-a-bengasi-sospetto-attacco-di-droni_c749363b-b2ee-4e05-b27c-cef4c5cae1f6.html"
+     },
+     {
+      "name": "Times of India",
+      "region": "eastern",
+      "country": "IN",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/watch-russian-warship-hit-by-suspected-ukrainian-drones-at-benghazi-naval-base-bursts-into-flames/articleshow/136085577.cms"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/libyas-military-says-fully-prepared-after-benghazi-attacks?traffic_source=rss"
+     },
+     {
+      "name": "The Moscow Times",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://www.themoscowtimes.com/2026/11/22/libyas-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship-at-benghazi-port-a94344"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4373.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-22-israels-eisenkot-slams-jewish-terrorism-after-attacks-by-set",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-22-israels-eisenkot-slams-jewish-terrorism-after-attacks-by-set",
+   "title": "Israeli official condemns settler attacks in the West Bank as acts of Jewish terrorism.",
+   "content_text": "Israeli politician Gadi Eisenkot condemned a series of arson attacks and racist graffiti in Palestinian villages near Ramallah as \"Jewish terrorism.\" While all sources report the condemnation and the resulting internal friction regarding right-wing ministers, coverage diverges on the primary framing of the incident. Middle Eastern outlets emphasize the violence as a result of government-fueled policies and international pressure, whereas other reports focus more on the internal political fallout and domestic implications.",
+   "summary": "Israeli politician Gadi Eisenkot condemned a series of arson attacks and racist graffiti in Palestinian villages near Ramallah as \"Jewish terrorism.\" While all sources report the condemnation and the resulting internal friction regarding right-wing ministers, coverage diverges on the primary framing of the incident. Middle Eastern outlets emphasize the violence as a result of government-fueled policies and international pressure, whereas other reports focus more on the internal political fallout and domestic implications.",
+   "date_published": "2026-11-23T02:42:44+00:00",
+   "tags": [
+    "middle_east",
     "russia",
     "western",
     "tier-B"
    ],
    "_parallax": {
-    "cluster_id": 4356,
+    "cluster_id": 4384,
     "event_date": "2026-11-22",
     "tier": "B",
     "tier_label": "Cross-bloc coverage",
     "regions": [
-     "eastern",
+     "middle_east",
      "russia",
      "western"
     ],
@@ -34,254 +233,25 @@
     "source_count": 3,
     "sources": [
      {
-      "name": "NPR World",
+      "name": "France 24",
       "region": "western",
-      "country": "US",
-      "url": "https://www.npr.org/2026/11/21/nx-s1-6048741/what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the-shenzhen-summit"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-11-21/China-Russia-US-engagement-opens-new-path-to-global-stability-experts-1SfmNL0hO2A/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/649199-my-friend-trump-posts-photos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4356.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-22-bahrein-incendio-in-un-sito-industriale-civile-per-un-attacc",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-22-bahrein-incendio-in-un-sito-industriale-civile-per-un-attacc",
-   "title": "Iran launches an attack on industrial and military sites in Bahrain involving missile interceptions.",
-   "content_text": "On November 22, 2026, the Iranian Islamic Revolutionary Guard Corps launched a missile and drone strike against military and industrial sites in Bahrain, which were partially intercepted by local defenses. While both Eastern and Russian sources confirm the physical exchange, they differ significantly in their framing of the motive. Eastern outlets frame the attack as a response to Western economic pressure and U.S. nuclear policy, whereas Russian sources focus primarily on the immediate military causality and specific hardware.",
-   "summary": "On November 22, 2026, the Iranian Islamic Revolutionary Guard Corps launched a missile and drone strike against military and industrial sites in Bahrain, which were partially intercepted by local defenses. While both Eastern and Russian sources confirm the physical exchange, they differ significantly in their framing of the motive. Eastern outlets frame the attack as a response to Western economic pressure and U.S. nuclear policy, whereas Russian sources focus primarily on the immediate military causality and specific hardware.",
-   "date_published": "2026-11-22T13:35:56+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 4349,
-    "event_date": "2026-11-22",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 6,
-    "source_count": 6,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/21/bahrein-incendio-in-un-sito-industriale-civile-per-un-attacco-iraniano_4e3fd91c-b52e-4cd3-8904-11dd3b7f70dd.html"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-11-22/IRGC-targets-US-radars-in-Bahrain-as-Trump-seeks-permanent-deal--1SgRClAT5x6/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/bahrain-intercept-iran-attack-6572311"
+      "country": "FR",
+      "url": "https://www.france24.com/en/middle-east/20261122-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-settlers-in-west-bank"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-condemns-iranian-attack-bahrain"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/world/2222947"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eisenkot-condemns-jewish-terrorism-near-ramallah-us-congressman-calls"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://rt-english.com/news/649196-iran-bahrain-us-bases/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://rt-english.com/news/649227-eisenkot-jewish-terrorism-west-bank/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4349.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-22-russia-bound-ship-attacked-in-gulf-of-finland",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-22-russia-bound-ship-attacked-in-gulf-of-finland",
-   "title": "Russian cargo ship set on fire by drone attack in the Gulf of Finland",
-   "content_text": "On November 22, 2026, the Russian cargo vessel *Sparta II* was struck by drones and caught fire while traveling toward Kaliningrad, eventually drifting into Finnish waters. While all outlets confirm the physical reality of the fire and the subsequent Finnish intervention, coverage varies significantly in focus. Western outlets emphasize the tactical implications of the drone strike, whereas Middle Eastern and Eastern sources prioritize the immediate maritime safety risks and the ongoing efforts to contain the fire.",
-   "summary": "On November 22, 2026, the Russian cargo vessel *Sparta II* was struck by drones and caught fire while traveling toward Kaliningrad, eventually drifting into Finnish waters. While all outlets confirm the physical reality of the fire and the subsequent Finnish intervention, coverage varies significantly in focus. Western outlets emphasize the tactical implications of the drone strike, whereas Middle Eastern and Eastern sources prioritize the immediate maritime safety risks and the ongoing efforts to contain the fire.",
-   "date_published": "2026-11-22T13:34:02+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "russia",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 4346,
-    "event_date": "2026-11-22",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "russia",
-     "western"
-    ],
-    "article_count": 8,
-    "source_count": 7,
-    "sources": [
-     {
-      "name": "BBC World",
-      "region": "western",
-      "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/11/21/la-nave-cargo-russa-attaccata-da-droni-nel-golfo-di-finlandia/"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-11-21/news-1SfVsM5rxQI/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/russian-cargo-ship-hit-drones-in-baltic-finland-tightens-security-6571981"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/russian-ship-attacked-by-drone-in-baltic-sea-off-finland?traffic_source=rss"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-attack-a94343"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4346.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-22-cop31-deep-divisions-persist-over-energy-finance-and-science",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-22-cop31-deep-divisions-persist-over-energy-finance-and-science",
-   "title": "Negotiations for the COP31 climate agreement face delays over disagreements regarding fossil fuel language.",
-   "content_text": "Negotiations for the COP31 climate agreement have stalled as delegates debate the specific phrasing regarding fossil fuel phase-outs in the draft agreement. Western outlets focus on the procedural nuances of the text, highlighting the European Union's efforts to balance carbon capture technologies with indirect references to fossil fuel reduction. Conversely, Eastern reporting frames the deadlock as a fundamental conflict between immediate climate goals and the practical realities of global energy sources, emphasizing the absence of explicit commitments to end coal, oil, and gas.",
-   "summary": "Negotiations for the COP31 climate agreement have stalled as delegates debate the specific phrasing regarding fossil fuel phase-outs in the draft agreement. Western outlets focus on the procedural nuances of the text, highlighting the European Union's efforts to balance carbon capture technologies with indirect references to fossil fuel reduction. Conversely, Eastern reporting frames the deadlock as a fundamental conflict between immediate climate goals and the practical realities of global energy sources, emphasizing the absence of explicit commitments to end coal, oil, and gas.",
-   "date_published": "2026-11-22T13:31:55+00:00",
-   "tags": [
-    "eastern",
-    "middle_east",
-    "western",
-    "tier-A"
-   ],
-   "_parallax": {
-    "cluster_id": 4345,
-    "event_date": "2026-11-22",
-    "tier": "A",
-    "tier_label": "Confirmed globally",
-    "regions": [
-     "eastern",
-     "middle_east",
-     "western"
-    ],
-    "article_count": 9,
-    "source_count": 6,
-    "sources": [
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/cop31-deep-divisions-persist-over-energy-finance-and-science"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/22/cop31-nuova-bozza-con-riferimento-indiretto-a-uscita-da-fossili_d5d76c15-7f98-4144-a933-3e46ce78150b.html"
-     },
-     {
-      "name": "Times of India",
-      "region": "eastern",
-      "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/home/environment/cop31-trkiyes-draft-agreement-omits-fossil-fuels-draws-backlash/articleshow/136070785.cms"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/sustainability/cop31-draft-deal-fossil-fuels-6572531"
-     },
-     {
-      "name": "Al Jazeera",
-      "region": "middle_east",
-      "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4345.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4384.json",
     "languages": [
      "en",
      "it",
