@@ -5,127 +5,15 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-11-23T03:36:59Z",
+ "_generated_at": "2026-11-24T03:58:37Z",
  "items": [
   {
-   "id": "2026-11-23-ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-23-ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv",
-   "title": "Russian drone strikes in the Kyiv region result in multiple casualties and reported injuries.",
-   "content_text": "On November 23, 2026, a Russian drone strike destroyed a five-story residential building in the Dymer area of the Kyiv region, causing multiple casualties. Western outlets focus on the humanitarian crisis, emphasizing the immediate human toll and the rescue efforts for victims in Ukraine. In contrast, Russian-aligned sources frame the event as part of a reciprocal cycle of escalation, frequently pairing the report of the strike with Ukrainian drone strikes on the Belgorod Region.",
-   "summary": "On November 23, 2026, a Russian drone strike destroyed a five-story residential building in the Dymer area of the Kyiv region, causing multiple casualties. Western outlets focus on the humanitarian crisis, emphasizing the immediate human toll and the rescue efforts for victims in Ukraine. In contrast, Russian-aligned sources frame the event as part of a reciprocal cycle of escalation, frequently pairing the report of the strike with Ukrainian drone strikes on the Belgorod Region.",
-   "date_published": "2026-11-23T02:41:10+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4381,
-    "event_date": "2026-11-23",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "sources": [
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/video/2026/11/22/ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv-after-russian-attack"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/22/nave-militare-russa-colpita-a-bengasi-sono-stati-gli-ucraini-_957fd3f3-aa7b-4ed5-b2d5-03500486cfde.html"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/emergencies/2223029"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/11/22/at-least-4-killed-in-russian-drone-attacks-on-kyiv-region-officials-say-a94345"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4381.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-23-israeli-settlers-torch-vehicles-in-west-bank-paint-racist-gr",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-23-israeli-settlers-torch-vehicles-in-west-bank-paint-racist-gr",
-   "title": "Israeli settlers and forces conduct a series of attacks and cause fires in West Bank villages.",
-   "content_text": "On November 23, 2026, vehicles and property were set ablaze in several West Bank villages, prompting an official Israeli investigation and a military response. Western outlets frame the incident as a domestic legal issue, focusing on internal Israeli political backlash and the condemnation of \"settler violence.\" Conversely, Middle Eastern sources frame the events as a systemic pattern of aggression, emphasizing the psychological impact on Palestinian residents and the broader scope of escalating hostilities.",
-   "summary": "On November 23, 2026, vehicles and property were set ablaze in several West Bank villages, prompting an official Israeli investigation and a military response. Western outlets frame the incident as a domestic legal issue, focusing on internal Israeli political backlash and the condemnation of \"settler violence.\" Conversely, Middle Eastern sources frame the events as a systemic pattern of aggression, emphasizing the psychological impact on Palestinian residents and the broader scope of escalating hostilities.",
-   "date_published": "2026-11-23T02:39:29+00:00",
-   "tags": [
-    "middle_east",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4379,
-    "event_date": "2026-11-23",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "middle_east",
-     "western"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-palestinians-describe-fear-after-israeli-settlers-attack-west-bank"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/west-bank-attacks-opposition-leader-eisenkot-decries-jewish-terrorism"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/video/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4379.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-23-explosion-on-russian-ship-at-libya-port-caused-by-suspected",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-23-explosion-on-russian-ship-at-libya-port-caused-by-suspected",
-   "title": "Russian warship hit by suspected drone attack at a naval base in Libya",
-   "content_text": "On November 23, 2026, a Russian warship at the Benghazi naval base in Libya was struck by an explosion, which local authorities identified as a suspected drone attack. While all sources confirm the strike occurred with no reported casualties, coverage differs significantly in its framing of the incident's scope. Western outlets focus on the potential link to the Ukraine conflict, whereas Middle Eastern reporting emphasizes regional maritime security and the involvement of a second nearby vessel.",
-   "summary": "On November 23, 2026, a Russian warship at the Benghazi naval base in Libya was struck by an explosion, which local authorities identified as a suspected drone attack. While all sources confirm the strike occurred with no reported casualties, coverage differs significantly in its framing of the incident's scope. Western outlets focus on the potential link to the Ukraine conflict, whereas Middle Eastern reporting emphasizes regional maritime security and the involvement of a second nearby vessel.",
-   "date_published": "2026-11-23T02:35:40+00:00",
+   "id": "2026-11-24-biggest-u-turn-in-economic-history-experts-react-to-jensen",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-24-biggest-u-turn-in-economic-history-experts-react-to-jensen",
+   "title": "Nvidia reinstates Jensen Huang as CEO following a period of leadership transition.",
+   "content_text": "Nvidia’s board unanimously reinstated Jensen Huang as CEO on November 24, 2026, following a brief resignation sparked by allegations of espionage and an extramarital affair. The move triggered a 32% to 36% surge in share prices after consultations with U.S. officials regarding national security. Western outlets frame the event as a political scandal involving personal scandal and espionage, while Middle Eastern and Russian sources focus on the influence of Silicon Valley over U.S. government policy.",
+   "summary": "Nvidia’s board unanimously reinstated Jensen Huang as CEO on November 24, 2026, following a brief resignation sparked by allegations of espionage and an extramarital affair. The move triggered a 32% to 36% surge in share prices after consultations with U.S. officials regarding national security. Western outlets frame the event as a political scandal involving personal scandal and espionage, while Middle Eastern and Russian sources focus on the influence of Silicon Valley over U.S. government policy.",
+   "date_published": "2026-11-24T02:58:40+00:00",
    "tags": [
     "eastern",
     "middle_east",
@@ -134,8 +22,8 @@
     "tier-A"
    ],
    "_parallax": {
-    "cluster_id": 4373,
-    "event_date": "2026-11-23",
+    "cluster_id": 4392,
+    "event_date": "2026-11-24",
     "tier": "A",
     "tier_label": "Confirmed globally",
     "regions": [
@@ -144,59 +32,65 @@
      "russia",
      "western"
     ],
-    "article_count": 11,
-    "source_count": 8,
+    "article_count": 18,
+    "source_count": 9,
     "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/videos/cq8r7e35mkzlo?at_medium=RSS&at_campaign=rss"
      },
      {
       "name": "France 24",
       "region": "western",
       "country": "FR",
-      "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine"
+      "url": "https://www.france24.com/en/tv-shows/business/20261123-jensen-huang-reinstated-as-nvidia-ceo"
      },
      {
       "name": "Il Post",
       "region": "western",
       "country": "IT",
-      "url": "https://www.ilpost.it/2026/11/22/libia-bengasi-sospetto-attacco-nave-russa/"
-     },
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/africa/2026/11/22/nave-russa-colpita-a-bengasi-sospetto-attacco-di-droni_c749363b-b2ee-4e05-b27c-cef4c5cae1f6.html"
+      "url": "https://www.ilpost.it/2026/11/23/nvidia-ritorno-jensen-huang/"
      },
      {
       "name": "Times of India",
       "region": "eastern",
       "country": "IN",
-      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/watch-russian-warship-hit-by-suspected-ukrainian-drones-at-benghazi-naval-base-bursts-into-flames/articleshow/136085577.cms"
+      "url": "https://timesofindia.indiatimes.com/business/international-business/going-to-be-a-better-ceo-second-time-around-jensen-huang-returns-to-nvidia-hq-amid-applause-and-cheers-watch/articleshow/136114108.cms"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/nvidia-jensen-huang-ceo-reinstated-6575201"
      },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/libyas-military-says-fully-prepared-after-benghazi-attacks?traffic_source=rss"
+      "url": "https://www.aljazeera.com/economy/2026/11/23/what-nvidias-jensen-huangs-return-means-for-washington-and-wall-street?traffic_source=rss"
      },
      {
-      "name": "The Moscow Times",
+      "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/11/22/libyas-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship-at-benghazi-port-a94344"
+      "url": "https://tass.com/economy/2223651"
      },
      {
-      "name": "Euronews",
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/649258-jensen-huang-returns-nvidia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "El Pais English",
       "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security"
+      "country": "ES",
+      "url": "https://english.elpais.com/economy-and-business/2026-11-23/nvidia-reinstates-jensen-huang-as-ceo.html"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4373.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4392.json",
     "languages": [
      "en",
      "it",
@@ -207,51 +101,102 @@
    }
   },
   {
-   "id": "2026-11-22-israels-eisenkot-slams-jewish-terrorism-after-attacks-by-set",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-22-israels-eisenkot-slams-jewish-terrorism-after-attacks-by-set",
-   "title": "Israeli official condemns settler attacks in the West Bank as acts of Jewish terrorism.",
-   "content_text": "Israeli politician Gadi Eisenkot condemned a series of arson attacks and racist graffiti in Palestinian villages near Ramallah as \"Jewish terrorism.\" While all sources report the condemnation and the resulting internal friction regarding right-wing ministers, coverage diverges on the primary framing of the incident. Middle Eastern outlets emphasize the violence as a result of government-fueled policies and international pressure, whereas other reports focus more on the internal political fallout and domestic implications.",
-   "summary": "Israeli politician Gadi Eisenkot condemned a series of arson attacks and racist graffiti in Palestinian villages near Ramallah as \"Jewish terrorism.\" While all sources report the condemnation and the resulting internal friction regarding right-wing ministers, coverage diverges on the primary framing of the incident. Middle Eastern outlets emphasize the violence as a result of government-fueled policies and international pressure, whereas other reports focus more on the internal political fallout and domestic implications.",
-   "date_published": "2026-11-23T02:42:44+00:00",
+   "id": "2026-11-23-iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-23-iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of",
+   "title": "Multiple oil tankers are reported to have been damaged or set ablaze in the Strait of Hormoz.",
+   "content_text": "On November 23, 2026, multiple oil tankers were damaged or set ablaze in the Strait of Hormuz. While all sources confirm the physical damage and the resulting fire, coverage diverges on the cause and the identity of the perpetrators. Middle Eastern outlets frame the incident as a failure of Western security and a response to regional threats, while other reports focus on the specific role of naval mines and American policy in the maritime crisis.",
+   "summary": "On November 23, 2026, multiple oil tankers were damaged or set ablaze in the Strait of Hormuz. While all sources confirm the physical damage and the resulting fire, coverage diverges on the cause and the identity of the perpetrators. Middle Eastern outlets frame the incident as a failure of Western security and a response to regional threats, while other reports focus on the specific role of naval mines and American policy in the maritime crisis.",
+   "date_published": "2026-11-24T03:01:57+00:00",
    "tags": [
     "middle_east",
     "russia",
-    "western",
-    "tier-B"
+    "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 4384,
-    "event_date": "2026-11-22",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
+    "cluster_id": 4400,
+    "event_date": "2026-11-23",
+    "tier": "C",
+    "tier_label": "Partial coverage",
     "regions": [
      "middle_east",
-     "russia",
-     "western"
+     "russia"
     ],
-    "article_count": 5,
+    "article_count": 3,
     "source_count": 3,
     "sources": [
      {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/middle-east/20261122-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-settlers-in-west-bank"
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss"
      },
      {
       "name": "Middle East Eye",
       "region": "middle_east",
       "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eisenkot-condemns-jewish-terrorism-near-ramallah-us-congressman-calls"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/three-tankers-explode-strait-hormuz"
      },
      {
       "name": "RT",
       "region": "russia",
       "country": "RU",
-      "url": "https://rt-english.com/news/649227-eisenkot-jewish-terrorism-west-bank/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+      "url": "https://rt-english.com/news/649241-iran-hormuz-tankers-mines/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4384.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4400.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-23-israeli-attacks-have-turned-gaza-into-toxic-wasteland-oxfam",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-23-israeli-attacks-have-turned-gaza-into-toxic-wasteland-oxfam",
+   "title": "Oxfam reports that Israeli military actions have caused significant environmental and toxic damage in Gaza.",
+   "content_text": "A joint report by Oxfam and the Conflict and Environment Observatory reveals that 99% of Gaza's land is contaminated with heavy metals and dioxins following Israeli military actions. While both Western and Russian outlets report on the destruction of sewage systems and groundwater, their framing differs. Western media emphasizes the immediate humanitarian crisis and the creation of a \"toxic wasteland,\" while Russian reports focus on the long-term systemic consequences of specific military tactics in Gaza City and Khan Younis.",
+   "summary": "A joint report by Oxfam and the Conflict and Environment Observatory reveals that 99% of Gaza's land is contaminated with heavy metals and dioxins following Israeli military actions. While both Western and Russian outlets report on the destruction of sewage systems and groundwater, their framing differs. Western media emphasizes the immediate humanitarian crisis and the creation of a \"toxic wasteland,\" while Russian reports focus on the long-term systemic consequences of specific military tactics in Gaza City and Khan Younis.",
+   "date_published": "2026-11-24T03:00:28+00:00",
+   "tags": [
+    "russia",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4398,
+    "event_date": "2026-11-23",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "russia",
+     "western"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/23/a-gaza-usate-bombe-come-13-atomiche-il-99-della-terra-e-avvelenato_34a2aeb0-24bb-41f5-8e1d-d22583e088d9.html"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/649252-gaza-toxic-fallout-report/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4398.json",
     "languages": [
      "en",
      "it",
