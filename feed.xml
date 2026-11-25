@@ -6,34 +6,32 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 24 Nov 2026 03:58:37 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 03:52:56 +0000</lastBuildDate>
 <item>
-<title>Nvidia reinstates Jensen Huang as CEO following a period of leadership transition.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-24-biggest-u-turn-in-economic-history-experts-react-to-jensen</link>
-<guid isPermaLink="false">2026-11-24-biggest-u-turn-in-economic-history-experts-react-to-jensen</guid>
-<pubDate>Tue, 24 Nov 2026 02:58:40 +0000</pubDate>
-<description>Nvidia’s board unanimously reinstated Jensen Huang as CEO on November 24, 2026, following a brief resignation sparked by allegations of espionage and an extramarital affair. The move triggered a 32% to 36% surge in share prices after consultations with U.S. officials regarding national security. Western outlets frame the event as a political scandal involving personal scandal and espionage, while Middle Eastern and Russian sources focus on the influence of Silicon Valley over U.S. government policy.</description>
+<title>China to launch Shenzhou-24 mission featuring a Pakistani astronaut to the space station.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-25-china-unveils-shenzhou-24-crew-for-space-station-mission</link>
+<guid isPermaLink="false">2026-11-25-china-unveils-shenzhou-24-crew-for-space-station-mission</guid>
+<pubDate>Wed, 25 Nov 2026 03:00:52 +0000</pubDate>
+<description>On November 25, 2026, the Shenzhou-24 spacecraft launched from the Jiuquan Satellite Launch Center carrying Chinese taikonauts and Pakistani astronaut Muhammad Zeeshan Ali to the Tiangong space station. Ali is the first foreign national to conduct joint scientific experiments aboard the station. While all sources confirm the mission's technical details, Eastern media focuses on the narrative of collaborative science and pioneering partnership, whereas Russian outlets emphasize the record-breaking technical achievements of the flight.</description>
 <category>eastern</category>
-<category>middle_east</category>
+<category>russia</category>
+</item>
+<item>
+<title>New reports and data leaks provide updated estimates on Russian military and civilian casualties.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-24-russias-civilian-casualties-from-ukraines-attacks-exceed-35</link>
+<guid isPermaLink="false">2026-11-24-russias-civilian-casualties-from-ukraines-attacks-exceed-35</guid>
+<pubDate>Wed, 25 Nov 2026 03:04:07 +0000</pubDate>
+<description>Leaked data from the Russian statistics agency, Rosstat, has provided a new baseline for estimating military and civilian casualties since 2022. Western outlets use these figures to highlight the scale of Russian military attrition, with some reports estimating over 700,000 fatalities. In contrast, Russian state and exiled media focus on the same data to emphasize the humanitarian impact on the domestic front. The coverage differs primarily in framing: Western media highlights military losses while Russian media prioritizes civilian consequences.</description>
 <category>russia</category>
 <category>western</category>
 </item>
 <item>
-<title>Multiple oil tankers are reported to have been damaged or set ablaze in the Strait of Hormoz.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-23-iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of</link>
-<guid isPermaLink="false">2026-11-23-iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of</guid>
-<pubDate>Tue, 24 Nov 2026 03:01:57 +0000</pubDate>
-<description>On November 23, 2026, multiple oil tankers were damaged or set ablaze in the Strait of Hormuz. While all sources confirm the physical damage and the resulting fire, coverage diverges on the cause and the identity of the perpetrators. Middle Eastern outlets frame the incident as a failure of Western security and a response to regional threats, while other reports focus on the specific role of naval mines and American policy in the maritime crisis.</description>
-<category>middle_east</category>
-<category>russia</category>
-</item>
-<item>
-<title>Oxfam reports that Israeli military actions have caused significant environmental and toxic damage in Gaza.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-23-israeli-attacks-have-turned-gaza-into-toxic-wasteland-oxfam</link>
-<guid isPermaLink="false">2026-11-23-israeli-attacks-have-turned-gaza-into-toxic-wasteland-oxfam</guid>
-<pubDate>Tue, 24 Nov 2026 03:00:28 +0000</pubDate>
-<description>A joint report by Oxfam and the Conflict and Environment Observatory reveals that 99% of Gaza's land is contaminated with heavy metals and dioxins following Israeli military actions. While both Western and Russian outlets report on the destruction of sewage systems and groundwater, their framing differs. Western media emphasizes the immediate humanitarian crisis and the creation of a "toxic wasteland," while Russian reports focus on the long-term systemic consequences of specific military tactics in Gaza City and Khan Younis.</description>
-<category>russia</category>
+<title>Israeli airstrikes in Gaza kill a Hamas security official and several other people.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-24-israeli-air-strike-kills-hamas-internal-security-chief-in-ga</link>
+<guid isPermaLink="false">2026-11-24-israeli-air-strike-kills-hamas-internal-security-chief-in-ga</guid>
+<pubDate>Wed, 25 Nov 2026 03:02:24 +0000</pubDate>
+<description>Israeli airstrikes in the Gaza Strip on November 24, 2026, killed several Palestinians, including a high-ranking Hamas internal security chief. While both regions confirm the strike occurred despite a 2025 ceasefire, they differ in their narrative framing. Western outlets focus on the military objective of neutralizing a security threat and internal Israeli politics, while Eastern outlets emphasize the violation of the US-backed ceasefire and the resulting humanitarian crisis.</description>
+<category>eastern</category>
 <category>western</category>
 </item>
 </channel>
