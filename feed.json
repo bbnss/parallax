@@ -5,117 +5,46 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-11-25T03:52:56Z",
+ "_generated_at": "2026-11-26T03:30:53Z",
  "items": [
   {
-   "id": "2026-11-25-china-unveils-shenzhou-24-crew-for-space-station-mission",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-25-china-unveils-shenzhou-24-crew-for-space-station-mission",
-   "title": "China to launch Shenzhou-24 mission featuring a Pakistani astronaut to the space station.",
-   "content_text": "On November 25, 2026, the Shenzhou-24 spacecraft launched from the Jiuquan Satellite Launch Center carrying Chinese taikonauts and Pakistani astronaut Muhammad Zeeshan Ali to the Tiangong space station. Ali is the first foreign national to conduct joint scientific experiments aboard the station. While all sources confirm the mission's technical details, Eastern media focuses on the narrative of collaborative science and pioneering partnership, whereas Russian outlets emphasize the record-breaking technical achievements of the flight.",
-   "summary": "On November 25, 2026, the Shenzhou-24 spacecraft launched from the Jiuquan Satellite Launch Center carrying Chinese taikonauts and Pakistani astronaut Muhammad Zeeshan Ali to the Tiangong space station. Ali is the first foreign national to conduct joint scientific experiments aboard the station. While all sources confirm the mission's technical details, Eastern media focuses on the narrative of collaborative science and pioneering partnership, whereas Russian outlets emphasize the record-breaking technical achievements of the flight.",
-   "date_published": "2026-11-25T03:00:52+00:00",
-   "tags": [
-    "eastern",
-    "russia",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4413,
-    "event_date": "2026-11-25",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "eastern",
-     "russia"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "sources": [
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-11-24/China-unveils-Shenzhou-24-crew-for-space-station-mission-1SkbWXC2Shq/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-     },
-     {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/science/2224309"
-     },
-     {
-      "name": "RT",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://rt-english.com/news/649305-pakistani-pilot-china-tiangong/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4413.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-24-russias-civilian-casualties-from-ukraines-attacks-exceed-35",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-24-russias-civilian-casualties-from-ukraines-attacks-exceed-35",
-   "title": "New reports and data leaks provide updated estimates on Russian military and civilian casualties.",
-   "content_text": "Leaked data from the Russian statistics agency, Rosstat, has provided a new baseline for estimating military and civilian casualties since 2022. Western outlets use these figures to highlight the scale of Russian military attrition, with some reports estimating over 700,000 fatalities. In contrast, Russian state and exiled media focus on the same data to emphasize the humanitarian impact on the domestic front. The coverage differs primarily in framing: Western media highlights military losses while Russian media prioritizes civilian consequences.",
-   "summary": "Leaked data from the Russian statistics agency, Rosstat, has provided a new baseline for estimating military and civilian casualties since 2022. Western outlets use these figures to highlight the scale of Russian military attrition, with some reports estimating over 700,000 fatalities. In contrast, Russian state and exiled media focus on the same data to emphasize the humanitarian impact on the domestic front. The coverage differs primarily in framing: Western media highlights military losses while Russian media prioritizes civilian consequences.",
-   "date_published": "2026-11-25T03:04:07+00:00",
+   "id": "2026-11-25-ft-trump-accantona-accordi-commerciali-con-mosca-come-incent",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-25-ft-trump-accantona-accordi-commerciali-con-mosca-come-incent",
+   "title": "United States Shelves Proposed Trade Agreements with Russia as Potential Incentive to End Ukraine War",
+   "content_text": "The Trump administration has officially shelved plans to use energy and aviation trade agreements as incentives for Russia to end the war in Ukraine. While both Western and Russian sources confirm the policy shift, they differ on the underlying motivations for the failure of these negotiations. Western reports frame the move as a pragmatic U.S. pivot toward security and territorial issues, while Russian reporting emphasizes that Moscow rejected the deals to prioritize specific territorial concessions.",
+   "summary": "The Trump administration has officially shelved plans to use energy and aviation trade agreements as incentives for Russia to end the war in Ukraine. While both Western and Russian sources confirm the policy shift, they differ on the underlying motivations for the failure of these negotiations. Western reports frame the move as a pragmatic U.S. pivot toward security and territorial issues, while Russian reporting emphasizes that Moscow rejected the deals to prioritize specific territorial concessions.",
+   "date_published": "2026-11-26T02:53:54+00:00",
    "tags": [
     "russia",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 4426,
-    "event_date": "2026-11-24",
+    "cluster_id": 4451,
+    "event_date": "2026-11-25",
     "tier": "C",
     "tier_label": "Partial coverage",
     "regions": [
      "russia",
      "western"
     ],
-    "article_count": 5,
-    "source_count": 5,
+    "article_count": 3,
+    "source_count": 2,
     "sources": [
      {
-      "name": "TASS",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://tass.com/politics/2223609"
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/25/ft-trump-accantona-accordi-commerciali-con-mosca-come-incentivo-per-fine_32ee1c7b-84ba-45d2-a085-9b0d1aedb106.html"
      },
      {
       "name": "The Moscow Times",
       "region": "russia",
       "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/11/23/new-analysis-of-rosstat-leak-puts-russian-military-death-toll-at-490k-or-more-a94355"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/russian-losses-on-ukrainian-front-top-700-000-including-missing"
-     },
-     {
-      "name": "Il Post",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ilpost.it/2026/11/24/soldati-russi-morti-ucraina-700mila/"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/11/24/at-least-490000-russian-soldiers-killed-in-ukraine-rosstat-data-leak-reveals"
+      "url": "https://www.themoscowtimes.com/2026/11/25/us-shelves-plans-for-business-deals-with-russia-to-end-ukraine-war-ft-a94370"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4426.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4451.json",
     "languages": [
      "en",
      "it",
@@ -126,19 +55,19 @@
    }
   },
   {
-   "id": "2026-11-24-israeli-air-strike-kills-hamas-internal-security-chief-in-ga",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-24-israeli-air-strike-kills-hamas-internal-security-chief-in-ga",
-   "title": "Israeli airstrikes in Gaza kill a Hamas security official and several other people.",
-   "content_text": "Israeli airstrikes in the Gaza Strip on November 24, 2026, killed several Palestinians, including a high-ranking Hamas internal security chief. While both regions confirm the strike occurred despite a 2025 ceasefire, they differ in their narrative framing. Western outlets focus on the military objective of neutralizing a security threat and internal Israeli politics, while Eastern outlets emphasize the violation of the US-backed ceasefire and the resulting humanitarian crisis.",
-   "summary": "Israeli airstrikes in the Gaza Strip on November 24, 2026, killed several Palestinians, including a high-ranking Hamas internal security chief. While both regions confirm the strike occurred despite a 2025 ceasefire, they differ in their narrative framing. Western outlets focus on the military objective of neutralizing a security threat and internal Israeli politics, while Eastern outlets emphasize the violation of the US-backed ceasefire and the resulting humanitarian crisis.",
-   "date_published": "2026-11-25T03:02:24+00:00",
+   "id": "2026-11-24-what-failure-of-cop31-reveals-about-a-divided-world",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-24-what-failure-of-cop31-reveals-about-a-divided-world",
+   "title": "International negotiators fail to reach a consensus on key agreements during the COP31 climate talks.",
+   "content_text": "Negotiators at COP31 in Antalya, Turkey, failed to reach a consensus on the \"Antalya Pact\" due to deadlocks over fossil fuel inclusion and climate finance for developing nations. While all sources report the collapse of the talks, coverage differs in its framing of the cause. Western outlets frame the failure as a moral and systemic setback for global environmental goals, whereas Eastern sources emphasize the procedural breakdown and the specific rejection of the draft by Western powers.",
+   "summary": "Negotiators at COP31 in Antalya, Turkey, failed to reach a consensus on the \"Antalya Pact\" due to deadlocks over fossil fuel inclusion and climate finance for developing nations. While all sources report the collapse of the talks, coverage differs in its framing of the cause. Western outlets frame the failure as a moral and systemic setback for global environmental goals, whereas Eastern sources emphasize the procedural breakdown and the specific rejection of the draft by Western powers.",
+   "date_published": "2026-11-24T02:56:17+00:00",
    "tags": [
     "eastern",
     "western",
     "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 4425,
+    "cluster_id": 4388,
     "event_date": "2026-11-24",
     "tier": "C",
     "tier_label": "Partial coverage",
@@ -146,35 +75,35 @@
      "eastern",
      "western"
     ],
-    "article_count": 4,
+    "article_count": 6,
     "source_count": 4,
     "sources": [
      {
       "name": "BBC World",
       "region": "western",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/africa-disappointed-with-cop31-outcome"
      },
      {
       "name": "CGTN",
       "region": "eastern",
       "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-11-24/Israeli-airstrike-kills-3-Palestinians-in-southern-Gaza-medics-say-1SkgFcFbE1G/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+      "url": "https://news.cgtn.com/news/2026-11-22/COP31-fails-to-reach-consensus-on-Antalya-Pact-1ShNqP9QQg0/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/israeli-strikes-in-gaza-kill-seven-including-senior-security-official-6578251"
-     },
-     {
-      "name": "Euronews",
-      "region": "western",
-      "country": "EU",
-      "url": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp"
+      "url": "https://www.channelnewsasia.com/commentary/cop31-climate-conference-united-nations-fall-apart-6574376"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4425.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4388.json",
     "languages": [
      "en",
      "it",
