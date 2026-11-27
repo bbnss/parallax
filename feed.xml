@@ -6,24 +6,16 @@
 <description>Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.</description>
 <language>en</language>
 <atom:link href="https://bbnss.github.io/parallax/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 26 Nov 2026 03:30:53 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 03:43:53 +0000</lastBuildDate>
 <item>
-<title>United States Shelves Proposed Trade Agreements with Russia as Potential Incentive to End Ukraine War</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-25-ft-trump-accantona-accordi-commerciali-con-mosca-come-incent</link>
-<guid isPermaLink="false">2026-11-25-ft-trump-accantona-accordi-commerciali-con-mosca-come-incent</guid>
-<pubDate>Thu, 26 Nov 2026 02:53:54 +0000</pubDate>
-<description>The Trump administration has officially shelved plans to use energy and aviation trade agreements as incentives for Russia to end the war in Ukraine. While both Western and Russian sources confirm the policy shift, they differ on the underlying motivations for the failure of these negotiations. Western reports frame the move as a pragmatic U.S. pivot toward security and territorial issues, while Russian reporting emphasizes that Moscow rejected the deals to prioritize specific territorial concessions.</description>
-<category>russia</category>
-<category>western</category>
-</item>
-<item>
-<title>International negotiators fail to reach a consensus on key agreements during the COP31 climate talks.</title>
-<link>https://bbnss.github.io/parallax/#/s/2026-11-24-what-failure-of-cop31-reveals-about-a-divided-world</link>
-<guid isPermaLink="false">2026-11-24-what-failure-of-cop31-reveals-about-a-divided-world</guid>
-<pubDate>Tue, 24 Nov 2026 02:56:17 +0000</pubDate>
-<description>Negotiators at COP31 in Antalya, Turkey, failed to reach a consensus on the "Antalya Pact" due to deadlocks over fossil fuel inclusion and climate finance for developing nations. While all sources report the collapse of the talks, coverage differs in its framing of the cause. Western outlets frame the failure as a moral and systemic setback for global environmental goals, whereas Eastern sources emphasize the procedural breakdown and the specific rejection of the draft by Western powers.</description>
+<title>Houthi projectiles strike a Saudi refinery in Jazan causing casualties and operational disruptions.</title>
+<link>https://bbnss.github.io/parallax/#/s/2026-11-27-loud-explosions-rock-riyadh-as-houthis-attack-saudi-ports</link>
+<guid isPermaLink="false">2026-11-27-loud-explosions-rock-riyadh-as-houthis-attack-saudi-ports</guid>
+<pubDate>Fri, 27 Nov 2026 03:01:57 +0000</pubDate>
+<description>On November 27, 2026, a Houthi projectile struck a Saudi oil refinery in Jazan, causing at least one death, several injuries, and a temporary suspension of operations. While all sources confirm the physical damage and casualties, reporting differs in narrative scope. Middle Eastern outlets frame the strike as a significant escalation in a cycle of regional retaliation, whereas other reports focus more on the immediate tactical impact and local infrastructure damage.</description>
 <category>eastern</category>
-<category>western</category>
+<category>middle_east</category>
+<category>russia</category>
 </item>
 </channel>
 </rss>

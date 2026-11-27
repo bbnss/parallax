@@ -5,105 +5,60 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-11-26T03:30:53Z",
+ "_generated_at": "2026-11-27T03:43:53Z",
  "items": [
   {
-   "id": "2026-11-25-ft-trump-accantona-accordi-commerciali-con-mosca-come-incent",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-25-ft-trump-accantona-accordi-commerciali-con-mosca-come-incent",
-   "title": "United States Shelves Proposed Trade Agreements with Russia as Potential Incentive to End Ukraine War",
-   "content_text": "The Trump administration has officially shelved plans to use energy and aviation trade agreements as incentives for Russia to end the war in Ukraine. While both Western and Russian sources confirm the policy shift, they differ on the underlying motivations for the failure of these negotiations. Western reports frame the move as a pragmatic U.S. pivot toward security and territorial issues, while Russian reporting emphasizes that Moscow rejected the deals to prioritize specific territorial concessions.",
-   "summary": "The Trump administration has officially shelved plans to use energy and aviation trade agreements as incentives for Russia to end the war in Ukraine. While both Western and Russian sources confirm the policy shift, they differ on the underlying motivations for the failure of these negotiations. Western reports frame the move as a pragmatic U.S. pivot toward security and territorial issues, while Russian reporting emphasizes that Moscow rejected the deals to prioritize specific territorial concessions.",
-   "date_published": "2026-11-26T02:53:54+00:00",
-   "tags": [
-    "russia",
-    "western",
-    "tier-C"
-   ],
-   "_parallax": {
-    "cluster_id": 4451,
-    "event_date": "2026-11-25",
-    "tier": "C",
-    "tier_label": "Partial coverage",
-    "regions": [
-     "russia",
-     "western"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "sources": [
-     {
-      "name": "ANSA Mondo",
-      "region": "western",
-      "country": "IT",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/25/ft-trump-accantona-accordi-commerciali-con-mosca-come-incentivo-per-fine_32ee1c7b-84ba-45d2-a085-9b0d1aedb106.html"
-     },
-     {
-      "name": "The Moscow Times",
-      "region": "russia",
-      "country": "RU",
-      "url": "https://www.themoscowtimes.com/2026/11/25/us-shelves-plans-for-business-deals-with-russia-to-end-ukraine-war-ft-a94370"
-     }
-    ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4451.json",
-    "languages": [
-     "en",
-     "it",
-     "es",
-     "de",
-     "fr"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-24-what-failure-of-cop31-reveals-about-a-divided-world",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-24-what-failure-of-cop31-reveals-about-a-divided-world",
-   "title": "International negotiators fail to reach a consensus on key agreements during the COP31 climate talks.",
-   "content_text": "Negotiators at COP31 in Antalya, Turkey, failed to reach a consensus on the \"Antalya Pact\" due to deadlocks over fossil fuel inclusion and climate finance for developing nations. While all sources report the collapse of the talks, coverage differs in its framing of the cause. Western outlets frame the failure as a moral and systemic setback for global environmental goals, whereas Eastern sources emphasize the procedural breakdown and the specific rejection of the draft by Western powers.",
-   "summary": "Negotiators at COP31 in Antalya, Turkey, failed to reach a consensus on the \"Antalya Pact\" due to deadlocks over fossil fuel inclusion and climate finance for developing nations. While all sources report the collapse of the talks, coverage differs in its framing of the cause. Western outlets frame the failure as a moral and systemic setback for global environmental goals, whereas Eastern sources emphasize the procedural breakdown and the specific rejection of the draft by Western powers.",
-   "date_published": "2026-11-24T02:56:17+00:00",
+   "id": "2026-11-27-loud-explosions-rock-riyadh-as-houthis-attack-saudi-ports",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-27-loud-explosions-rock-riyadh-as-houthis-attack-saudi-ports",
+   "title": "Houthi projectiles strike a Saudi refinery in Jazan causing casualties and operational disruptions.",
+   "content_text": "On November 27, 2026, a Houthi projectile struck a Saudi oil refinery in Jazan, causing at least one death, several injuries, and a temporary suspension of operations. While all sources confirm the physical damage and casualties, reporting differs in narrative scope. Middle Eastern outlets frame the strike as a significant escalation in a cycle of regional retaliation, whereas other reports focus more on the immediate tactical impact and local infrastructure damage.",
+   "summary": "On November 27, 2026, a Houthi projectile struck a Saudi oil refinery in Jazan, causing at least one death, several injuries, and a temporary suspension of operations. While all sources confirm the physical damage and casualties, reporting differs in narrative scope. Middle Eastern outlets frame the strike as a significant escalation in a cycle of regional retaliation, whereas other reports focus more on the immediate tactical impact and local infrastructure damage.",
+   "date_published": "2026-11-27T03:01:57+00:00",
    "tags": [
     "eastern",
-    "western",
-    "tier-C"
+    "middle_east",
+    "russia",
+    "tier-B"
    ],
    "_parallax": {
-    "cluster_id": 4388,
-    "event_date": "2026-11-24",
-    "tier": "C",
-    "tier_label": "Partial coverage",
+    "cluster_id": 4462,
+    "event_date": "2026-11-27",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
     "regions": [
      "eastern",
-     "western"
+     "middle_east",
+     "russia"
     ],
     "article_count": 6,
     "source_count": 4,
     "sources": [
      {
-      "name": "BBC World",
-      "region": "western",
+      "name": "Middle East Eye",
+      "region": "middle_east",
       "country": "UK",
-      "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss"
-     },
-     {
-      "name": "France 24",
-      "region": "western",
-      "country": "FR",
-      "url": "https://www.france24.com/en/africa-disappointed-with-cop31-outcome"
-     },
-     {
-      "name": "CGTN",
-      "region": "eastern",
-      "country": "CN",
-      "url": "https://news.cgtn.com/news/2026-11-22/COP31-fails-to-reach-consensus-on-Antalya-Pact-1ShNqP9QQg0/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/loud-explosions-rock-riyadh-houthis-attack-saudi-ports"
      },
      {
       "name": "Channel News Asia",
       "region": "eastern",
       "country": "SG",
-      "url": "https://www.channelnewsasia.com/commentary/cop31-climate-conference-united-nations-fall-apart-6574376"
+      "url": "https://www.channelnewsasia.com/world/saudi-led-coalition-says-houthis-attacked-aramcos-jazan-refinery-6585881"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2225595"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4388.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4462.json",
     "languages": [
      "en",
      "it",
