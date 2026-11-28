@@ -5,60 +5,391 @@
  "feed_url": "https://bbnss.github.io/parallax/feed.json",
  "description": "Same event, different vantage points. Geopolitical news compared across Western, Eastern, Middle Eastern and Russian outlets.",
  "language": "en",
- "_generated_at": "2026-11-27T03:43:53Z",
+ "_generated_at": "2026-11-28T03:51:47Z",
  "items": [
   {
-   "id": "2026-11-27-loud-explosions-rock-riyadh-as-houthis-attack-saudi-ports",
-   "url": "https://bbnss.github.io/parallax/#/s/2026-11-27-loud-explosions-rock-riyadh-as-houthis-attack-saudi-ports",
-   "title": "Houthi projectiles strike a Saudi refinery in Jazan causing casualties and operational disruptions.",
-   "content_text": "On November 27, 2026, a Houthi projectile struck a Saudi oil refinery in Jazan, causing at least one death, several injuries, and a temporary suspension of operations. While all sources confirm the physical damage and casualties, reporting differs in narrative scope. Middle Eastern outlets frame the strike as a significant escalation in a cycle of regional retaliation, whereas other reports focus more on the immediate tactical impact and local infrastructure damage.",
-   "summary": "On November 27, 2026, a Houthi projectile struck a Saudi oil refinery in Jazan, causing at least one death, several injuries, and a temporary suspension of operations. While all sources confirm the physical damage and casualties, reporting differs in narrative scope. Middle Eastern outlets frame the strike as a significant escalation in a cycle of regional retaliation, whereas other reports focus more on the immediate tactical impact and local infrastructure damage.",
-   "date_published": "2026-11-27T03:01:57+00:00",
+   "id": "2026-11-28-us-military-says-it-disabled-merchant-ship-trying-to-breach",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-28-us-military-says-it-disabled-merchant-ship-trying-to-breach",
+   "title": "US military disables a merchant vessel in the Gulf of Oman near an Iranian blockade",
+   "content_text": "On November 28, 2026, the U.S. military used precision munitions to disable the propulsion system of the Palau-flagged merchant vessel M/V Pacific Archer in the Gulf of Oman. All sources confirm the crew remained unharmed during the strike. Coverage diverges on the intent of the action: Middle Eastern outlets frame the strike as a surgical enforcement of maritime policy against a blockade runner, while Russian sources characterize the event as a provocative act of Western aggression.",
+   "summary": "On November 28, 2026, the U.S. military used precision munitions to disable the propulsion system of the Palau-flagged merchant vessel M/V Pacific Archer in the Gulf of Oman. All sources confirm the crew remained unharmed during the strike. Coverage diverges on the intent of the action: Middle Eastern outlets frame the strike as a surgical enforcement of maritime policy against a blockade runner, while Russian sources characterize the event as a provocative act of Western aggression.",
+   "date_published": "2026-11-28T03:01:19+00:00",
    "tags": [
-    "eastern",
     "middle_east",
     "russia",
-    "tier-B"
+    "tier-C"
    ],
    "_parallax": {
-    "cluster_id": 4462,
-    "event_date": "2026-11-27",
-    "tier": "B",
-    "tier_label": "Cross-bloc coverage",
+    "cluster_id": 4485,
+    "event_date": "2026-11-28",
+    "tier": "C",
+    "tier_label": "Partial coverage",
     "regions": [
-     "eastern",
      "middle_east",
      "russia"
     ],
-    "article_count": 6,
+    "article_count": 4,
     "source_count": 4,
     "sources": [
-     {
-      "name": "Middle East Eye",
-      "region": "middle_east",
-      "country": "UK",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/loud-explosions-rock-riyadh-houthis-attack-saudi-ports"
-     },
-     {
-      "name": "Channel News Asia",
-      "region": "eastern",
-      "country": "SG",
-      "url": "https://www.channelnewsasia.com/world/saudi-led-coalition-says-houthis-attacked-aramcos-jazan-refinery-6585881"
-     },
      {
       "name": "Al Jazeera",
       "region": "middle_east",
       "country": "QA",
-      "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-it-disabled-commercial-ship-trying-run-iran-blockade"
      },
      {
       "name": "TASS",
       "region": "russia",
       "country": "RU",
-      "url": "https://tass.com/world/2225595"
+      "url": "https://tass.com/world/2226233"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/649442-us-strike-iran-blockade-runner/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
      }
     ],
-    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4462.json",
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4485.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-28-mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-ar",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-28-mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-ar",
+   "title": "Mecca Pact members meet in Islamabad to condemn Houthi attacks and pledge continued support.",
+   "content_text": "Pakistan and Turkey joined Saudi Arabia in Islamabad to reaffirm their commitment to the Mecca Defense Alliance and condemn Houthi militia attacks on Saudi infrastructure. All reporting confirms the pact aims to bolster the Kingdom's security through increased training and industrial cooperation. Coverage differs in framing: Middle Eastern outlets emphasize the moral necessity of regional solidarity against non-state actors, while Russian and other sources focus on the strategic realignment of regional powers and the alliance's internal mechanics.",
+   "summary": "Pakistan and Turkey joined Saudi Arabia in Islamabad to reaffirm their commitment to the Mecca Defense Alliance and condemn Houthi militia attacks on Saudi infrastructure. All reporting confirms the pact aims to bolster the Kingdom's security through increased training and industrial cooperation. Coverage differs in framing: Middle Eastern outlets emphasize the moral necessity of regional solidarity against non-state actors, while Russian and other sources focus on the strategic realignment of regional powers and the alliance's internal mechanics.",
+   "date_published": "2026-11-28T02:59:41+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4484,
+    "event_date": "2026-11-28",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "middle_east",
+     "russia"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/mecca-alliance-meet-stresses-need-continuing-joint-efforts-saudi"
+     },
+     {
+      "name": "TASS",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://tass.com/world/2226271"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4484.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-28-a-francesca-albanese-e-stato-vietato-lingresso-in-costa-rica",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-28-a-francesca-albanese-e-stato-vietato-lingresso-in-costa-rica",
+   "title": "Costa Rica denies entry to UN rapporteur Francesca Albanese citing alleged ties to terrorist activities.",
+   "content_text": "Costa Rica denied UN Special Rapporteur Francesca Albanese entry into the country on November 28, 2026, citing an international alert regarding her alleged ties to terrorist activities. Western outlets frame the incident as a matter of national security and strategic diplomatic alignment with the United States and Israel. Conversely, Middle Eastern sources frame the event as a violation of international norms, emphasizing the personal hardship of the rapporteur and the lack of evidence for the accusations.",
+   "summary": "Costa Rica denied UN Special Rapporteur Francesca Albanese entry into the country on November 28, 2026, citing an international alert regarding her alleged ties to terrorist activities. Western outlets frame the incident as a matter of national security and strategic diplomatic alignment with the United States and Israel. Conversely, Middle Eastern sources frame the event as a violation of international norms, emphasizing the personal hardship of the rapporteur and the lack of evidence for the accusations.",
+   "date_published": "2026-11-28T02:58:09+00:00",
+   "tags": [
+    "middle_east",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4482,
+    "event_date": "2026-11-28",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "middle_east",
+     "western"
+    ],
+    "article_count": 9,
+    "source_count": 6,
+    "sources": [
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/11/27/albanese-costa-rica/"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/11/27/il-costa-rica-respinge-francesca-albanese-relatrice-onu-per-i-territori-palestinesi_bb76923b-c963-4301-8acb-f81e27351088.html"
+     },
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/denied-entry-francesca-albanese-leave-costa-rica-after-second-night"
+     },
+     {
+      "name": "Anadolu Agency",
+      "region": "middle_east",
+      "country": "TR",
+      "url": "https://www.aa.com.tr/en/world/un-rapporteur-albanese-condemns-costa-ricas-decision-to-deny-her-entry/4139949"
+     },
+     {
+      "name": "El Pais English",
+      "region": "western",
+      "country": "ES",
+      "url": "https://english.elpais.com/international/2026-11-27/costa-rica-denies-entry-to-un-special-rapporteur-francesca-albanese.html"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4482.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-27-clashes-halt-match-as-turkiye-football-fans-raise-palestinia",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-27-clashes-halt-match-as-turkiye-football-fans-raise-palestinia",
+   "title": "Police and Turkish football fans clash during a match between Besiktas and an Israeli club.",
+   "content_text": "A Europa League match between Besiktas and Hapoel Be'er Sheva in Georgia was interrupted for 30 minutes after police used pepper spray to disperse Turkish fans displaying Palestinian flags. While all sources confirm the physical confrontation and subsequent detentions, coverage differs in framing. Middle Eastern outlets emphasize the incident as a suppressed act of Palestinian advocacy, whereas other reports focus more on the legal and diplomatic tensions resulting from the clash.",
+   "summary": "A Europa League match between Besiktas and Hapoel Be'er Sheva in Georgia was interrupted for 30 minutes after police used pepper spray to disperse Turkish fans displaying Palestinian flags. While all sources confirm the physical confrontation and subsequent detentions, coverage differs in framing. Middle Eastern outlets emphasize the incident as a suppressed act of Palestinian advocacy, whereas other reports focus more on the legal and diplomatic tensions resulting from the clash.",
+   "date_published": "2026-11-28T03:03:06+00:00",
+   "tags": [
+    "middle_east",
+    "russia",
+    "western",
+    "tier-B"
+   ],
+   "_parallax": {
+    "cluster_id": 4492,
+    "event_date": "2026-11-27",
+    "tier": "B",
+    "tier_label": "Cross-bloc coverage",
+    "regions": [
+     "middle_east",
+     "russia",
+     "western"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "sources": [
+     {
+      "name": "Al Jazeera",
+      "region": "middle_east",
+      "country": "QA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/clashes-halt-match-as-turkiye-football-fans-raise-palestinian-flags?traffic_source=rss"
+     },
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/georgian-police-pepper-spray-pro-palestine-besiktas-fans-during-match"
+     },
+     {
+      "name": "RT",
+      "region": "russia",
+      "country": "RU",
+      "url": "https://rt-english.com/news/649425-besiktas-israel-palestine-clashes/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/11/27/clashes-erupt-at-besiktas-europa-league-match-against-israeli-club"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4492.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-26-israeli-strikes-kill-11-palestinians-including-two-girls-tod",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-26-israeli-strikes-kill-11-palestinians-including-two-girls-tod",
+   "title": "Israeli strikes in Gaza result in multiple Palestinian casualties over a 48-hour period.",
+   "content_text": "Israeli strikes in the Gaza Strip resulted in multiple Palestinian casualties and the destruction of residential areas in the Shati refugee camp and Tuffah district over a 48-hour period. Western outlets focus on the military context, highlighting the deaths of specific Hamas officials and the tactical objectives of the operation. Conversely, Middle Eastern sources emphasize the humanitarian impact, prioritizing the high number of civilian casualties and the broader scale of the conflict.",
+   "summary": "Israeli strikes in the Gaza Strip resulted in multiple Palestinian casualties and the destruction of residential areas in the Shati refugee camp and Tuffah district over a 48-hour period. Western outlets focus on the military context, highlighting the deaths of specific Hamas officials and the tactical objectives of the operation. Conversely, Middle Eastern sources emphasize the humanitarian impact, prioritizing the high number of civilian casualties and the broader scale of the conflict.",
+   "date_published": "2026-11-27T03:03:29+00:00",
+   "tags": [
+    "middle_east",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4465,
+    "event_date": "2026-11-26",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "middle_east",
+     "western"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "sources": [
+     {
+      "name": "Middle East Eye",
+      "region": "middle_east",
+      "country": "UK",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/gazas-health-ministry-says-19-palestinians-killed-israeli-attacks-48"
+     },
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/hamas-weighs-response-after-israel-kills-10-people-in-gaza"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4465.json",
+    "languages": [
+     "en",
+     "it",
+     "es",
+     "de",
+     "fr"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-25-what-jensen-huang-s-return-teaches-china-s-xi-about-trump",
+   "url": "https://bbnss.github.io/parallax/#/s/2026-11-25-what-jensen-huang-s-return-teaches-china-s-xi-about-trump",
+   "title": "Nvidia CEO Jensen Huang returns to his role following a period of public scrutiny.",
+   "content_text": "On November 23, 2026, Nvidia’s board unanimously reinstated CEO Jensen Huang following an eleven-day period of turmoil and personal conduct scandals. While both regions report on the subsequent surge in market valuation, coverage differs significantly in focus. Western outlets frame the event as a high-stakes political drama involving personal conduct and ties to the U.S. administration, whereas Eastern sources emphasize the restoration of supply chain stability and the positive impact on the Asian tech ecosystem.",
+   "summary": "On November 23, 2026, Nvidia’s board unanimously reinstated CEO Jensen Huang following an eleven-day period of turmoil and personal conduct scandals. While both regions report on the subsequent surge in market valuation, coverage differs significantly in focus. Western outlets frame the event as a high-stakes political drama involving personal conduct and ties to the U.S. administration, whereas Eastern sources emphasize the restoration of supply chain stability and the positive impact on the Asian tech ecosystem.",
+   "date_published": "2026-11-25T02:59:15+00:00",
+   "tags": [
+    "eastern",
+    "western",
+    "tier-C"
+   ],
+   "_parallax": {
+    "cluster_id": 4410,
+    "event_date": "2026-11-25",
+    "tier": "C",
+    "tier_label": "Partial coverage",
+    "regions": [
+     "eastern",
+     "western"
+    ],
+    "article_count": 21,
+    "source_count": 10,
+    "sources": [
+     {
+      "name": "BBC World",
+      "region": "western",
+      "country": "UK",
+      "url": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "name": "France 24",
+      "region": "western",
+      "country": "FR",
+      "url": "https://www.france24.com/en/tech-executives-investment-in-trump-clearly-paying-off-as-huang-reinstated-at-nvidia"
+     },
+     {
+      "name": "NPR World",
+      "region": "western",
+      "country": "US",
+      "url": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez"
+     },
+     {
+      "name": "Il Post",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ilpost.it/2026/11/24/ruolo-trump-ritorno-huang-capo-ceo-nvidia/"
+     },
+     {
+      "name": "ANSA Mondo",
+      "region": "western",
+      "country": "IT",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/24/jensen-huang-chiede-scusa-sto-andando-in-terapia_8f2148ca-81d0-472e-87de-e110d965c639.html"
+     },
+     {
+      "name": "CGTN",
+      "region": "eastern",
+      "country": "CN",
+      "url": "https://news.cgtn.com/news/2026-11-23/news-1SjqPxGC9MI/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+     },
+     {
+      "name": "Bangkok Post",
+      "region": "eastern",
+      "country": "TH",
+      "url": "https://www.bangkokpost.com/business/general/3360479/huang-given-rapturous-reception-by-nvidia-staff"
+     },
+     {
+      "name": "Channel News Asia",
+      "region": "eastern",
+      "country": "SG",
+      "url": "https://www.channelnewsasia.com/world/nvidia-board-jensen-huang-under-scrutiny-6579411"
+     },
+     {
+      "name": "El Pais English",
+      "region": "western",
+      "country": "ES",
+      "url": "https://english.elpais.com/usa/2026-11-24/jensen-huangs-return-to-nvidia-in-seven-acts-from-trumps-pressure-to-family-support.html"
+     },
+     {
+      "name": "Euronews",
+      "region": "western",
+      "country": "EU",
+      "url": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return"
+     }
+    ],
+    "full_analysis_url": "https://bbnss.github.io/parallax/archive/full/4410.json",
     "languages": [
      "en",
      "it",
